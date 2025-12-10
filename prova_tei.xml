@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.0.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Titolo del documento</title>
+                <author>Autore</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Informazioni sulla pubblicazione</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Descrizione della fonte</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Descrizione della codifica</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Contenuto del documento</p>
+        </body>
+    </text>
+</TEI>
