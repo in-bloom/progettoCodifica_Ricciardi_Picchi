@@ -1,26 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.0.1">
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!--dichiarazione XML-->
+<?xml-stylesheet type="text/xsl" href="transformer.xsl"?> <!--indicazione del foglio di stile XSLT da applicare al documento XML-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd"> <!--dichiarazione del tipo di documento TEI e della relativa DTD esterna-->
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0"> <!--elemento radice TEI: lingua e namespace-->
+
     <teiHeader>
         <fileDesc>
+
             <titleStmt>
-                <title>Titolo del documento</title>
-                <author>Autore</author>
+                <title>La Rassegna Settimanale - edizione digitale (TEI)</title>
+                <respStmt>
+                    <resp>Codifica digitale TEI (P5) a cura di:</resp>
+                    <persName xml:id="Francesco_Ricciardi" ref="https://github.com/in-bloom">Francesco Ricciardi</persName>
+                    <persName xml:id="Elisabetta_Picchi" ref="https://github.com/elisabetta_picchi">Elisabetta Picchi</persName>
+                </respStmt>
             </titleStmt>
+
             <publicationStmt>
-                <p>Informazioni sulla pubblicazione</p>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date>Giugno 2026</date>
             </publicationStmt>
+
             <sourceDesc>
-                <p>Descrizione della fonte</p>
+
+                <listBibl>
+                    <biblStruct xml:id="articolo_1_bibl">
+                        <analytic>
+                            <title level="a">I CONSERVATORI DI MUSICA IN ITALIA.</title>
+                            <author cert="unknown">
+                                Non menzionato
+                            </author>
+                        </analytic>
+
+                        <monogr>
+                            <title level="j">La Rassegna settimanale di politica, scienze, lettere ed arti</title>
+                            <respStmt>
+                                <resp>Proprietari e direttori</resp>
+                                <name>Leopoldo Franchetti</name>
+                                <name>Sidney Sonnino</name>
+                            </respStmt>
+                            <imprint>
+                                <publisher>Casa editrice Barbera</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date when="1878-03-31">31 marzo 1878</date>
+                                <biblScope unit="volume">1</biblScope>
+                                <biblScope unit="issue">13</biblScope>
+                                <biblScope unit="page" from="238" to="239">238-239</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
+
         <encodingDesc>
-            <p>Descrizione della codifica</p>
+            <projectDesc>
+                <p>Progetto realizzato per l&apos;esame di <hi rend="bold">Codifica di Testi</hi>. Comprende tre articoli, una sezione bibliografia e una sezione notizie della rivista <hi rend="italic">La Rassegna Settimanale</hi> codificati secondo TEI 5.</p>
+            </projectDesc>
+
+            <editorialDecl>
+                <!--servirà aggiungere queste nel momento in cui abbiamo normalizzato o corretto il testo originale, importante spiegare cosa abbiamo fatto (basta un <p> per spiegare)-->
+                <normalization>
+                    <p>Normalizzato la fava</p>
+                </normalization>
+                <correction>
+                    <p>Corretto sborrate piacevoli</p>
+                </correction>
+            </editorialDecl>
         </encodingDesc>
     </teiHeader>
+
+    <facsimile>
+
+        <!-- Articolo 1 conservatori (esempio scrauso -->
+         <!-- Vol1-1878-1-S1-F13.jpg -->
+        <surface n="1.1" xml:id="surf_art_1_1">
+
+            <graphic url='I_conservatorii.jpg' width='2273.66666px' height='3282.66666px' />
+            <zone ulx="126" uly="1648" lrx="1146" lry="2386" rendition="" xml:id="ar1_1"/>
+            <zone ulx="160" uly="1582" lrx="1110" lry="1624" rendition="" xml:id="art1_title"/>
+
+        </surface>
+    </facsimile>
+
     <text>
         <body>
-            <p>Contenuto del documento</p>
+            <div type="article" xml:id="articolo_1" source="#articolo_1_bibl">
+                <pb n="238" facs="#surf_art_1_1" />
+                <cb n="1" />
+
+                <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA</head>
+
+                <p facs="#ar1_1">
+                <lb n="1"/>I <orgName>Conservatorii</orgName> italiani, come tutti sanno, scendono di-
+                <lb n="2" break="no"/>rettamente dalla <orgName key="Chiesa">Chiesa</orgName>; dalla <date from="1300" to="1500">metà del 1300 fino al 1500</date>
+                <lb n="3"/> ogni monastero era un centro di studi musicali. Da&apos; mona-
+                <lb n="4" break="no"/>steri vennero i Conservatorii (o più propriamente allora or-
+                <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date when="">secolo XVI</date> ed
+                <lb n="6"/>erano destinati a formare de&apos; ragazzi cantori (enfants de
+                <lb n="7"/> chœur); si occupavano però necessariamente anche dello
+                <lb n="8"/>studio tecnico degli strumenti. Il primo Conservatorio, quello
+                <lb n="9"/> di musica di Santa Maria di Loreto, fu fondato in Napoli
+                <lb n="10"/>nel 1537: e i Conservatorii di Napoli e di Venezia ebbero
+                <lb n="11"/>una grande influenza sulla formazione e sui progressi della
+                <lb n="12"/>nostra scuola del secolo passato. I nostri Conservatorii ser-
+                <lb n="13" break="no"/>virono di modello a tutti gli altri d'Europa, compreso quello
+                <lb n="14"/>di Parigi, illustrato dal nostro Cherubini e che, fondato
+                <lb n="15"/>nel 1784, è ora considerato come un tipo di eccellenza. I no-
+                <lb n="16" break="no"/>stri Conservatorii passarono poi dalla Chiesa allo Stato,
+                <lb n="17"/> ma questo, pur troppo, se ne è finora occupato assai poco.
+                <!-- <lb n="18"/> È innegabile che se tali Istituti hanno dato di recente
+                <lb n="19"/>e danno oggi buoni risultati parziali, i risultati gene-
+                <lb n="20" break="no"/>rali potrebbero essere molto migliori: e la bontà loro
+                <lb n="21"/>consiste appunti ne&apos; risultati generali; affinchè non accada
+                <lb n="22"/>che il prestigio di cui gode il nome di un Conservatorio,
+                <lb n="23"/>valga a sancire l'errore e a circondare d&apos;un&apos;aureola la me-
+                <lb n="24" break="no"/>diocrità. -->
+                </p>
+            </div>
         </body>
     </text>
 </TEI>
