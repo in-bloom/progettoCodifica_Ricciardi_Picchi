@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!--dichiarazione XML-->
-<?xml-stylesheet type="text/xsl" href="transformer.xsl"?> <!--indicazione del foglio di stile XSLT da applicare al documento XML-->
-<!DOCTYPE TEI SYSTEM "tei_all.dtd"> <!--dichiarazione del tipo di documento TEI e della relativa DTD esterna-->
-<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0"> <!--elemento radice TEI: lingua e namespace-->
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="transformer.xsl"?> 
+<!DOCTYPE TEI SYSTEM "tei_all.dtd"> 
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0"> 
 
     <teiHeader>
         <fileDesc>
@@ -11,7 +11,7 @@
                 <respStmt>
                     <resp>Codifica digitale TEI (P5) a cura di:</resp>
                     <persName xml:id="Francesco_Ricciardi" ref="https://github.com/in-bloom">Francesco Ricciardi</persName>
-                    <persName xml:id="Elisabetta_Picchi" ref="https://github.com/elisabetta_picchi">Elisabetta Picchi</persName>
+                    <persName xml:id="Elisabetta_Picchi" ref="https://github.com/elisabetta03">Elisabetta Picchi</persName>
                 </respStmt>
             </titleStmt>
 
@@ -26,7 +26,7 @@
                 <listBibl>
                     <biblStruct xml:id="articolo_1_bibl">
                         <analytic>
-                            <title level="a">I CONSERVATORI DI MUSICA IN ITALIA.</title>
+                            <title level="a">I CONSERVATORII DI MUSICA IN ITALIA.</title>
                             <author cert="unknown">
                                 Non menzionato
                             </author>
@@ -49,6 +49,58 @@
                             </imprint>
                         </monogr>
                     </biblStruct>
+
+                    <biblStruct xml:id="articolo_2_bibl">
+                        <analytic>
+                            <title level="a">IL SOCIALISMO IN ITALIA.</title>
+                            <author cert="unknown">
+                                Non menzionato
+                            </author>
+                        </analytic>
+
+                        <monogr>
+                            <title level="j">La Rassegna settimanale di politica, scienze, lettere ed arti</title>
+                            <respStmt>
+                                <resp>Proprietari e direttori</resp>
+                                <name>Leopoldo Franchetti</name>
+                                <name>Sidney Sonnino</name>
+                            </respStmt>
+                            <imprint>
+                                <publisher>Casa editrice Barbera</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date when="1878-06-30">30 giugno 1878</date>
+                                <biblScope unit="volume">1</biblScope>
+                                <biblScope unit="issue">26</biblScope>
+                                <biblScope unit="page" from="485" to="486">485-486</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="articolo_3_bibl">
+                        <analytic>
+                            <title level="a">CORRISPONDENZA DA BERLINO</title>
+                            <author cert="unknown">
+                                Non menzionato
+                            </author>
+                        </analytic>
+
+                        <monogr>
+                            <title level="j">La Rassegna settimanale di politica, scienze, lettere ed arti</title>
+                            <respStmt>
+                                <resp>Proprietari e direttori</resp>
+                                <name>Leopoldo Franchetti</name>
+                                <name>Sidney Sonnino</name>
+                            </respStmt>
+                            <imprint>
+                                <publisher>Casa editrice Barbera</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date when="1879-11-02">2 novembre 1879</date>
+                                <biblScope unit="volume">4</biblScope>
+                                <biblScope unit="issue">96</biblScope>
+                                <biblScope unit="page" from="298" to="299">298-299</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -61,10 +113,10 @@
             <editorialDecl>
                 <!--servirà aggiungere queste nel momento in cui abbiamo normalizzato o corretto il testo originale, importante spiegare cosa abbiamo fatto (basta un <p> per spiegare)-->
                 <normalization>
-                    <p>Normalizzato la fava</p>
+                    <p></p>
                 </normalization>
                 <correction>
-                    <p>Corretto sborrate piacevoli</p>
+                    <p></p>
                 </correction>
             </editorialDecl>
         </encodingDesc>
@@ -82,7 +134,6 @@
 
         </surface>
     </facsimile>
-
     <text>
         <body>
             <div type="article" xml:id="articolo_1" source="#articolo_1_bibl">
