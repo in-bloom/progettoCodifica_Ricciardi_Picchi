@@ -155,6 +155,48 @@
             <zone ulx="117482776" uly="100485268" lrx="216468264" lry="167975373" rendition="" xml:id="art1_p20"/>
 
         </surface>
+
+        <surface n="2.1" xml:id="surf_art_2_1">
+            <graphic url="Il_socialismo.jpg"/>
+            <zone ulx="108" uly="1990" lrx="1125" lry="2672" rendition="" xml:id="art2_p3"/>
+            <zone ulx="110" uly="2675" lrx="1118" lry="3115" rendition="" xml:id="art2_p4"/>
+            <zone ulx="128" uly="512" lrx="1125" lry="578" rendition="" xml:id="art2_title"/>
+            <zone ulx="130" uly="585" lrx="1132" lry="918" rendition="" xml:id="art2_p1"/>
+            <zone ulx="108" uly="922" lrx="1128" lry="1982" rendition="" xml:id="art2_p2"/>
+            <zone ulx="1158" uly="525" lrx="2178" lry="1982" rendition="" xml:id="art2_p5"/>
+            <zone ulx="1145" uly="3020" lrx="2165" lry="3105" rendition="" xml:id="art2_p7"/>
+            <zone ulx="1148" uly="1980" lrx="2158" lry="3012" rendition="" xml:id="art2_p6"/>
+
+        </surface>
+
+        <surface n="2.2" xml:id="surf_art_2_2">
+            <graphic url="Il_socialismo2.jpg"/>
+            <zone ulx="120" uly="178" lrx="1138" lry="770" rendition="" xml:id="art2_p8"/>
+            <zone ulx="122" uly="772" lrx="1135" lry="1842" rendition="" xml:id="art2_p9"/>
+            <zone ulx="125" uly="1842" lrx="1135" lry="2872" rendition="" xml:id="art2_p10"/>
+            <zone ulx="125" uly="2872" lrx="1135" lry="3050" rendition="" xml:id="art2_p11"/>
+            <zone ulx="1155" uly="175" lrx="2188" lry="1170" rendition="" xml:id="art2_p12"/>
+        </surface>
+
+        <surface n="3.1" xml:id="aurf_art_3_1">
+            <graphic url="Corrispondenza_Berlino.jpg"/>
+            <zone ulx="295" uly="1290" lrx="1320" lry="2152" rendition="" xml:id="art3_p1"/>
+            <zone ulx="295" uly="2155" lrx="1312" lry="3220" rendition="" xml:id="art3_p2"/>
+            <zone ulx="1332" uly="352" lrx="2365" lry="1168" rendition="" xml:id="art3_p3"/>
+            <zone ulx="1335" uly="1165" lrx="2368" lry="3065" rendition="" xml:id="art3_p4"/>
+            <zone ulx="322" uly="1198" lrx="1312" lry="1292" rendition="" xml:id="art3_title"/>
+
+        </surface>
+
+        <surface n="3.2" xml:id="aurf_art_3_2">
+            <graphic url="Corrispondenze_Berlino_2.jpg"/>
+            <zone ulx="128" uly="260" lrx="1155" lry="495" rendition="" xml:id="art3_p5"/>
+            <zone ulx="130" uly="495" lrx="1152" lry="1352" rendition="" xml:id="art3_p6"/>
+            <zone ulx="132" uly="1352" lrx="1150" lry="2808" rendition="" xml:id="art3_p7"/>
+            <zone ulx="132" uly="2812" lrx="1150" lry="3150" rendition="" xml:id="art3_p8"/>
+            <zone ulx="1175" uly="272" lrx="2190" lry="1615" rendition="" xml:id="art3_p9"/>
+            <zone ulx="1170" uly="1618" lrx="2190" lry="2912" rendition="" xml:id="art3_p10"/>
+        </surface>
     </facsimile>
     <text>
         <body>
