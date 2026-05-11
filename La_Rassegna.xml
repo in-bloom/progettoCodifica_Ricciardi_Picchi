@@ -124,13 +124,35 @@
 
     <facsimile>
 
-        <!-- Articolo 1 conservatori (esempio scrauso -->
-         <!-- Vol1-1878-1-S1-F13.jpg -->
         <surface n="1.1" xml:id="surf_art_1_1">
 
             <graphic url='I_conservatorii.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="126" uly="1648" lrx="1146" lry="2386" rendition="" xml:id="ar1_1"/>
-            <zone ulx="160" uly="1582" lrx="1110" lry="1624" rendition="" xml:id="art1_title"/>
+            <zone ulx="158" uly="1570" lrx="1125" lry="1638" rendition="" xml:id="art1_titolo"/>
+            <zone ulx="140" uly="1655" lrx="1150" lry="2382" rendition="" xml:id="art1_p1"/>
+            <zone ulx="142" uly="2390" lrx="1148" lry="2678" rendition="" xml:id="art1_p2"/>
+            <zone ulx="145" uly="2688" lrx="1155" lry="3128" rendition="" xml:id="art1_p3"/>
+            <zone ulx="1160" uly="232" lrx="2168" lry="370" rendition="" xml:id="art1_p4"/>
+            <zone ulx="1160" uly="372" lrx="2175" lry="968" rendition="" xml:id="art1_p5"/>
+            <zone ulx="1162" uly="972" lrx="2172" lry="1350" rendition="" xml:id="art1_p6"/>
+            <zone ulx="1165" uly="1360" lrx="2175" lry="1828" rendition="" xml:id="art1_p7"/>
+            <zone ulx="1168" uly="1835" lrx="2178" lry="2170" rendition="" xml:id="art1_p8"/>
+            <zone ulx="1168" uly="2175" lrx="2185" lry="2425" rendition="" xml:id="art1_p9"/>
+            <zone ulx="1170" uly="2430" lrx="2182" lry="2642" rendition="" xml:id="art1_p10"/>
+            <zone ulx="1172" uly="2650" lrx="2188" lry="3120" rendition="" xml:id="art1_p11"/>
+            
+        </surface>
+        <surface n="1.2" xml:id="surf_art_1_2">
+        
+            <graphic url='I_conservatorii_2.jpg' width='2273.66666px' height='3282.66666px' />
+            <zone ulx="13498021" uly="25496262" lrx="114483216" lry="59991205" rendition="" xml:id="art1_p12"/>
+            <zone ulx="13498021" uly="60991058" lrx="113983289" lry="111733619" rendition="" xml:id="art1_p13"/>
+            <zone ulx="13747984" uly="112483509" lrx="113733326" lry="184722918" rendition="" xml:id="art1_p14"/>
+            <zone points="" rendition="" xml:id="art1_p15"/>
+            <zone ulx="13747984" uly="211468997" lrx="114233252" lry="258462107" rendition="" xml:id="art1_p16"/>
+            <zone ulx="13498021" uly="258962034" lrx="113483362" lry="314453898" rendition="" xml:id="art1_p17"/>
+            <zone ulx="117482776" uly="25996189" lrx="217218154" lry="39494210" rendition="" xml:id="art1_p18"/>
+            <zone ulx="117482776" uly="39994136" lrx="217218154" lry="99985341" rendition="" xml:id="art1_p19"/>
+            <zone ulx="117482776" uly="100485268" lrx="216468264" lry="167975373" rendition="" xml:id="art1_p20"/>
 
         </surface>
     </facsimile>
