@@ -107,7 +107,7 @@
 
         <encodingDesc>
             <projectDesc>
-                <p>Progetto realizzato per l&apos;esame di <hi rend="bold">Codifica di Testi</hi>. Comprende tre articoli, una sezione bibliografia e una sezione notizie della rivista <hi rend="italic">La Rassegna Settimanale</hi> codificati secondo TEI 5.</p>
+                <p>Progetto realizzato per l'esame di <hi rend="bold">Codifica di Testi</hi>. Comprende tre articoli, una sezione bibliografia e una sezione notizie della rivista <hi rend="italic">La Rassegna Settimanale</hi> codificati secondo TEI 5.</p>
             </projectDesc>
 
             <editorialDecl>
@@ -144,15 +144,11 @@
         <surface n="1.2" xml:id="surf_art_1_2">
         
             <graphic url='I_conservatorii_2.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="13498021" uly="25496262" lrx="114483216" lry="59991205" rendition="" xml:id="art1_p12"/>
-            <zone ulx="13498021" uly="60991058" lrx="113983289" lry="111733619" rendition="" xml:id="art1_p13"/>
-            <zone ulx="13747984" uly="112483509" lrx="113733326" lry="184722918" rendition="" xml:id="art1_p14"/>
-            <zone points="" rendition="" xml:id="art1_p15"/>
-            <zone ulx="13747984" uly="211468997" lrx="114233252" lry="258462107" rendition="" xml:id="art1_p16"/>
-            <zone ulx="13498021" uly="258962034" lrx="113483362" lry="314453898" rendition="" xml:id="art1_p17"/>
-            <zone ulx="117482776" uly="25996189" lrx="217218154" lry="39494210" rendition="" xml:id="art1_p18"/>
-            <zone ulx="117482776" uly="39994136" lrx="217218154" lry="99985341" rendition="" xml:id="art1_p19"/>
-            <zone ulx="117482776" uly="100485268" lrx="216468264" lry="167975373" rendition="" xml:id="art1_p20"/>
+            <zone ulx="120" uly="252" lrx="1152" lry="1122" rendition="" xml:id="art1_p12"/>
+            <zone ulx="122" uly="1125" lrx="1145" lry="2115" rendition="" xml:id="art1_p13"/>
+            <zone ulx="125" uly="2115" lrx="1148" lry="3158" rendition="" xml:id="art1_p14"/>
+            <zone ulx="1175" uly="252" lrx="2182" lry="995" rendition="" xml:id="art1_p15"/>
+            <zone ulx="1180" uly="1000" lrx="2185" lry="1692" rendition="" xml:id="art1_p16"/>
 
         </surface>
 
@@ -206,13 +202,13 @@
 
                 <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA</head>
 
-                <p facs="#art1_1">
+                <p facs="#art1_p1">
                 <lb n="1"/>I <orgName>Conservatorii</orgName> italiani, come tutti sanno, scendono di-
                 <lb n="2" break="no"/>rettamente dalla <orgName key="Chiesa">Chiesa</orgName>; dalla <date from="1300" to="1500">metà del 1300 fino al 1500</date>
-                <lb n="3"/> ogni monastero era un centro di studi musicali. Da&apos; mona-
+                <lb n="3"/> ogni monastero era un centro di studi musicali. Da' mona-
                 <lb n="4" break="no"/>steri vennero i Conservatorii (o più propriamente allora or-
                 <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date when="">secolo XVI</date> ed
-                <lb n="6"/>erano destinati a formare de&apos; ragazzi cantori (enfants de
+                <lb n="6"/>erano destinati a formare de' ragazzi cantori (enfants de
                 <lb n="7"/> chœur); si occupavano però necessariamente anche dello
                 <lb n="8"/>studio tecnico degli strumenti. Il primo Conservatorio, quello
                 <lb n="9"/> di musica di Santa Maria di Loreto, fu fondato in Napoli
@@ -225,43 +221,45 @@
                 <lb n="16" break="no"/>stri Conservatorii passarono poi dalla Chiesa allo Stato,
                 <lb n="17"/> ma questo, pur troppo, se ne è finora occupato assai poco.
                 </p>
-                <p facs="#art1_2">
+                <p facs="#art1_p2">
                 <lb n="18"/> È innegabile che se tali Istituti hanno dato di recente
                 <lb n="19"/>e danno oggi buoni risultati parziali, i risultati gene-
                 <lb n="20" break="no"/>rali potrebbero essere molto migliori: e la bontà loro
-                <lb n="21"/>consiste appunti ne&apos; risultati generali; affinchè non accada
+                <lb n="21"/>consiste appunti ne' risultati generali; affinchè non accada
                 <lb n="22"/>che il prestigio di cui gode il nome di un Conservatorio,
-                <lb n="23"/>valga a sancire l'errore e a circondare d&apos;un&apos;aureola la me-
+                <lb n="23"/>valga a sancire l'errore e a circondare d'un'aureola la me-
                 <lb n="24" break="no"/>diocrità.
                 </p>
-                <p facs="#art1_3">
-                <lb n="25"/>I <orgName>Conservatorii</orgName> non sono tenuti a far germogliare i geni,
-                <lb n="26"/>ben disse il <persName>Filippi</persName>, ma debbono formare ottimi musicisti;
-                <lb n="27"/>e siccome hanno diritto e dovere di scelta nell&apos;ammettere
-                <lb n="28"/>gli alunni, così quelli che sanno poco o punto (anche dopo
-                <lb n="29"/>aver frequentato l&apos;Istituto) dovrebbero essere espulsi come
-                <lb n="30"/>inetti o almeno non ottenere la licenza: nè da alcun <orgName>Conser-
-                <lb n="31" break="no"/>vatorii</orgName> dovrebbero uscire de&apos; giovani che non conoscono le
-                <lb n="32"/>principali composizioni classiche italiane e straniere. Del
-                <lb n="33"/>bene se n&apos;è già cominciato a fare, ed anco fra quelle mura
-                <lb n="34"/>è penetrata e circola quell&apos;aura innovatrice che può puri-
+                <p facs="#art1_p3">
+                    <lb n="25"/>I <orgName>Conservatorii</orgName> non sono tenuti a far germogliare i geni,
+                    <lb n="26"/>ben disse il <persName>Filippi</persName>, ma debbono formare ottimi musicisti;
+                    <lb n="27"/>e siccome hanno diritto e dovere di scelta nell'ammettere
+                    <lb n="28"/>gli alunni, così quelli che sanno poco o punto (anche dopo
+                    <lb n="29"/>aver frequentato l'Istituto) dovrebbero essere espulsi come
+                    <lb n="30"/>inetti o almeno non ottenere la licenza: nè da alcun <orgName>Conser-
+                    <lb n="31" break="no"/>vatorii</orgName> dovrebbero uscire de' giovani che non conoscono le
+                    <lb n="32"/>principali composizioni classiche italiane e straniere. Del
+                    <lb n="33"/>bene se n'è già cominciato a fare, ed anco fra quelle mura
+                    <lb n="34"/>è penetrata e circola quell'aura innovatrice che può puri-
                 </p>
-                <p facs="#art1_4">
-                    <lb n="35" break="no"/>ficare e risanare ciò ch&apos;v&apos;ha di guasto; ma bisogna saperne
-                    <lb n="36"/>trar profitto, perchè se non poco s&apos;è fatto, molto resta
+
+                <cb n="2"/>
+                <p facs="#art1_p4">
+                    <lb n="35" break="no"/>ficare e risanare ciò ch'v'ha di guasto; ma bisogna saperne
+                    <lb n="36"/>trar profitto, perchè se non poco s'è fatto, molto resta
                     <lb n="37"/>a fare.
                 </p>
 
-                <p facs="#art1_5">
-                    <lb n="38"/>Veniamo a&apos;particolari.
-                    <lb n="39"/>L&apos;insegnamento che trovasi oggi in vergognosa deca-
+                <p facs="#art1_p5">
+                    <lb n="38"/>Veniamo a'particolari.
+                    <lb n="39"/>L'insegnamento che trovasi oggi in vergognosa deca-
                     <lb n="40" break="no"/>denza è quello del <term>canto</term>: e ciò accade in <placeName>Italia</placeName>, che avrebbe
                     <lb n="41"/>tante gloriose tradizioni da mantenere! Anzi tutto sarebbe
-                    <lb n="42"/>necessario, qui più che mai, una sagace severità nell&apos;am-
+                    <lb n="42"/>necessario, qui più che mai, una sagace severità nell'am-
                     <lb n="43" break="no"/>missione degli alunni, escludendo inesorabilmente quelli che
-                    <lb n="44"/>non hanno voci ed attitudini tali da promettere un&apos;ottima
+                    <lb n="44"/>non hanno voci ed attitudini tali da promettere un'ottima
                     <lb n="45"/>riuscita. Poi ci vorrebbero professori di provata valentia
-                    <lb n="46"/>che rimettessero in voga lo studio de&apos;nostri classici (<persName>Scar-
+                    <lb n="46"/>che rimettessero in voga lo studio de'nostri classici (<persName>Scar-
                     <lb n="47" break="no"/>latti</persName>, <persName>Leo</persName>, <persName>Porpora</persName>, <persName>Durante</persName>, <persName>Marcello</persName> ecc.) e che indicassero
                     <lb n="48"/>il modo di interpretare quella musica, rinfrescandone la tra-
                     <lb n="49" break="no"/>dizione, che sembra affatto perduta. Con quella musica biso-
@@ -269,45 +267,45 @@
                     <lb n="51"/>impostata, bisogna saperla emettere, saper tenere il fiato.
                 </p>
 
-                <p facs="#art1_6">
+                <p facs="#art1_p6">
                     <lb n="52"/>Così probabilmente si giungerebbe ad avere dei <term>cantanti</term>
-                    <lb n="53"/>invece di quell&apos;esercito di urlatori a ogni costo, tremolanti
-                    <lb n="54"/>o sfiatati poi anzi tempo, che sono gl&apos;interpreti drammatici
-                    <lb n="55"/>d&apos;oggidì. Ma finchè mancheranno i maestri capaci e i sani
+                    <lb n="53"/>invece di quell'esercito di urlatori a ogni costo, tremolanti
+                    <lb n="54"/>o sfiatati poi anzi tempo, che sono gl'interpreti drammatici
+                    <lb n="55"/>d'oggidì. Ma finchè mancheranno i maestri capaci e i sani
                     <lb n="56"/>intendimenti artistici, si andrà di male in peggio. Non sap-
                     <lb n="57" break="no"/>piamo perchè, vedendo che i professori fanno cattiva prova,
                     <lb n="58"/>non si tenti di affidare tale insegnamento a qualche valente
-                    <lb n="59"/>maestra: sarebbe un tentativo possibile. All&apos;estero le si-
+                    <lb n="59"/>maestra: sarebbe un tentativo possibile. All'estero le si-
                     <lb n="60" break="no"/>gnore <persName>Viardot</persName> e <persName>Marchesi</persName> diedero eccellenti risultati.
                 </p>
 
                 <p facs="#art1_7">
-                    <lb n="61"/>Anche l&apos;istruzione del <term>canto corale</term> non è intesa come
+                    <lb n="61"/>Anche l'istruzione del <term>canto corale</term> non è intesa come
                     <lb n="62"/>dovrebbe essere, e non vi si annette la grande importanza
                     <lb n="63"/>che ha. E qui pure ci vorrebbe un artista provetto che
                     <lb n="64"/>educasse gli scolari ad eseguir degnamente la musica dei
                     <lb n="65"/>classici nostrali e forestieri. Il vantaggio sarebbe immenso
                     <lb n="66"/>per tutti i discepoli, e segnatamente per quelli che studiano
                     <lb n="67"/>la composizione; si educherebbero così ai potenti effetti
-                    <lb n="68"/>dell&apos;armonia vocale, alla varia poesia, alla maestosa sem-
-                    <lb n="69" break="no"/>plicità ch&apos;entro vi spira, e infine all&apos;ottima disposizione
+                    <lb n="68"/>dell'armonia vocale, alla varia poesia, alla maestosa sem-
+                    <lb n="69" break="no"/>plicità ch'entro vi spira, e infine all'ottima disposizione
                     <lb n="70"/>delle voci. Ed è qui che ci gioverebbe particolarmente lo
                     <lb n="71"/>studio degli istituti appositi in <placeName>Germania</placeName>.
                 </p>
 
                 <p facs="#art1_8">
                     <lb n="72"/>Per simili ragioni sarebbe indispensabile anche una vera
-                    <lb n="73"/>scuola di quartetto largamente concepita. Ne&apos;<orgName>conservatorii</orgName>
-                    <lb n="74"/>si suonano qualche volta de&apos;quartetti; ma non è raro il
+                    <lb n="73"/>scuola di quartetto largamente concepita. Ne'<orgName>conservatorii</orgName>
+                    <lb n="74"/>si suonano qualche volta de'quartetti; ma non è raro il
                     <lb n="75"/>caso che ne escano parecchi alunni senza averne mai ese-
                     <lb n="76" break="no"/>guiti. Questa scuola dovrebbe comprendere collettive eser-
                     <lb n="77" break="no"/>citazioni di trii, quartetti, quintetti, settimini, ec. e sarebbe
-                    <lb n="78"/>un tale insegnamento anco più importante dell&apos;istruzione
+                    <lb n="78"/>un tale insegnamento anco più importante dell'istruzione
                     <lb n="79"/>orchestrale, perchè questa è, quasi direi, compresa in quello.
                 </p>
 
                 <p facs="#art1_9">
-                    <lb n="80"/>L&apos;esecuzione de&apos;capolavori strumentali di <persName>Boccherini</persName>, <persName>Che-
+                    <lb n="80"/>L'esecuzione de'capolavori strumentali di <persName>Boccherini</persName>, <persName>Che-
                     <lb n="81" break="no"/>rubini</persName>, <persName>Mozart</persName>, <persName>Haydn</persName>, <persName>Beethoven</persName>, ec. sarebbe degno e ne-
                     <lb n="82" break="no"/>cessario complemento delle esercitazioni corali, e potendo
                     <lb n="83"/>aggiungervi le orchestrali sinfoniche, si verrebbero a dare
@@ -317,26 +315,152 @@
 
                 <p facs="#art1_10">
                     <lb n="86"/>Perciò le scuole strumentali fanno assai miglior prova
-                    <lb n="87"/>nell&apos;istruzione speciale d&apos;ogni singolo strumento, che non
+                    <lb n="87"/>nell'istruzione speciale d'ogni singolo strumento, che non
                     <lb n="88"/>nelle esercitazioni collettive: onde, allorchè gli alunni sono
                     <lb n="89"/>alle prese colla musica classica seria, il primo loro difetto
-                    <lb n="90"/>nell&apos;interpretazione è lo <term>stile</term>, qualità principalissima.
+                    <lb n="90"/>nell'interpretazione è lo <term>stile</term>, qualità principalissima.
                 </p>
 
                 <p facs="#art1_11">
                     <lb n="91"/>La scuola del <term>pianoforte</term> da qualche anno è dimolto mi-
-                    <lb n="92" break="no"/>gliorata, mercè l&apos;impulso gagliardo che le ha dato qualche
+                    <lb n="92" break="no"/>gliorata, mercè l'impulso gagliardo che le ha dato qualche
                     <lb n="93"/>coraggioso e valentissimo professore. La soppressione della
-                    <lb n="94"/>fantasia o pout-pourri sopra motivi d&apos;opera (che ebbe voga
-                    <lb n="95"/>negli ultimi tempi di decadenza), l&apos;introduzione delle ardite
+                    <lb n="94"/>fantasia o pout-pourri sopra motivi d'opera (che ebbe voga
+                    <lb n="95"/>negli ultimi tempi di decadenza), l'introduzione delle ardite
                     <lb n="96"/>e sapienti innovazioni nel meccanismo e nella diteggiatura,
                     <lb n="97"/>inaugurate dal <persName>Liszt</persName> e propagate in ispecie da <persName>Tausig</persName> e
-                    <lb n="98"/>dal <persName>Bulow</persName>, la poetica e meditata interpretazione de&apos;classici,
+                    <lb n="98"/>dal <persName>Bulow</persName>, la poetica e meditata interpretazione de'classici,
                     <lb n="99"/>moltiplicheranno gli ottimi saggi che se ne ebbero finora.
                     <lb n="100"/>Ma bisogna che il buon esempio sia maggiormente imitato.
-                    <lb n="101"/>L&apos;insegnamento dell&apos;<term>organo</term> è sceso così basso che più
+                    <lb n="101"/>L'insegnamento dell'<term>organo</term> è sceso così basso che più
+                </p>
+
+                <pb n="239" facs="#surf_art_1_2" />
+                <cb n="1" />
+                <p facs="#art1_p12">
+                    <lb n="102"/>giù non può andare: basta sentire qual sia la musica che,
+                    <lb n="103"/>nelle chiese d'Italia, si suona dalla maggior parte degli
+                    <lb n="104"/>organisti.-Anco ne' Conservatorii non sono rose quelle che 
+                    <lb n="105"/>fioriscono. Quanti professori sanno eseguire o sanno inse-
+                    <lb n="106" break="no"/>gnare l'esecuzione e l'interpretazione delle maravigliose
+                    <lb n="107"/>opere di Bach? È molto se di Bach, il più grande orga-
+                    <lb n="108" break="no"/>nista d'ogni tempo, si eseguisce sull'organo di qualche no-
+                    <lb n="109" break="no"/>stro Conservatorio una fuga del <hi rend="italic">Clavecin bien tempéré!</hi>
+                    <lb n="110"/>Le scuole di composizione hanno dato ottimi risultati
+                    <lb n="112"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
+                    <lb n="113" break="no"/>guissero le savie norme e i salutari intendimenti dei
+                    <lb n="114"/>pochi egregi. Dice il Gevaert (direttore del Conservatorio
+                    <lb n="115"/>di Bruxelles) che è d'uopo insegnare a'discepoli non <hi rend="italic">ciò
+                    <lb n="116"/>che bisogna sapere, ma ciò che bisogna saper fare</hi>; ed ha ra-
+                    <lb n="117" break="no"/>gione, perché il saper fare include necessariamente il sa-
+                    <lb n="118" break="no"/>pere. L'insegnamento teorico deve procedere di pari passo
+                    <lb n="119"/>coll'insegnamento pratico, anzi uno deve compenetrarsi
+                    <lb n="120"/>nell'altro: chè la teoria nacque sempre posteriormente e
+                    <lb n="121"/>conseguentemente alla pratica, ed è cattiva ogni teoria che
+                    <lb n="122"/>non trovi una pratica applicazione.
+                </p>
+                <p facs="#art1_p13">
+                    <lb n="122"/>Ma qui fa capolino un altro inconveniente. Non si sa
+                    <lb n="123"/>perché in parecchi de' nostri conservatorii si vedono pro-
+                    <lb n="124" break="no"/>fessori più che mediocri (e non sono i meno) accanto a
+                    <lb n="125"/>qualche professore insigne. I mediocri non sanno che sia
+                    <lb n="126"/>l'amor dell'arte e (come disse il maestro Ruta in un
+                    <lb n="127"/>suo bel libro sul Conservatorio di Napoli) si potrebbero
+                    <lb n="128"/>chiamare <q type="written">«non già insegnanti, ma mercatanti d'insegna-
+                    <lb n="129" break="no"/>menti;»</q> chiaccherano molto in nome dell'arte, ma sono i
+                    <lb n="130"/>primi ad offenderla co' fatti; osteggiano, con una guerra
+                    <lb n="131"/>sorda, i più valenti; seminano la zizzania: ed ecco donde
+                    <lb n="132"/>nascono la camorra e la fiaccona. I pochi egregi fanno
+                    <lb n="133"/>quelo che possono, ma sono sforzi isolati: di qui i risul-
+                    <lb n="134" break="no"/>tati parziali, non generali. Sarebbe, per esempio, necessario
+                    <lb n="135"/>che alle cattedre d'armonia elementare si desse tanta im-
+                    <lb n="136" break="no"/>portanza quanta se ne dà a quelle di contrappunto e di
+                    <lb n="137"/>composizione: trattandosi de' fondamenti di un grande edi-
+                    <lb n="138" break="no"/>ficio, bisogna che siano solidi e chi li pone dee risponderne.
+                    <lb n="139"/>Ma invece avviene non di rado che quando un alunno passa
+                    <lb n="140"/>alla scuola di contrappunto e di composizione sotto altro
+                    <lb n="141"/>professore, tocca a quest'ultimo di rifarsi da capo, e di dover
+                    <lb n="142"/>demolire per poi riedificare: tante sono le storture che gli
+                    <lb n="143"/>tocca riaddrizzare. Lo stesso dicasi per tutti gli altri in-
+                    <lb n="144" break="no"/>segnamenti.
+                    <lb n="145"/>Ed ora a un altro guaio.
+                </p>
+
+                <p facs="#art1_p14">
+                    <lb n="146"/>Noi crediamo che la cultura intellettuale in genere, e la
+                    <lb n="147"/>letteraria in ispecie, abbiano al dì d'oggi un'influenza molto
+                    <lb n="148"/>maggiore di quanto si crede sulla riuscita di un musicista,
+                    <lb n="149"/>Scrive il Lenz (nel suo libro: <hi rend="italic">Beethoven et ses trois styles</hi>)
+                    <lb n="150"/>che <quote>«la sola difa da opporre a tante profanazioni sarebbe
+                    <lb n="151"/>una cultura più grande, più generale dello spirito degli
+                    <lb n="152"/>artisti, la quale dovrebbe occupar loro tanto tempo quanto
+                    <lb n="153"/>ne impiegano ad apprendere il meccanismo d'uno stru-
+                    <lb n="154" break="no"/>mento;»</quote> e narra come Chopin, quando aveva un discepolo
+                    <lb n="155"/>che gli stesse a cuore, soleva chiedergli che libri leggesse.
+                    <lb n="156"/>Eppure l'istruzione letteraria ne' musicisti è troppo spesso
+                    <lb n="157"/>manchevole. È vero che da quanto ne scrisse il Gevaert
+                    <lb n="158"/>(nel suo <hi rend="italic">Discours prononcé à la séance publique de la
+                    <lb n="159"/>classe de Beaux-Arts de l'Académie royale)</hi> sembra che nei
+                    <lb n="160"/>nostri Conservatorii la coltura intellettuale sia meno tra-
+                    <lb n="161"/>scurata che altrove, perché fra noi esistono parecchi corsi
+                    <lb n="162"/>letterari; ma è altresì vero che non danno in ciò risultati
+                    <lb n="163"/>efficaci, per ottenere i quali bisognerebbe che tutti gli alunni
+                    <lb n="164"/>fossero assolutamente obbligati a frequentarli. A' nostri
+                    <lb n="165"/>tempi non è più tollerabile che gli artisti, levati da quella
+                    <lb n="166"/>parte musicale che hanno studiato, non sappiano nulla:
+                    <lb n="167"/>tanto è vero che i più celebri maestri moderni hanno sen-
+                    <lb n="168" break="no"/>tito il bisogno di procurarsi da sè stessi un'istruzione let-
+                </p>
+                <cb n="2"/>
+                <p facs="#art1_p15">
+                    <lb n="169" break="no"/>teraria, artistica e scientifica svariatissima. Mendelssohn,
+                    <lb n="170"/>Chopin, Schumann, Liszt, Berlios, Saint-Saëns, Gevaert,
+                    <lb n="171"/>Wagner e tanti altri son lì a provarlo.
+                    <lb n="172"/>Dai Conservatorii però si avrebbe diritto di attendere su
+                    <lb n="173"/>tal punto un aiuto ben maggiore: e ad appoggiare quanto
+                    <lb n="174"/>diciamo, trascriviamo le seguenti parole che leggonsi nel
+                    <lb n="175"/><hi rend="italic">Disegno di Statuto per l'Università musicale di Napoli</hi>, con
+                    <lb n="176"/>cui alcuni egregi uomini (all'uopo eletti) propongono le
+                    <lb n="177"/>riforme necessarie a quel Conservatorio: <quote>«lo studio delle
+                    <lb n="178"/>lettere amplia le idee, allarga l'orizzonte delle conoscenze,
+                    <lb n="179"/>ed è raro che un artista privo di questo soccorso possa di-
+                    <lb n="180" break="no"/>venire creatore.»</quote> Non è certo il nostro voto quello di veder
+                    <lb n="181"/>uscire dagli istituti musicali de' giovani maestri molto in-
+                    <lb n="182" break="no"/>farinati di letteratura e mediocri o cattivi musicisti: ma cre-
+                    <lb n="183" break="no"/>diamo che una cosa non debba escluder l'altra, e che queste
+                    <lb n="184"/>due luci unite insieme possano mandare un fulgore dop-
+                    <lb n="185" break="no"/>piamente splendido.
+                </p>
+                <p facs="#art1_p16">
+                    <lb n="186"/>Per riassumere, ecco quali sarebbero le condizioni ne-
+                    <lb n="187" break="no"/>cessarie a rendere i nostri conservatorii molto migliori e
+                    <lb n="188"/>quindi molto più utili all'arte: 1° Un buon direttore, com-
+                    <lb n="189" break="no"/>preso del suo sacro mandato. 2° Buoni professori <hi rend="italic">in ogni
+                    <lb n="190"/>ramo</hi>, che insegnino ai giovani tutto quello che un vero
+                    <lb n="191"/>musicista deve <hi rend="italic">sapere</hi> e <hi rend="italic">saper fare</hi>, che aiutino i loro disce-
+                    <lb n="192" break="no"/>poli a sentire e comprendere il bello, ovunque si trovi.
+                    <lb n="193"/>3° Creare un'atmosfera sana coll'accurata esecuzione collet-
+                    <lb n="194" break="no"/>tiva delle opere dei grandi maestri del passato e del presente,
+                    <lb n="195"/>nostrali e forestieri, perché l'arte è <hi rend="italic">una</hi>; e in quest'atmo-
+                    <lb n="196" break="no"/>sfera saranno efficacemente fecondati i germi che l'istruzione
+                    <lb n="197"/>parziale de' buoni maestri avrà fatto nascere. 4° Dare il
+                    <lb n="198"/>maggiore sviluppo possibile alla cultura intellettuale e se-
+                    <lb n="199" break="no"/>gnatamaente alla letteraria, sempre coll'occhio rivolto allo
+                    <lb n="200"/>scopo cui deve servire, cioè quello di porgere un benefico
+                    <lb n="201"/>aiuto alla musica.
                 </p>
             </div>
-          
+
+            <div type="article" xml:id="articolo_2" source="#articolo_2_bibl">
+                <pb n="485" facs="#surf_art_2_1" />
+                <cb n="1" />
+
+                <head facs="#art2_title">IL SOCIALISMO IN ITALIA</head>
+                <p facs="#art2_p1">
+                    <lb n="1"/>
+
+                </p>
+            </div>
+          </body>
     </text>
 </TEI>
