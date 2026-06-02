@@ -249,6 +249,35 @@
             <zone ulx="1141" uly="1568" lrx="2122" lry="2835" rendition="" xml:id="art3_p11"/>
 
         </surface>
+
+        <surface n="4.1" xml:id="surf_bibliografia_1">
+            <graphic url="Bibliografia1.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="1178" uly="748" lrx="2145" lry="800" rendition="" xml:id="bibl_subtitle"/>
+            <zone ulx="1175" uly="800" lrx="2140" lry="885" rendition="" xml:id="bibl_1"/>
+            <zone ulx="1175" uly="890" lrx="2150" lry="2092" rendition="" xml:id="bibl1_p1"/>
+            <zone ulx="1172" uly="2092" lrx="2160" lry="3038" rendition="" xml:id="bibl1_p2"/>
+        </surface>
+
+        <surface n="4.2" xml:id="surf_bibliografia_2">
+            <graphic url="Bibliografia2.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="108" uly="272" lrx="1100" lry="555" rendition="" xml:id="bibl1_p3"/>
+            <zone ulx="1128" uly="1950" lrx="2115" lry="1990" rendition="" xml:id="bibl2_title"/>
+            <zone ulx="1130" uly="1998" lrx="2112" lry="2118" rendition="" xml:id="bibl_2"/>
+            <zone ulx="1130" uly="2125" lrx="2108" lry="2870" rendition="" xml:id="bibl2_p1"/>
+            <zone ulx="1130" uly="2872" lrx="2115" lry="3088" rendition="" xml:id="bibl2_p2"/>
+        </surface>
+
+        <surface n="5" xml:id="surf_notizie">
+            <graphic url="Biblio_Notizie.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="128" uly="275" lrx="1112" lry="728" rendition="" xml:id="bibl2_p3"/>
+            <zone ulx="130" uly="730" lrx="1110" lry="1570" rendition="" xml:id="bibl2_p4"/>
+            <zone ulx="132" uly="1570" lrx="1110" lry="2185" rendition="" xml:id="bibl2_p5"/>
+            <zone ulx="135" uly="2188" lrx="1110" lry="2692" rendition="" xml:id="bibl2_p6"/>
+            <zone ulx="142" uly="2725" lrx="1112" lry="2800" rendition="" xml:id="notizie_title"/>
+            <zone ulx="135" uly="2800" lrx="1108" lry="2950" rendition="" xml:id="notizia_1"/>
+            <zone ulx="135" uly="2948" lrx="1110" lry="3068" rendition="" xml:id="notizia_2"/>
+            <zone ulx="1130" uly="280" lrx="2115" lry="355" rendition="" xml:id="notizia_2_2"/>
+        </surface>
     </facsimile>
     <text>
         <group>
