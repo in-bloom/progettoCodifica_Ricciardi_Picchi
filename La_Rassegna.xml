@@ -184,7 +184,7 @@
 
         </surface>
 
-        <surface n="3.1" xml:id="aurf_art_3_1">
+        <surface n="3.1" xml:id="surf_art_3_1">
             <graphic url="Corrispondenza_Berlino.jpg" width='2273.66666px' height='3282.66666px'/>
             <zone ulx="278" uly="1109" lrx="1218" lry="1160" rendition="" xml:id="art3_title"/>
             <zone ulx="278" uly="1162" lrx="1218" lry="1992" rendition="" xml:id="art3_p1"/>
@@ -195,7 +195,7 @@
 
         </surface>
 
-        <surface n="3.2" xml:id="aurf_art_3_2">
+        <surface n="3.2" xml:id="surf_art_3_2">
             <graphic url="Corrispondenze_Berlino_2.jpg" width='2273.66666px' height='3282.66666px'/>
             <zone ulx="134" uly="260" lrx="1121" lry="476" rendition="" xml:id="art3_p5"/>
             <zone ulx="134" uly="481" lrx="1119" lry="1313" rendition="" xml:id="art3_p6"/>
@@ -705,6 +705,16 @@
                     <lb n="206"/>nostri occhi è una gran cosa; ma senza pretendere di aver
                     <lb n="207"/>fatto nulla per essa, non crediamo di amarla meno, dicendo
                     <lb n="208"/>che al di sopra dell'Italia stanno l'umanità e la giustizia.
+                </p>
+            </div>
+
+            <div type="article" xml:id="articolo_3" source="#articolo_3_bibl">
+                <pb n="298" facs="#surf_art_3_1" />
+                <cb n="1" />
+
+                <head facs="#art3_title">CORRISPONDENZA DA BERLINO.</head>
+                <p>
+                    <lb n="1"/>
                 </p>
             </div>
           </body>
