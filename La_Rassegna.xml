@@ -123,7 +123,7 @@
                             </imprint>
                         </monogr>
                     </biblStruct>
-                    <biblStruct>
+                    <biblStruct xml:id="notizie">
                         <analytic>
                             <title>NOTIZIE</title>
                         </analytic>
@@ -252,31 +252,32 @@
 
         <surface n="4.1" xml:id="surf_bibliografia_1">
             <graphic url="Bibliografia1.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="1178" uly="748" lrx="2145" lry="800" rendition="" xml:id="bibl_subtitle"/>
-            <zone ulx="1175" uly="800" lrx="2140" lry="885" rendition="" xml:id="bibl_1"/>
-            <zone ulx="1175" uly="890" lrx="2150" lry="2092" rendition="" xml:id="bibl1_p1"/>
-            <zone ulx="1172" uly="2092" lrx="2160" lry="3038" rendition="" xml:id="bibl1_p2"/>
+            <zone ulx="1185" uly="751" lrx="2167" lry="807" rendition="" xml:id="bibl_subtitle"/>
+            <zone ulx="1185" uly="807" lrx="2165" lry="901" rendition="" xml:id="bibl_1"/>
+            <zone ulx="1185" uly="904" lrx="2185" lry="2119" rendition="" xml:id="bibl1_p1"/>
+            <zone ulx="1190" uly="2117" lrx="2185" lry="3089" rendition="" xml:id="bibl1_p2"/>
         </surface>
 
         <surface n="4.2" xml:id="surf_bibliografia_2">
             <graphic url="Bibliografia2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="108" uly="272" lrx="1100" lry="555" rendition="" xml:id="bibl1_p3"/>
-            <zone ulx="1128" uly="1950" lrx="2115" lry="1990" rendition="" xml:id="bibl2_title"/>
-            <zone ulx="1130" uly="1998" lrx="2112" lry="2118" rendition="" xml:id="bibl_2"/>
-            <zone ulx="1130" uly="2125" lrx="2108" lry="2870" rendition="" xml:id="bibl2_p1"/>
-            <zone ulx="1130" uly="2872" lrx="2115" lry="3088" rendition="" xml:id="bibl2_p2"/>
+            <zone ulx="117" uly="282" lrx="1119" lry="556" rendition="" xml:id="bibl1_p3"/>
+            <zone ulx="1142" uly="1969" lrx="2114" lry="2015" rendition="" xml:id="bibl2_title"/>
+            <zone ulx="1140" uly="2025" lrx="2129" lry="2155" rendition="" xml:id="bibl_2"/>
+            <zone ulx="1140" uly="2157" lrx="2139" lry="2916" rendition="" xml:id="bibl2_p1"/>
+            <zone ulx="1140" uly="2914" lrx="2155" lry="3127" rendition="" xml:id="bibl2_p2"/>
         </surface>
 
         <surface n="5" xml:id="surf_notizie">
             <graphic url="Biblio_Notizie.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="128" uly="275" lrx="1112" lry="728" rendition="" xml:id="bibl2_p3"/>
-            <zone ulx="130" uly="730" lrx="1110" lry="1570" rendition="" xml:id="bibl2_p4"/>
-            <zone ulx="132" uly="1570" lrx="1110" lry="2185" rendition="" xml:id="bibl2_p5"/>
-            <zone ulx="135" uly="2188" lrx="1110" lry="2692" rendition="" xml:id="bibl2_p6"/>
-            <zone ulx="142" uly="2725" lrx="1112" lry="2800" rendition="" xml:id="notizie_title"/>
-            <zone ulx="135" uly="2800" lrx="1108" lry="2950" rendition="" xml:id="notizia_1"/>
-            <zone ulx="135" uly="2948" lrx="1110" lry="3068" rendition="" xml:id="notizia_2"/>
-            <zone ulx="1130" uly="280" lrx="2115" lry="355" rendition="" xml:id="notizia_2_2"/>
+            <zone ulx="132" uly="287" lrx="1129" lry="746" rendition="" xml:id="bibl2_p3"/>
+            <zone ulx="135" uly="744" lrx="1129" lry="1586" rendition="" xml:id="bibl2_p4"/>
+            <zone ulx="129" uly="1589" lrx="1129" lry="2221" rendition="" xml:id="bibl2_p5"/>
+            <zone ulx="129" uly="2223" lrx="1129" lry="2736" rendition="" xml:id="bibl2_p6"/>
+            <zone ulx="137" uly="2769" lrx="1122" lry="2848" rendition="" xml:id="notizie_title"/>
+            <zone ulx="127" uly="2848" lrx="1119" lry="2995" rendition="" xml:id="notizia_1"/>
+            <zone ulx="124" uly="3002" lrx="1119" lry="3112" rendition="" xml:id="notizia_2"/>
+            <zone ulx="1147" uly="287" lrx="2139" lry="363" rendition="" xml:id="notizia_2_2"/>
+
         </surface>
     </facsimile>
     <text>
@@ -869,7 +870,7 @@
                             <lb n="63"/>maggioranza conservativa, per la quale allora si potrebbe
                             <lb n="64"/>rinunziare alla cooperazione del centro.
                         </p>
-                        <p facs="#art3_p4">
+                        <p facs="#art3_p4 #art3_p5">
                             <lb n="65"/>Questo mutato contegno si può in parte attribuire al fatto
                             <lb n="66"/>che per le nuove elezioni sono stati in gran parte allontanati
                             <lb n="67"/>dal partito nazionale liberale gli elementi di maggiore oppo-
@@ -914,8 +915,6 @@
                             <lb n="106"/>corrente politica, che da un anno e mezzo ha deviato da quello
                             <lb n="107"/>scopo, nella direzione verso cui si muoveva finché anda-
                             <lb n="108" break="no"/>rono a vuoto le trattative di <placeName>Varzin</placeName> fra il <persName>Bismarck</persName> e il
-                        </p>
-                        <p facs="#art3_p5">
                             <pb n="299" facs="#surf_art_3_2"/>
                             <cb n="1"/>
                             <lb n="109"/><persName>Bennigsen</persName>. La maggiore difficoltà per una cooperazione fra
@@ -1064,14 +1063,123 @@
             <!-- BIBLIOGRAFIA -->
             <text>
                 <body>
-                    <div type="bibliography" xml:id="biblio1" source=""></div>
-                    <div type="bibliography" xml:id="biblio2" source=""></div>
+                    <div type="bibliography" xml:id="biblio1" source="#bibliografia">
+                        <head>BIBLIOGRAFIA</head>
+                        <pb n="242" facs="#surf_bibliografia_1"/>
+                        <cb n="2"/>
+                        <div type="review" xml:id="rev1">
+                            <head type="sub">SCIENZE POLITICHE.</head>
+
+                            <bibl facs="#bibl_1">
+                                <lb n="1"/><persName>PAUL JANET</persName>. <title type="m" rend="italic">Saint-Simon et le Saint-Simonisme</title>. - <placeName>Paris</placeName>,
+                                <lb n="2"/><publisher>Germer Baillière</publisher>, <date when="1878">1878</date>
+                            </bibl>
+
+                            <p facs="#bibl1_p1">
+                                <lb n="3"/>Ecco un libretto come sanno farli in Francia: comple-
+                                <lb n="4" break="no"/>tissimo, esattissimo e pure tanto breve quanto pieno di
+                                <lb n="5"/>vita. Il signor Janet possiede perfettamente il soggetto
+                                <lb n="6"/>avendolo svolto da prima come Professore alla Scuola delle
+                                <lb n="7"/>Scienze Politiche di Parigi, e poi nella <hi rend="italic">Revue des Deux
+                                <lb n="8"/>Mondes.</hi> L'opera si divide in due parti. Nela prima l'Au-
+                                <lb n="9" break="no"/>tore tratta del Saint-Simon e, invece di raccontarci per la
+                                <lb n="10"/>centesima volta la vita del filosofo con le osservazioni ob-
+                                <lb n="11" break="no"/>bligate e cogli aneddoti stantii che sentiamo ripetere da
+                                <lb n="12"/>cinquant'anni, analizza gli scritti di lui, dichiara e giudica
+                                <lb n="13"/>la sua filosofia e i suoi disegni di riorganamento sociale;
+                                <lb n="14"/>cose tutte che non gl'impediscono di dare nell'appendice
+                                <lb n="15"/>una notizia biografica, come pure un catalogo ragionato
+                                <lb n="16"/>delle opere del Saint-Simon: tutti e due scritti succosi e
+                                <lb n="17"/><foreign xml:lang="en" rend="italic">matter of fact</foreign> senz'ombra di pretensione letteraria. Il signor
+                                <lb n="18"/>Janet ha egregiamente mostrato come il Saint-Simon si
+                                <lb n="19"/>ricolleghi al movimento di reazione storica e religiosa del
+                                <lb n="20"/>principio di questo secolo, e come la sua prima ispirazione
+                                <lb n="21"/>sia della stessa natura di quelle di Giuseppe De Maistre e
+                                <lb n="22"/>della sua scuola. Prova sopra tutto a maraviglia come
+                                <lb n="23"/>niente fosse tanto estraneo allo spirito riformatore del
+                                <lb n="24"/>Saint-Simon, quanto l'idea rivoluzionaria; ch'egli non pensò
+                                <lb n="25"/>mai a far guerra alla monarchia, giacchè le forme politiche
+                                <lb n="26"/>gli erano del tutto indifferenti, nè a combattere il capitale,
+                                <lb n="27"/>nè a predicare l'emancipazione della donna; ch, massime
+                                <lb n="28"/>ne' suoi primordi, non si distinse troppo dalla scuola di
+                                <lb n="29"/>G. B. Say il quale esagerò quasi quanto lui e quanto tutti
+                                <lb n="30"/>i pensatori politici de'tempi così agitati e così sterili del
+                                <lb n="31"/>primo Impero, l'importanza dell'educazione nella società.
+                            </p>
+                            <p facs="#bibl1_p2 #bibl1_p3">
+                                <lb n="32"/>Solamente il Padre Enfantin - come chiaramente dimo-
+                                <lb n="33" break="no"/>stra il Janet nella seconda metà del suo breve scritto
+                                <lb n="34"/>- fu quegli che trasformò il Sansimonismo introducen-
+                                <lb n="35" break="no"/>dovi le proprie idee - o meglio le proprie fisime - a
+                                <lb n="36"/>proposito della proprietà, della religione e della famiglia.
+                                <lb n="37"/>Sotto l'influenza di cotesta natura pretesca, il Sansimonismo
+                                <lb n="38"/>affettò sempre più una forma religiosa, rialzò sempre più
+                                <lb n="39"/>il principio dell'autorità, mettendosi viemaggiormente in
+                                <lb n="40"/>opposizione col liberalismo politico. Bisogna leggere tutto
+                                <lb n="41"/>questo svolgimento, già molto succinto e condensato, nel-
+                                <lb n="42" break="no"/>l'opera del signor Janet, che è impossibile riassumere, e della
+                                <lb n="43"/>quale potremmo accoglier quasi tutto, facendo pochissime
+                                <lb n="44"/>riserve. Forse il signor Janet è un po' troppo severo verso
+                                <lb n="45"/>il Padre Enfantin, nel quale vede troppo il sensualista,
+                                <lb n="46"/>l'ambizioso e quasi il taumaturgo e l'ipocrita consciente;
+                                <lb n="47"/>ma noi non sapremmo che approvare di cuore quando dice
+                                <lb n="48"/>che la dottrina di cotesto Padre è <quote>« una delle più sner-
+                                <lb n="49" break="no"/>vanti e delle più vergognose »</quote> che siansi mai fabbricate.
+                                <lb n="50"/>Forse anche faremmo qualche riserva su ciò che il signor
+                                <lb n="51"/>Janet dice del divorzio, in favore del quale non ammette
+                                <lb n="52"/>che un solo argomento valido, cioè l'immoralità della se-
+                                <lb n="53" break="no"/>parazione di corpo e di beni col celibato. Ecco dove sempre
+                                <lb n="54"/>da capolino, anche nei più spregiusdicati dei nostri vicini,
+                                <pb n="243" facs="#surf_bibliografia_2"/>
+                                <cb n="1"/>
+                                <lb n="55"/>il codino del francese e del Cattolico, abituato a conside-
+                                <lb n="56" break="no"/>rare come verità innate le leggi della Chiesa e del Codice
+                                <lb n="57"/>Civile. Insomma, il merito principale di questo ottimo libric-
+                                <lb n="58" break="no"/>cino è d'aver stabilita in una forma eccellente, la distinzione
+                                <lb n="59"/>fra il Saint-Simon e la sua Scuola, fra il Sansimonismo del
+                                <lb n="60"/>maestro e quello dei successori di lui.
+                            </p>
+                        </div>
+
+                        <div type="review" xml:id="biblio2" source="#bibliografia">
+                            <head type="sub" facs="#bibl2_title">SCIENZE NATURALI</head>
+                            <pb n="243" facs="#surf_bibliografia_2"/>
+                            <cb n="2"/>
+                            <bibl facs="#bibl_2">
+                                <lb n="1"/><persName><damage extent="chars">L.</damage> DUMONT</persName>. <title type="m" rend="italic">Il piacere ed il dolore. Teoria scientifica della sen-
+                                <lb n="2" break="no"/>sibilità ec.</title> (Biblioteca scientifica internazionale Vol. XV.)
+                                <lb n="3"/>- <placeName>Milano</placeName>, <publisher>Dumolard</publisher>, <date when="1878">1878</date>
+                            </bibl>
+                            <p facs="#bibl2_p1">
+                                <lb n="4"/>
+
+                            </p>
+                        </div>
+                    </div>
                 </body>
             </text>
             <!-- NOTIZIE -->
             <text>
                 <body>
-                    <div type="section" xml:id="notizie" source=""></div>
+                    <div type="section" xml:id="notizie_sec" source="#notizie">
+                        <head facs="#notizie_title">NOTIZIE</head>
+                        <pb n="244" facs="#surf_notizie"/>
+                        <cb n="1"/>
+                        <p facs="#notizie_1">
+                            <lb n="1"/>- In occasione della prossima apertura dell'Esposizione di Parigi,
+                            <lb n="2"/>gli editori Fratelli Treves di Milano stanno per pubblicare una <hi rend="italic">Guida
+                            <lb n="3"/>pratica di Parigi</hi> di Folchetto; o un libro su Parigi del dottor Max
+                            <lb n="4"/>Nordan col titolo: <hi rend="italic">Il vero paese dei miliardi</hi>.
+                        </p>
+                        <p facs="#notizie_2 #notizie_2_2">
+                            <lb n="5"/>- Sta per usciere a Parigi per cura del signor Laffitte e di alcuni
+                            <lb n="6"/>positivisti della sua scuola, una <hi rend="italic">Revue Occidentale</hi> di cui Auguste Comte
+                            <lb n="7"/>aveva già concepito il disegno. Uscirà ogni due mesi e si occuperà del
+                            <cb n="2"/>
+                            <lb n="8"/>movimento politico, sociale e intellettuale e conterrà lavori dovuti a
+                            <lb n="9"/>positivisti.
+                        </p>
+                    </div>
                 </body>
             </text>
           </group>
