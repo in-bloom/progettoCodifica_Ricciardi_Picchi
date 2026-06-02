@@ -138,60 +138,73 @@
             <zone ulx="1168" uly="1835" lrx="2178" lry="2170" rendition="" xml:id="art1_p8"/>
             <zone ulx="1168" uly="2175" lrx="2185" lry="2425" rendition="" xml:id="art1_p9"/>
             <zone ulx="1170" uly="2430" lrx="2182" lry="2642" rendition="" xml:id="art1_p10"/>
-            <zone ulx="1172" uly="2650" lrx="2188" lry="3120" rendition="" xml:id="art1_p11"/>
+            <zone ulx="1172" uly="2648" lrx="2190" lry="3072" rendition="" xml:id="art1_p11"/>
+            <zone ulx="1172" uly="3075" lrx="2195" lry="3120" rendition="" xml:id="art1_p12"/>
+
             
         </surface>
         <surface n="1.2" xml:id="surf_art_1_2">
         
             <graphic url='I_conservatorii_2.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="120" uly="252" lrx="1152" lry="1122" rendition="" xml:id="art1_p12"/>
-            <zone ulx="122" uly="1125" lrx="1145" lry="2115" rendition="" xml:id="art1_p13"/>
-            <zone ulx="125" uly="2115" lrx="1148" lry="3158" rendition="" xml:id="art1_p14"/>
-            <zone ulx="1175" uly="252" lrx="2182" lry="995" rendition="" xml:id="art1_p15"/>
-            <zone ulx="1180" uly="1000" lrx="2185" lry="1692" rendition="" xml:id="art1_p16"/>
+            <zone ulx="120" uly="252" lrx="1131" lry="593" rendition="" xml:id="art1_p13"/>
+            <zone ulx="125" uly="595" lrx="1134" lry="1102" rendition="" xml:id="art1_p14"/>
+            <zone ulx="123" uly="1104" lrx="1129" lry="2078" rendition="" xml:id="art1_p15"/>
+            <zone ulx="128" uly="2085" lrx="1134" lry="2550" rendition="" xml:id="art1_p16"/>
+            <zone ulx="130" uly="2547" lrx="1129" lry="3096" rendition="" xml:id="art1_p17"/>
+            <zone ulx="1151" uly="256" lrx="2149" lry="391" rendition="" xml:id="art1_p18"/>
+            <zone ulx="1151" uly="393" lrx="2144" lry="979" rendition="" xml:id="art1_p19"/>
+            <zone ulx="1156" uly="981" lrx="2147" lry="1662" rendition="" xml:id="art1_p20"/>
+
 
         </surface>
 
-        <surface n="2.1" xml:id="surf_art_2_1">
-            <graphic url="Il_socialismo.jpg"/>
-            <zone ulx="108" uly="1990" lrx="1125" lry="2672" rendition="" xml:id="art2_p3"/>
-            <zone ulx="110" uly="2675" lrx="1118" lry="3115" rendition="" xml:id="art2_p4"/>
+        <surface n="2.1" xml:id="surf_art_2_1" >
+            <graphic url="Il_socialismo.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="109" uly="2227" lrx="1116" lry="2654" rendition="" xml:id="art2_p3"/>
+            <zone ulx="109" uly="2649" lrx="1118" lry="3115" rendition="" xml:id="art2_p4"/>
             <zone ulx="128" uly="512" lrx="1125" lry="578" rendition="" xml:id="art2_title"/>
             <zone ulx="130" uly="585" lrx="1132" lry="918" rendition="" xml:id="art2_p1"/>
-            <zone ulx="108" uly="922" lrx="1128" lry="1982" rendition="" xml:id="art2_p2"/>
-            <zone ulx="1158" uly="525" lrx="2178" lry="1982" rendition="" xml:id="art2_p5"/>
-            <zone ulx="1145" uly="3020" lrx="2165" lry="3105" rendition="" xml:id="art2_p7"/>
-            <zone ulx="1148" uly="1980" lrx="2158" lry="3012" rendition="" xml:id="art2_p6"/>
+            <zone ulx="108" uly="922" lrx="1124" lry="2225" rendition="" xml:id="art2_p2"/>
+            <zone ulx="1158" uly="525" lrx="2153" lry="695" rendition="" xml:id="art2_p5"/>
+            <zone ulx="1151" uly="1322" lrx="2146" lry="1969" rendition="" xml:id="art2_p7"/>
+            <zone ulx="1151" uly="690" lrx="2148" lry="1325" rendition="" xml:id="art2_p6"/>
+            <zone ulx="1134" uly="1969" lrx="2141" lry="2991" rendition="" xml:id="art2_p8"/>
+            <zone ulx="1136" uly="2994" lrx="2150" lry="3093" rendition="" xml:id="art2_p9"/>
+
 
         </surface>
 
         <surface n="2.2" xml:id="surf_art_2_2">
-            <graphic url="Il_socialismo2.jpg"/>
-            <zone ulx="120" uly="178" lrx="1138" lry="770" rendition="" xml:id="art2_p8"/>
-            <zone ulx="122" uly="772" lrx="1135" lry="1842" rendition="" xml:id="art2_p9"/>
-            <zone ulx="125" uly="1842" lrx="1135" lry="2872" rendition="" xml:id="art2_p10"/>
-            <zone ulx="125" uly="2872" lrx="1135" lry="3050" rendition="" xml:id="art2_p11"/>
-            <zone ulx="1155" uly="175" lrx="2188" lry="1170" rendition="" xml:id="art2_p12"/>
+            <graphic url="Il_socialismo2.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="129" uly="185" lrx="1154" lry="781" rendition="" xml:id="art2_p10"/>
+            <zone ulx="129" uly="786" lrx="1154" lry="1870" rendition="" xml:id="art2_p11"/>
+            <zone ulx="132" uly="1872" lrx="1157" lry="2915" rendition="" xml:id="art2_p12"/>
+            <zone ulx="132" uly="2917" lrx="1154" lry="3097" rendition="" xml:id="art2_p13"/>
+            <zone ulx="1180" uly="175" lrx="2215" lry="1182" rendition="" xml:id="art2_p14"/>
+
         </surface>
 
         <surface n="3.1" xml:id="aurf_art_3_1">
-            <graphic url="Corrispondenza_Berlino.jpg"/>
-            <zone ulx="295" uly="1290" lrx="1320" lry="2152" rendition="" xml:id="art3_p1"/>
-            <zone ulx="295" uly="2155" lrx="1312" lry="3220" rendition="" xml:id="art3_p2"/>
-            <zone ulx="1332" uly="352" lrx="2365" lry="1168" rendition="" xml:id="art3_p3"/>
-            <zone ulx="1335" uly="1165" lrx="2368" lry="3065" rendition="" xml:id="art3_p4"/>
-            <zone ulx="322" uly="1198" lrx="1312" lry="1292" rendition="" xml:id="art3_title"/>
+            <graphic url="Corrispondenza_Berlino.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="278" uly="1109" lrx="1218" lry="1160" rendition="" xml:id="art3_title"/>
+            <zone ulx="278" uly="1162" lrx="1218" lry="1992" rendition="" xml:id="art3_p1"/>
+            <zone ulx="281" uly="1999" lrx="1220" lry="2990" rendition="" xml:id="art3_p2"/>
+            <zone ulx="1241" uly="320" lrx="2183" lry="1086" rendition="" xml:id="art3_p3"/>
+            <zone ulx="1241" uly="1088" lrx="2173" lry="2846" rendition="" xml:id="art3_p4"/>
+
 
         </surface>
 
         <surface n="3.2" xml:id="aurf_art_3_2">
-            <graphic url="Corrispondenze_Berlino_2.jpg"/>
-            <zone ulx="128" uly="260" lrx="1155" lry="495" rendition="" xml:id="art3_p5"/>
-            <zone ulx="130" uly="495" lrx="1152" lry="1352" rendition="" xml:id="art3_p6"/>
-            <zone ulx="132" uly="1352" lrx="1150" lry="2808" rendition="" xml:id="art3_p7"/>
-            <zone ulx="132" uly="2812" lrx="1150" lry="3150" rendition="" xml:id="art3_p8"/>
-            <zone ulx="1175" uly="272" lrx="2190" lry="1615" rendition="" xml:id="art3_p9"/>
-            <zone ulx="1170" uly="1618" lrx="2190" lry="2912" rendition="" xml:id="art3_p10"/>
+            <graphic url="Corrispondenze_Berlino_2.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="134" uly="260" lrx="1121" lry="476" rendition="" xml:id="art3_p5"/>
+            <zone ulx="134" uly="481" lrx="1119" lry="1313" rendition="" xml:id="art3_p6"/>
+            <zone ulx="136" uly="1316" lrx="1117" lry="2726" rendition="" xml:id="art3_p7"/>
+            <zone ulx="136" uly="2731" lrx="1119" lry="3061" rendition="" xml:id="art3_p8"/>
+            <zone ulx="1141" uly="279" lrx="2126" lry="1073" rendition="" xml:id="art3_p9"/>
+            <zone ulx="1138" uly="1068" lrx="2122" lry="1568" rendition="" xml:id="art3_p10"/>
+            <zone ulx="1141" uly="1568" lrx="2122" lry="2835" rendition="" xml:id="art3_p11"/>
+
         </surface>
     </facsimile>
     <text>
@@ -230,7 +243,7 @@
                 <lb n="23"/>valga a sancire l'errore e a circondare d'un'aureola la me-
                 <lb n="24" break="no"/>diocrità.
                 </p>
-                <p facs="#art1_p3">
+                <p facs="#art1_p3 #art1_p4">
                     <lb n="25"/>I <orgName>Conservatorii</orgName> non sono tenuti a far germogliare i geni,
                     <lb n="26"/>ben disse il <persName>Filippi</persName>, ma debbono formare ottimi musicisti;
                     <lb n="27"/>e siccome hanno diritto e dovere di scelta nell'ammettere
@@ -241,10 +254,7 @@
                     <lb n="32"/>principali composizioni classiche italiane e straniere. Del
                     <lb n="33"/>bene se n'è già cominciato a fare, ed anco fra quelle mura
                     <lb n="34"/>è penetrata e circola quell'aura innovatrice che può puri-
-                </p>
-
-                <cb n="2"/>
-                <p facs="#art1_p4">
+                    <cb n="2"/>
                     <lb n="35" break="no"/>ficare e risanare ciò ch'v'ha di guasto; ma bisogna saperne
                     <lb n="36"/>trar profitto, perchè se non poco s'è fatto, molto resta
                     <lb n="37"/>a fare.
@@ -332,12 +342,12 @@
                     <lb n="98"/>dal <persName>Bulow</persName>, la poetica e meditata interpretazione de'classici,
                     <lb n="99"/>moltiplicheranno gli ottimi saggi che se ne ebbero finora.
                     <lb n="100"/>Ma bisogna che il buon esempio sia maggiormente imitato.
-                    <lb n="101"/>L'insegnamento dell'<term>organo</term> è sceso così basso che più
                 </p>
 
-                <pb n="239" facs="#surf_art_1_2" />
-                <cb n="1" />
-                <p facs="#art1_p12">
+                <p facs="#art1_p12 #art_p13">
+                    <lb n="101"/>L'insegnamento dell'<term>organo</term> è sceso così basso che più
+                    <pb n="239" facs="#surf_art_1_2" />
+                    <cb n="1" />
                     <lb n="102"/>giù non può andare: basta sentire qual sia la musica che,
                     <lb n="103"/>nelle chiese d'Italia, si suona dalla maggior parte degli
                     <lb n="104"/>organisti.-Anco ne' Conservatorii non sono rose quelle che 
@@ -346,6 +356,8 @@
                     <lb n="107"/>opere di Bach? È molto se di Bach, il più grande orga-
                     <lb n="108" break="no"/>nista d'ogni tempo, si eseguisce sull'organo di qualche no-
                     <lb n="109" break="no"/>stro Conservatorio una fuga del <hi rend="italic">Clavecin bien tempéré!</hi>
+                </p>
+                <p facs="#art1_p14">
                     <lb n="110"/>Le scuole di composizione hanno dato ottimi risultati
                     <lb n="112"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
                     <lb n="113" break="no"/>guissero le savie norme e i salutari intendimenti dei
@@ -359,7 +371,8 @@
                     <lb n="121"/>conseguentemente alla pratica, ed è cattiva ogni teoria che
                     <lb n="122"/>non trovi una pratica applicazione.
                 </p>
-                <p facs="#art1_p13">
+
+                <p facs="#art1_p15">
                     <lb n="122"/>Ma qui fa capolino un altro inconveniente. Non si sa
                     <lb n="123"/>perché in parecchi de' nostri conservatorii si vedono pro-
                     <lb n="124" break="no"/>fessori più che mediocri (e non sono i meno) accanto a
@@ -383,10 +396,10 @@
                     <lb n="142"/>demolire per poi riedificare: tante sono le storture che gli
                     <lb n="143"/>tocca riaddrizzare. Lo stesso dicasi per tutti gli altri in-
                     <lb n="144" break="no"/>segnamenti.
-                    <lb n="145"/>Ed ora a un altro guaio.
                 </p>
 
-                <p facs="#art1_p14">
+                <p facs="#art1_p16">
+                    <lb n="145"/>Ed ora a un altro guaio.
                     <lb n="146"/>Noi crediamo che la cultura intellettuale in genere, e la
                     <lb n="147"/>letteraria in ispecie, abbiano al dì d'oggi un'influenza molto
                     <lb n="148"/>maggiore di quanto si crede sulla riuscita di un musicista,
@@ -397,6 +410,9 @@
                     <lb n="153"/>ne impiegano ad apprendere il meccanismo d'uno stru-
                     <lb n="154" break="no"/>mento;»</quote> e narra come Chopin, quando aveva un discepolo
                     <lb n="155"/>che gli stesse a cuore, soleva chiedergli che libri leggesse.
+                </p>
+
+                <p facs="#art1_p17 #art1_p18">
                     <lb n="156"/>Eppure l'istruzione letteraria ne' musicisti è troppo spesso
                     <lb n="157"/>manchevole. È vero che da quanto ne scrisse il Gevaert
                     <lb n="158"/>(nel suo <hi rend="italic">Discours prononcé à la séance publique de la
@@ -410,12 +426,12 @@
                     <lb n="166"/>parte musicale che hanno studiato, non sappiano nulla:
                     <lb n="167"/>tanto è vero che i più celebri maestri moderni hanno sen-
                     <lb n="168" break="no"/>tito il bisogno di procurarsi da sè stessi un'istruzione let-
-                </p>
-                <cb n="2"/>
-                <p facs="#art1_p15">
+                    <cb n="2"/>
                     <lb n="169" break="no"/>teraria, artistica e scientifica svariatissima. Mendelssohn,
                     <lb n="170"/>Chopin, Schumann, Liszt, Berlios, Saint-Saëns, Gevaert,
                     <lb n="171"/>Wagner e tanti altri son lì a provarlo.
+                </p>
+                <p facs="#art1_p19">
                     <lb n="172"/>Dai Conservatorii però si avrebbe diritto di attendere su
                     <lb n="173"/>tal punto un aiuto ben maggiore: e ad appoggiare quanto
                     <lb n="174"/>diciamo, trascriviamo le seguenti parole che leggonsi nel
@@ -431,7 +447,7 @@
                     <lb n="184"/>due luci unite insieme possano mandare un fulgore dop-
                     <lb n="185" break="no"/>piamente splendido.
                 </p>
-                <p facs="#art1_p16">
+                <p facs="#art1_p20">
                     <lb n="186"/>Per riassumere, ecco quali sarebbero le condizioni ne-
                     <lb n="187" break="no"/>cessarie a rendere i nostri conservatorii molto migliori e
                     <lb n="188"/>quindi molto più utili all'arte: 1° Un buon direttore, com-
@@ -457,8 +473,144 @@
 
                 <head facs="#art2_title">IL SOCIALISMO IN ITALIA</head>
                 <p facs="#art2_p1">
-                    <lb n="1"/>
-
+                    <lb n="1"/>Ci sono veramente pericoli sociali in Italia? o sono so-
+                    <lb n="2" break="no"/>gni di menti malate, di spiriti irrequieti e turbolenti? Do-
+                    <lb n="3" break="no"/>vremmo credere che sono sogni, quando guardiamo al su-
+                    <lb n="4" break="no"/>premo disprezzo con cui negano l'esistenza di tali peri-
+                    <lb n="5" break="no"/>coli uomini autorevolissimi, i quali spesso rispondono solo
+                    <lb n="6"/>con un superbo silenzio, che potrebbe tradursi in queste 
+                    <lb n="7"/>parole: L'Italia l'abbiam fatta noi, e vi diciamo che son
+                    <lb n="8"/>sogni. Se non conosciamo noi il paese, chi deve conoscerlo?
+                </p>
+                <p facs="#art2_p2">
+                    <lb n="9"/>Se non che la storia ci dà a questo proposito lezioni
+                    <lb n="10"/>assai curiose. Quando si leggono i libri dei savi del se-
+                    <lb n="11" break="no"/>colo XVIII, quelli che furono gli autori o promotori della
+                    <lb n="12"/>rivoluzione francese, non si può contenere la maraviglia,
+                    <lb n="13"/>vedendo come essi annunziano al mondo la giustizia, la 
+                    <lb n="14"/>fratellanza, la pace, il secolo dei lumi, e furono invece il-
+                    <lb n="15" break="no"/>luminati colla ghigliottina e col regno del terrore. Il nostro
+                    <lb n="16"/>Filangieri, nella sua <hi rend="italic">Scienza della Legislazione</hi>, tradotta al-
+                    <lb n="17" break="no"/>lora in tutte le lingue, dimostrava a lungo e, secondo lui,
+                    <lb n="18"/>matematicamente, che una terribile catastrofe era inevita-
+                    <lb n="19" break="no"/>bile in Inghilterra, perché essa non seguiva le sane dot-
+                    <lb n="20" break="no"/>trine dell'uguaglianza: sarebbe stata però evitata dalla
+                    <lb n="21"/>Francia. Precisamente il contrario di quello che seguì! Po-
+                    <lb n="22" break="no"/>tremmo citare grandi esempi storici a migliaia. Preferiamo
+                    <lb n="23"/>invece un più recente fatto di cui fummo spettatori. Non
+                    <lb n="24"/>sono moltissimi anni, la colonia inglese di Firenze era in
+                    <lb n="25"/>moto pel prossimo arrivo d'un pastore scozzese, che era
+                    <lb n="26"/>stato nell'India trent'anni, conosceva il paese meglio di
+                    <lb n="27"/>ogni altro uomo vivente, e avrebbe fatto qui fra noi alcuni
+                    <lb n="28"/>discorsi sul vero stato delle cose colà. Egli dimostrò infatti
+                    <lb n="29"/>come il governo inglese aveva steso profondissime radici
+                    <lb n="30"/>nell'India. Ciò che esso faceva, pareva agl'Indiani opera
+                    <lb n="31"/>della natura, del fato, di Dio stesso. <pc type="emdash">-</pc> pensare che si possa
+                    <lb n="32"/>fare altrimenti, non esntra più nella loro testa. Bisogna es-
+                    <lb n="33" break="no"/>sere vissuto trent'anni colà per capire questo sentimento.<pc type="emdash">-</pc>
+                    <lb n="34"/>Il reverendo uomo era appena disceso dal pergamo, che il
+                    <lb n="35"/>telegrafo annunziava lo scoppio sanguinoso del <hi rend="italic">great mutiny</hi>.
+                    <lb n="36"/>Nè egli era stato solo ad ingannarsi, con lui s'erano in-
+                    <lb n="37" break="no"/>gannati gli uomini di Stato più competenti nell'Inghilterra.
+                    <lb n="38"/>L'India, si disse allora, è il paese in cui segue sempre il
+                    <lb n="39"/>contrario di ciò che tutti prevedono.
+                </p>
+                <p facs="#art2_p3">
+                    <lb n="40"/>Ma non abbiamo noi un altro esempio più recente e più
+                    <lb n="41"/>chiaro? Chi avrebbe mai pensato che la Germania, il paese
+                    <lb n="42"/>più culto d'Europa, quello che tutti voglioni imitare pel
+                    <lb n="43"/>rapido cammina che in essa ha fatto la scienza, per la dif-
+                    <lb n="44" break="no"/>fusione della sua istruzione elementare; dopo i progressi
+                    <lb n="45"/>della sua industria, dopo i prodigiosi trionfi militari, dopo
+                    <lb n="46"/>i miliardi che le ha dovuto dare la Francia, dovesse a un
+                    <lb n="47"/>tratto levare un grido d'allarme, e vedere minacciata la
+                    <lb n="48"/>sua quiete, la società stessa, da quella terribile e spaven-
+                    <lb n="49"/>tosa malattia che si chiama il socialismo?
+                </p>
+                <p facs="#art2_p4 #art2_p5">
+                    <lb n="50"/>Non è la ricchezza, non sono le libertà politiche, nè
+                    <lb n="51"/>l'industria ed il lavoro, nè la scienza o la cultura popolare
+                    <lb n="52"/>che salvano da questo male, il quale anzi sembra svilup-
+                    <lb n="53" break="no"/>parsi appunto in mezzo a questi progressi della società
+                    <lb n="54"/>moderna, ed è come un sintomo funesto che li accompagna.
+                    <lb n="55"/>Come nei più forti organismi umani si sviluppano qualche
+                    <lb n="56"/>volta malattie che più rapidamente consumano, e da cui
+                    <lb n="57"/>coloro che hanno una salute più debole si salvano, così vi
+                    <lb n="58"/>sono negli organismi sociali malattie proprie di un certo
+                    <lb n="59"/>grado, di una certa forma di civiltà. Il socialismo è la ma-
+                    <cb n="2"/>
+                    <lb n="60" break="no"/>lattia delle società moderne. DOve il lavoro, l'attività, le
+                    <lb n="61"/>ricchezze s'accumulano e crescono, ivi i suoi segni minac-
+                    <lb n="62" break="no"/>ciosi compariscono. Gli scioperi si manifestano più frequenti
+                    <lb n="63"/>e pericolosi là dove l'industria è più ricca e più prospera.
+                </p>
+                <p facs="#art2_p6">
+                    <lb n="64"/>Non è una mancanza, è piuttosto unaesuberanza di forze
+                    <lb n="65"/>quella che produce questi mali. O per eglio dire, essi
+                    <lb n="66"/>nascono quando le forze sociali in un rapido sviluppo per-
+                    <lb n="67" break="no"/>dono il loro equilibriio. Allora selvagge passioni si mesco-
+                    <lb n="68" break="no"/>lano ai disordini economici, e il male di esacerba. Quella
+                    <lb n="69"/>febbre di speculare che si è impadronita degli animi; quelle
+                    <lb n="70"/>Banche che vicono per creare altre Banche, e producono
+                    <lb n="71"/>così un moto artificiale nel vuoto, e finniscono col creare
+                    <lb n="72"/>decine di milionari e migliaia di miserabili; quelle società
+                    <lb n="73"/>anonime che, di fronte all'operaio che suda e stenta pon-
+                    <lb n="74" break="no"/>gono un capitale impassibile, impersonale, che moltiplica
+                    <lb n="75"/>se stesso, come per forza intrinseca, ed arricchisce i suoi
+                    <lb n="76"/>possessori, i quali dormono sonni tranquilli, pensando ad
+                    <lb n="77"/>altro, o viaggiano in lontane regioni per diporto; questi
+                    <lb n="78"/>sono i fatti sociali in mezzo a cui il socialismo si sviluppa.
+                </p>
+                <p facs="#art2_p7">
+                    <lb n="79"/>Avete obbligato l'operaio a frequentare la scuola, gli avete
+                    <lb n="80"/>fatto leggere libri e giornali; egli si sente ora un uomo
+                    <lb n="81"/>come noi, discute, ragione e vuole essere ascoltato. E quando
+                    <lb n="82"/>si trova di fronte <hi rend="italic">un capitale</hi> impersonale che non ascolta,
+                    <lb n="83"/>che non sente, che non ragiona, egli è accecato dalla pas-
+                    <lb n="84" break="no"/>sione, cessa d'essere un uomo, comincia a divenire una belva.
+                    <lb n="85"/>Quello che più volte è seguito tutti lo sanno; quello che
+                    <lb n="86"/>ancora può seguire noi lo ignoriamo. Già in questo mede-
+                    <lb n="87" break="no"/>simo giornale abbiamo dichiarato, che i tentati assassinii
+                    <lb n="88"/>contro l'Imperatore di Germania non si possono dire opera
+                    <lb n="89"/>del partito socialista. Sono delitti individuali; ma i loro
+                    <lb n="90"/>autori non sarebbero forse arrivati a concepirli ed a ten-
+                    <lb n="91" break="no"/>tarli, se non si fossero trovati in un'atmosfera viziata dalle
+                    <lb n="92"/>passioni più sovversive, da delirii che pretendono di essere
+                    <lb n="93"/>ragionamenti.
+                </p>
+                <p facs="#art2_p8">
+                    <lb n="94"/>È un fatto però che gli uomini più esperimentati, co-
+                    <lb n="95" break="no"/>loro nelle cui mani sono i destini dei popoli più civili, oggi
+                    <lb n="96"/>non vivono tranquilli, e credono minacciata la società mo-
+                    <lb n="97"/>derna in tutta Europa. Noi, lo abbiamo già detto, siamo
+                    <lb n="98"/>contrarissimi ad accordi internazionali, che potrebbero es-
+                    <lb n="99"/>sere un rimedio peggiore del male, perché forse lo aggra-
+                    <lb n="100"/>verebbero. Ma questa è una ragione per la quale, mentre
+                    <lb n="101"/>tutti si destano e si apparecchiano alla difesa, noi, soli
+                    <lb n="102"/>nel mondo, dobbiamo dorire tranquilli? E intanto ci
+                    <lb n="103"/>sforziamo in ogni modo a introdurre fra noi tutte le leggi,
+                    <lb n="104"/>le istituzioni, gli usi, i costumi, le virtù e i vizi delle so-
+                    <lb n="105" break="no"/>cietà moderne, le quali, in Europa come in America, sono
+                    <lb n="106"/> esposte a questi pericoli. Diciamo male <hi rend="italic">tutte</hi> le leggi e le
+                    <lb n="107"/>istituzioni; bisogna eccettuarne quelle appunto, e sono in-
+                    <lb n="108" break="no"/>finite, con le quali si cerca di ristabilire l'equilibrio turbato,
+                    <lb n="109"/>e soccorrere la miseria ingiustamente sofferta. Il Ministero
+                    <lb n="110"/>conservatore dell'Inghilterra da più anni presenta ogni
+                    <lb n="111"/>giorno nuove leggi a questo fine. Basti dire, per citare un
+                    <lb n="112"/>solo esempio, che oggi un cittadino il quale incontri per
+                    <lb n="113"/>via un fanciullo organo, o abbandonato da genitori lontani
+                    <lb n="114"/>o impotenti, ha il diritto di condurlo innanzi ai magistrati,
+                    <lb n="115"/>perché lo mandino alla scuola industriale, dove riceve istru-
+                    <lb n="116" break="no"/>zione, cibo, vesti, ed impara un mestiere. Queste, fra noi,
+                    <lb n="117"/>parrebbero a molti pazzie.
+                </p>
+                <p facs="#art2_p9 #art2_p10">
+                    <lb n="118"/>Se poi non chiameremo al Governo i clericali che disfa-
+                    <lb n="119"/>rebbero l'Italia o i repubblicani che disfarebbero la mo-
+                    <pb n="486" facs="#surf_art_2_2"/>
+                    <cb n="1"/>
+                    <lb n="120" break="no"/>narchia, abbiamo già percorsa tutta la serie dei possibili
+                    <lb n="121"/>ministeri.
                 </p>
             </div>
           </body>
