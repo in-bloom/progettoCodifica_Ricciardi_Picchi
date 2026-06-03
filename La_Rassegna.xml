@@ -559,14 +559,14 @@
 
                         <head facs="#art2_title">IL SOCIALISMO IN ITALIA</head>
                         <p facs="#art2_p1">
-                            <lb n="1"/>Ci sono veramente pericoli sociali in Italia? o sono so-
+                            <lb n="1"/>Ci sono veramente pericoli sociali in <placeName ref="#Italia">Italia</placeName>? o sono so-
                             <lb n="2" break="no"/>gni di menti malate, di spiriti irrequieti e turbolenti? Do-
                             <lb n="3" break="no"/>vremmo credere che sono sogni, quando guardiamo al su-
                             <lb n="4" break="no"/>premo disprezzo con cui negano l'esistenza di tali peri-
                             <lb n="5" break="no"/>coli uomini autorevolissimi, i quali spesso rispondono solo
                             <lb n="6"/>con un superbo silenzio, che potrebbe tradursi in queste 
-                            <lb n="7"/>parole: L'Italia l'abbiam fatta noi, e vi diciamo che son
-                            <lb n="8"/>sogni. Se non conosciamo noi il paese, chi deve conoscerlo?
+                            <lb n="7"/>parole: <said who="#uomini_autorevolissimi">L'<placeName ref="#Italia">Italia</placeName> l'<choice><orig>abbiam</orig><reg>abbiamo</reg></choice> fatta noi, e vi diciamo che <choice><orig>son</orig><reg>sono</reg></choice>
+                            <lb n="8"/>sogni. Se non conosciamo noi il paese, chi deve conoscerlo?</said>
                         </p>
                         <p facs="#art2_p2">
                             <lb n="9"/>Se non che la storia ci dà a questo proposito lezioni
