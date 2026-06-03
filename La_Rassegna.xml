@@ -292,54 +292,54 @@
                         <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA</head>
 
                         <p facs="#art1_p1">
-                        <lb n="1"/>I <orgName>Conservatorii</orgName> italiani, come tutti sanno, scendono di-
+                        <lb n="1"/>I <rs type="institution" ref="#conservatori">Conservatorii</rs> italiani, come tutti sanno, scendono di-
                         <lb n="2" break="no"/>rettamente dalla <orgName key="Chiesa">Chiesa</orgName>; dalla <date from="1300" to="1500">metà del 1300 fino al 1500</date>
-                        <lb n="3"/> ogni monastero era un centro di studi musicali. Da' mona-
-                        <lb n="4" break="no"/>steri vennero i Conservatorii (o più propriamente allora or-
-                        <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date when="">secolo XVI</date> ed
-                        <lb n="6"/>erano destinati a formare de' ragazzi cantori (enfants de
-                        <lb n="7"/> chœur); si occupavano però necessariamente anche dello
-                        <lb n="8"/>studio tecnico degli strumenti. Il primo Conservatorio, quello
-                        <lb n="9"/> di musica di Santa Maria di Loreto, fu fondato in Napoli
-                        <lb n="10"/>nel 1537: e i Conservatorii di Napoli e di Venezia ebbero
+                        <lb n="3"/> ogni monastero era un centro di studi musicali. <choice><orig>Da'</orig><reg>Dai</reg></choice> mona-
+                        <lb n="4" break="no"/>steri vennero i <rs type="institution" ref="#conservatori">Conservatorii</rs> (o più propriamente allora or-
+                        <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date notBefore="1500" notAfter="1599">secolo XVI</date> ed
+                        <lb n="6"/>erano destinati a formare <choice><orig>de'</orig><reg>dei</reg></choice> ragazzi cantori (<foreign xml:lang="fr" xml:id="enf_de_ch">enfants de
+                        <lb n="7"/> chœur</foreign>); si occupavano però necessariamente anche dello
+                        <lb n="8"/>studio tecnico degli strumenti. Il primo <rs type="org" ref="#conservatori">Conservatorio</rs>, quello
+                        <lb n="9"/> di musica di <orgName type="institution" subtype="music" ref="#conservatorioSML">Santa Maria di Loreto</orgName> fu fondato in <placeName ref="#napoli">Napoli</placeName>
+                        <lb n="10"/>nel <date when="1573">1537</date>: e i Conservatorii di <placeName ref="#napoli">Napoli</placeName> e di <placeName ref="venezia">Venezia</placeName> ebbero
                         <lb n="11"/>una grande influenza sulla formazione e sui progressi della
-                        <lb n="12"/>nostra scuola del secolo passato. I nostri Conservatorii ser-
-                        <lb n="13" break="no"/>virono di modello a tutti gli altri d'Europa, compreso quello
-                        <lb n="14"/>di Parigi, illustrato dal nostro Cherubini e che, fondato
-                        <lb n="15"/>nel 1784, è ora considerato come un tipo di eccellenza. I no-
-                        <lb n="16" break="no"/>stri Conservatorii passarono poi dalla Chiesa allo Stato,
-                        <lb n="17"/> ma questo, pur troppo, se ne è finora occupato assai poco.
+                        <lb n="12"/>nostra scuola del secolo passato. I nostri <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> ser-
+                        <lb n="13" break="no"/>virono di modello a tutti gli altri d'<placeName ref="#europa">Europa</placeName>, compreso quello
+                        <lb n="14"/>di <placeName ref="#parigi">Parigi</placeName>, illustrato dal nostro <persName ref="#Cherubini">Cherubini</persName> e che, fondato
+                        <lb n="15"/>nel <date when="1784">1784</date>, è ora considerato come un tipo di eccellenza. I no-
+                        <lb n="16" break="no"/>stri <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> passarono poi dalla <orgName ref="#Chiesa">Chiesa</orgName> allo <orgName ref="#StatoItaliano">Stato</orgName>,
+                        <lb n="17"/>ma questo, <choice><orig>pur troppo</orig><reg>purtroppo</reg></choice>, se ne è finora occupato assai poco.
                         </p>
                         <p facs="#art1_p2">
-                        <lb n="18"/> È innegabile che se tali Istituti hanno dato di recente
+                        <lb n="18"/> È innegabile che se tali <rs type="institution" subtype="music" ref="#conservatori">Istituti</rs> hanno dato di recente
                         <lb n="19"/>e danno oggi buoni risultati parziali, i risultati gene-
                         <lb n="20" break="no"/>rali potrebbero essere molto migliori: e la bontà loro
-                        <lb n="21"/>consiste appunti ne' risultati generali; affinchè non accada
-                        <lb n="22"/>che il prestigio di cui gode il nome di un Conservatorio,
+                        <lb n="21"/>consiste <choice><orig>appunti</orig><reg>appunto</reg></choice> <choice><orig>ne'</orig><reg>nei</reg></choice> risultati generali; affinchè non accada
+                        <lb n="22"/>che il prestigio di cui gode il nome di un <rs type="institution" subtype="music" ref="#conservatori">Conservatorio</rs>,
                         <lb n="23"/>valga a sancire l'errore e a circondare d'un'aureola la me-
                         <lb n="24" break="no"/>diocrità.
                         </p>
                         <p facs="#art1_p3 #art1_p4">
-                            <lb n="25"/>I <orgName>Conservatorii</orgName> non sono tenuti a far germogliare i geni,
-                            <lb n="26"/>ben disse il <persName>Filippi</persName>, ma debbono formare ottimi musicisti;
+                            <lb n="25"/><said who="#Filippi">I <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> non sono tenuti a far germogliare i geni</said>,
+                            <lb n="26"/>ben disse il <persName ref="#Filippi">Filippi</persName>, ma debbono formare ottimi musicisti;
                             <lb n="27"/>e siccome hanno diritto e dovere di scelta nell'ammettere
-                            <lb n="28"/>gli alunni, così quelli che sanno poco o punto (anche dopo
-                            <lb n="29"/>aver frequentato l'Istituto) dovrebbero essere espulsi come
-                            <lb n="30"/>inetti o almeno non ottenere la licenza: nè da alcun <orgName>Conser-
-                            <lb n="31" break="no"/>vatorii</orgName> dovrebbero uscire de' giovani che non conoscono le
+                            <lb n="28"/>gli alunni, così quelli che sanno poco o <distinct type="literary" xml:id="punto">punto</distinct> (anche dopo
+                            <lb n="29"/>aver frequentato l'<rs type="institution" subtype="music" ref="#conservatori">Istituto</rs>) dovrebbero essere espulsi come
+                            <lb n="30"/>inetti o almeno non ottenere la licenza: nè da alcun <rs type="institution" subtype="music" ref="#conservatori">Conser-
+                            <lb n="31" break="no"/>vatorii</rs> dovrebbero uscire de' giovani che non conoscono le
                             <lb n="32"/>principali composizioni classiche italiane e straniere. Del
-                            <lb n="33"/>bene se n'è già cominciato a fare, ed anco fra quelle mura
+                            <lb n="33"/>bene se n'è già cominciato a fare, ed <distinct type="literary" xml:id="anco">anco</distinct> fra quelle mura
                             <lb n="34"/>è penetrata e circola quell'aura innovatrice che può puri-
                             <cb n="2"/>
-                            <lb n="35" break="no"/>ficare e risanare ciò ch'v'ha di guasto; ma bisogna saperne
+                            <lb n="35" break="no"/>ficare e risanare ciò <choice><orig>ch'v'ha</orig><reg>che c'è</reg></choice> di guasto; ma bisogna saperne
                             <lb n="36"/>trar profitto, perchè se non poco s'è fatto, molto resta
                             <lb n="37"/>a fare.
                         </p>
 
                         <p facs="#art1_p5">
-                            <lb n="38"/>Veniamo a'particolari.
-                            <lb n="39"/>L'insegnamento che trovasi oggi in vergognosa deca-
-                            <lb n="40" break="no"/>denza è quello del <term>canto</term>: e ciò accade in <placeName>Italia</placeName>, che avrebbe
+                            <lb n="38"/>Veniamo <choice><orig>a'</orig><reg>ai </reg></choice>particolari.
+                            <lb n="39"/>L'insegnamento che <choice><orig>trovasi</orig><reg>si trova</reg></choice> oggi in vergognosa deca-
+                            <lb n="40" break="no"/>denza è quello del canto: e ciò accade in <placeName ref="#Italia">Italia</placeName>, che avrebbe
                             <lb n="41"/>tante gloriose tradizioni da mantenere! Anzi tutto sarebbe
                             <lb n="42"/>necessario, qui più che mai, una sagace severità nell'am-
                             <lb n="43" break="no"/>missione degli alunni, escludendo inesorabilmente quelli che
