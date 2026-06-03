@@ -301,7 +301,7 @@
                             <lb n="7"/> chœur</foreign>); si occupavano però necessariamente anche dello
                             <lb n="8"/>studio tecnico degli strumenti. Il primo <rs type="institution"  subtype="music" ref="#conservatori">Conservatorio</rs>, quello
                             <lb n="9"/> di musica di <orgName ref="#conservatorioSML">Santa Maria di Loreto</orgName> fu fondato in <placeName ref="#Napoli">Napoli</placeName>
-                            <lb n="10"/>nel <date when="1573">1537</date>: e i Conservatorii di <placeName ref="#napoli">Napoli</placeName> e di <placeName ref="Venezia">Venezia</placeName> ebbero
+                            <lb n="10"/>nel <date when="1573">1537</date>: e i Conservatorii di <placeName ref="#Napoli">Napoli</placeName> e di <placeName ref="Venezia">Venezia</placeName> ebbero
                             <lb n="11"/>una grande influenza sulla formazione e sui progressi della
                             <lb n="12"/>nostra scuola del secolo passato. I nostri <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> ser-
                             <lb n="13" break="no"/>virono di modello a tutti gli altri d'<placeName ref="#europa">Europa</placeName>, compreso quello
@@ -480,7 +480,7 @@
                             <lb n="146"/>Noi crediamo che la cultura intellettuale in genere, e la
                             <lb n="147"/>letteraria in <distinct type="literary">ispecie</distinct>, abbiano al dì d'oggi un'influenza molto
                             <lb n="148"/>maggiore di quanto si crede sulla riuscita di un musicista.
-                            <lb n="149"/>Scrive il <persName ref="#Lenz">Lenz</persName> (nel suo libro: <title level="m" rend="italic">Beethoven et ses trois styles</title>)
+                            <lb n="149"/>Scrive il <persName ref="#Lenz">Lenz</persName> (nel suo libro: <title level="m" rend="italic" xml:lang="fr">Beethoven et ses trois styles</title>)
                             <lb n="150"/>che <quote>«la sola difa da opporre a tante profanazioni sarebbe
                             <lb n="151"/>una cultura più grande, più generale dello spirito degli
                             <lb n="152"/>artisti, la quale dovrebbe occupar loro tanto tempo quanto
@@ -548,6 +548,436 @@
                         </p>
                     </div>
                 </body>
+                <back>
+                    <!-- Person list -->
+                    <listPerson>
+                        <person xml:id="Cherubini">
+                            <persName>
+                                <forename>Luigi</forename>
+                                <surname>Cherubini</surname>
+                            </persName>
+                            <occupation>
+                                Compositore
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q20721</idno>
+                        </person>
+                        <person xml:id="Filippi">
+                            <persName>
+                                <forename>Filippo</forename>
+                                <surname>Filippi</surname>
+                            </persName>
+                            <occupation>
+                                Critico musicale e compositore Italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q621087</idno>
+                        </person>
+                        <person xml:id="Scarlatti">
+                            <persName>
+                                <forename>Domenico</forename>
+                                <surname>Scarlatti</surname>
+                            </persName>
+                            <occupation>
+                                Compositore italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q183087</idno>
+                        </person>
+                        <person xml:id="Leo">
+                            <persName>
+                                <forename>Leonardo</forename>
+                                <surname>Leo</surname>
+                            </persName>
+                            <occupation>
+                                Compositore italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q316735</idno>
+                        </person>
+                        <person xml:id="Porpora">
+                             <persName>
+                                <forename>Nicola</forename>
+                                <surname>Porpora</surname>
+                            </persName>
+                            <occupation>
+                                Compositore italiano e maestro di canto
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q312788</idno>
+                        </person>
+                        <person xml:id="Durante">
+                             <persName>
+                                <forename>Francesco</forename>
+                                <surname>Durante</surname>
+                            </persName>
+                            <occupation>
+                                Compositore italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q314221</idno>
+                        </person>
+                        <person xml:id="Marcello">
+                             <persName>
+                                <forename>Benedetto</forename>
+                                <surname>Marcello</surname>
+                            </persName>
+                            <occupation>
+                                Compositore italiano
+                            </occupation>
+                            <occupation>
+                                Avvocato
+                            </occupation>
+                            <occupation>
+                                Magistrato
+                            </occupation>
+                            <occupation>
+                                Insegnante
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q312784</idno>
+                        </person>
+                        <person xml:id="Viardot">
+                             <persName>
+                                <forename>Pauline</forename>
+                                <surname>Viardot</surname>
+                            </persName>
+                            <occupation>
+                                Mezzosoprano, pianista e compositrice francese
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q122998</idno>
+                        </person>
+                        <person xml:id="Marchesi">
+                             <persName>
+                                <forename>Mathilde</forename>
+                                <surname>Marchesi</surname>
+                            </persName>
+                            <occupation>
+                                Mezzosoprano tedesca
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q437075</idno>
+                        </person>
+                        <person xml:id="Boccherini">
+                             <persName>
+                                <forename>Luigi</forename>
+                                <surname>Boccherini</surname>
+                            </persName>
+                            <occupation>
+                                Compositore italiano e violoncellista
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q189766</idno>
+                        </person>
+                        <person xml:id="Mozart">
+                             <persName>
+                                <forename>Wolfgang</forename>
+                                <forename>Amadeus</forename>
+                                <surname>Mozart</surname>
+                            </persName>
+                            <occupation>
+                                Compositore austriaco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q254</idno>
+                        </person>
+                        <person xml:id="Haydn">
+                            <persName>
+                                <forename>Joseph</forename>
+                                <surname>Haydn</surname>
+                            </persName>
+                            <occupation>
+                                Compositore austriaco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q7349</idno>
+                        </person>
+                        <person xml:id="Beethoven">
+                            <persName>
+                                <forename>Ludwig</forename>
+                                <addName type="patronymic">van</addName>
+                                <surname>Beethoven</surname>
+                            </persName>
+                            <occupation>
+                                Compositore, pianista e direttore d'orchestra tedesco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q255</idno>
+                        </person>
+                        <person xml:id="Bach">
+                            <persName>
+                                <forename>Johann</forename>
+                                <forename>Sebastian</forename>
+                                <surname>Bach</surname>
+                            </persName>
+                            <occupation>
+                                Compositore e musicista tedesco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q1339</idno>
+                        </person>
+                        <person xml:id="Gevaert">
+                            <persName>
+                                <forename>François-Auguste</forename>
+                                <surname>Gevaert</surname>
+                            </persName>
+                            <occupation>
+                                Compositore belga
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q682376</idno>
+                        </person>
+                        <person xml:id="Ruta">
+                            <persName>
+                                <forename>Michele</forename>
+                                <surname>Ruta</surname>
+                            </persName>
+                            <occupation>
+                                Pianista e compositore italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q3856788</idno>
+                        </person>
+                        <person xml:id="Lenz">
+                            <persName>
+                                <forename>Wilhelm</forename>
+                                <addName type="patronymic">von</addName>
+                                <surname>Gevaert</surname>
+                            </persName>
+                            <occupation>
+                                Critico e musicologo russo
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q457175</idno>
+                        </person>
+                        <person xml:id="Chopin">
+                            <persName>
+                                <forename>Frédéric</forename>
+                                <surname>Chopin</surname>
+                            </persName>
+                            <occupation>
+                                Compositore e pianista polacco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q1268</idno>
+                        </person>
+                        <person xml:id="Mendelssohn">
+                            <persName>
+                                <forename>Felix</forename>
+                                <surname>Mendelssohn</surname>
+                            </persName>
+                            <occupation>
+                                Compositore, direttore d'orchestra e pianista tedesco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q46096</idno>
+                        </person>
+                        <person xml:id="Schumann">
+                            <persName>
+                                <forename>Robert</forename>
+                                <surname>Schumann</surname>
+                            </persName>
+                            <occupation>
+                                Compositore e pianista e critico musicale tedesco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q7351</idno>
+                        </person>
+                        <person xml:id="Liszt">
+                            <persName>
+                                <forename>Franz</forename>
+                                <surname>Liszt</surname>
+                            </persName>
+                            <occupation>
+                                Compositore, pianista e direttore d'orchestra ungherese
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q41309</idno>
+                        </person>
+                        <person xml:id="Berlioz">
+                            <persName>
+                                <forename>Hector</forename>
+                                <surname>Berlioz</surname>
+                            </persName>
+                            <occupation>
+                                Compositore francese
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q1151</idno>
+                        </person>
+                        <person xml:id="SaintSaens">
+                            <persName>
+                                <forename>Camille</forename>
+                                <surname>Saint-Saëns</surname>
+                            </persName>
+                            <occupation>
+                                Compositore, organista e pianista francese
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q150445</idno>
+                        </person>
+                        <person xml:id="Wagner">
+                            <persName>
+                                <forename>Richard</forename>
+                                <surname>Wagner</surname>
+                            </persName>
+                            <occupation>
+                                Compositore e direttore d'orchestra tedesco
+                            </occupation>
+                            <occupation>
+                                Poeta
+                            </occupation>
+                            <occupation>
+                                Regista teatrale
+                            </occupation>
+                            <occupation>
+                                Saggista
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q1511</idno>
+                        </person>
+                        <person xml:id="Tausig">
+                            <persName>
+                                <forename>Karl</forename>
+                                <surname>Tausig</surname>
+                            </persName>
+                            <occupation>
+                                Pianista polacco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q636941</idno>
+                        </person>
+                        <person xml:id="Bulow">
+                            <persName>
+                                <forename>Hans</forename>
+                                <addName type="patronymic">von</addName>
+                                <surname>Bülow</surname>
+                            </persName>
+                            <occupation>
+                                Direttore d'orchestra, pianista e compositore tedesco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q155540</idno>
+                        </person>
+                    </listPerson>
+
+                    <listPlace>
+                        <place xml:id="Napoli" type="town">
+                            <placeName>Napoli</placeName>
+                            <location>
+                                <settlement type="town">Napoli</settlement>
+                                <region>Campania</region>
+                                <country key="IT">Italia</country>
+                            </location>
+                        </place>
+                        <place xml:id="Venezia" type="town">
+                            <placeName>Venezia</placeName>
+                            <location>
+                                <settlement type="town">Venezia</settlement>
+                                <region>Veneto</region>
+                                <country key="IT">Italia</country>
+                            </location>
+                        </place>
+                        <place xml:id="parigi" type="town">
+                            <placeName>Parigi</placeName>
+                            <location>
+                                <settlement type="town">Parigi</settlement>
+                                <region>Île-de-France</region>
+                                <country key="FR">Francia</country>
+                            </location>
+                        </place>
+                        <place xml:id="europa" type="continent">
+                            <placeName>Europa</placeName>
+                        </place>
+                        <place xml:id="Italia" type="country">
+                            <placeName>Italia</placeName>
+                            <location>
+                                <country key="IT">Italia</country>
+                                <bloc ref="#europa">Europa</bloc>
+                            </location>
+                        </place>
+                        <place xml:id="Germania" type="country">
+                            <placeName>Germania</placeName>
+                            <location>
+                                <country key="DE">Germania</country>
+                                <bloc ref="#europa">Europa</bloc>
+                            </location>
+                        </place>
+                    </listPlace>
+
+                    <listOrg>
+                        <org xml:id="Chiesa">
+                            <orgName>Chiesa Cattolica</orgName>
+                            <desc>
+                                Riferimento allo Stato Pontificio
+                            </desc>
+                        </org>
+                        <org xml:id="StatoItaliano">
+                            <orgName>Regno d'Italia</orgName>
+                        </org>
+                        <org xml:id="conservatori">
+                            <orgName>Conservatorio</orgName>
+                            <desc>
+                                Istituzione di alta cultura di grado universitario specializzata nello studio della musica.
+                            </desc>
+                        </org>
+                        <org xml:id="conservatorioSML">
+                            <orgName>Conservatorio di Santa Maria di Loreto</orgName>
+                            <desc>
+                                Uno dei quattro conservatori di Napoli dalla quale fusione nacque il Conservatorio di San Pietro a Majella.
+                            </desc>
+                        </org>
+                    </listOrg>
+
+                    <div type="gloss">
+                        <head>GLOSSARIO</head>
+                        <list>
+
+                            <label>punto</label>
+                            <item>
+                                <gloss target="#punto">affatto, per nulla</gloss>
+                            </item>
+
+                            <label>valentia</label>
+                            <item>
+                                <gloss target="#valentia">abilità, valore, competenza</gloss>
+                            </item>
+
+                            <label>anzi tempo</label>
+                            <item>
+                                <gloss target="#anzitempo">prematuramente, prima del tempo</gloss>
+                            </item>
+
+                            <label>oggidì</label>
+                            <item>
+                                <gloss target="#oggidì">oggi, al giorno d'oggi</gloss>
+                            </item>
+
+                            <label>segnatamente</label>
+                            <item>
+                                <gloss target="#segnatamente">soprattutto, in particolare</gloss>
+                            </item>
+
+                            <label>mercè</label>
+                            <item>
+                                <gloss target="#mercè">per mezzo di, grazie a</gloss>
+                            </item>
+
+                            <label>ispecie</label>
+                            <item>
+                                <gloss target="#ispecie">soprattutto, in particolare</gloss>
+                            </item>
+
+                            <label>composizione</label>
+                            <item>
+                                <gloss target="#composizione">disciplina della scrittura musicale</gloss>
+                            </item>
+
+                            <label>armonia vocale</label>
+                            <item>
+                                <gloss target="#armoniavocale">organizzazione armonica delle parti vocali</gloss>
+                            </item>
+
+                            <label>quartetto</label>
+                            <item>
+                                <gloss target="#quartetto">insieme musicale per quattro esecutori</gloss>
+                            </item>
+
+                            <label>orchestrali sinfoniche</label>
+                            <item>
+                                <gloss target="#orchestrali_sinfoniche">esecuzioni orchestrali sinfoniche</gloss>
+                            </item>
+
+                            <label>fuga</label>
+                            <item>
+                                <gloss target="#fuga">forma contrappuntistica imitativa</gloss>
+                            </item>
+
+                            <label>Clavier bien tempéré</label>
+                            <item>
+                                <gloss target="#clavecin">opera di Bach</gloss>
+                            </item>
+
+                        </list>
+
+                    </div>
+
+                </back>
             </text>
 
             <!-- ARTICOLO 2: IL SOCIALISMO IN ITALIA -->
