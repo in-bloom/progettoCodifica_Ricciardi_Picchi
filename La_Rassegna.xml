@@ -563,42 +563,42 @@
                             <lb n="2" break="no"/>gni di menti malate, di spiriti irrequieti e turbolenti? Do-
                             <lb n="3" break="no"/>vremmo credere che sono sogni, quando guardiamo al su-
                             <lb n="4" break="no"/>premo disprezzo con cui negano l'esistenza di tali peri-
-                            <lb n="5" break="no"/>coli uomini autorevolissimi, i quali spesso rispondono solo
+                            <lb n="5" break="no"/>coli <rs type="person" xml:id="uominiaut">uomini autorevolissimi</rs>, i quali spesso rispondono solo
                             <lb n="6"/>con un superbo silenzio, che potrebbe tradursi in queste 
-                            <lb n="7"/>parole: <said who="#uomini_autorevolissimi">L'<placeName ref="#Italia">Italia</placeName> l'<choice><orig>abbiam</orig><reg>abbiamo</reg></choice> fatta noi, e vi diciamo che <choice><orig>son</orig><reg>sono</reg></choice>
+                            <lb n="7"/>parole: <said who="#uominiaut">L'<placeName ref="#Italia">Italia</placeName> l'<choice><orig>abbiam</orig><reg>abbiamo</reg></choice> fatta noi, e vi diciamo che <choice><orig>son</orig><reg>sono</reg></choice>
                             <lb n="8"/>sogni. Se non conosciamo noi il paese, chi deve conoscerlo?</said>
                         </p>
                         <p facs="#art2_p2">
                             <lb n="9"/>Se non che la storia ci dà a questo proposito lezioni
                             <lb n="10"/>assai curiose. Quando si leggono i libri dei savi del se-
-                            <lb n="11" break="no"/>colo XVIII, quelli che furono gli autori o promotori della
-                            <lb n="12"/>rivoluzione francese, non si può contenere la maraviglia,
-                            <lb n="13"/>vedendo come essi annunziano al mondo la giustizia, la 
+                            <lb n="11" break="no"/>colo <date notBefore="1700" notAfter="1799">XVIII</date>, quelli che furono gli autori o promotori della
+                            <lb n="12"/>rivoluzione francese, non si può contenere la <choice><orig>maraviglia</orig><reg>meraviglia</reg></choice>,
+                            <lb n="13"/>vedendo come essi <choice><orig>annunziano</orig><reg>annunciano</reg></choice> al mondo la giustizia, la 
                             <lb n="14"/>fratellanza, la pace, il secolo dei lumi, e furono invece il-
-                            <lb n="15" break="no"/>luminati colla ghigliottina e col regno del terrore. Il nostro
-                            <lb n="16"/>Filangieri, nella sua <hi rend="italic">Scienza della Legislazione</hi>, tradotta al-
+                            <lb n="15" break="no"/>luminati <choice><orig>colla</orig><reg>con la</reg></choice> ghigliottina e <choice><orig>col</orig><reg>con il</reg></choice> regno del terrore. Il nostro
+                            <lb n="16"/><persName ref="#Filangieri">Filangieri</persName>, nella sua <title level="m"><hi rend="italic">Scienza della Legislazione</hi></title>, tradotta al-
                             <lb n="17" break="no"/>lora in tutte le lingue, dimostrava a lungo e, secondo lui,
                             <lb n="18"/>matematicamente, che una terribile catastrofe era inevita-
-                            <lb n="19" break="no"/>bile in Inghilterra, perché essa non seguiva le sane dot-
+                            <lb n="19" break="no"/>bile in <placeName ref="#Inghilterra">Inghilterra</placeName>, perché essa non seguiva le sane dot-
                             <lb n="20" break="no"/>trine dell'uguaglianza: sarebbe stata però evitata dalla
-                            <lb n="21"/>Francia. Precisamente il contrario di quello che seguì! Po-
+                            <lb n="21"/><placeName ref="#Francia">Francia</placeName>. Precisamente il contrario di quello che seguì! Po-
                             <lb n="22" break="no"/>tremmo citare grandi esempi storici a migliaia. Preferiamo
                             <lb n="23"/>invece un più recente fatto di cui fummo spettatori. Non
-                            <lb n="24"/>sono moltissimi anni, la colonia inglese di Firenze era in
-                            <lb n="25"/>moto pel prossimo arrivo d'un pastore scozzese, che era
-                            <lb n="26"/>stato nell'India trent'anni, conosceva il paese meglio di
+                            <lb n="24"/>sono moltissimi anni, la colonia inglese di <placeName ref="#Firenze">Firenze</placeName> era in
+                            <lb n="25"/>moto <choice><orig>pel</orig><reg>per il</reg></choice> prossimo arrivo d'un pastore scozzese, che era
+                            <lb n="26"/>stato nell'<placeName ref="#India">India</placeName> trent'anni, conosceva il paese meglio di
                             <lb n="27"/>ogni altro uomo vivente, e avrebbe fatto qui fra noi alcuni
-                            <lb n="28"/>discorsi sul vero stato delle cose colà. Egli dimostrò infatti
-                            <lb n="29"/>come il governo inglese aveva steso profondissime radici
-                            <lb n="30"/>nell'India. Ciò che esso faceva, pareva agl'Indiani opera
-                            <lb n="31"/>della natura, del fato, di Dio stesso. <pc type="emdash">-</pc> pensare che si possa
-                            <lb n="32"/>fare altrimenti, non esntra più nella loro testa. Bisogna es-
-                            <lb n="33" break="no"/>sere vissuto trent'anni colà per capire questo sentimento.<pc type="emdash">-</pc>
+                            <lb n="28"/>discorsi sul vero stato delle cose <choice><orig>colà</orig><reg>là</reg></choice>. Egli dimostrò infatti
+                            <lb n="29"/>come il <orgName type="government" ref="#Governo_inglese">governo inglese</orgName> aveva steso profondissime radici
+                            <lb n="30"/>nell'<placeName ref="#India">India</placeName>. Ciò che esso faceva, pareva agl'<rs type="population" ref="#Indiani">Indiani</rs> opera
+                            <lb n="31"/>della natura, del fato, di <persName type="deity" ref="#Dio">Dio</persName> stesso. Il <pc type="emdash">—</pc> pensare che si possa
+                            <lb n="32"/>fare altrimenti, non entra più nella loro testa. Bisogna es-
+                            <lb n="33" break="no"/>sere vissuto trent'anni <choice><orig>colà</orig><reg>là</reg></choice> per capire questo sentimento.<pc type="emdash">—</pc>
                             <lb n="34"/>Il reverendo uomo era appena disceso dal pergamo, che il
-                            <lb n="35"/>telegrafo annunziava lo scoppio sanguinoso del <hi rend="italic">great mutiny</hi>.
+                            <lb n="35"/>telegrafo <choice><orig>annunziava</orig><reg>annunciava</reg></choice> lo scoppio sanguinoso del <foreign xml:lang="en"><hi rend="italic"><rs type="historicalEvent">great mutiny</rs></hi></foreign>.
                             <lb n="36"/>Nè egli era stato solo ad ingannarsi, con lui s'erano in-
-                            <lb n="37" break="no"/>gannati gli uomini di Stato più competenti nell'Inghilterra.
-                            <lb n="38"/>L'India, si disse allora, è il paese in cui segue sempre il
+                            <lb n="37" break="no"/>gannati gli uomini di Stato più competenti nell'<placeName ref="#Inghilterra">Inghilterra</placeName>.
+                            <lb n="38"/>L'<placeName ref="#India">India</placeName>, si disse allora, è il paese in cui segue sempre il
                             <lb n="39"/>contrario di ciò che tutti prevedono.
                         </p>
                         <p facs="#art2_p3">
