@@ -292,32 +292,32 @@
                         <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA</head>
 
                         <p facs="#art1_p1">
-                        <lb n="1"/>I <rs type="institution" ref="#conservatori">Conservatorii</rs> italiani, come tutti sanno, scendono di-
-                        <lb n="2" break="no"/>rettamente dalla <orgName key="Chiesa">Chiesa</orgName>; dalla <date from="1300" to="1500">metà del 1300 fino al 1500</date>
-                        <lb n="3"/> ogni monastero era un centro di studi musicali. <choice><orig>Da'</orig><reg>Dai</reg></choice> mona-
-                        <lb n="4" break="no"/>steri vennero i <rs type="institution" ref="#conservatori">Conservatorii</rs> (o più propriamente allora or-
-                        <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date notBefore="1500" notAfter="1599">secolo XVI</date> ed
-                        <lb n="6"/>erano destinati a formare <choice><orig>de'</orig><reg>dei</reg></choice> ragazzi cantori (<foreign xml:lang="fr" xml:id="enf_de_ch">enfants de
-                        <lb n="7"/> chœur</foreign>); si occupavano però necessariamente anche dello
-                        <lb n="8"/>studio tecnico degli strumenti. Il primo <rs type="org" ref="#conservatori">Conservatorio</rs>, quello
-                        <lb n="9"/> di musica di <orgName type="institution" subtype="music" ref="#conservatorioSML">Santa Maria di Loreto</orgName> fu fondato in <placeName ref="#napoli">Napoli</placeName>
-                        <lb n="10"/>nel <date when="1573">1537</date>: e i Conservatorii di <placeName ref="#napoli">Napoli</placeName> e di <placeName ref="venezia">Venezia</placeName> ebbero
-                        <lb n="11"/>una grande influenza sulla formazione e sui progressi della
-                        <lb n="12"/>nostra scuola del secolo passato. I nostri <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> ser-
-                        <lb n="13" break="no"/>virono di modello a tutti gli altri d'<placeName ref="#europa">Europa</placeName>, compreso quello
-                        <lb n="14"/>di <placeName ref="#parigi">Parigi</placeName>, illustrato dal nostro <persName ref="#Cherubini">Cherubini</persName> e che, fondato
-                        <lb n="15"/>nel <date when="1784">1784</date>, è ora considerato come un tipo di eccellenza. I no-
-                        <lb n="16" break="no"/>stri <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> passarono poi dalla <orgName ref="#Chiesa">Chiesa</orgName> allo <orgName ref="#StatoItaliano">Stato</orgName>,
-                        <lb n="17"/>ma questo, <choice><orig>pur troppo</orig><reg>purtroppo</reg></choice>, se ne è finora occupato assai poco.
+                            <lb n="1"/>I <rs type="institution" ref="#conservatori">Conservatorii</rs> italiani, come tutti sanno, scendono di-
+                            <lb n="2" break="no"/>rettamente dalla <orgName key="Chiesa">Chiesa</orgName>; dalla <date from="1300" to="1500">metà del 1300 fino al 1500</date>
+                            <lb n="3"/> ogni monastero era un centro di studi musicali. <choice><orig>Da'</orig><reg>Dai</reg></choice> mona-
+                            <lb n="4" break="no"/>steri vennero i <rs type="institution" ref="#conservatori">Conservatorii</rs> (o più propriamente allora or-
+                            <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date notBefore="1500" notAfter="1599">secolo XVI</date> ed
+                            <lb n="6"/>erano destinati a formare <choice><orig>de'</orig><reg>dei</reg></choice> ragazzi cantori (<foreign xml:lang="fr" xml:id="enf_de_ch">enfants de
+                            <lb n="7"/> chœur</foreign>); si occupavano però necessariamente anche dello
+                            <lb n="8"/>studio tecnico degli strumenti. Il primo <rs type="org" ref="#conservatori">Conservatorio</rs>, quello
+                            <lb n="9"/> di musica di <orgName type="institution" subtype="music" ref="#conservatorioSML">Santa Maria di Loreto</orgName> fu fondato in <placeName ref="#napoli">Napoli</placeName>
+                            <lb n="10"/>nel <date when="1573">1537</date>: e i Conservatorii di <placeName ref="#napoli">Napoli</placeName> e di <placeName ref="venezia">Venezia</placeName> ebbero
+                            <lb n="11"/>una grande influenza sulla formazione e sui progressi della
+                            <lb n="12"/>nostra scuola del secolo passato. I nostri <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> ser-
+                            <lb n="13" break="no"/>virono di modello a tutti gli altri d'<placeName ref="#europa">Europa</placeName>, compreso quello
+                            <lb n="14"/>di <placeName ref="#parigi">Parigi</placeName>, illustrato dal nostro <persName ref="#Cherubini">Cherubini</persName> e che, fondato
+                            <lb n="15"/>nel <date when="1784">1784</date>, è ora considerato come un tipo di eccellenza. I no-
+                            <lb n="16" break="no"/>stri <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> passarono poi dalla <orgName ref="#Chiesa">Chiesa</orgName> allo <orgName ref="#StatoItaliano">Stato</orgName>,
+                            <lb n="17"/>ma questo, <choice><orig>pur troppo</orig><reg>purtroppo</reg></choice>, se ne è finora occupato assai poco.
                         </p>
                         <p facs="#art1_p2">
-                        <lb n="18"/> È innegabile che se tali <rs type="institution" subtype="music" ref="#conservatori">Istituti</rs> hanno dato di recente
-                        <lb n="19"/>e danno oggi buoni risultati parziali, i risultati gene-
-                        <lb n="20" break="no"/>rali potrebbero essere molto migliori: e la bontà loro
-                        <lb n="21"/>consiste <choice><orig>appunti</orig><reg>appunto</reg></choice> <choice><orig>ne'</orig><reg>nei</reg></choice> risultati generali; affinchè non accada
-                        <lb n="22"/>che il prestigio di cui gode il nome di un <rs type="institution" subtype="music" ref="#conservatori">Conservatorio</rs>,
-                        <lb n="23"/>valga a sancire l'errore e a circondare d'un'aureola la me-
-                        <lb n="24" break="no"/>diocrità.
+                            <lb n="18"/> È innegabile che se tali <rs type="institution" subtype="music" ref="#conservatori">Istituti</rs> hanno dato di recente
+                            <lb n="19"/>e danno oggi buoni risultati parziali, i risultati gene-
+                            <lb n="20" break="no"/>rali potrebbero essere molto migliori: e la bontà loro
+                            <lb n="21"/>consiste <choice><orig>appunti</orig><reg>appunto</reg></choice> <choice><orig>ne'</orig><reg>nei</reg></choice> risultati generali; affinchè non accada
+                            <lb n="22"/>che il prestigio di cui gode il nome di un <rs type="institution" subtype="music" ref="#conservatori">Conservatorio</rs>,
+                            <lb n="23"/>valga a sancire l'errore e a circondare d'un'aureola la me-
+                            <lb n="24" break="no"/>diocrità.
                         </p>
                         <p facs="#art1_p3 #art1_p4">
                             <lb n="25"/><said who="#Filippi">I <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> non sono tenuti a far germogliare i geni</said>,
@@ -554,14 +554,14 @@
 
                         <head facs="#art2_title">IL SOCIALISMO IN ITALIA</head>
                         <p facs="#art2_p1">
-                            <lb n="1"/>Ci sono veramente pericoli sociali in Italia? o sono so-
+                            <lb n="1"/>Ci sono veramente pericoli sociali in <placeName ref="#Italia">Italia</placeName>? o sono so-
                             <lb n="2" break="no"/>gni di menti malate, di spiriti irrequieti e turbolenti? Do-
                             <lb n="3" break="no"/>vremmo credere che sono sogni, quando guardiamo al su-
                             <lb n="4" break="no"/>premo disprezzo con cui negano l'esistenza di tali peri-
                             <lb n="5" break="no"/>coli uomini autorevolissimi, i quali spesso rispondono solo
                             <lb n="6"/>con un superbo silenzio, che potrebbe tradursi in queste 
-                            <lb n="7"/>parole: L'Italia l'abbiam fatta noi, e vi diciamo che son
-                            <lb n="8"/>sogni. Se non conosciamo noi il paese, chi deve conoscerlo?
+                            <lb n="7"/>parole: <said who="#uomini_autorevolissimi">L'<placeName ref="#Italia">Italia</placeName> l'<choice><orig>abbiam</orig><reg>abbiamo</reg></choice> fatta noi, e vi diciamo che <choice><orig>son</orig><reg>sono</reg></choice>
+                            <lb n="8"/>sogni. Se non conosciamo noi il paese, chi deve conoscerlo?</said>
                         </p>
                         <p facs="#art2_p2">
                             <lb n="9"/>Se non che la storia ci dà a questo proposito lezioni
