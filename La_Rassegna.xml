@@ -358,7 +358,7 @@
                         <p facs="#art1_p6">
                             <lb n="52"/>Così probabilmente si giungerebbe ad avere dei cantanti
                             <lb n="53"/>invece di quell'esercito di urlatori a ogni costo, tremolanti
-                            <lb n="54"/>e sfiatati poi <term type="music" xml:id="anzitempo">anzi tempo</term>, che sono gl'interpreti drammatici
+                            <lb n="54"/>e <term xml:id="sfiatati">sfiatati</term> poi <distinct xml:id="anzitempo">anzi tempo</distinct>, che sono gl'interpreti drammatici
                             <lb n="55"/>d'<distinct type="literary" xml:id="oggidì">oggidì</distinct>. Ma finchè mancheranno i maestri capaci e i sani
                             <lb n="56"/>intendimenti artistici, si andrà di male in peggio. Non sap-
                             <lb n="57" break="no"/>piamo perchè, vedendo che i professori fanno cattiva prova, <!-- cattiva prova va segnato? -->
@@ -461,7 +461,7 @@
                             <lb n="128"/>chiamare <q type="written">«non già insegnanti, ma mercatanti d'insegna-
                             <lb n="129" break="no"/>menti;»</q> chiaccherano molto in nome dell'arte, ma sono i
                             <lb n="130"/>primi ad offenderla co' fatti; osteggiano, con una guerra
-                            <lb n="131"/><seg type="metaphor">sorda</seg>, i più valenti; seminano la <seg type="metaphor">zizzania</seg>: ed ecco donde
+                            <lb n="131"/>sorda, i più valenti; seminano la zizzania: ed ecco donde
                             <lb n="132"/>nascono la <term type="social">camorra</term> e la <term type="social">fiaccona</term>. I pochi egregi fanno
                             <lb n="133"/>quelo che possono, ma sono sforzi isolati: di qui i risul-
                             <lb n="134" break="no"/>tati parziali, non generali. Sarebbe, per esempio, necessario
@@ -472,7 +472,7 @@
                             <lb n="139"/>Ma invece avviene non di rado che quando un alunno passa
                             <lb n="140"/>alla scuola di <term type="music">contrappunto</term> e di <term type="music">composizione</term> sotto altro
                             <lb n="141"/>professore, tocca a quest'ultimo di rifarsi da capo, e di dover
-                            <lb n="142"/><seg type="metaphor">demolire per poi riedificare</seg>: tante sono le storture che gli
+                            <lb n="142"/>demolire per poi riedificare: tante sono le storture che gli
                             <lb n="143"/>tocca riaddrizzare. Lo stesso dicasi per tutti gli altri in-
                             <lb n="144" break="no"/>segnamenti.
                         </p>
@@ -525,8 +525,8 @@
                             <lb n="181"/>uscire dagli istituti musicali de' giovani maestri molto in-
                             <lb n="182" break="no"/>farinati di letteratura e mediocri o cattivi musicisti: ma cre-
                             <lb n="183" break="no"/>diamo che una cosa non debba escluder l'altra, e che queste
-                            <lb n="184"/>due luci unite insieme possano mandare un <seg type="metaphor">fulgore dop-
-                            <lb n="185" break="no"/>piamente splendido</seg>.
+                            <lb n="184"/>due luci unite insieme possano mandare un fulgore dop-
+                            <lb n="185" break="no"/>piamente splendido.
                         </p>
 
                         <!-- AGGIUNGI LABEL E TYPE ALLA LISTA -->
@@ -912,67 +912,72 @@
 
                             <label>punto</label>
                             <item>
-                                <gloss target="#punto">affatto, per nulla</gloss>
+                                <gloss target="#punto">Niente, nulla</gloss>
                             </item>
 
                             <label>valentia</label>
                             <item>
-                                <gloss target="#valentia">abilità, valore, competenza</gloss>
+                                <gloss target="#valentia">valore, competenza</gloss>
+                            </item>
+
+                            <label>sfiatati</label>
+                            <item>
+                                <gloss target="#sfiatati">Senza fiato, probabilmente a indicare una voce che si consuma</gloss>
                             </item>
 
                             <label>anzi tempo</label>
                             <item>
-                                <gloss target="#anzitempo">prematuramente, prima del tempo</gloss>
+                                <gloss target="#anzitempo">Prematuramente, prima del tempo</gloss>
                             </item>
 
                             <label>oggidì</label>
                             <item>
-                                <gloss target="#oggidì">oggi, al giorno d'oggi</gloss>
+                                <gloss target="#oggidì">Oggi, al giorno d'oggi</gloss>
                             </item>
 
                             <label>segnatamente</label>
                             <item>
-                                <gloss target="#segnatamente">soprattutto, in particolare</gloss>
+                                <gloss target="#segnatamente">Soprattutto, in particolare</gloss>
                             </item>
 
                             <label>mercè</label>
                             <item>
-                                <gloss target="#mercè">per mezzo di, grazie a</gloss>
+                                <gloss target="#mercè">Merito, grazie a</gloss>
                             </item>
 
                             <label>ispecie</label>
                             <item>
-                                <gloss target="#ispecie">soprattutto, in particolare</gloss>
+                                <gloss target="#ispecie">Soprattutto, specificamente</gloss>
                             </item>
 
                             <label>composizione</label>
                             <item>
-                                <gloss target="#composizione">disciplina della scrittura musicale</gloss>
+                                <gloss target="#composizione">Composizione in musica: arte e tecnica di creare un'opera musicale combinando suono, melodia e armonia</gloss>
                             </item>
 
                             <label>armonia vocale</label>
                             <item>
-                                <gloss target="#armoniavocale">organizzazione armonica delle parti vocali</gloss>
+                                <gloss target="#armoniavocale">Sovrapposizione di più voci che producono diverse note creando un accordo</gloss>
                             </item>
 
                             <label>quartetto</label>
                             <item>
-                                <gloss target="#quartetto">insieme musicale per quattro esecutori</gloss>
+                                <gloss target="#quartetto">Insieme musicale di quattro esecutori</gloss>
                             </item>
 
                             <label>orchestrali sinfoniche</label>
                             <item>
-                                <gloss target="#orchestrali_sinfoniche">esecuzioni orchestrali sinfoniche</gloss>
+                                <gloss target="#orchestrali_sinfoniche">esecuzioni/esercitazioni orchestrali e sinfoniche</gloss>
                             </item>
 
                             <label>fuga</label>
                             <item>
-                                <gloss target="#fuga">forma contrappuntistica imitativa</gloss>
+                                <gloss target="#fuga">Forma musicale polifonica in cui una melodia principale (soggetto) viene ripresa e sviluppata da più voci o strumenti che si intrecciano o susseguono.</gloss>
                             </item>
 
                             <label>Clavier bien tempéré</label>
                             <item>
-                                <gloss target="#clavecin">opera di Bach</gloss>
+                                <gloss target="#clavecin">Il Clavicembalo Ben Temperato: raccolta divisa in due libri composta da Bach</gloss>
                             </item>
 
                         </list>
@@ -1240,17 +1245,17 @@
                         <p facs="#art3_p1">
                             <lb n="1"/>Pochi giorni dopo che le ultime mie notizie sul movi-
                             <lb n="2" break="no"/>mento elettorale prussiano furono pubblicate, i giornali
-                            <lb n="3"/>italiani avranno annunziato ai lettori che tutte le speranze
-                            <lb n="4"/>e i timori coi quali i diversi partiti attendevano il resul-
+                            <lb n="3"/>italiani avranno <distinct type="literary" xml:id="annunziato">annunziato</distinct> ai <rs type="group">lettori</rs> che tutte le speranze
+                            <lb n="4"/>e i timori coi quali i diversi partiti attendevano il resul- <!-- Come la correggo su due linee diverse? -->
                             <lb n="5"/>tato delle elezioni prussiane furono superati. Il governo ha
                             <lb n="6"/>ottenuto una vittoria che, come hanno poi confessato i suoi
-                            <lb n="7"/>organi stessi, neppur esso si aspettava sì grande, e tutte le
+                            <lb n="7"/>organi stessi, neppur esso si aspettava <choice><orig>sì</orig><reg>così</reg></choice> grande, e tutte le
                             <lb n="8"/>inquietudini dei liberali circa alle perdite che li minaccia-
                             <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. Ambedue
                             <lb n="10"/>i partiti liberali, tanto il nazionale liberale quanto quello
-                            <lb n="11"/>del progresso, hanno perduto quasi la metà dei collegi che
+                            <lb n="11"/>del progresso, hanno <distinct type="literary">perduto</distinct> quasi la metà dei collegi che
                             <lb n="12"/>possedevano. La composizione della Camera dei deputati
-                            <lb n="13"/>prussiani corrisponde ora all'incirca a quella che resultò
+                            <lb n="13"/>prussiani corrisponde ora all'incirca a quella che <choice><sic>resultò</sic><corr>risultò</corr></choice>
                             <lb n="14"/>nel <orgName>Reichstag tedesco</orgName> l'anno scorso sotto la impressione
                             <lb n="15"/>recente dell'attentato <persName>Nobiling</persName>. La rappresentanza popo-
                             <lb n="16" break="no"/>lare prussiana si divide ora, presso a poco come quella
