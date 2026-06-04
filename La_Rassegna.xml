@@ -1524,73 +1524,73 @@
                             <head type="sub">SCIENZE POLITICHE.</head>
 
                             <bibl facs="#bibl_1">
-                                <lb n="1"/><persName>PAUL JANET</persName>. <title type="m" rend="italic">Saint-Simon et le Saint-Simonisme</title>. - <placeName>Paris</placeName>,
+                                <lb n="1"/><persName ref="#Janet">PAUL JANET</persName>. <title level="m" rend="italic" xml:id="SaintSimon_lib">Saint-Simon et le Saint-Simonisme</title>. - <placeName>Paris</placeName>,
                                 <lb n="2"/><publisher>Germer Baillière</publisher>, <date when="1878">1878</date>
                             </bibl>
 
                             <p facs="#bibl1_p1">
-                                <lb n="3"/>Ecco un libretto come sanno farli in Francia: comple-
+                                <lb n="3"/>Ecco un libretto come sanno farli in <placeName ref="#Francia_2">Francia</placeName>: comple-
                                 <lb n="4" break="no"/>tissimo, esattissimo e pure tanto breve quanto pieno di
-                                <lb n="5"/>vita. Il signor Janet possiede perfettamente il soggetto
-                                <lb n="6"/>avendolo svolto da prima come Professore alla Scuola delle
-                                <lb n="7"/>Scienze Politiche di Parigi, e poi nella <hi rend="italic">Revue des Deux
-                                <lb n="8"/>Mondes.</hi> L'opera si divide in due parti. Nela prima l'Au-
-                                <lb n="9" break="no"/>tore tratta del Saint-Simon e, invece di raccontarci per la
-                                <lb n="10"/>centesima volta la vita del filosofo con le osservazioni ob-
-                                <lb n="11" break="no"/>bligate e cogli aneddoti stantii che sentiamo ripetere da
+                                <lb n="5"/>vita. Il signor <persName ref="#Janet">Janet</persName> possiede perfettamente il soggetto
+                                <lb n="6"/>avendolo svolto da prima come <roleName>Professore</roleName> alla <orgName ref="#ScuoleScienPolPar">Scuola delle
+                                <lb n="7"/>Scienze Politiche di <placeName ref="#Parigi_2">Parigi</placeName></orgName>, e poi nella <title level="j" rend="italic" ref="#Revue_des_Deux_Mondes">Revue des Deux
+                                <lb n="8"/>Mondes</title>. L'opera si divide in due parti. Nella prima l'<rs type="person" ref="#Janet">Au-
+                                <lb n="9" break="no"/>tore</rs> tratta del <persName ref="#SaintSimon">Saint-Simon</persName> e, invece di raccontarci per la
+                                <lb n="10"/>centesima volta la vita del <rs type="person" ref="#SaintSimon">filosofo</rs> con le osservazioni <distinct type="archaic">ob-
+                                <lb n="11" break="no"/>bligate</distinct> e <choice><orig>cogli</orig><reg>con gli</reg></choice> aneddoti stantii che sentiamo ripetere da
                                 <lb n="12"/>cinquant'anni, analizza gli scritti di lui, dichiara e giudica
-                                <lb n="13"/>la sua filosofia e i suoi disegni di riorganamento sociale;
-                                <lb n="14"/>cose tutte che non gl'impediscono di dare nell'appendice
+                                <lb n="13"/>la sua filosofia e i suoi disegni di <distinct type="archaic" xml:id="riorganamento">riorganamento</distinct> sociale;
+                                <lb n="14"/>cose tutte che non <choice><orig>gl'</orig><reg>gli </reg></choice>impediscono di dare nell'appendice
                                 <lb n="15"/>una notizia biografica, come pure un catalogo ragionato
-                                <lb n="16"/>delle opere del Saint-Simon: tutti e due scritti succosi e
-                                <lb n="17"/><foreign xml:lang="en" rend="italic">matter of fact</foreign> senz'ombra di pretensione letteraria. Il signor
-                                <lb n="18"/>Janet ha egregiamente mostrato come il Saint-Simon si
+                                <lb n="16"/>delle opere del <persName ref="#SaintSimon">Saint-Simon</persName>: tutti e due scritti succosi e
+                                <lb n="17"/><foreign xml:lang="en" rend="italic" xml:id="matteroffact">matter of fact</foreign> senz'ombra di <choice><orig>pretensione</orig><reg>pretesa</reg></choice> letteraria. Il signor
+                                <lb n="18"/><persName ref="#Janet">Janet</persName> ha egregiamente mostrato come il <persName ref="#SaintSimon">Saint-Simon</persName> si
                                 <lb n="19"/>ricolleghi al movimento di reazione storica e religiosa del
-                                <lb n="20"/>principio di questo secolo, e come la sua prima ispirazione
-                                <lb n="21"/>sia della stessa natura di quelle di Giuseppe De Maistre e
-                                <lb n="22"/>della sua scuola. Prova sopra tutto a maraviglia come
+                                <lb n="20"/><date notBefore="1800" notAfter="1810">principio di questo secolo</date>, e come la sua prima ispirazione <!-- trattandosi di inizio secolo è stato considerato il primo decennio del 1800 -->
+                                <lb n="21"/>sia della stessa natura di quelle di <persName ref="#GiuseppeDeMaistre">Giuseppe De Maistre</persName> e
+                                <lb n="22"/>della sua scuola. Prova <choice><orig>sopra tutto</orig><reg>soprattutto</reg></choice> a <choice><orig>maraviglia</orig><reg>meraviglia</reg></choice> come
                                 <lb n="23"/>niente fosse tanto estraneo allo spirito riformatore del
-                                <lb n="24"/>Saint-Simon, quanto l'idea rivoluzionaria; ch'egli non pensò
+                                <lb n="24"/><persName ref="#SaintSimon">Saint-Simon</persName>, quanto l'<term type="political" xml:id="idea_rivoluzionaria">idea rivoluzionaria</term>; <choice><orig>ch'egli</orig><reg>perché egli</reg></choice> non pensò
                                 <lb n="25"/>mai a far guerra alla monarchia, giacchè le forme politiche
                                 <lb n="26"/>gli erano del tutto indifferenti, nè a combattere il capitale,
-                                <lb n="27"/>nè a predicare l'emancipazione della donna; ch, massime
-                                <lb n="28"/>ne' suoi primordi, non si distinse troppo dalla scuola di
-                                <lb n="29"/>G. B. Say il quale esagerò quasi quanto lui e quanto tutti
-                                <lb n="30"/>i pensatori politici de'tempi così agitati e così sterili del
-                                <lb n="31"/>primo Impero, l'importanza dell'educazione nella società.
+                                <lb n="27"/>nè a predicare l'emancipazione della donna; che, <choice><orig>massime</orig><reg>specialmente</reg></choice>
+                                <lb n="28"/><choice><orig>ne'</orig><reg>nei</reg></choice> suoi primordi, non si distinse troppo dalla scuola di
+                                <lb n="29"/><persName ref="#GBSay">G. B. Say</persName> il quale esagerò quasi quanto lui e quanto tutti
+                                <lb n="30"/>i pensatori politici <choice><orig>de'</orig><reg>dei</reg></choice> tempi così agitati e così sterili del
+                                <lb n="31"/><rs type="period" ref="#Primo_Impero">primo Impero</rs>, l'importanza dell'educazione nella società. <!-- cambio e metto date? -->
                             </p>
                             <p facs="#bibl1_p2 #bibl1_p3">
-                                <lb n="32"/>Solamente il Padre Enfantin - come chiaramente dimo-
-                                <lb n="33" break="no"/>stra il Janet nella seconda metà del suo breve scritto
-                                <lb n="34"/>- fu quegli che trasformò il Sansimonismo introducen-
+                                <lb n="32"/>Solamente il <persName ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</persName> - come chiaramente dimo-
+                                <lb n="33" break="no"/>stra il <persName ref="#Janet">Janet</persName> nella seconda metà del suo breve scritto
+                                <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" ref="#Sansimonismo">Sansimonismo</term> introducen-
                                 <lb n="35" break="no"/>dovi le proprie idee - o meglio le proprie fisime - a
                                 <lb n="36"/>proposito della proprietà, della religione e della famiglia.
-                                <lb n="37"/>Sotto l'influenza di cotesta natura pretesca, il Sansimonismo
-                                <lb n="38"/>affettò sempre più una forma religiosa, rialzò sempre più
-                                <lb n="39"/>il principio dell'autorità, mettendosi viemaggiormente in
+                                <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="#Sansimonismo">Sansimonismo</term>
+                                <lb n="38"/><distinct type="archaic" xml:id="affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più <!-- decidere se è distinct archaic o metterlo in choice -->
+                                <lb n="39"/>il principio dell'autorità, mettendosi <choice><orig>viemaggiormente</orig><reg>ancor di più</reg></choice> in
                                 <lb n="40"/>opposizione col liberalismo politico. Bisogna leggere tutto
                                 <lb n="41"/>questo svolgimento, già molto succinto e condensato, nel-
-                                <lb n="42" break="no"/>l'opera del signor Janet, che è impossibile riassumere, e della
+                                <lb n="42" break="no"/>l'opera del signor <persName ref="#Janet">Janet</persName>, che è impossibile riassumere, e della
                                 <lb n="43"/>quale potremmo accoglier quasi tutto, facendo pochissime
-                                <lb n="44"/>riserve. Forse il signor Janet è un po' troppo severo verso
-                                <lb n="45"/>il Padre Enfantin, nel quale vede troppo il sensualista,
-                                <lb n="46"/>l'ambizioso e quasi il taumaturgo e l'ipocrita consciente;
+                                <lb n="44"/>riserve. Forse il signor <persName ref="#Janet">Janet</persName> è un po' troppo severo verso
+                                <lb n="45"/>il <rs type="person" ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</rs>, nel quale vede troppo il sensualista,
+                                <lb n="46"/>l'ambizioso e quasi il taumaturgo e l'ipocrita <choice><orig>consciente</orig><reg>cosciente</reg></choice>;
                                 <lb n="47"/>ma noi non sapremmo che approvare di cuore quando dice
-                                <lb n="48"/>che la dottrina di cotesto Padre è <quote>« una delle più sner-
-                                <lb n="49" break="no"/>vanti e delle più vergognose »</quote> che siansi mai fabbricate.
+                                <lb n="48"/>che la <rs type="movement" ref="#Sansimonismo_Enfantin">dottrina</rs> di <choice><orig>cotesto</orig><reg>questo</reg></choice> <rs type="epithet" ref="#Enfantin">Padre</rs> è <quote source="#SaintSimon_lib">« una delle più sner-
+                                <lb n="49" break="no"/>vanti e delle più vergognose »</quote> che <choice><orig>siansi</orig><reg>si siano</reg></choice> mai fabbricate.
                                 <lb n="50"/>Forse anche faremmo qualche riserva su ciò che il signor
-                                <lb n="51"/>Janet dice del divorzio, in favore del quale non ammette
+                                <lb n="51"/><persName ref="#Janet">Janet</persName> dice del divorzio, in favore del quale non ammette
                                 <lb n="52"/>che un solo argomento valido, cioè l'immoralità della se-
                                 <lb n="53" break="no"/>parazione di corpo e di beni col celibato. Ecco dove sempre
-                                <lb n="54"/>da capolino, anche nei più spregiusdicati dei nostri vicini,
+                                <lb n="54"/>fa capolino, anche nei più spregiudicati dei nostri vicini,
                                 <pb n="243" facs="#surf_bibliografia_2"/>
                                 <cb n="1"/>
-                                <lb n="55"/>il codino del francese e del Cattolico, abituato a conside-
-                                <lb n="56" break="no"/>rare come verità innate le leggi della Chiesa e del Codice
-                                <lb n="57"/>Civile. Insomma, il merito principale di questo ottimo libric-
+                                <lb n="55"/><seg type="metaphor" xml:id="codino_franc_Catt">il codino del francese e del Cattolico</seg>, abituato a conside-
+                                <lb n="56" break="no"/>rare come verità innate le leggi della <orgName ref="#Chiesa_2">Chiesa</orgName> e del <term type="political" ref="#Codice_Civile">Codice
+                                <lb n="57"/>Civile</term>. Insomma, il merito principale di questo ottimo libric-
                                 <lb n="58" break="no"/>cino è d'aver stabilita in una forma eccellente, la distinzione
-                                <lb n="59"/>fra il Saint-Simon e la sua Scuola, fra il Sansimonismo del
-                                <lb n="60"/>maestro e quello dei successori di lui.
+                                <lb n="59"/>fra il <persName ref="#SaintSimon">Saint-Simon</persName> e la sua <rs type="movement" ref="#Sansimonismo">Scuola</rs>, fra il <term type="political" ref="#Sansimonismo">Sansimonismo</term> del
+                                <lb n="60"/>maestro e <rs type="political" ref="#Sansimonismo_Enfantin">quello</rs> dei successori di lui.
                             </p>
                         </div>
 
@@ -1599,81 +1599,81 @@
                             <pb n="243" facs="#surf_bibliografia_2"/>
                             <cb n="2"/>
                             <bibl facs="#bibl_2">
-                                <lb n="1"/><persName><damage extent="chars">L.</damage> DUMONT</persName>. <title type="m" rend="italic">Il piacere ed il dolore. Teoria scientifica della sen-
+                                <lb n="1"/><persName><damage extent="chars">L.</damage> DUMONT</persName>. <title level="m" rend="italic">Il piacere ed il dolore. Teoria scientifica della sen-
                                 <lb n="2" break="no"/>sibilità ec.</title> (Biblioteca scientifica internazionale Vol. XV.)
                                 <lb n="3"/>- <placeName>Milano</placeName>, <publisher>Dumolard</publisher>, <date when="1878">1878</date>
                             </bibl>
                             <p facs="#bibl2_p1">
                                 <lb n="4"/>Questo libro può appartenere alla nostra letteratura
                                 <lb n="5"/>scientifica, non soltanto perchè è apparso in italiano nella
-                                <lb n="6"/><title level="m">Biblioteca scientifica internazionale</title> pubblicato in Milano dai
-                                <lb n="7"/>fratelli <persName>Dumolard</persName>; ma anche perchè il traduttore vi ha tra-
-                                <lb n="8" break="no"/>scritti molti lavori del <persName>Mantegazza</persName> sul dolore e uno studio
-                                <lb n="9"/>del prof. <persName>Lombroso</persName> sulla misura del dolore. Non sappiamo
+                                <lb n="6"/><title level="j">Biblioteca scientifica internazionale</title> pubblicato in <placeName ref="#Milano">Milano</placeName> dai
+                                <lb n="7"/>fratelli <persName ref="#Dumolard">Dumolard</persName>; ma anche perchè il traduttore vi ha tra-
+                                <lb n="8" break="no"/>scritti molti lavori del <persName ref="#Mantegazza">Mantegazza</persName> sul dolore e uno studio
+                                <lb n="9"/>del <roleName type="title"><choice><abbr>prof.</abbr><expan>professor</expan></choice></roleName> <persName ref="#Lombroso">Lombroso</persName> sulla misura del dolore. Non sappiamo
                                 <lb n="10"/>però con quanta opportunità ciò sia stato fatto; dacchè
-                                <lb n="11"/>frammenti isolati di una fisiologia del dolore che è di là
+                                <lb n="11"/>frammenti isolati di una <term type="scientific" ref="#fisiologia">fisiologia</term> del dolore che è di là
                                 <lb n="12"/>da venire non possono essere ben intesi, quando son tolti
-                                <lb n="13"/>da' giornali di medicina e di antropologia, dove furono pub-
+                                <lb n="13"/><choice><orig>da'</orig><reg>dai </reg></choice> giornali di medicina e di antropologia, dove furono pub-
                                 <lb n="14" break="no"/>blicati, quasi come saggio di un lavoro completo, che il
                                 <lb n="15"/>solo autore ha diritto di riassumere e di ordinare. Anche
                                 <lb n="16"/>questo specioso innesto di lavori italiani sopra un libro
                                 <lb n="17"/>francese perde in questo caso molto valore; perchè tro-
                                 <lb n="18" break="no"/>viamo dimenticato (forse nella furia di maneggiare la gomma
                                 <lb n="19"/>e la cera lacca) forse il più interessante e originale fra i
-                                <lb n="20"/>lavori sperimentali del <persName>Mantegazza</persName>, quello dell'azione del
+                                <lb n="20"/>lavori sperimentali del <persName ref="#Mantegazza">Mantegazza</persName>, quello dell'azione del
                                 <lb n="21"/>dolore sul calore animale.
                             </p>
                             <p facs="#bibl2_p2 #bibl2_p3">
-                                <lb n="22"/><persName>Dumont</persName> appartiene a quella scuola di filosofi moderni,
+                                <lb n="22"/><persName ref="#Dumont">Dumont</persName> appartiene a quella scuola di filosofi moderni,
                                 <lb n="23"/>che chiameremmo volentieri con linguaggio preso a pre-
-                                <lb n="24" break="no"/>stito dalla geologia, <term>metamorfici</term>; perchè ripudiano in
-                                <lb n="25"/>teoria le vecchie scuole metafisiche, e facendo atto di
-                                <lb n="26"/>fede positivista, ricadono ad ogni passo nell'<term>apriorismo</term>,
+                                <lb n="24" break="no"/>stito dalla geologia, <term type="scientific" ref="#metamorfici">metamorfici</term>; perchè ripudiano in
+                                <lb n="25"/>teoria le vecchie <term type="philosophical" ref="#scuole_metafisiche">scuole metafisiche</term>, e facendo atto di
+                                <lb n="26"/><term type="philosophical" ref="#fede_positivista">fede positivista</term>, ricadono ad ogni passo nell'<term type="scientific" ref="#apriorismo">apriorismo</term>,
                                 <pb n="244" facs="#surf_notizie"/>
                                 <lb n="27"/>mostrando il singolare intreccio di due opposti indirizzi.
-                                <lb n="28"/>Egli, per esempio, mostra di aver studiato la fisiologia,
+                                <lb n="28"/><rs type="person" ref="#Dumont">Egli</rs>, per esempio, mostra di aver studiato la <term type="scientific" ref="#fisiologia">fisiologia</term>,
                                 <lb n="29"/>analizza spesso i fenomeni psichici col vero metodo speri-
                                 <lb n="30" break="no"/>mentale, ma poi ci dà alcune definizioni ontologiche, capric-
-                                <lb n="31" break="no"/>ciose, che non hanno alcun punto d'appoggio sul terreno
-                                <lb n="32"/>dei fatti. Egli ci dice, che la verità non è che la <hi rend="italic">forza</hi> (?!),
+                                <lb n="31" break="no"/>ciose, che non hanno alcun <seg type="metaphorical">punto d'appoggio sul terreno
+                                <lb n="32"/>dei fatti</seg>. Egli ci dice, che la verità non è che la <emph rend="italic">forza</emph> (?!),
                                 <lb n="33"/>con cui una nozione s'impone al nostro spirito; ci dà uno
-                                <lb n="34"/>studio <hi rend="italic">metafisico</hi> delle sensibilità, limitando assai falsamente
+                                <lb n="34"/>studio <emph rend="italic">metafisico</emph> delle sensibilità, limitando assai falsamente
                                 <lb n="35"/>il concetto di queste supreme facoltà degli esseri organiz-
-                                <lb n="36" break="no"/>zati, col definile la capacità di provare il piacere e il do-
+                                <lb n="36" break="no"/>zati, col definirle la capacità di provare il piacere e il do-
                                 <lb n="37" break="no"/>lore ec.
                             </p>
                             <p facs="#bibl2_p4">
                                 <lb n="38"/>La parte fondamentale di questo libro è la teoria del
                                 <lb n="39"/>piacere e del dolore, che noi troviamo nuova, ma più strana
-                                <lb n="40"/>che vera. <persName>Dumont</persName> afferma «esservi piacere ogni volta che
+                                <lb n="40"/>che vera. <persName ref="#Dumont">Dumont</persName> afferma <quote>« esservi piacere ogni volta che
                                 <lb n="41"/>l'insieme delle forze costituenti l'Io si trova aumentata,
                                 <lb n="42"/>senza che questo accrescimento sia abbastanza considere-
                                 <lb n="43" break="no"/>vole per produrre un moto di dissociazione di queste forze
                                 <lb n="44"/>stesse: vi ha dolore invece, quando questa quantità di forze
-                                <lb n="45"/>sia scemata.» In una parola il piacere è un aumento di
+                                <lb n="45"/>sia scemata. »</quote> In una parola il piacere è un aumento di
                                 <lb n="46"/>energia, il dolore ne è una diminuzione. Per noi questo
                                 <lb n="47"/>concetto è assolutamente falso, e troppo facile sarebbe il
                                 <lb n="48"/>citare molti fatti di piacere accompagnati da una grande
                                 <lb n="49"/>debolezza e dolori che vanno insieme ad una straordinaria
-                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'isto-
-                                <lb n="51" break="no"/>logia e la chimica organica non avranno progredito di tanto
-                                <lb n="52"/>da darci l'<hi rend="italic">equivalente</hi> e la <hi rend="italic">formola</hi> del nervo che sente e della
+                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'<term type="scientific" ref="#istologia">isto-
+                                <lb n="51" break="no"/>logia</term> e la <term type="scientific" ref="#chimica_organica">chimica organica</term> non avranno progredito di tanto
+                                <lb n="52"/>da darci l'<emph rend="italic">equivalente</emph> e la <emph rend="italic"><choice><sic>formola</sic><corr>formula</corr></choice></emph> del nervo che sente e della
                                 <lb n="53"/>cellula nervosa centrale, che raccoglie e conserva la sensa-
                                 <lb n="54" break="no"/>zione, noi dovremo accontentarci di descrivere e di ordinare
                                 <lb n="55"/>i fenomeni psichici, che cadono sotto i nostri sensi: andare
-                                <lb n="56"/>più in là è saltare nel vuoto, è coprire l'abisso della nostra
-                                <lb n="57"/>ignoranza con un foglio di carta.
+                                <lb n="56"/>più in là è <seg type="metaphorical">saltare nel vuoto</seg>,<seg type="metaphorical"> è coprire l'abisso della nostra
+                                <lb n="57"/>ignoranza con un foglio di carta.</seg>
                             </p>
                             <p facs="#bibl2_p5">
                                 <lb n="58"/>Assai bella e originale è la parte di questo libro che
                                 <lb n="59"/>tratta del <hi rend="italic">ridicolo</hi>, e la teoria per spiegarlo è molto mi-
-                                <lb n="60" break="no"/>gliore di quella dell'<persName>Hecker</persName> (<title level="m">Physiologie und Psycologie des
-                                <lb n="61"/>Lachens und des Komischen</title>. <placeName>Berlin</placeName>, <date when="1873">1873</date>). Così gli studiosi
+                                <lb n="60" break="no"/>gliore di quella dell'<persName ref="#Hecker">Hecker</persName> (<title level="m" xml:lang="fr" rend="italic">Physiologie und Psycologie des
+                                <lb n="61"/>Lachens und des Komischen</title>. <placeName ref="#Berlino">Berlin</placeName>, <date when="1873">1873</date>). Così gli studiosi
                                 <lb n="62"/>di estetica troveranno osservazioni argute, fine, nei capitoli
                                 <lb n="63"/>che riguardano lo <hi rend="italic">spirito</hi>, il <hi rend="italic">sublime</hi>, la <hi rend="italic">bellezza plastica</hi>, il
                                 <lb n="64"/><hi rend="italic">pittoresco</hi>, la <hi rend="italic">produzione volontaria delle cause di piacere</hi> o <hi rend="italic">l'arte</hi>.
                                 <lb n="65"/>Se fossimo costretti a dare un giudizio sommario del-
-                                <lb n="66" break="no"/>l'opera di <persName>Dumont</persName>, diremmo che è un libro pieno di difetti,
+                                <lb n="66" break="no"/>l'opera di <persName ref="#Dumont">Dumont</persName>, diremmo che è un libro pieno di difetti,
                                 <lb n="67"/>ma che per l'originalità delle idee, per la larghezza degli
                                 <lb n="68"/>orizzonti che fa intravedere, per l'arditezza di certe teo-
                                 <lb n="69" break="no"/>riche ci fa pensare assai, e ci invita con salutare ginna-
@@ -1683,16 +1683,16 @@
                             </p>
                             <p facs="#bibl2_p6">
                                 <lb n="73"/>In occasione poi di questo volume, che è il più recente
-                                <lb n="74"/>della <title level="m">Biblioteca scientifica internazionale</title>, noi, non facili alla
+                                <lb n="74"/>della <title level="j">Biblioteca scientifica internazionale</title>, noi, non facili alla
                                 <lb n="75"/>lode, vogliamo tributare il nostro sincero plauso ai signori
-                                <lb n="76"/><persName>Dumolard</persName> di <placeName>Milano</placeName> per l'ardita iniziativa da loro presa
-                                <lb n="77"/>di pubblicare in <placeName>Italia</placeName> tutti i volumi di questa importan-
+                                <lb n="76"/><persName ref="#Dumolard">Dumolard</persName> di <placeName ref="#Milano">Milano</placeName> per l'ardita iniziativa da loro presa
+                                <lb n="77"/>di pubblicare in <placeName ref="#Italia_bibl_2">Italia</placeName> tutti i volumi di questa importan-
                                 <lb n="78" break="no"/>tissima raccolta, aggiungendovi oltre ai libri forestieri al-
                                 <lb n="79" break="no"/>tri di autori italiani, di cui alcuni, come per esempio quello
-                                <lb n="80"/>del prof. <persName>Blaserna</persName> sulla <title level="m">Teoria del suono</title>, sono già stati
+                                <lb n="80"/>del <roleName type="title"><choice><abbr>prof.</abbr><expan>professor</expan></choice></roleName> <persName ref="#Blaserna">Blaserna</persName> sulla <title level="m">Teoria del suono</title>, sono già stati
                                 <lb n="81"/>tradotti in altre lingue. Questa edizione italiana fa buona
                                 <lb n="82"/>figura al confronto di quella inglese e francese della me-
-                                <lb n="83" break="no"/>desima <title level="m">Biblioteca</title>, e supera di molto per pregi tipografici
+                                <lb n="83" break="no"/>desima <title level="j">Biblioteca</title>, e supera di molto per pregi tipografici
                                 <lb n="84"/>l'edizione tedesca.
                             </p>
                         </div>
@@ -1707,18 +1707,18 @@
                         <pb n="244" facs="#surf_notizie"/>
                         <cb n="1"/>
                         <p facs="#notizie_1">
-                            <lb n="1"/>- In occasione della prossima apertura dell'Esposizione di Parigi,
-                            <lb n="2"/>gli editori Fratelli Treves di Milano stanno per pubblicare una <hi rend="italic">Guida
-                            <lb n="3"/>pratica di Parigi</hi> di Folchetto; o un libro su Parigi del dottor Max
-                            <lb n="4"/>Nordan col titolo: <hi rend="italic">Il vero paese dei miliardi</hi>.
+                            <lb n="1"/>-<space/>In occasione della prossima apertura dell'<rs type="event" ref="#Espo_Parigi">Esposizione di Parigi</rs>,
+                            <lb n="2"/>gli <roleName type="title">editori</roleName> <rs type="person" ref="#FratelliTreves">Fratelli Treves</rs> di <placeName ref="#Milano_not">Milano</placeName> stanno per pubblicare una <title level="m" rend="italic">Guida
+                            <lb n="3"/>pratica di Parigi</title> di <persName ref="#Folchetto">Folchetto</persName>; o un libro su Parigi del dottor <persName ref="#MaxNordan">Max
+                            <lb n="4"/>Nordan</persName> col titolo: <title level="m" rend="italic">Il vero paese dei miliardi</title>.
                         </p>
                         <p facs="#notizie_2 #notizie_2_2">
-                            <lb n="5"/>- Sta per usciere a Parigi per cura del signor Laffitte e di alcuni
-                            <lb n="6"/>positivisti della sua scuola, una <hi rend="italic">Revue Occidentale</hi> di cui Auguste Comte
+                            <lb n="5"/>-<space/>Sta per usciere a <placeName ref="#Parigi_not">Parigi</placeName> per cura del <roleName type="honorific">signor</roleName> <persName ref="#Laffitte">Laffitte</persName> e di alcuni
+                            <lb n="6"/><term type="philosophical" ref="#positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
                             <lb n="7"/>aveva già concepito il disegno. Uscirà ogni due mesi e si occuperà del
                             <cb n="2"/>
                             <lb n="8"/>movimento politico, sociale e intellettuale e conterrà lavori dovuti a
-                            <lb n="9"/>positivisti.
+                            <lb n="9"/><term type="philosophical" ref="#positivisti">positivisti</term>.
                         </p>
                     </div>
                 </body>
