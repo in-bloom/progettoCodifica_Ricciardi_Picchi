@@ -1430,23 +1430,23 @@
                         <p facs="#art3_p1">
                             <lb n="1"/>Pochi giorni dopo che le ultime mie notizie sul movi-
                             <lb n="2" break="no"/>mento elettorale prussiano furono pubblicate, i giornali
-                            <lb n="3"/>italiani avranno annunziato ai lettori che tutte le speranze
-                            <lb n="4"/>e i timori coi quali i diversi partiti attendevano il resul-
-                            <lb n="5"/>tato delle elezioni prussiane furono superati. Il governo ha
+                            <lb n="3"/>italiani avranno <choice><orig>annunziato</orig><reg>annunciato</reg></choice> ai lettori che tutte le speranze
+                            <lb n="4"/>e i timori <choice><orig>coi</orig><reg>con i</reg></choice> quali i diversi partiti attendevano il <choice><orig>resul-
+                            <lb n="5" break="no"/>tato</orig><reg>risultato</reg></choice> delle elezioni prussiane furono superati. Il <orgName ref="#Governo_prussiano">governo</orgName> ha
                             <lb n="6"/>ottenuto una vittoria che, come hanno poi confessato i suoi
-                            <lb n="7"/>organi stessi, neppur esso si aspettava sì grande, e tutte le
-                            <lb n="8"/>inquietudini dei liberali circa alle perdite che li minaccia-
-                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. Ambedue
-                            <lb n="10"/>i partiti liberali, tanto il nazionale liberale quanto quello
-                            <lb n="11"/>del progresso, hanno perduto quasi la metà dei collegi che
-                            <lb n="12"/>possedevano. La composizione della Camera dei deputati
-                            <lb n="13"/>prussiani corrisponde ora all'incirca a quella che resultò
-                            <lb n="14"/>nel <orgName>Reichstag tedesco</orgName> l'anno scorso sotto la impressione
-                            <lb n="15"/>recente dell'attentato <persName>Nobiling</persName>. La rappresentanza popo-
-                            <lb n="16" break="no"/>lare prussiana si divide ora, presso a poco come quella
-                            <lb n="17"/>germanica, in tre gruppi: un conservativo, un liberale
-                            <lb n="18"/>ed uno clericale; i due primi contano 150 membri ciascuno,
-                            <lb n="19"/>il clericale 100. Oltre a ciò vi è un certo numero di depu-
+                            <lb n="7"/>organi stessi, <choice><orig>neppur</orig><reg>neppure</reg></choice> esso si aspettava <choice><orig>sì</orig><reg>così</reg></choice> grande, e tutte le
+                            <lb n="8"/>inquietudini dei <rs type="politicalGroup" ref="#liberali">liberali</rs> circa alle perdite che li minaccia-
+                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. <distinct type="literary">Ambedue</distinct>
+                            <lb n="10"/>i partiti liberali, tanto il <orgName ref="#Partito_Nazionale_Liberale">nazionale liberale</orgName> quanto quello
+                            <lb n="11"/>del <orgName ref="#Partito_del_Progresso">progresso</orgName>, hanno perduto quasi la metà dei collegi che
+                            <lb n="12"/>possedevano. La composizione della <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati
+                            <lb n="13"/>prussiani</orgName> corrisponde ora all'incirca a quella che <choice><orig>resultò</orig><reg>risultò</reg></choice>
+                            <lb n="14"/>nel <orgName ref="#Reichstag_tedesco">Reichstag tedesco</orgName> l'anno scorso sotto la impressione
+                            <lb n="15"/>recente dell'attentato <persName ref="#Nobiling">Nobiling</persName>. La <orgName ref="#Camera_dei_deputati_prussiani">rappresentanza popo-
+                            <lb n="16" break="no"/>lare prussiana</orgName> si divide ora, presso a poco come quella
+                            <lb n="17"/>germanica, in tre gruppi: un <rs type="politicalGroup" ref="#conservativi">conservativo</rs>, un <rs type="politicalGroup" ref="#liberali">liberale</rs>
+                            <lb n="18"/>ed uno <rs type="politicalGroup" ref="#clericali">clericale</rs>; i due primi contano 150 membri ciascuno,
+                            <lb n="19"/>il <rs type="politicalGroup" ref="#clericali">clericale</rs> 100. Oltre a ciò vi è un certo numero di depu-
                             <lb n="20" break="no"/>tati che non appartengono a nessun partito.
                         </p>
 
@@ -1526,11 +1526,11 @@
                             <lb n="90"/>neppure accertato se il <persName ref="#Bennigsen">sig. Bennigsen</persName> sarà rieletto pre-
                             <lb n="91" break="no"/>sidente della <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati</orgName>, quantunque i nostri fogli
                             <lb n="92"/>la considerino già cosa sicura; è però probabile, ed è in-
-                            <lb n="93" break="no"/>dubitabile che il Cancelliere dell'Impero la desidera. * Se al-
-                            <lb n="94"/>l'influenza degli amici del <persName>Bismarck</persName> appartenenti alla fra-
-                            <lb n="95" break="no"/>zione conservativa, che ora conta 115 membri, riuscisse
-                            <lb n="96"/>indurre questa a cooperare coi conservatori liberali e coi
-                            <lb n="97"/>liberali per l'elezione del <persName>Bennigsen</persName> a Presidente, ciò sa-
+                            <lb n="93" break="no"/>dubitabile che il <persName ref="#Bismarck">Cancelliere dell'Impero</persName> la desidera. * Se al-
+                            <lb n="94"/>l'influenza degli amici del <persName ref="#Bismarck">Bismarck</persName> appartenenti alla <rs type="politicalGroup" ref="#conservatori">fra-
+                            <lb n="95" break="no"/>zione conservativa</rs>, che ora conta 115 membri, riuscisse
+                            <lb n="96"/>indurre questa a cooperare coi <rs type="politicalGroup" ref="#conservatori_liberali">conservatori liberali</rs> e coi
+                            <lb n="97"/><rs type="politicalGroup" ref="#liberali">liberali</rs> per l'elezione del <persName ref="#Bennigsen">Bennigsen</persName> a Presidente, ciò sa-
                             <lb n="98" break="no"/>rebbe certamente un primo passo fatto verso l'effettuazione
                             <lb n="99"/>di quei disegni della maggioranza, che il <persName ref="#Bismarck">Principe Bismarck</persName>
                             <lb n="100"/>vagheggia da oltre dieci anni, disegni che tendono a trat-
@@ -1541,14 +1541,14 @@
                             <lb n="105" break="no"/>servatori</rs>, gli riuscirà sì presto di volgere nuovamente la
                             <lb n="106"/>corrente politica, che da un anno e mezzo ha deviato da quello
                             <lb n="107"/>scopo, nella direzione verso cui si muoveva finché anda-
-                            <lb n="108" break="no"/>rono a vuoto le trattative di <placeName>Varzin</placeName> fra il <persName>Bismarck</persName> e il
+                            <lb n="108" break="no"/>rono a vuoto le trattative di <placeName ref="#Varzin">Varzin</placeName> fra il <persName ref="#Bismarck">Bismarck</persName> e il
                             <pb n="299" facs="#surf_art_3_2"/>
                             <cb n="1"/>
-                            <lb n="109"/><persName>Bennigsen</persName>. La maggiore difficoltà per una cooperazione fra
-                            <lb n="110" break="no"/>i conservatori e i liberali durante la sessione del <orgName>Landtag</orgName>
+                            <lb n="109"/><persName ref="#Bennigsen">Bennigsen</persName>. La maggiore difficoltà per una cooperazione fra
+                            <lb n="110" break="no"/>i <rs type="politicalGroup" ref="#conservatori">conservatori</rs> e i <rs type="politicalGroup" ref="#liberali">liberali</rs> durante la sessione del <orgName ref="#Landtag">Landtag</orgName>
                             <lb n="111"/>che comincerà a giorni, è venuta formandosi nelle ultime
-                            <lb n="112"/>settimane per l'azione del nuovo Ministro dei culti e del-
-                            <lb n="113" break="no"/>l'istruzione, <persName>Puttkamer</persName>.
+                            <lb n="112"/>settimane per l'azione del nuovo <roleName>Ministro dei culti e del-
+                            <lb n="113" break="no"/>l'istruzione</roleName>, <persName ref="#Puttkamer">Puttkamer</persName>.
                         </p>
                         <p facs="#art3_p6">
                             <lb n="114"/>Anche i fogli italiani avranno dato notizia del conflitto
