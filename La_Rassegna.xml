@@ -550,6 +550,7 @@
                 </body>
                 <back>
                     <!-- Person list -->
+                    
                     <listPerson>
                         <person xml:id="Cherubini">
                             <persName>
@@ -1021,7 +1022,7 @@
                             <lb n="28"/>discorsi sul vero stato delle cose <choice><orig>colà</orig><reg>là</reg></choice>. Egli dimostrò infatti
                             <lb n="29"/>come il <orgName type="government" ref="#Governo_inglese">governo inglese</orgName> aveva steso profondissime radici
                             <lb n="30"/>nell'<placeName ref="#India">India</placeName>. Ciò che esso faceva, pareva agl'<rs type="population" ref="#Indiani">Indiani</rs> opera
-                            <lb n="31"/>della natura, del fato, di <persName type="deity" ref="#Dio">Dio</persName> stesso. Il <pc type="emdash">—</pc> pensare che si possa
+                            <lb n="31"/>della natura, del fato, di <rs type="deity" ref="#Dio">Dio</rs> stesso. Il <pc type="emdash">—</pc> pensare che si possa
                             <lb n="32"/>fare altrimenti, non entra più nella loro testa. Bisogna es-
                             <lb n="33" break="no"/>sere vissuto trent'anni <choice><orig>colà</orig><reg>là</reg></choice> per capire questo sentimento.<pc type="emdash">—</pc>
                             <lb n="34"/>Il reverendo uomo era appena disceso dal pergamo, che il
@@ -1205,7 +1206,7 @@
                             <lb n="190"/>trova la generazione che sorge. Le vie che le si aprono
                             <lb n="191"/>dinanzi sono impieghi da chiedere, elettori da supplicare,
                             <lb n="192"/>tentativi di subiti guadagni; la scienza stessa quasi non è più
-                            <lb n="193"/>che un mezzo, uno scalino per salire <choice><orig>agl'<reg>agli</reg></choice> impieghi, arrivare
+                            <lb n="193"/>che un mezzo, uno scalino per salire <choice><orig>agl'</orig><reg>agli</reg></choice> impieghi, arrivare
                             <lb n="194"/>ai guadagni. È questa la vita? È questo ciò che l'<placeName ref="#Italia">Italia</placeName> ci
                             <lb n="195"/>aveva fatto sperare? Le benefiche istituzioni sociali gio-
                             <lb n="196" break="no"/>vano solo a chi soccorre più che a chi è soccorso, e però non
@@ -1224,6 +1225,190 @@
                         </p>
                     </div>
                 </body>
+                <back>
+                    <listPerson>
+                        <person xml:id="Filangieri">
+                            <persName>
+                                <forename>Gaetano</forename>
+                                <surname>Filangieri</surname>
+                            </persName>
+                            <occupation>
+                                Filosofo, giurista ed economista italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q979054</idno>
+                        </person>
+                        <person xml:id="Imperatore_di_Germania">
+                            <persName>
+                                Guglielmo I di Germania
+                            </persName>
+                            <occupation>
+                                Imperatore di Germania
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q150652</idno>
+                        </person>
+                        <person xml:id="Sella">
+                            <persName>
+                                <forename>Quintino</forename>
+                                <surname>Sella</surname>
+                            </persName>
+                            <occupation>
+                                Scienziato, economista e politico italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q541300</idno>
+                        </person>
+                        <person xml:id="Minghetti">
+                            <persName>
+                                <forename>Marco</forename>
+                                <surname>Minghetti</surname>
+                            </persName>
+                            <occupation>
+                                Politico italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q597155</idno>
+                        </person>
+                        <person xml:id="Depretis">
+                            <persName>
+                                <forename>Agostino</forename>
+                                <surname>Depretis</surname>
+                            </persName>
+                            <occupation>
+                                Politico italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q356711</idno>
+                        </person>
+                        <person xml:id="Nicotera">
+                            <persName>
+                                <forename>Giovanni</forename>
+                                <surname>Nicotera</surname>
+                            </persName>
+                            <occupation>
+                                Politico e patriota italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q251082</idno>
+                        </person>
+                        <person xml:id="Cairoli">
+                            <persName>
+                                <forename>Benedetto</forename>
+                                <surname>Cairoli</surname>
+                            </persName>
+                            <occupation>
+                                Politico italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q284294</idno>
+                        </person>
+                        <person xml:id="Zanardelli">
+                            <persName>
+                                <forename>Giuseppe</forename>
+                                <surname>Zanardelli</surname>
+                            </persName>
+                            <occupation>
+                                Primo Ministro italiano
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q552220</idno>
+                        </person>
+                    </listPerson>
+                    <listPlace>
+                        <place xml:id="Italia" type="country">
+                            <placeName>Italia</placeName>
+                            <location>
+                                <country key="IT">Italia</country>
+                                <bloc ref="#Europa">Europa</bloc>
+                            </location>
+                        </place>
+                        <place xml:id="Inghilterra" type="country">
+                            <placeName>Inghilterra</placeName>
+                            <location>
+                                <country key="GB">Inghilterra</country>
+                                <bloc ref="#Europa">Europa</bloc>
+                            </location>
+                        </place>
+                        <place xml:id="Francia" type="country">
+                            <placeName>Francia</placeName>
+                            <location>
+                                <country key="FR">Francia</country>
+                                <bloc ref="#Europa">Europa</bloc>
+                            </location>
+                        </place>
+                        <place xml:id="India" type="country">
+                            <placeName>India</placeName>
+                            <location>
+                                <country key="IN">India</country>
+                            </location>
+                        </place>
+                        <place xml:id="Germania" type="country">
+                            <placeName>Germania</placeName>
+                            <location>
+                                <country key="DE">Germania</country>
+                                <bloc ref="#Europa">Europa</bloc>
+                            </location>
+                        </place>
+                        <place xml:id="Europa" type="continent">
+                            <placeName>Europa</placeName>
+                            <location>
+                                <continent key="EU">Europa</continent>
+                            </location>
+                        </place>
+                        <place xml:id="America" type="continent">
+                            <placeName>America</placeName>
+                            <location>
+                                <continent key="AM">America</continent>
+                            </location>
+                        </place>
+                        <place xml:id="Pianure_Lombarde" type="region">
+                            <placeName>Pianure Lombarde</placeName>
+                            <location>
+                                <country key="IT">Italia</country>
+                                <region key="IT-25">Lombardia</region>
+                            </location>
+                        </place>
+                    </listPlace>
+                    <listOrg>
+                        <org xml:id="Governo_inglese">
+                            <orgName>Governo inglese</orgName>
+                            <desc>
+                                Governo del Regno Unito citato in relazione alla dominazione coloniale in India.
+                            </desc>
+                        </org>
+                        <org xml:id="Partito_Socialista">
+                            <orgName>Partito socialista</orgName>
+                            <desc>
+                                Formazione politica socialista citata in relazione ai tentati assassinii contro l'Imperatore di Germania.
+                            </desc>
+                        </org>
+                        <org xml:id="Ministero_conservatore_dell_Inghilterra">
+                            <orgName>Ministero conservatore dell'Inghilterra</orgName>
+                            <desc>
+                                Governo conservatore inglese citato come esempio di intervento legislativo sociale.
+                            </desc>
+                        </org>
+                        <org xml:id="Governo">
+                            <orgName>Governo</orgName>
+                            <desc>
+                                Organo politico-amministrativo dello Stato, citato nel testo in riferimento al potere esecutivo.
+                            </desc>
+                        </org>
+                        <org xml:id="Ministero">
+                            <orgName>Ministero</orgName>
+                            <desc>
+                                Governo o gabinetto ministeriale in carica, citato nel testo come responsabile dell'azione politica.
+                            </desc>
+                        </org>
+                        <org xml:id="Clero">
+                            <orgName>Clero</orgName>
+                            <desc>
+                                 Gruppo religioso cattolico citato come forza avversa allo Stato italiano.
+                            </desc>
+                        </org>
+                    </listOrg>
+                    <div type="gloss">
+                        <head>GLOSSARIO</head>
+                        <list>
+                            <label></label>
+                            <item>
+                            </item>
+                        </list>
+                    </div>
+                </back> 
             </text>
             <!-- ARTICOLO 3: CORRISPONDENZA DA BERLINO-->
             <text>
@@ -1238,133 +1423,133 @@
                         <p facs="#art3_p1">
                             <lb n="1"/>Pochi giorni dopo che le ultime mie notizie sul movi-
                             <lb n="2" break="no"/>mento elettorale prussiano furono pubblicate, i giornali
-                            <lb n="3"/>italiani avranno annunziato ai lettori che tutte le speranze
-                            <lb n="4"/>e i timori coi quali i diversi partiti attendevano il resul-
-                            <lb n="5"/>tato delle elezioni prussiane furono superati. Il governo ha
+                            <lb n="3"/>italiani avranno <choice><orig>annunziato</orig><reg>annunciato</reg></choice> ai lettori che tutte le speranze
+                            <lb n="4"/>e i timori <choice><orig>coi</orig><reg>con i</reg></choice> quali i diversi partiti attendevano il <choice><orig>resul-
+                            <lb n="5" break="no"/>tato</orig><reg>risultato</reg></choice> delle elezioni prussiane furono superati. Il <orgName ref="#Governo_prussiano">governo</orgName> ha
                             <lb n="6"/>ottenuto una vittoria che, come hanno poi confessato i suoi
-                            <lb n="7"/>organi stessi, neppur esso si aspettava sì grande, e tutte le
-                            <lb n="8"/>inquietudini dei liberali circa alle perdite che li minaccia-
-                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. Ambedue
-                            <lb n="10"/>i partiti liberali, tanto il nazionale liberale quanto quello
-                            <lb n="11"/>del progresso, hanno perduto quasi la metà dei collegi che
-                            <lb n="12"/>possedevano. La composizione della Camera dei deputati
-                            <lb n="13"/>prussiani corrisponde ora all'incirca a quella che resultò
-                            <lb n="14"/>nel <orgName>Reichstag tedesco</orgName> l'anno scorso sotto la impressione
-                            <lb n="15"/>recente dell'attentato <persName>Nobiling</persName>. La rappresentanza popo-
-                            <lb n="16" break="no"/>lare prussiana si divide ora, presso a poco come quella
-                            <lb n="17"/>germanica, in tre gruppi: un conservativo, un liberale
-                            <lb n="18"/>ed uno clericale; i due primi contano 150 membri ciascuno,
-                            <lb n="19"/>il clericale 100. Oltre a ciò vi è un certo numero di depu-
+                            <lb n="7"/>organi stessi, <choice><orig>neppur</orig><reg>neppure</reg></choice> esso si aspettava <choice><orig>sì</orig><reg>così</reg></choice> grande, e tutte le
+                            <lb n="8"/>inquietudini dei <rs type="politicalGroup" ref="#liberali">liberali</rs> circa alle perdite che li minaccia-
+                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. <distinct type="literary">Ambedue</distinct>
+                            <lb n="10"/>i partiti liberali, tanto il <orgName ref="#Partito_Nazionale_Liberale">nazionale liberale</orgName> quanto quello
+                            <lb n="11"/>del <orgName ref="#Partito_del_Progresso">progresso</orgName>, hanno perduto quasi la metà dei collegi che
+                            <lb n="12"/>possedevano. La composizione della <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati
+                            <lb n="13"/>prussiani</orgName> corrisponde ora all'incirca a quella che <choice><orig>resultò</orig><reg>risultò</reg></choice>
+                            <lb n="14"/>nel <orgName ref="#Reichstag_tedesco">Reichstag tedesco</orgName> l'anno scorso sotto la impressione
+                            <lb n="15"/>recente dell'attentato <persName ref="#Nobiling">Nobiling</persName>. La <orgName ref="#Camera_dei_deputati_prussiani">rappresentanza popo-
+                            <lb n="16" break="no"/>lare prussiana</orgName> si divide ora, presso a poco come quella
+                            <lb n="17"/>germanica, in tre gruppi: un <rs type="politicalGroup" ref="#conservativi">conservativo</rs>, un <rs type="politicalGroup" ref="#liberali">liberale</rs>
+                            <lb n="18"/>ed uno <rs type="politicalGroup" ref="#clericali">clericale</rs>; i due primi contano 150 membri ciascuno,
+                            <lb n="19"/>il <rs type="politicalGroup" ref="#clericali">clericale</rs> 100. Oltre a ciò vi è un certo numero di depu-
                             <lb n="20" break="no"/>tati che non appartengono a nessun partito.
                         </p>
 
                         <p facs="#art3_p2 #art3_p3">
                             <lb n="21"/>Qui non è luogo per investigare a fondo le ragioni che
-                            <lb n="22"/>hanno prodotto un resultato di elezioni inaspettato per
+                            <lb n="22"/>hanno prodotto un <choice><orig>resultato</orig><reg>risultato</reg></choice> di elezioni inaspettato per
                             <lb n="23"/>tutti. Esse possono all'ingrosso rintracciarsi nelle seguenti
                             <lb n="24"/>circostanze. In primo luogo, fu da tutti i lati non abba-
                             <lb n="25" break="no"/>stanza valutata l'importanza del fatto, che, sebbene non si
-                            <lb n="26"/>possa dire che le elezioni sieno state sistematicamente in-
+                            <lb n="26"/>possa dire che le elezioni <choice><orig>sieno</orig><reg>siano</reg></choice> state sistematicamente in-
                             <lb n="27" break="no"/>fluenzate per parte degli organi governativi, pure questa
-                            <lb n="28"/>volta tutti gl'impiegati dipendenti dal Ministero si schiera-
-                            <lb n="29" break="no"/>rono contro i liberali, mentre nelle due precedenti elezioni
-                            <lb n="30"/>per la Camera dei deputati, negli anni <date when="1873">1873</date> e <date when="1876">1876</date>, in grazia
-                            <lb n="31"/>della lotta sostenuta in comune dal governo e dai liberali
-                            <lb n="32"/>contro il centro, questi ultimi si giovarono dell'aiuto dell'in-
+                            <lb n="28"/>volta tutti gl'impiegati dipendenti dal <orgName ref="#Ministero_prussiano">Ministero</orgName> si schiera-
+                            <lb n="29" break="no"/>rono contro i <rs type="politicalGroup" ref="#liberali">liberali</rs>, mentre nelle due precedenti elezioni
+                            <lb n="30"/>per la <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati</orgName>, negli anni <date when="1873">1873</date> e <date when="1876">1876</date>, in grazia
+                            <lb n="31"/>della lotta sostenuta in comune dal <orgName ref="#Governo_prussiano">governo</orgName> e dai <rs type="politicalGroup" ref="#liberali">liberali</rs>
+                            <lb n="32"/>contro il <rs type="politicalGroup" ref="#centro">centro</rs>, questi ultimi si giovarono dell'aiuto dell'in-
                             <lb n="33" break="no"/>fluenza governativa. A questo si aggiunga che regna nella
                             <lb n="34"/>popolazione grande atonia politica e molto malcontento per
                             <lb n="35"/>le inevitabili perturbazioni che sogliono sempre prodursi in
                             <lb n="36"/>conseguenza di un numero straordinario di nuove leggi e
-                            <lb n="37"/>di profonde riforme. Devesi inoltre avvertire che dal lato del
-                            <lb n="38"/>partito nazionale liberale, in seguito della tensione esistente
-                            <lb n="39"/>fra la Destra e la Sinistra e non ancora rimossa dal tempo
-                            <lb n="40"/>dell'ultimo Reichstag, non fu condotta che una tepidissima
-                            <lb n="41"/>agitazione elettorale; e finalmente il partito progressista
+                            <lb n="37"/>di profonde riforme. <choice><orig>Devesi</orig><reg>Si deve</reg></choice> inoltre avvertire che dal lato del
+                            <lb n="38"/><orgName ref="#Partito_Nazionale_Liberale">partito nazionale liberale</orgName>, in seguito della tensione esistente
+                            <lb n="39"/>fra la <rs type="politicalGroup" ref="#destra">Destra</rs> e la <rs type="politicalGroup" ref="#sinistra">Sinistra</rs> e non ancora rimossa dal tempo
+                            <lb n="40"/>dell'ultimo <orgName ref="#Reichstag_tedesco">Reichstag</orgName>, non fu condotta che una tepidissima
+                            <lb n="41"/>agitazione elettorale; e finalmente il <orgName ref="#Partito_del_Progresso">partito progressista</orgName>
                             <lb n="42"/>commise un grave errore quando nel principio dell'agita-
                             <lb n="43" break="no"/>zione elettorale mise fuori la parola d'ordine impopolarissima
-                            <lb n="44"/>«abbasso <persName>Bismarck</persName>!» È vero che poi, accortosi dello sba-
+                            <lb n="44"/><quote>«abbasso <persName ref="#Bismarck">Bismarck</persName>!»</quote> È vero che poi, accortosi dello sba-
                             <lb n="45" break="no"/>glio, non la mantenne, ma non poté cancellarla dalla me-
                             <cb n="2"/>
-                            <lb n="46" break="no"/>moria del popolo; di più, questo partito, nella questione
+                            <lb n="46" break="no"/>moria del popolo; di più, questo <orgName ref="#Partito_del_Progresso">partito</orgName>, nella questione
                             <lb n="47"/>della compra delle strade ferrate private per parte dello
-                            <lb n="48"/>Stato, assunse un atteggiamento molto dottrinario, e poco
-                            <lb n="49"/>in armonia colle idee del popolo. Del resto, sieno quali si vo-
-                            <lb n="50" break="no"/>gliano i motivi, il resultato delle elezioni è sembrato a tutti
+                            <lb n="48"/><orgName ref="#Stato_prussiano">Stato</orgName>, assunse un atteggiamento molto dottrinario, e poco
+                            <lb n="49"/>in armonia <choice><orig>colle</orig><reg>con le</reg></choice> idee del popolo. Del resto, <choice><orig>sieno</orig><reg>siano</reg></choice> quali si vo-
+                            <lb n="50" break="no"/>gliano i motivi, il <choice><orig>resultato</orig><reg>risultato</reg></choice> delle elezioni è sembrato a tutti
                             <lb n="51"/>una forte maggioranza conservativa clericale; ma nello stesso
                             <lb n="52"/>tempo che una tale maggioranza fu riconosciuta come un
                             <lb n="53"/>fatto, quelli che ci avevano speculato sopra erano già dis-
-                            <lb n="54" break="no"/>illusi. Non appena venne in sodo che i clericali, insieme
-                            <lb n="55"/>con quei conservatori che non sono incondizionatamente
-                            <lb n="56"/>ministeriali nel senso del principe <persName>Bismarck</persName>, possono domi-
-                            <lb n="57" break="no"/>nare la Camera, si operò nella stampa officiosa un'evo-
+                            <lb n="54" break="no"/>illusi. Non appena venne in sodo che i <rs type="politicalGroup" ref="#clericali">clericali</rs>, insieme
+                            <lb n="55"/>con quei <rs type="politicalGroup" ref="#conservatori">conservatori</rs> che non sono incondizionatamente
+                            <lb n="56"/>ministeriali nel senso del <persName ref="#Bismarck">principe Bismarck</persName>, possono domi-
+                            <lb n="57" break="no"/>nare la <orgName ref="#Camera_dei_deputati_prussiani">Camera</orgName>, si operò nella stampa officiosa un'evo-
                             <lb n="58" break="no"/>luzione manifesta. Mentre questa durante l'agitazione elet-
                             <lb n="59"/>torale aveva combattuto incessantemente ed esclusivamente
-                            <lb n="60"/>i liberali, ora veniva accennato assai chiaro che sarebbe
-                            <lb n="61"/>graditissimo al Cancelliere dell'Impero se i nazionali libe-
-                            <lb n="62" break="no"/>rali, riunendosi ai conservatori più moderati, formassero una
+                            <lb n="60"/>i <rs type="politicalGroup" ref="#liberali">liberali</rs>, ora veniva accennato assai chiaro che sarebbe
+                            <lb n="61"/>graditissimo al <persName ref="#Bismarck">Cancelliere dell'Impero</persName> se i <rs type="politicalGroup" ref="#Partito_Nazionale_Liberale">nazionali libe-
+                            <lb n="62" break="no"/>rali</rs>, riunendosi ai <rs type="politicalGroup" ref="#conservatori">conservatori</rs> più moderati, formassero una
                             <lb n="63"/>maggioranza conservativa, per la quale allora si potrebbe
-                            <lb n="64"/>rinunziare alla cooperazione del centro.
+                            <lb n="64"/><choice><orig>rinunziare</orig><reg>rinunciare</reg></choice> alla cooperazione del <rs type="politicalGroup" ref="#centro">centro</rs>.
                         </p>
                         <p facs="#art3_p4 #art3_p5">
                             <lb n="65"/>Questo mutato contegno si può in parte attribuire al fatto
                             <lb n="66"/>che per le nuove elezioni sono stati in gran parte allontanati
-                            <lb n="67"/>dal partito nazionale liberale gli elementi di maggiore oppo-
+                            <lb n="67"/>dal <orgName ref="#Partito_Nazionale_Liberale">partito nazionale liberale</orgName> gli elementi di maggiore oppo-
                             <lb n="68" break="no"/>sizione; infatti perfino il capo della cosiddetta ala sinistra,
-                            <lb n="69"/>sig. <persName>Lasker</persName>, non è stato rieletto; è vero però che in questo
-                            <lb n="70"/>momento ha la prospettiva di tornare alla Camera per una
+                            <lb n="69"/>sig. <persName ref="#Lasker">Lasker</persName>, non è stato rieletto; è vero però che in questo
+                            <lb n="70"/>momento ha la prospettiva di tornare alla <orgName ref="#Camera_dei_deputati_prussiani">Camera</orgName> per una
                             <lb n="71"/>nuova elezione che deve farsi in questi giorni. Ma comunque
-                            <lb n="72"/>sia, ora nel partito nazionale liberale prevale più assoluta-
+                            <lb n="72"/>sia, ora nel <orgName ref="#Partito_Nazionale_Liberale">partito nazionale liberale</orgName> prevale più assoluta-
                             <lb n="73" break="no"/>mente che non fosse da molti anni, l'indirizzo governativo
-                            <lb n="74"/>condotto fino a poco fa dal sig. von <persName>Bennigson</persName>. Questi, come
+                            <lb n="74"/>condotto fino a poco fa dal sig. von <persName ref="#Bennigsen">Bennigsen</persName>. Questi, come
                             <lb n="75"/>i lettori sanno, aveva dichiarato, al chiudersi della ultima ses-
-                            <lb n="76"/>sione del <orgName>Reichstag</orgName>, di volersi ritirare dalla vita parlamen-
+                            <lb n="76"/>sione del <orgName ref="#Reichstag_tedesco">Reichstag</orgName>, di volersi ritirare dalla vita parlamen-
                             <lb n="77" break="no"/>tare. Contuttociò il suo Collegio gli ha conferito di nuovo il
                             <lb n="78"/>mandato, e fino all'ultimo momento del termine che hanno
                             <lb n="79"/>i deputati per dichiarare se accettano o no la deputazione, si
-                            <lb n="80"/>attendeva con generale ansietà tale dichiarazione dell'uomo di
-                            <lb n="81"/>Stato annoverese. All'ultimo momento egli si è deciso ad ac-
-                            <lb n="82" break="no"/>cettare il mandato, rinunziando alla sua risoluzione di dimet-
+                            <lb n="80"/>attendeva con generale ansietà tale dichiarazione dell'<persName ref="#Bennigsen">Uomo di
+                            <lb n="81"/>Stato annoverese</persName>. All'ultimo momento egli si è deciso ad ac-
+                            <lb n="82" break="no"/>cettare il mandato, <choice><orig>rinunziando</orig><reg>rinunciando</reg></choice> alla sua risoluzione di dimet-
                             <lb n="83" break="no"/>tersi. Si è generalmente convinti che ciò non sia accaduto
-                            <lb n="84"/>senza l'influenza del Principe <persName>Bismarck</persName>. Certo vanno troppo
-                            <lb n="85"/>lungi le voci che già sostengono doversi in breve riprendere
-                            <lb n="86"/>quella combinazione di <placeName>Varzin</placeName> dell'inverno del <date when="1878">1878</date>, secondo
-                            <lb n="87"/>la quale il sig. Von <persName>Bennigsen</persName> entrerebbe nel Ministero e che
+                            <lb n="84"/>senza l'influenza del <persName ref="#Bismarck">Principe Bismarck</persName>. Certo vanno troppo
+                            <lb n="85"/><distinct type="literary">lungi</distinct> le voci che già sostengono doversi in breve riprendere
+                            <lb n="86"/>quella combinazione di <placeName ref="#Varzin">Varzin</placeName> dell'inverno del <date when="1878">1878</date>, secondo
+                            <lb n="87"/>la quale il <persName ref="#Bennigsen">sig. Von Bennigsen</persName> entrerebbe nel <orgName ref="#Ministero_prussiano">Ministero</orgName> e che
                             <lb n="88"/>con ciò succederebbe la durevole unione in un solo partito dei
-                            <lb n="89"/>liberali moderati e dei conservatori moderati. Non è ancora
-                            <lb n="90"/>neppure accertato se il sig. <persName>Bennigsen</persName> sarà rieletto pre-
-                            <lb n="91" break="no"/>sidente della Camera dei deputati, quantunque i nostri fogli
+                            <lb n="89"/><rs type="politicalGroup" ref="#liberali_moderati">liberali moderati</rs> e dei <rs type="politicalGroup" ref="#conservatori_moderati">conservatori moderati</rs>. Non è ancora
+                            <lb n="90"/>neppure accertato se il <persName ref="#Bennigsen">sig. Bennigsen</persName> sarà rieletto pre-
+                            <lb n="91" break="no"/>sidente della <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati</orgName>, quantunque i nostri fogli
                             <lb n="92"/>la considerino già cosa sicura; è però probabile, ed è in-
-                            <lb n="93" break="no"/>dubitabile che il Cancelliere dell'Impero la desidera. * Se al-
-                            <lb n="94"/>l'influenza degli amici del <persName>Bismarck</persName> appartenenti alla fra-
-                            <lb n="95" break="no"/>zione conservativa, che ora conta 115 membri, riuscisse
-                            <lb n="96"/>indurre questa a cooperare coi conservatori liberali e coi
-                            <lb n="97"/>liberali per l'elezione del <persName>Bennigsen</persName> a Presidente, ciò sa-
+                            <lb n="93" break="no"/>dubitabile che il <persName ref="#Bismarck">Cancelliere dell'Impero</persName> la desidera. * Se al-
+                            <lb n="94"/>l'influenza degli amici del <persName ref="#Bismarck">Bismarck</persName> appartenenti alla <rs type="politicalGroup" ref="#conservatori">fra-
+                            <lb n="95" break="no"/>zione conservativa</rs>, che ora conta 115 membri, riuscisse
+                            <lb n="96"/>indurre questa a cooperare coi <rs type="politicalGroup" ref="#conservatori_liberali">conservatori liberali</rs> e coi
+                            <lb n="97"/><rs type="politicalGroup" ref="#liberali">liberali</rs> per l'elezione del <persName ref="#Bennigsen">Bennigsen</persName> a Presidente, ciò sa-
                             <lb n="98" break="no"/>rebbe certamente un primo passo fatto verso l'effettuazione
-                            <lb n="99"/>di quei disegni della maggioranza, che il Principe <persName>Bismarck</persName>
+                            <lb n="99"/>di quei disegni della maggioranza, che il <persName ref="#Bismarck">Principe Bismarck</persName>
                             <lb n="100"/>vagheggia da oltre dieci anni, disegni che tendono a trat-
-                            <lb n="101" break="no"/>tare come antiquata la distinzione fra liberali e conserva-
-                            <lb n="102" break="no"/>tori ed a togliere l'importanza che ha avuto fin qui nella
+                            <lb n="101" break="no"/>tare come antiquata la distinzione fra <rs type="politicalGroup" ref="#liberali">liberali</rs> e <rs type="politicalGroup" ref="#conservatori">conserva-
+                            <lb n="102" break="no"/>tori</rs> ed a togliere l'importanza che ha avuto fin qui nella
                             <lb n="103"/>nostra vita politica. Ma rimane a sapersi se, malgrado
-                            <lb n="104"/>dell'influenza che esercita il Cancelliere dell'Impero sui con-
-                            <lb n="105" break="no"/>servatori, gli riuscirà sì presto di volgere nuovamente la
+                            <lb n="104"/>dell'influenza che esercita il <persName ref="#Bismarck">Cancelliere dell'Impero</persName> sui <rs type="politicalGroup" ref="#conservatori">con-
+                            <lb n="105" break="no"/>servatori</rs>, gli riuscirà sì presto di volgere nuovamente la
                             <lb n="106"/>corrente politica, che da un anno e mezzo ha deviato da quello
                             <lb n="107"/>scopo, nella direzione verso cui si muoveva finché anda-
-                            <lb n="108" break="no"/>rono a vuoto le trattative di <placeName>Varzin</placeName> fra il <persName>Bismarck</persName> e il
+                            <lb n="108" break="no"/>rono a vuoto le trattative di <placeName ref="#Varzin">Varzin</placeName> fra il <persName ref="#Bismarck">Bismarck</persName> e il
                             <pb n="299" facs="#surf_art_3_2"/>
                             <cb n="1"/>
-                            <lb n="109"/><persName>Bennigsen</persName>. La maggiore difficoltà per una cooperazione fra
-                            <lb n="110" break="no"/>i conservatori e i liberali durante la sessione del <orgName>Landtag</orgName>
+                            <lb n="109"/><persName ref="#Bennigsen">Bennigsen</persName>. La maggiore difficoltà per una cooperazione fra
+                            <lb n="110" break="no"/>i <rs type="politicalGroup" ref="#conservatori">conservatori</rs> e i <rs type="politicalGroup" ref="#liberali">liberali</rs> durante la sessione del <orgName ref="#Landtag">Landtag</orgName>
                             <lb n="111"/>che comincerà a giorni, è venuta formandosi nelle ultime
-                            <lb n="112"/>settimane per l'azione del nuovo Ministro dei culti e del-
-                            <lb n="113" break="no"/>l'istruzione, <persName>Puttkamer</persName>.
+                            <lb n="112"/>settimane per l'azione del nuovo <roleName>Ministro dei culti e del-
+                            <lb n="113" break="no"/>l'istruzione</roleName>, <persName ref="#Puttkamer">Puttkamer</persName>.
                         </p>
                         <p facs="#art3_p6">
                             <lb n="114"/>Anche i fogli italiani avranno dato notizia del conflitto
-                            <lb n="115"/>in cui si è messo il signor von <persName>Puttkamer</persName> con tutta l'opi-
+                            <lb n="115"/>in cui si è messo il signor von <persName ref="#Puttkamer">Puttkamer</persName> con tutta l'opi-
                             <lb n="116" break="no"/>nione pubblica liberale del paese, mediante un provvedi-
-                            <lb n="117" break="no"/>mento da lui adottato nella città di <placeName>Elbing</placeName> sul terreno
+                            <lb n="117" break="no"/>mento da lui adottato nella città di <placeName ref="#Elbing">Elbing</placeName> sul terreno
                             <lb n="118"/>dell'insegnamento. Fra i più savi provvedimenti del passato
-                            <lb n="119"/>ministro del culto e dell'istruzione, <persName>Falk</persName>, vi era quello che
+                            <lb n="119"/>ministro del culto e dell'istruzione, <persName ref="#Falk">Falk</persName>, vi era quello che
                             <lb n="120"/>nelle città dove la popolazione è molto mista sotto il rap-
                             <lb n="121" break="no"/>porto confessionale, le scuole elementari, già separate se-
                             <lb n="122" break="no"/>condo le confessioni, erano state da lui riunite in istituti
@@ -1381,7 +1566,7 @@
                             <lb n="133"/>nostro.
                         </p>
                         <p facs="#art3_p7">
-                            <lb n="134"/>Il signor <persName>Puttkamer</persName>, fedele alle sue opinioni ortodosso-
+                            <lb n="134"/>Il signor <persName ref="#Puttkamer">Puttkamer</persName>, fedele alle sue opinioni ortodosso-
                             <lb n="135" break="no"/>conservative, non ha trovato nulla di più urgente da fare
                             <lb n="136"/>che manifestare, dal primo momento del suo ministero,
                             <lb n="137"/>un'aperta ostilità contro queste cosiddette «Scuole simulta-
