@@ -1802,257 +1802,258 @@
                             <lb n="235"/>successo diplomatico.
                         </p>
                     </div>
-                    <back>
-                        <listPerson>
-                            <person xml:id="Nobiling">
-                                <persName>
-                                    <forename>Karl Eduard</forename>
-                                    <surname>Nobiling</surname>
-                                </persName>
-                                <occupation>
-                                    Attentatore dell'Imperatore Guglielmo I di Germania
-                                </occupation>
-                                <idno type="URI">https://www.wikidata.org/wiki/Q68207</idno>
-                            </person>
-
-                            <person xml:id="Bismarck">
-                                <persName>
-                                    <forename>Otto</forename>
-                                    <addName type="nobility">von</addName>
-                                    <surname>Bismarck</surname>
-                                </persName>
-                                <occupation>
-                                    Cancelliere dell'Impero tedesco
-                                </occupation>
-                                <idno type="URI">https://www.wikidata.org/wiki/Q8442</idno>
-                            </person>
-
-                            <person xml:id="Lasker">
-                                <persName>
-                                    <forename>Eduard</forename>
-                                    <surname>Lasker</surname>
-                                </persName>
-                                <occupation>
-                                    Politico liberale tedesco
-                                </occupation>
-                                <idno type="URI">https://www.wikidata.org/wiki/Q213981</idno>
-                            </person>
-
-                            <person xml:id="Bennigsen">
-                                <persName>
-                                    <forename>Rudolf</forename>
-                                    <addName type="nobility">von</addName>
-                                    <surname>Bennigsen</surname>
-                                </persName>
-                                <occupation>
-                                    Politico tedesco del Partito Nazionale Liberale
-                                </occupation>
-                                <idno type="URI">https://www.wikidata.org/wiki/Q69395</idno>
-                            </person>
-
-                            <person xml:id="Puttkamer">
-                                <persName>
-                                    <forename>Robert</forename>
-                                    <addName type="nobility">von</addName>
-                                    <surname>Puttkamer</surname>
-                                </persName>
-                                <occupation>
-                                    Ministro prussiano dei culti e dell'istruzione
-                                </occupation>
-                                <idno type="URI">https://www.wikidata.org/wiki/Q63025</idno>
-                            </person>
-
-                            <person xml:id="Falk">
-                                <persName>
-                                    <forename>Adalbert</forename>
-                                    <surname>Falk</surname>
-                                </persName>
-                                <occupation>
-                                    Ministro prussiano del culto e dell'istruzione
-                                </occupation>
-                                <idno type="URI">https://www.wikidata.org/wiki/Q347336</idno>
-                            </person>
-
-                            <person xml:id="Achenbach">
-                                <persName>
-                                    <forename>Heinrich</forename>
-                                    <addName type="nobility">von</addName>
-                                    <surname>Achenbach</surname>
-                                </persName>
-                                <occupation>
-                                    Ministro prussiano del commercio
-                                </occupation>
-                                <idno type="URI">https://www.wikidata.org/wiki/Q71541</idno>
-                            </person>
-                        </listPerson>
-
-
-                        <listPlace>
-                            <place xml:id="Varzin" type="settlement">
-                                <placeName>Varzin</placeName>
-                                <location>
-                                    <country key="DE">Germania</country>
-                                </location>
-                            </place>
-
-                            <place xml:id="Elbing" type="town">
-                                <placeName>Elbing</placeName>
-                                <location>
-                                    <country key="PL">Polonia</country>
-                                </location>
-                            </place>
-
-                            <place xml:id="Vienna" type="town">
-                                <placeName>Vienna</placeName>
-                                <location>
-                                    <country key="AT">Austria</country>
-                                </location>
-                            </place>
-
-                            <place xml:id="Berlino" type="town">
-                                <placeName>Berlino</placeName>
-                                <location>
-                                    <country key="DE">Germania</country>
-                                </location>
-                            </place>
-
-                            <place xml:id="Austria" type="country">
-                                <placeName>Austria</placeName>
-                                <location>
-                                    <country key="AT">Austria</country>
-                                </location>
-                            </place>
-
-                            <place xml:id="Germania_3" type="country">
-                                <placeName>Germania</placeName>
-                                <location>
-                                    <country key="DE">Germania</country>
-                                </location>
-                            </place>
-
-                            <place xml:id="Impero_tedesco" type="state">
-                                <placeName>Impero tedesco</placeName>
-                                <location>
-                                    <country key="DE">Germania</country>
-                                </location>
-                            </place>
-                        </listPlace>
-
-
-                        <listOrg>
-                            <org xml:id="Governo_prussiano">
-                                <orgName>Governo prussiano</orgName>
-                                <desc>
-                                    Governo del Regno di Prussia citato nel contesto delle elezioni prussiane.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Partito_Nazionale_Liberale">
-                                <orgName>Partito Nazionale Liberale</orgName>
-                                <desc>
-                                    Partito politico liberale tedesco citato nell'articolo in relazione alle elezioni prussiane.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Partito_del_Progresso">
-                                <orgName>Partito del Progresso</orgName>
-                                <desc>
-                                    Partito politico liberale-progressista tedesco citato nell'articolo.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Camera_dei_deputati_prussiani">
-                                <orgName>Camera dei deputati prussiani</orgName>
-                                <desc>
-                                    Assemblea rappresentativa del Regno di Prussia.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Reichstag_tedesco">
-                                <orgName>Reichstag tedesco</orgName>
-                                <desc>
-                                    Parlamento dell'Impero tedesco.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Ministero_prussiano">
-                                <orgName>Ministero prussiano</orgName>
-                                <desc>
-                                    Governo o gabinetto ministeriale prussiano.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Stato_prussiano">
-                                <orgName>Stato prussiano</orgName>
-                                <desc>
-                                    Stato del Regno di Prussia.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Landtag">
-                                <orgName>Landtag</orgName>
-                                <desc>
-                                    Assemblea parlamentare prussiana.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Curia_Romana">
-                                <orgName>Curia Romana</orgName>
-                                <desc>
-                                    Insieme degli organi centrali della Chiesa cattolica.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Chiesa_protestante">
-                                <orgName>Chiesa protestante</orgName>
-                                <desc>
-                                    Istituzione religiosa protestante citata nel contesto del sinodo e dell'istruzione religiosa.
-                                </desc>
-                            </org>
-
-                            <org xml:id="Vaticano">
-                                <orgName>Vaticano</orgName>
-                                <desc>
-                                    Sede centrale della Chiesa cattolica, citata nel testo in relazione alle trattative con Bismarck.
-                                </desc>
-                            </org>
-                        </listOrg>
-
-
-                        <div type="gloss">
-                            <head>GLOSSARIO</head>
-                            <list>
-                                <label>Ambedue</label>
-                                <item>
-                                    <gloss target="#ambedue">
-                                        Entrambi, tutti e due.
-                                    </gloss>
-                                </item>
-
-                                <label>lungi</label>
-                                <item>
-                                    <gloss target="#lungi">
-                                        Lontano; nell'espressione “vanno troppo lungi” significa “si spingono troppo oltre”.
-                                    </gloss>
-                                </item>
-
-                                <label>Scuole simultanee</label>
-                                <item>
-                                    <gloss target="#scuole_simultanee">
-                                        Scuole comuni frequentate da alunni di confessioni religiose diverse.
-                                    </gloss>
-                                </item>
-
-                                <label>conchiuso</label>
-                                <item>
-                                    <gloss target="#conchiuso">
-                                        Concluso.
-                                    </gloss>
-                                </item>
-                            </list>
-                        </div>
-                    </back>
                 </body>
+                <back>
+                    <listPerson>
+                        <person xml:id="Nobiling">
+                            <persName>
+                                <forename>Karl Eduard</forename>
+                                <surname>Nobiling</surname>
+                            </persName>
+                            <occupation>
+                                Attentatore dell'Imperatore Guglielmo I di Germania
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q68207</idno>
+                        </person>
+
+                        <person xml:id="Bismarck">
+                            <persName>
+                                <forename>Otto</forename>
+                                <addName type="nobility">von</addName>
+                                <surname>Bismarck</surname>
+                            </persName>
+                            <occupation>
+                                Cancelliere dell'Impero tedesco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q8442</idno>
+                        </person>
+
+                        <person xml:id="Lasker">
+                            <persName>
+                                <forename>Eduard</forename>
+                                <surname>Lasker</surname>
+                            </persName>
+                            <occupation>
+                                Politico liberale tedesco
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q213981</idno>
+                        </person>
+
+                        <person xml:id="Bennigsen">
+                            <persName>
+                                <forename>Rudolf</forename>
+                                <addName type="nobility">von</addName>
+                                <surname>Bennigsen</surname>
+                            </persName>
+                            <occupation>
+                                Politico tedesco del Partito Nazionale Liberale
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q69395</idno>
+                        </person>
+
+                        <person xml:id="Puttkamer">
+                            <persName>
+                                <forename>Robert</forename>
+                                <addName type="nobility">von</addName>
+                                <surname>Puttkamer</surname>
+                            </persName>
+                            <occupation>
+                                Ministro prussiano dei culti e dell'istruzione
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q63025</idno>
+                        </person>
+
+                        <person xml:id="Falk">
+                            <persName>
+                                <forename>Adalbert</forename>
+                                <surname>Falk</surname>
+                            </persName>
+                            <occupation>
+                                Ministro prussiano del culto e dell'istruzione
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q347336</idno>
+                        </person>
+
+                        <person xml:id="Achenbach">
+                            <persName>
+                                <forename>Heinrich</forename>
+                                <addName type="nobility">von</addName>
+                                <surname>Achenbach</surname>
+                            </persName>
+                            <occupation>
+                                Ministro prussiano del commercio
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q71541</idno>
+                        </person>
+                    </listPerson>
+
+
+                    <listPlace>
+                        <place xml:id="Varzin" type="settlement">
+                            <placeName>Varzin</placeName>
+                            <location>
+                                <country key="DE">Germania</country>
+                            </location>
+                        </place>
+
+                        <place xml:id="Elbing" type="town">
+                            <placeName>Elbing</placeName>
+                            <location>
+                                <country key="PL">Polonia</country>
+                            </location>
+                        </place>
+
+                        <place xml:id="Vienna" type="town">
+                            <placeName>Vienna</placeName>
+                            <location>
+                                <country key="AT">Austria</country>
+                            </location>
+                        </place>
+
+                        <place xml:id="Berlino" type="town">
+                            <placeName>Berlino</placeName>
+                            <location>
+                                <country key="DE">Germania</country>
+                            </location>
+                        </place>
+
+                        <place xml:id="Austria" type="country">
+                            <placeName>Austria</placeName>
+                            <location>
+                                <country key="AT">Austria</country>
+                            </location>
+                        </place>
+
+                        <place xml:id="Germania_3" type="country">
+                            <placeName>Germania</placeName>
+                            <location>
+                                <country key="DE">Germania</country>
+                            </location>
+                        </place>
+
+                        <place xml:id="Impero_tedesco" type="state">
+                            <placeName>Impero tedesco</placeName>
+                            <location>
+                                <country key="DE">Germania</country>
+                            </location>
+                        </place>
+                    </listPlace>
+
+
+                    <listOrg>
+                        <org xml:id="Governo_prussiano">
+                            <orgName>Governo prussiano</orgName>
+                            <desc>
+                                Governo del Regno di Prussia citato nel contesto delle elezioni prussiane.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Partito_Nazionale_Liberale">
+                            <orgName>Partito Nazionale Liberale</orgName>
+                            <desc>
+                                Partito politico liberale tedesco citato nell'articolo in relazione alle elezioni prussiane.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Partito_del_Progresso">
+                            <orgName>Partito del Progresso</orgName>
+                            <desc>
+                                Partito politico liberale-progressista tedesco citato nell'articolo.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Camera_dei_deputati_prussiani">
+                            <orgName>Camera dei deputati prussiani</orgName>
+                            <desc>
+                                Assemblea rappresentativa del Regno di Prussia.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Reichstag_tedesco">
+                            <orgName>Reichstag tedesco</orgName>
+                            <desc>
+                                Parlamento dell'Impero tedesco.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Ministero_prussiano">
+                            <orgName>Ministero prussiano</orgName>
+                            <desc>
+                                Governo o gabinetto ministeriale prussiano.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Stato_prussiano">
+                            <orgName>Stato prussiano</orgName>
+                            <desc>
+                                Stato del Regno di Prussia.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Landtag">
+                            <orgName>Landtag</orgName>
+                            <desc>
+                                Assemblea parlamentare prussiana.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Curia_Romana">
+                            <orgName>Curia Romana</orgName>
+                            <desc>
+                                Insieme degli organi centrali della Chiesa cattolica.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Chiesa_protestante">
+                            <orgName>Chiesa protestante</orgName>
+                            <desc>
+                                Istituzione religiosa protestante citata nel contesto del sinodo e dell'istruzione religiosa.
+                            </desc>
+                        </org>
+
+                        <org xml:id="Vaticano">
+                            <orgName>Vaticano</orgName>
+                            <desc>
+                                Sede centrale della Chiesa cattolica, citata nel testo in relazione alle trattative con Bismarck.
+                            </desc>
+                        </org>
+                    </listOrg>
+
+
+                    <div type="gloss">
+                        <head>GLOSSARIO</head>
+                        <list>
+                            <label>Ambedue</label>
+                            <item>
+                                <gloss target="#ambedue">
+                                    Entrambi, tutti e due.
+                                </gloss>
+                            </item>
+
+                            <label>lungi</label>
+                            <item>
+                                <gloss target="#lungi">
+                                    Lontano; nell'espressione “vanno troppo lungi” significa “si spingono troppo oltre”.
+                                </gloss>
+                            </item>
+
+                            <label>Scuole simultanee</label>
+                            <item>
+                                <gloss target="#scuole_simultanee">
+                                    Scuole comuni frequentate da alunni di confessioni religiose diverse.
+                                </gloss>
+                            </item>
+
+                            <label>conchiuso</label>
+                            <item>
+                                <gloss target="#conchiuso">
+                                    Concluso.
+                                </gloss>
+                            </item>
+                        </list>
+                    </div>
+                </back>
+                
             </text>
             <!-- BIBLIOGRAFIA -->
             <text>
@@ -2077,7 +2078,7 @@
                                 <lb n="7"/>Scienze Politiche di <placeName ref="#Parigi_2">Parigi</placeName></orgName>, e poi nella <title level="j" rend="italic">Revue des Deux
                                 <lb n="8"/>Mondes</title>. L'opera si divide in due parti. Nella prima l'<rs type="person" ref="#Janet">Au-
                                 <lb n="9" break="no"/>tore</rs> tratta del <persName ref="#SaintSimon">Saint-Simon</persName> e, invece di raccontarci per la
-                                <lb n="10"/>centesima volta la vita del <rs type="person" ref="#SaintSimon">filosofo</rs> con le osservazioni <distinct type="archaic">ob-
+                                <lb n="10"/>centesima volta la vita del <rs type="person" ref="#SaintSimon">filosofo</rs> con le osservazioni <distinct type="archaic" xml:id="obbligate">ob-
                                 <lb n="11" break="no"/>bligate</distinct> e <choice><orig>cogli</orig><reg>con gli</reg></choice> aneddoti stantii che sentiamo ripetere da
                                 <lb n="12"/>cinquant'anni, analizza gli scritti di lui, dichiara e giudica
                                 <lb n="13"/>la sua filosofia e i suoi disegni di <distinct type="archaic" xml:id="riorganamento">riorganamento</distinct> sociale;
@@ -2103,10 +2104,10 @@
                             <p facs="#bibl1_p2 #bibl1_p3">
                                 <lb n="32"/>Solamente il <persName ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</persName> - come chiaramente dimo-
                                 <lb n="33" break="no"/>stra il <persName ref="#Janet">Janet</persName> nella seconda metà del suo breve scritto
-                                <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" ref="#Sansimonismo">Sansimonismo</term> introducen-
+                                <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" xml:id="Sansimonismo">Sansimonismo</term> introducen-
                                 <lb n="35" break="no"/>dovi le proprie idee - o meglio le proprie fisime - a
                                 <lb n="36"/>proposito della proprietà, della religione e della famiglia.
-                                <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="#Sansimonismo">Sansimonismo</term>
+                                <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="Sansimonismo">Sansimonismo</term>
                                 <lb n="38"/><distinct type="archaic" xml:id="affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più <!-- decidere se è distinct archaic o metterlo in choice -->
                                 <lb n="39"/>il principio dell'autorità, mettendosi <choice><orig>viemaggiormente</orig><reg>ancor di più</reg></choice> in
                                 <lb n="40"/>opposizione col <rs type="politicalGroup" ref="#liberali2">liberalismo politico</rs>. Bisogna leggere tutto
@@ -2127,7 +2128,7 @@
                                 <pb n="243" facs="#surf_bibliografia_2"/>
                                 <cb n="1"/>
                                 <lb n="55"/><seg type="metaphor" xml:id="codino_franc_Catt">il codino del francese e del Cattolico</seg>, abituato a conside-
-                                <lb n="56" break="no"/>rare come verità innate le leggi della <orgName ref="#Chiesa_2">Chiesa</orgName> e del <term type="political" ref="#Codice_Civile">Codice
+                                <lb n="56" break="no"/>rare come verità innate le leggi della <orgName ref="#Chiesa_2">Chiesa</orgName> e del <term type="political" xml:id="Codice_Civile">Codice
                                 <lb n="57"/>Civile</term>. Insomma, il merito principale di questo ottimo libric-
                                 <lb n="58" break="no"/>cino è d'aver stabilita in una forma eccellente, la distinzione
                                 <lb n="59"/>fra il <persName ref="#SaintSimon">Saint-Simon</persName> e la sua <rs type="movement" ref="#Sansimonismo">Scuola</rs>, fra il <term type="political" ref="#Sansimonismo">Sansimonismo</term> del
@@ -2152,7 +2153,7 @@
                                 <lb n="8" break="no"/>scritti molti lavori del <persName ref="#Mantegazza">Mantegazza</persName> sul dolore e uno studio
                                 <lb n="9"/>del <roleName type="title"><choice><abbr>prof.</abbr><expan>professor</expan></choice></roleName> <persName ref="#Lombroso">Lombroso</persName> sulla misura del dolore. Non sappiamo
                                 <lb n="10"/>però con quanta opportunità ciò sia stato fatto; dacchè
-                                <lb n="11"/>frammenti isolati di una <term type="scientific" ref="#fisiologia">fisiologia</term> del dolore che è di là
+                                <lb n="11"/>frammenti isolati di una <term type="scientific" xml:id="fisiologia">fisiologia</term> del dolore che è di là
                                 <lb n="12"/>da venire non possono essere ben intesi, quando son tolti
                                 <lb n="13"/><choice><orig>da'</orig><reg>dai </reg></choice> giornali di medicina e di antropologia, dove furono pub-
                                 <lb n="14" break="no"/>blicati, quasi come saggio di un lavoro completo, che il
@@ -2167,9 +2168,9 @@
                             <p facs="#bibl2_p2 #bibl2_p3">
                                 <lb n="22"/><persName ref="#Dumont">Dumont</persName> appartiene a quella scuola di filosofi moderni,
                                 <lb n="23"/>che chiameremmo volentieri con linguaggio preso a pre-
-                                <lb n="24" break="no"/>stito dalla geologia, <term type="scientific" ref="#metamorfici">metamorfici</term>; perchè ripudiano in
-                                <lb n="25"/>teoria le vecchie <term type="philosophical" ref="#scuole_metafisiche">scuole metafisiche</term>, e facendo atto di
-                                <lb n="26"/><term type="philosophical" ref="#fede_positivista">fede positivista</term>, ricadono ad ogni passo nell'<term type="scientific" ref="#apriorismo">apriorismo</term>,
+                                <lb n="24" break="no"/>stito dalla geologia, <term type="scientific" xml:id="metamorfici">metamorfici</term>; perchè ripudiano in
+                                <lb n="25"/>teoria le vecchie <term type="philosophical" xml:id="scuole_metafisiche">scuole metafisiche</term>, e facendo atto di
+                                <lb n="26"/><term type="philosophical" xml:id="fede_positivista">fede positivista</term>, ricadono ad ogni passo nell'<term type="scientific" xml:id="apriorismo">apriorismo</term>,
                                 <pb n="244" facs="#surf_notizie"/>
                                 <lb n="27"/>mostrando il singolare intreccio di due opposti indirizzi.
                                 <lb n="28"/><rs type="person" ref="#Dumont">Egli</rs>, per esempio, mostra di aver studiato la <term type="scientific" ref="#fisiologia">fisiologia</term>,
@@ -2196,8 +2197,8 @@
                                 <lb n="47"/>concetto è assolutamente falso, e troppo facile sarebbe il
                                 <lb n="48"/>citare molti fatti di piacere accompagnati da una grande
                                 <lb n="49"/>debolezza e dolori che vanno insieme ad una straordinaria
-                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'<term type="scientific" ref="#istologia">isto-
-                                <lb n="51" break="no"/>logia</term> e la <term type="scientific" ref="#chimica_organica">chimica organica</term> non avranno progredito di tanto
+                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'<term type="scientific" xml:id="istologia">isto-
+                                <lb n="51" break="no"/>logia</term> e la <term type="scientific" xml:id="chimica_organica">chimica organica</term> non avranno progredito di tanto
                                 <lb n="52"/>da darci l'<emph rend="italic">equivalente</emph> e la <emph rend="italic"><choice><sic>formola</sic><corr>formula</corr></choice></emph> del nervo che sente e della
                                 <lb n="53"/>cellula nervosa centrale, che raccoglie e conserva la sensa-
                                 <lb n="54" break="no"/>zione, noi dovremo accontentarci di descrivere e di ordinare
@@ -2404,7 +2405,7 @@
                         <list>
                             <label>obbligate</label>
                             <item>
-                                <gloss xml:id="obbligate">
+                                <gloss target="#obbligate">
                                     Consuete, ricorrenti, quasi inevitabili.
                                 </gloss>
                             </item>
@@ -2425,7 +2426,7 @@
 
                             <label>Sansimonismo</label>
                             <item>
-                                <gloss xml:id="Sansimonismo">
+                                <gloss target="#Sansimonismo">
                                     Dottrina sociale e politica ispirata al pensiero di Saint-Simon e sviluppata dai suoi seguaci.
                                 </gloss>
                             </item>
@@ -2439,56 +2440,56 @@
 
                             <label>Codice Civile</label>
                             <item>
-                                <gloss xml:id="Codice_Civile">
+                                <gloss target="#Codice_Civile">
                                     Raccolta organica delle norme che regolano i rapporti civili tra i cittadini.
                                 </gloss>
                             </item>
 
                             <label>fisiologia</label>
                             <item>
-                                <gloss xml:id="fisiologia">
+                                <gloss target="#fisiologia">
                                     Disciplina scientifica che studia il funzionamento degli organismi viventi.
                                 </gloss>
                             </item>
 
                             <label>metamorfici</label>
                             <item>
-                                <gloss xml:id="metamorfici">
+                                <gloss target="#metamorfici">
                                     Termine usato metaforicamente per indicare pensatori che trasformano vecchie idee in forme apparentemente nuove.
                                 </gloss>
                             </item>
 
                             <label>scuole metafisiche</label>
                             <item>
-                                <gloss xml:id="scuole_metafisiche">
+                                <gloss target="#scuole_metafisiche">
                                     Correnti filosofiche fondate su principi astratti e non direttamente verificabili con il metodo sperimentale.
                                 </gloss>
                             </item>
 
                             <label>fede positivista</label>
                             <item>
-                                <gloss xml:id="fede_positivista">
+                                <gloss target="#fede_positivista">
                                     Adesione al positivismo, orientamento filosofico che privilegia il metodo scientifico e l'osservazione dei fatti.
                                 </gloss>
                             </item>
 
                             <label>apriorismo</label>
                             <item>
-                                <gloss xml:id="apriorismo">
+                                <gloss target="#apriorismo">
                                     Tendenza a formulare principi o spiegazioni indipendentemente dall'esperienza e dall'osservazione dei fatti.
                                 </gloss>
                             </item>
 
                             <label>istologia</label>
                             <item>
-                                <gloss xml:id="istologia">
+                                <gloss target="#istologia">
                                     Disciplina biologica che studia i tessuti degli organismi viventi.
                                 </gloss>
                             </item>
 
                             <label>chimica organica</label>
                             <item>
-                                <gloss xml:id="chimica_organica">
+                                <gloss target="#chimica_organica">
                                     Branca della chimica che studia i composti organici e le sostanze legate agli organismi viventi.
                                 </gloss>
                             </item>
