@@ -438,17 +438,17 @@
                         <!-- Da ricontrollare da qua al p20 -->
                         <p facs="#art1_p14">
                             <lb n="110"/>Le scuole di <term type="music" xml:id="composizione2">composizione</term> hanno dato ottimi risultati
-                            <lb n="112"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
-                            <lb n="113" break="no"/>guissero le <distinct type="literary">savie</distinct> norme e i salutari intendimenti dei
-                            <lb n="114"/>pochi egregi. Dice il <persName ref="#Gevaert">Gevaert</persName> (direttore del <orgName ref="#Cons_Bruxelles">Conservatorio
-                            <lb n="115"/>di <placeName ref="#Bruxelles">Bruxelles</placeName></orgName>) che è <distinct type="archaic" xml:id="duopo">d'uopo</distinct> insegnare <choice><orig>a'</orig><reg>ai</reg></choice> discepoli non <emph rend="italic">ciò
-                            <lb n="116"/>che bisogna sapere, ma ciò che bisogna saper fare</emph>; ed ha ra-
-                            <lb n="117" break="no"/>gione, perché il saper fare include necessariamente il sa-
-                            <lb n="118" break="no"/>pere. L'insegnamento teorico deve procedere di pari passo
-                            <lb n="119"/><choice><orig>coll'</orig><reg>con l'</reg></choice>insegnamento pratico, anzi uno deve compenetrarsi
-                            <lb n="120"/>nell'altro: <choice><orig>chè</orig><reg>perché</reg></choice> la teoria nacque sempre posteriormente e
-                            <lb n="121"/>conseguentemente alla pratica, ed è cattiva ogni teoria che
-                            <lb n="122"/>non trovi una pratica applicazione.
+                            <lb n="111"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
+                            <lb n="112" break="no"/>guissero le <distinct type="literary">savie</distinct> norme e i salutari intendimenti dei
+                            <lb n="113"/>pochi egregi. Dice il <persName ref="#Gevaert">Gevaert</persName> (direttore del <orgName ref="#Cons_Bruxelles">Conservatorio
+                            <lb n="114"/>di <placeName ref="#Bruxelles">Bruxelles</placeName></orgName>) che è <distinct type="archaic" xml:id="duopo">d'uopo</distinct> insegnare <choice><orig>a'</orig><reg>ai</reg></choice> discepoli non <emph rend="italic">ciò
+                            <lb n="115"/>che bisogna sapere, ma ciò che bisogna saper fare</emph>; ed ha ra-
+                            <lb n="116" break="no"/>gione, perché il saper fare include necessariamente il sa-
+                            <lb n="117" break="no"/>pere. L'insegnamento teorico deve procedere di pari passo
+                            <lb n="118"/><choice><orig>coll'</orig><reg>con l'</reg></choice>insegnamento pratico, anzi uno deve compenetrarsi
+                            <lb n="119"/>nell'altro: <choice><orig>chè</orig><reg>perché</reg></choice> la teoria nacque sempre posteriormente e
+                            <lb n="120"/>conseguentemente alla pratica, ed è cattiva ogni teoria che
+                            <lb n="121"/>non trovi una pratica applicazione.
                         </p>
 
                         <p facs="#art1_p15">
@@ -507,9 +507,8 @@
                             <lb n="168" break="no"/>tito il bisogno di procurarsi da sè stessi un'istruzione let-
                             <cb n="2"/>
                             <lb n="169" break="no"/>teraria, artistica e scientifica svariatissima. <persName ref="#Mendelssohn">Mendelssohn</persName>,
-                            <persName ref="#Chopin">Chopin</persName>, <persName ref="#Schumann">Schumann</persName>, <persName ref="#Liszt">Liszt</persName>,
-                            <persName ref="#Berlioz">Berlioz</persName>, <persName ref="#SaintSaens">Saint-Saëns</persName>,
-                            <persName ref="#Gevaert">Gevaert</persName>, <persName ref="#Wagner">Wagner</persName> e tanti altri son lì a provarlo.
+                            <lb n="170"/><persName ref="#Chopin">Chopin</persName>, <persName ref="#Schumann">Schumann</persName>, <persName ref="#Liszt">Liszt</persName>, <persName ref="#Berlioz">Berlioz</persName>, <persName ref="#SaintSaens">Saint-Saëns</persName>, <persName ref="#Gevaert">Gevaert</persName>
+                            <lb n="171"/><persName ref="#Wagner">Wagner</persName> e tanti altri son lì a provarlo.
                         </p>
 
                         <p facs="#art1_p19">
