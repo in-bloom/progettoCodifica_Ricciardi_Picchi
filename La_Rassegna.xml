@@ -997,13 +997,13 @@
 
                         <head facs="#art2_title">IL SOCIALISMO IN ITALIA</head>
                         <p facs="#art2_p1">
-                            <lb n="1"/>Ci sono veramente pericoli sociali in <placeName ref="#Italia">Italia</placeName>? o sono so-
+                            <lb n="1"/>Ci sono veramente pericoli sociali in <placeName ref="#Italia_2">Italia</placeName>? o sono so-
                             <lb n="2" break="no"/>gni di menti malate, di spiriti irrequieti e turbolenti? Do-
                             <lb n="3" break="no"/>vremmo credere che sono sogni, quando guardiamo al su-
                             <lb n="4" break="no"/>premo disprezzo con cui negano l'esistenza di tali peri-
                             <lb n="5" break="no"/>coli <rs type="person" xml:id="uominiaut">uomini autorevolissimi</rs>, i quali spesso rispondono solo
                             <lb n="6"/>con un superbo silenzio, che potrebbe tradursi in queste 
-                            <lb n="7"/>parole: <said who="#uominiaut">L'<placeName ref="#Italia">Italia</placeName> l'<choice><orig>abbiam</orig><reg>abbiamo</reg></choice> fatta noi, e vi diciamo che <choice><orig>son</orig><reg>sono</reg></choice>
+                            <lb n="7"/>parole: <said who="#uominiaut">L'<placeName ref="#Italia_2">Italia</placeName> l'<choice><orig>abbiam</orig><reg>abbiamo</reg></choice> fatta noi, e vi diciamo che <choice><orig>son</orig><reg>sono</reg></choice>
                             <lb n="8"/>sogni. Se non conosciamo noi il paese, chi deve conoscerlo?</said>
                         </p>
                         <p facs="#art2_p2">
@@ -1041,7 +1041,7 @@
                         </p>
                         <p facs="#art2_p3">
                             <lb n="40"/>Ma non abbiamo noi un altro esempio più recente e più
-                            <lb n="41"/>chiaro? Chi avrebbe mai pensato che la <placeName ref="#Germania">Germania</placeName>, il paese
+                            <lb n="41"/>chiaro? Chi avrebbe mai pensato che la <placeName ref="#Germania_2">Germania</placeName>, il paese
                             <lb n="42"/>più culto d'<placeName ref="#Europa">Europa</placeName>, quello che tutti vogliono imitare <choice><orig>pel</orig><reg>per il</reg></choice>
                             <lb n="43"/>rapido cammino che in essa ha fatto la scienza, per la dif-
                             <lb n="44" break="no"/>fusione della sua istruzione elementare; dopo i progressi
@@ -1130,7 +1130,7 @@
                         </p>
                         <p facs="#art2_p9 #art2_p10">
                             <lb n="118"/>Se noi non chiameremo al <orgName ref="#Governo">Governo</orgName> i <rs type="politicalGroup" ref="#clericali">clericali</rs> che disfa-
-                            <lb n="119"/>rebbero l'<placeName ref="#Italia">Italia</placeName> o i <rs type="politicalGroup" ref="#repubblicani">repubblicani</rs> che disfarebbero la mo-
+                            <lb n="119"/>rebbero l'<placeName ref="#Italia_2">Italia</placeName> o i <rs type="politicalGroup" ref="#repubblicani">repubblicani</rs> che disfarebbero la mo-
                             <pb n="486" facs="#surf_art_2_2"/>
                             <cb n="1"/>
                             <lb n="120" break="no"/>narchia, abbiamo già percorsa tutta la serie dei possibili
@@ -1169,7 +1169,7 @@
                             <lb n="151" break="no"/>minuzione non era possibile, bisognava tacere e non pro-
                             <lb n="152" break="no"/>porre su di essa la <choice><orig>quistione</orig><reg>questione</reg></choice> ministeriale. Qual legge più
                             <lb n="153"/>importante di quella che sarebbe intesa a sollevare final-
-                            <lb n="154" break="no"/>mente la classe che in <placeName ref="#Italia">Italia</placeName> lavora e soffre più di tutte le
+                            <lb n="154" break="no"/>mente la classe che in <placeName ref="#Italia_2">Italia</placeName> lavora e soffre più di tutte le
                             <lb n="155"/>altre? Si tratta di migliaia di uomini, i produttori della ric-
                             <lb n="156" break="no"/>chezza nazionale, che esausti dal lavoro, non sanno come
                             <lb n="157"/>difendersi dalla fame.
@@ -1187,10 +1187,10 @@
                             <lb n="167"/>potrebbe arrivare il giorno improvviso e inaspettato, a cui
                             <lb n="168"/>ora nessuno <choice><orig>vuol</orig><reg>vuole</reg></choice> credere. La <choice><orig>quistione</orig><reg>questione</reg></choice> sociale che minac-
                             <lb n="169" break="no"/>cia oggi tutti i paesi più civili, <choice><orig>piglia</orig><reg>prende</reg></choice> forme diverse nei
-                            <lb n="170"/>popoli diversi. In <placeName ref="#Italia">Italia</placeName> essa è principalmente una <choice><orig>quistione</orig><reg>questione</reg></choice>
+                            <lb n="170"/>popoli diversi. In <placeName ref="#Italia_2">Italia</placeName> essa è principalmente una <choice><orig>quistione</orig><reg>questione</reg></choice>
                             <lb n="171"/>agraria. È cieco chi non lo vede. Non ci parlate di pro-
                             <lb n="172"/>gresso, di libertà, di produzione aumentata. Non vi incite-
-                            <lb n="173" break="no"/>remmo a cercare le province più civili d'<placeName ref="#Italia">Italia</placeName>. Trovereste
+                            <lb n="173" break="no"/>remmo a cercare le province più civili d'<placeName ref="#Italia_2">Italia</placeName>. Trovereste
                             <lb n="174"/>nelle <placeName ref="#Pianure_Lombarde">pianure Lombarde</placeName> la terra fertile, l'irrigazione am-
                             <lb n="175" break="no"/>mirabile, l'agricoltura eccellente, i prodotti ricchissimi e il
                             <lb n="176"/>contadino ripiegato dalla fatica, consumato dagli stenti,
@@ -1204,7 +1204,7 @@
                             <lb n="182"/>Ma pensino coloro che hanno in mano i destini del
                             <lb n="183"/>paese, che la misura può colmarsi a un tratto, quando
                             <lb n="184"/>nessuno lo aspetta e nessuno lo sospetta. Pensino che in
-                            <lb n="185"/><placeName ref="#Italia">Italia</placeName> abbiamo un <orgName ref="#Clero">clero</orgName> fieramente avverso, che ora è pure
+                            <lb n="185"/><placeName ref="#Italia_2">Italia</placeName> abbiamo un <orgName ref="#Clero">clero</orgName> fieramente avverso, che ora è pure
                             <cb n="2"/>
                             <lb n="186"/>il solo che parli una parola di pace e di conforto a coloro
                             <lb n="187"/>che soffrono, e potrebbe istillare nei loro animi un veleno
@@ -1214,7 +1214,7 @@
                             <lb n="191"/>dinanzi sono impieghi da chiedere, elettori da supplicare,
                             <lb n="192"/>tentativi di subiti guadagni; la scienza stessa quasi non è più
                             <lb n="193"/>che un mezzo, uno scalino per salire <choice><orig>agl'</orig><reg>agli</reg></choice> impieghi, arrivare
-                            <lb n="194"/>ai guadagni. È questa la vita? È questo ciò che l'<placeName ref="#Italia">Italia</placeName> ci
+                            <lb n="194"/>ai guadagni. È questa la vita? È questo ciò che l'<placeName ref="#Italia_2">Italia</placeName> ci
                             <lb n="195"/>aveva fatto sperare? Le benefiche istituzioni sociali gio-
                             <lb n="196" break="no"/>vano solo a chi soccorre più che a chi è soccorso, e però non
                             <lb n="197"/>solo aiutano i miseri, ma sono le vie in cui entrano e si
@@ -1225,10 +1225,10 @@
                             <lb n="202"/>contro una società che chiude loro le porte, o non le sti-
                             <lb n="203" break="no"/>mola abbastanza, e possono divenire un pericolo quando
                             <lb n="204"/>sarebbero invece destinate ad essere il più valido aiuto al
-                            <lb n="205"/>progresso sociale. Certo questa <placeName ref="#Italia">Italia</placeName> che è sorta sotto ai
+                            <lb n="205"/>progresso sociale. Certo questa <placeName ref="#Italia_2">Italia</placeName> che è sorta sotto ai
                             <lb n="206"/>nostri occhi è una gran cosa; ma senza pretendere di aver
                             <lb n="207"/>fatto nulla per essa, non crediamo di amarla meno, dicendo
-                            <lb n="208"/>che al di sopra dell'<placeName ref="#Italia">Italia</placeName> stanno l'umanità e la giustizia.
+                            <lb n="208"/>che al di sopra dell'<placeName ref="#Italia_2">Italia</placeName> stanno l'umanità e la giustizia.
                         </p>
                     </div>
                 </body>
@@ -1315,7 +1315,7 @@
                         </person>
                     </listPerson>
                     <listPlace>
-                        <place xml:id="Italia" type="country">
+                        <place xml:id="Italia_2" type="country">
                             <placeName>Italia</placeName>
                             <location>
                                 <country key="IT">Italia</country>
@@ -1342,7 +1342,7 @@
                                 <country key="IN">India</country>
                             </location>
                         </place>
-                        <place xml:id="Germania" type="country">
+                        <place xml:id="Germania_2" type="country">
                             <placeName>Germania</placeName>
                             <location>
                                 <country key="DE">Germania</country>
@@ -1352,13 +1352,13 @@
                         <place xml:id="Europa" type="continent">
                             <placeName>Europa</placeName>
                             <location>
-                                <continent key="EU">Europa</continent>
+                                <country key="EU">Europa</country>
                             </location>
                         </place>
                         <place xml:id="America" type="continent">
                             <placeName>America</placeName>
                             <location>
-                                <continent key="AM">America</continent>
+                                <country key="US">Stati Uniti d'America</country>
                             </location>
                         </place>
                         <place xml:id="Pianure_Lombarde" type="region">
