@@ -1513,7 +1513,7 @@
                             <lb n="77" break="no"/>tare. Contuttociò il suo Collegio gli ha conferito di nuovo il
                             <lb n="78"/>mandato, e fino all'ultimo momento del termine che hanno
                             <lb n="79"/>i deputati per dichiarare se accettano o no la deputazione, si
-                            <lb n="80"/>attendeva con generale ansietà tale dichiarazione dell'<persName ref="#Bennigsen">Uomo di
+                            <lb n="80"/>attendeva con generale ansietà tale dichiarazione dell'<persName ref="#Bennigsen">uomo di
                             <lb n="81"/>Stato annoverese</persName>. All'ultimo momento egli si è deciso ad ac-
                             <lb n="82" break="no"/>cettare il mandato, <choice><orig>rinunziando</orig><reg>rinunciando</reg></choice> alla sua risoluzione di dimet-
                             <lb n="83" break="no"/>tersi. Si è generalmente convinti che ciò non sia accaduto
@@ -1552,11 +1552,11 @@
                         </p>
                         <p facs="#art3_p6">
                             <lb n="114"/>Anche i fogli italiani avranno dato notizia del conflitto
-                            <lb n="115"/>in cui si è messo il signor von <persName>Puttkamer</persName> con tutta l'opi-
+                            <lb n="115"/>in cui si è messo il signor von <persName ref="#Puttkamer">Puttkamer</persName> con tutta l'opi-
                             <lb n="116" break="no"/>nione pubblica liberale del paese, mediante un provvedi-
-                            <lb n="117" break="no"/>mento da lui adottato nella città di <placeName>Elbing</placeName> sul terreno
+                            <lb n="117" break="no"/>mento da lui adottato nella città di <placeName ref="#Elbing">Elbing</placeName> sul terreno
                             <lb n="118"/>dell'insegnamento. Fra i più savi provvedimenti del passato
-                            <lb n="119"/>ministro del culto e dell'istruzione, <persName>Falk</persName>, vi era quello che
+                            <lb n="119"/><roleName>ministro del culto e dell'istruzione</roleName>, <persName ref="#Falk">Falk</persName>, vi era quello che
                             <lb n="120"/>nelle città dove la popolazione è molto mista sotto il rap-
                             <lb n="121" break="no"/>porto confessionale, le scuole elementari, già separate se-
                             <lb n="122" break="no"/>condo le confessioni, erano state da lui riunite in istituti
@@ -1569,122 +1569,121 @@
                             <lb n="129" break="no"/>neva che i fanciulli delle diverse confessioni imparassero
                             <lb n="130"/>fin dai banchi della scuola quella reciproca tolleranza e
                             <lb n="131"/>quel rispetto, che sono tanto da desiderarsi in un paese
-                            <lb n="132"/>che ha una popolazione di confessioni sì diverse, come il
+                            <lb n="132"/>che ha una popolazione di confessioni <choice><orig>sì</orig><reg>così</reg></choice> diverse, come il
                             <lb n="133"/>nostro.
                         </p>
                         <p facs="#art3_p7">
-                            <lb n="134"/>Il signor <persName>Puttkamer</persName>, fedele alle sue opinioni ortodosso-
+                            <lb n="134"/>Il signor <persName ref="#Puttkamer">Puttkamer</persName>, fedele alle sue opinioni ortodosso-
                             <lb n="135" break="no"/>conservative, non ha trovato nulla di più urgente da fare
                             <lb n="136"/>che manifestare, dal primo momento del suo ministero,
-                            <lb n="137"/>un'aperta ostilità contro queste cosiddette «Scuole simulta-
-                            <lb n="138" break="no"/>nee.» Ciò accadde soprattutto quando egli proibì per tele-
-                            <lb n="139" break="no"/>grafo nella città di <placeName>Elbing</placeName> la imminente apertura di scuole
+                            <lb n="137"/>un'aperta ostilità contro queste cosiddette <term>«Scuole simulta-
+                            <lb n="138" break="no"/>nee.»</term> Ciò accadde soprattutto quando egli proibì per tele-
+                            <lb n="139" break="no"/>grafo nella città di <placeName ref="#Elbing">Elbing</placeName> la imminente apertura di scuole
                             <lb n="140"/>simultanee, la cui fondazione era avvenuta con espressa
-                            <lb n="141"/>approvazione del governo. Considerando che il principe
-                            <lb n="142"/><persName>Bismarck</persName> è uomo di forti tendenze religiose, è presumibile
+                            <lb n="141"/>approvazione del <orgName ref="#Governo_prussiano">governo</orgName>. Considerando che il <persName ref="#Bismarck">principe
+                            <lb n="142"/>Bismarck</persName> è uomo di forti tendenze religiose, è presumibile
                             <lb n="143"/>che sostanzialmente egli abbia poco da obiettare contro la
-                            <lb n="144"/>misura del ministro del culto, e che permettesse l'opposta
-                            <lb n="145"/>politica del ministro <persName>Falk</persName> soltanto perchè aveva bisogno
+                            <lb n="144"/>misura del <roleName>ministro del culto</roleName>, e che permettesse l'opposta
+                            <lb n="145"/>politica del <roleName>ministro dell'istruzione</roleName> soltanto perchè aveva bisogno
                             <lb n="146"/>della cooperazione di quest'uomo di Stato nella lotta poli-
-                            <lb n="147" break="no"/>tico-ecclesiastica contro la <orgName>Curia Romana</orgName>. Ma tuttavia è certo
-                            <lb n="148"/>che il Cancelliere è per lo meno meno d'accordo coll'opinione li-
-                            <lb n="149" break="no"/>berale, molto irritata dal provvedimento del <persName>Puttkamer</persName>, in
-                            <lb n="150"/>quanto egli pure disapprova il metodo del ministro dei culti.
-                            <lb n="151"/>Secondo tutti gl'indizi, a lui non piace che in <placeName>Elbing</placeName> si
+                            <lb n="147" break="no"/>tico-ecclesiastica contro la <orgName ref="#Curia_Romana">Curia Romana</orgName>. Ma tuttavia è certo
+                            <lb n="148"/>che il <persName ref="#Bismarck">Cancelliere</persName> è per lo meno meno d'accordo <choice><orig>coll'</orig><reg>con l'</reg></choice>opinione li-
+                            <lb n="149" break="no"/>berale, molto irritata dal provvedimento del <persName ref="#Puttkamer">Puttkamer</persName>, in
+                            <lb n="150"/>quanto egli pure disapprova il metodo del <roleName>ministro dei culti</roleName>.
+                            <lb n="151"/>Secondo tutti gl'indizi, a lui non piace che in <placeName ref="#Elbing">Elbing</placeName> si
                             <lb n="152"/>sia proceduto in modo estremamente violento e provocante.
                             <lb n="153"/>Oltre a ciò, si dà per sicuro che egli reputi imprudente che
-                            <lb n="154"/>il ministro dei culti nel sinodo della <orgName>Chiesa protestante</orgName>,
+                            <lb n="154"/>il <roleName>ministro dei culti</roleName> nel sinodo della <orgName ref="#Chiesa_protestante">Chiesa protestante</orgName>,
                             <lb n="155"/>ora qui adunato, si sia espresso molto sprezzantemente sul-
-                            <lb n="156" break="no"/>l'esame governativo dei teologi introdotto dalle leggi di
-                            <lb n="157"/>maggio; su di che probabilmente appunto ora pendono
-                            <lb n="158"/>trattative fra il Cancelliere e il <orgName>Vaticano</orgName>. Lo indispone fi-
-                            <lb n="159" break="no"/>nalmente che il signor von <persName>Puttkamer</persName> dal principio del suo
+                            <lb n="156" break="no"/>l'esame governativo dei teologi introdotto dalle <rs type="law" ref="#Leggi_di_maggio">leggi di
+                            <lb n="157"/>maggio</rs>; su di che probabilmente appunto ora pendono
+                            <lb n="158"/>trattative fra il <persName ref="#Bismarck">Cancelliere</persName> e il <orgName ref="#Vaticano">Vaticano</orgName>. Lo indispone fi-
+                            <lb n="159" break="no"/>nalmente che il signor von <persName ref="#Puttkamer">Puttkamer</persName> dal principio del suo
                             <lb n="160"/>ministero abbia spiegato una straordinaria propensione per
-                            <lb n="161"/>discorsi pubblici superflui, ognuno dei quali dove poi essere
+                            <lb n="161"/>discorsi pubblici superflui, ognuno dei quali deve poi essere
                             <lb n="162"/>officiosamente smentito, perchè il ministro ha detto qual-
                             <lb n="163" break="no"/>che cosa di insostenibile. Però questa disapprovazione del
-                            <lb n="164"/>metodo e dei modi del ministro dei culti difficilmente de-
-                            <lb n="165" break="no"/>terminerà il Cancelliere alla risoluzione che la nostra stampa
+                            <lb n="164"/>metodo e dei modi del <roleName>ministro dei culti</roleName> difficilmente de-
+                            <lb n="165" break="no"/>terminerà il <persName ref="#Bismarck">Cancelliere</persName> alla risoluzione che la nostra stampa
                             <lb n="166"/>gli ha ripetutamente suggerito, di provocare già la di-
-                            <lb n="167" break="no"/>missione del signor von <persName>Puttkamer</persName>.
+                            <lb n="167" break="no"/>missione del signor von <persName ref="#Puttkamer">Puttkamer</persName>.
                         </p>
                         <p facs="#art3_p8 #art3_p9">
-                            <lb n="168"/>Anche se ciò per il principe <persName>Bismarck</persName> fosse così facile
+                            <lb n="168"/>Anche se ciò per il <persName ref="#Bismarck">principe Bismarck</persName> fosse così facile
                             <lb n="169"/>come suppongono molti dei nostri giornali, probabilmente
                             <lb n="170"/>per ora egli non lo <emph rend="italic">vorrebbe</emph>, perchè il portafogli del signor
-                            <lb n="171"/>von <persName>Puttkamer</persName> è senza dubbio agli occhi del <persName>Bismarck</persName> un
+                            <lb n="171"/>von <persName ref="#Puttkamer">Puttkamer</persName> è senza dubbio agli occhi del <persName ref="#Bismarck">Bismarck</persName> un
                             <lb n="172"/>importante oggetto di traffico per le prossime trattative
-                            <lb n="173"/>parlamentari coi liberali. È difficile ch'egli paghi a questi
+                            <lb n="173"/>parlamentari coi <rs type="politicalGroup" ref="#liberali">liberali</rs>. È difficile ch'egli paghi a questi
                             <lb n="174"/>ultimi il prezzo consistente nel congedo del ministro che è
                             <lb n="175"/>loro divenuto sì altamente spiacente, prima di avere rice-
                             <cb n="2"/>
-                            <lb n="179" break="no"/>vuto da loro la merce, cioè: in primo luogo l'approvazione
-                            <lb n="180"/>ai grandi piani di acquisto di strade ferrate. Bisogna inoltre
-                            <lb n="181"/>avvertire che la surrogazione del <persName>Falk</persName> col <persName>Puttkamer</persName> fu
-                            <lb n="182"/>una concessione che fece il Cancelliere ai sentimenti orto-
-                            <lb n="183" break="no"/>dossi dell'Imperatore; ed appunto perchè il principe di
-                            <lb n="184"/><persName>Bismarck</persName> dovette mettere alla prova recentemente tutta la
-                            <lb n="185"/>forza della sua influenza per ottenere l'adesione del mo-
-                            <lb n="186" break="no"/>narca agli accordi fatti a <placeName>Vienna</placeName>, e dovette perfino a questo
-                            <lb n="187"/>scopo (il che non è più da mettersi in dubbio) presentare
-                            <lb n="188"/>la sua dimissione, è difficile che voglia immediatamente ri-
-                            <lb n="189" break="no"/>petere siffatta prova soltanto per soddisfare un desiderio dei
-                            <lb n="190"/>liberali. Per ora senza dubbio gli basti di poter mantenere
-                            <lb n="191"/>la bilancia fra i conservatori e i liberali, mentre il centro
-                            <lb n="192"/>è messo da parte e deve contentarsi, senza potere imporre
-                            <lb n="193"/>condizioni, di quello che può essergli conceduto nella que-
-                            <lb n="194" break="no"/>stione politico-ecclesiastica. Se più tardi, nel corso dei la-
-                            <lb n="195"/>vori del <orgName>Landtag</orgName>, gli sembrerà di urgente necessità il legare
-                            <lb n="196"/>a sè strettamente i liberali mediante il congedo del ministro
-                            <lb n="197"/>dei culti, troverà allora certamente i mezzi a questo effetto.
+                            <lb n="176" break="no"/>vuto da loro la merce, cioè: in primo luogo l'approvazione
+                            <lb n="177"/>ai grandi piani di acquisto di strade ferrate. Bisogna inoltre
+                            <lb n="178"/>avvertire che la surrogazione del <persName ref="#Falk">Falk</persName> col <persName ref="#Puttkamer">Puttkamer</persName> fu
+                            <lb n="179"/>una concessione che fece il <persName ref="#Bismarck">Cancelliere</persName> ai sentimenti orto-
+                            <lb n="180" break="no"/>dossi dell'Imperatore; ed appunto perchè il principe di
+                            <lb n="181"/><persName ref="#Bismarck">Bismarck</persName> dovette mettere alla prova recentemente tutta la
+                            <lb n="182"/>forza della sua influenza per ottenere l'adesione del mo-
+                            <lb n="183" break="no"/>narca agli accordi fatti a <placeName ref="#Vienna">Vienna</placeName>, e dovette perfino a questo
+                            <lb n="184"/>scopo (il che non è più da mettersi in dubbio) presentare
+                            <lb n="185"/>la sua dimissione, è difficile che voglia immediatamente ri-
+                            <lb n="186" break="no"/>petere siffatta prova soltanto per soddisfare un desiderio dei
+                            <lb n="187"/><rs type="politicalGroup" ref="#liberali">liberali</rs>. Per ora senza dubbio gli basti di poter mantenere
+                            <lb n="188"/>la bilancia fra i <rs type="politicalGroup" ref="#conservatori">conservatori</rs> e i <rs type="politicalGroup" ref="#liberali">liberali</rs>, mentre il <rs type="politicalGroup" ref="#centro">centro</rs>
+                            <lb n="189"/>è messo da parte e deve contentarsi, senza potere imporre
+                            <lb n="190"/>condizioni, di quello che può essergli conceduto nella que-
+                            <lb n="191" break="no"/>stione politico-ecclesiastica. Se più tardi, nel corso dei la-
+                            <lb n="192"/>vori del <orgName ref="#Landtag">Landtag</orgName>, gli sembrerà di urgente necessità il legare
+                            <lb n="193"/>a sè strettamente i <rs type="politicalGroup" ref="#liberali">liberali</rs> mediante il congedo del <roleName>ministro dei culti</roleName>, troverà allora certamente i mezzi a questo effetto.
                             </p>
 
                             <p facs="#art3_p10">
-                            <lb n="198"/>Che egli non sia in questo rapporto troppo schifiltoso lo ha
-                            <lb n="199"/>dimostrato più volte. Non fu allontanato l'antico ministro
-                            <lb n="200"/>del commercio <persName>Achenbach</persName> mediante una critica profonda-
-                            <lb n="201" break="no"/>mente offensiva che fece il Cancelliere in una pubblica seduta
-                            <lb n="202"/>della Camera, mentre l'<persName>Achenbach</persName> gli sedeva accanto al
-                            <lb n="203"/>banco dei ministri! Contro il <persName>Puttkamer</persName> egli non potrà pro-
-                            <lb n="204" break="no"/>babilmente condursi così, perchè fino ad ora è risoluto di
-                            <lb n="205"/>non venire a <placeName>Berlino</placeName> dalle sue terre durante la sessione del
-                            <lb n="206"/><orgName>Landtag</orgName>. Però anche coll'aiuto della stampa o di qualche
-                            <lb n="207"/>espressione in conversazione privata, che poi è riferita dalle
-                            <lb n="208"/>gazzette, si può, come si è veduto in passato per vari esempi,
-                            <lb n="209"/>rendere impossibile a un ministro il rimanere in ufficio.
+                            <lb n="194"/>Che egli non sia in questo rapporto troppo schifiltoso lo ha
+                            <lb n="195"/>dimostrato più volte. Non fu allontanato l'antico <roleName>ministro
+                            <lb n="196"/>del commercio</roleName> <persName ref="#Achenbach">Achenbach</persName> mediante una critica profonda-
+                            <lb n="197" break="no"/>mente offensiva che fece il <persName ref="#Bismarck">Cancelliere</persName> in una pubblica seduta
+                            <lb n="198"/>della <orgName ref="#Camera_dei_deputati_prussiani">Camera</orgName>, mentre l'<persName ref="#Achenbach">Achenbach</persName> gli sedeva accanto al
+                            <lb n="199"/>banco dei ministri! Contro il <persName ref="#Puttkamer">Puttkamer</persName> egli non potrà pro-
+                            <lb n="200" break="no"/>babilmente condursi così, perchè fino ad ora è risoluto di
+                            <lb n="201"/>non venire a <placeName ref="#Berlino">Berlino</placeName> dalle sue terre durante la sessione del
+                            <lb n="202"/><orgName ref="#Landtag">Landtag</orgName>. Però anche <choice><orig>coll'</orig><reg>con l'</reg></choice>aiuto della stampa o di qualche
+                            <lb n="203"/>espressione in conversazione privata, che poi è riferita dalle
+                            <lb n="204"/>gazzette, si può, come si è veduto in passato per vari esempi,
+                            <lb n="205"/>rendere impossibile a un ministro il rimanere in ufficio.
                             </p>
 
                             <p facs="#art3_p11">
-                            <lb n="210"/>Il resultato delle elezioni, il cambiamento improvviso
-                            <lb n="211"/>nel contegno del Governo verso i partiti, e la condotta del
-                            <lb n="212"/>ministro <persName>Puttkamer</persName> nella questione scolastica, ha occupato
-                            <lb n="213"/>nelle ultime settimane l'opinione pubblica da noi quasi più
-                            <lb n="214"/>che il trattato conchiuso a <placeName>Vienna</placeName> dal <persName>Bismarck</persName> coll'<placeName>Austria</placeName>.
-                            <lb n="215"/>Non già che qui non si valuti abbastanza l'importanza
-                            <lb n="216"/>di questo accordo; ma la disputa che si è agitata sì vivamente
-                            <lb n="217"/>nei giornali sulla <emph rend="italic">forma</emph> cioè: se sia stato sottoscritto un
-                            <lb n="218"/>protocollo o un trattato o qualche altra cosa, o anche nulla,
-                            <lb n="219"/>ha lasciato la pubblica opinione in generale discretamente
-                            <lb n="220"/>fredda. Malgrado delle scissure circa alla politica interna,
-                            <lb n="221"/>il principe <persName>Bismarck</persName>, non appena si tratta degli affari esteri,
-                            <lb n="222"/>gode in <placeName>Germania</placeName>, ora come prima, di una fiducia così in-
-                            <lb n="223" break="no"/>condizionata, che appena l'estrema sinistra fa eccezioni
-                            <lb n="224"/>nelle manifestazioni di essa. Se quindi avvenne, com'era
-                            <lb n="225"/>naturale, che si accogliesse il resultato dei negoziati di
-                            <lb n="226"/><placeName>Vienna</placeName> con una sicura tranquillità, per la quale non si mise
-                            <lb n="227"/>molto calore a discutere i particolari, a ciò contribuì an-
-                            <lb n="228" break="no"/>che il trattarsi appunto di un accordo con l'<emph rend="italic"><placeName>Austria</placeName></emph>. Nes-
-                            <lb n="229"/>suno pensa ormai nell'Impero tedesco a ristabilire in qual-
-                            <lb n="230" break="no"/>sivoglia forma il vincolo statuale fra i Tedeschi dell'Impero
-                            <lb n="231"/>e i Tedeschi dell'<placeName>Austria</placeName>, spezzato sanguinosamente nel <date when="1866">1866</date>,
-                            <lb n="232"/>ma tutti da noi desiderano di stare in relazioni <emph rend="italic">internazio-
-                            <lb n="233" break="no"/>nali</emph>, quanto è possibile intime e buone, con uno Stato nel
-                            <lb n="234"/>quale vivono milioni di Tedeschi. La piega che ha preso a
-                            <lb n="235"/><placeName>Vienna</placeName> la nostra politica estera risponde talmente a que-
-                            <lb n="236" break="no"/>sta tendenza, che il principe <persName>Bismarck</persName> può sperare con
-                            <lb n="237"/>qualche fiducia di risentire anche in parlamento, nella po-
-                            <lb n="238" break="no"/>litica interna, un effetto a lui favorevole del suo recente
-                            <lb n="239"/>successo diplomatico.
+                            <lb n="206"/>Il <choice><orig>resultato</orig><reg>risultato</reg></choice> delle elezioni, il cambiamento improvviso
+                            <lb n="207"/>nel contegno del <orgName ref="#Governo_prussiano">Governo</orgName> verso i partiti, e la condotta del
+                            <lb n="208"/>ministro <persName ref="#Puttkamer">Puttkamer</persName> nella questione scolastica, ha occupato
+                            <lb n="209"/>nelle ultime settimane l'opinione pubblica da noi quasi più
+                            <lb n="210"/>che il trattato <distinct type="literary">conchiuso</distinct> a <placeName ref="#Vienna">Vienna</placeName> dal <persName ref="#Bismarck">Bismarck</persName> <choice><orig>coll'</orig><reg>con l'</reg></choice><placeName ref="#Austria">Austria</placeName>.
+                            <lb n="211"/>Non già che qui non si valuti abbastanza l'importanza
+                            <lb n="212"/>di questo accordo; ma la disputa che si è agitata <choice><orig>sì</orig><reg>così</reg></choice> vivamente
+                            <lb n="213"/>nei giornali sulla <hi rend="italic">forma</hi> cioè: se sia stato sottoscritto un
+                            <lb n="214"/>protocollo o un trattato o qualche altra cosa, o anche nulla,
+                            <lb n="215"/>ha lasciato la pubblica opinione in generale discretamente
+                            <lb n="216"/>fredda. Malgrado delle scissure circa alla politica interna,
+                            <lb n="217"/>il <persName ref="#Bismarck">principe Bismarck</persName>, non appena si tratta degli affari esteri,
+                            <lb n="218"/>gode in <placeName ref="#Germania">Germania</placeName>, ora come prima, di una fiducia così in-
+                            <lb n="219" break="no"/>condizionata, che appena l'estrema sinistra fa eccezioni
+                            <lb n="220"/>nelle manifestazioni di essa. Se quindi avvenne, com'era
+                            <lb n="221"/>naturale, che si accogliesse il <choice><orig>resultato</orig><reg>risultato</reg></choice> dei negoziati di
+                            <lb n="222"/><placeName ref="#Vienna">Vienna</placeName> con una sicura tranquillità, per la quale non si mise
+                            <lb n="223"/>molto calore a discutere i particolari, a ciò contribuì an-
+                            <lb n="224" break="no"/>che il trattarsi appunto di un accordo con l'<hi rend="italic"><placeName ref="#Austria">Austria</placeName></hi>. Nes-
+                            <lb n="225"/>suno pensa ormai nell'<placeName ref="#Impero_tedesco">Impero tedesco</placeName> a ristabilire in qual-
+                            <lb n="226" break="no"/>sivoglia forma il vincolo statuale fra i <rs type="population" ref="#Tedeschi_Impero">Tedeschi dell'Impero</rs>
+                            <lb n="227"/>e i <rs type="population" ref="#Tedeschi_Austria">Tedeschi dell'<placeName ref="#Austria">Austria</placeName></rs>, spezzato sanguinosamente nel <date when="1866">1866</date>,
+                            <lb n="228"/>ma tutti da noi desiderano di stare in relazioni <hi rend="italic">internazio-
+                            <lb n="229" break="no"/>nali</hi>, quanto è possibile intime e buone, con uno Stato nel
+                            <lb n="230"/>quale vivono milioni di <rs type="population" ref="#Tedeschi">Tedeschi</rs>. La piega che ha preso a
+                            <lb n="231"/><placeName ref="#Vienna">Vienna</placeName> la nostra politica estera risponde talmente a que-
+                            <lb n="232" break="no"/>sta tendenza, che il <persName ref="#Bismarck">principe Bismarck</persName> può sperare con
+                            <lb n="233"/>qualche fiducia di risentire anche in parlamento, nella po-
+                            <lb n="234" break="no"/>litica interna, un effetto a lui favorevole del suo recente
+                            <lb n="235"/>successo diplomatico.
                         </p>
                     </div>
                 </body>
