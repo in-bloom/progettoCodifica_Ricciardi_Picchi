@@ -15,5 +15,5 @@ java -cp "./percorso/to/xerces/\*" dom.Counter -v file.xml
 ```bash
 java -cp "SaxonHE12-5J/*" \
   -Djdk.xml.entityExpansionLimit=100000 \
-  net.sf.saxon.Transform -s:prova_tei.xml -xsl:transformer.xsl -o:output.html
+  net.sf.saxon.Transform -s:La_Rassegna.xml -xsl:transformer.xsl -o:output.html
 ```
