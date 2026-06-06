@@ -125,7 +125,7 @@
                     </biblStruct>
                     <biblStruct xml:id="notizie">
                         <analytic>
-                            <title>NOTIZIE</title>
+                            <title>NOTIZIE.</title>
                         </analytic>
                         <monogr>
                             <title level="j">La Rassegna settimanale di politica, scienze, lettere ed arti</title>
@@ -154,12 +154,11 @@
             </projectDesc>
 
             <editorialDecl>
-                <!--servirà aggiungere queste nel momento in cui abbiamo normalizzato o corretto il testo originale, importante spiegare cosa abbiamo fatto (basta un <p> per spiegare)-->
                 <normalization>
-                    <p></p>
+                    <p>La normalizzazione è stata effettuata principalmente su elementi del testo come (da' ne' etc. spiega meglio) in modo da rendere la lettura più scorrevole. Per determinati termini arcaici o letterari si è deciso di fornire la spiegazione in un glossario rispetto al cambiare troppo il testo originale</p>
                 </normalization>
                 <correction>
-                    <p></p>
+                    <p>Le correzioni sono state in merito a parole non riconducibili a versioni arcaiche o letterarie di quelle attualmente in uso nell'italiano, inoltre sono state corrtti quelli che sono interpretabili come errori di stampa</p>
                 </correction>
             </editorialDecl>
         </encodingDesc>
@@ -291,7 +290,7 @@
                         <pb n="238" facs="#surf_art_1_1" />
                         <cb n="1" />
 
-                        <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA</head>
+                        <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA.</head>
 
                         <p facs="#art1_p1">
                             <lb n="1"/>I <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> italiani, come tutti sanno, scendono di-
@@ -361,7 +360,7 @@
                             <lb n="54"/>e sfiatati poi <distinct type="literary" xml:id="anzitempo">anzi tempo</distinct>, che sono gl'interpreti drammatici
                             <lb n="55"/>d'<distinct type="literary" xml:id="oggidì">oggidì</distinct>. Ma finchè mancheranno i maestri capaci e i sani
                             <lb n="56"/>intendimenti artistici, si andrà di male in peggio. Non sap-
-                            <lb n="57" break="no"/>piamo perchè, vedendo che i professori fanno cattiva prova, <!-- cattiva prova va segnato? -->
+                            <lb n="57" break="no"/>piamo perchè, vedendo che i professori fanno cattiva prova,
                             <lb n="58"/>non si tenti di affidare tale insegnamento a qualche valente
                             <lb n="59"/>maestra: sarebbe un tentativo possibile. All'estero le si-
                             <lb n="60" break="no"/>gnore <persName ref="#Viardot">Viardot</persName> e <persName ref="#Marchesi">Marchesi</persName> diedero eccellenti risultati.
@@ -435,7 +434,7 @@
                             <lb n="108" break="no"/>nista d'ogni tempo, si <choice><orig>eseguisce</orig><reg>esegue</reg></choice> sull'organo di qualche no-
                             <lb n="109" break="no"/>stro <rs type="institution" subtype="music" ref="#conservatorii">Conservatorio</rs> una <term type="music" xml:id="fuga">fuga</term> del <title level="m" xml:id="clavecin" xml:lang="fr" rend="italic">Clavecin bien tempéré!</title>
                         </p>
-                        <!-- Da ricontrollare da qua al p20 -->
+
                         <p facs="#art1_p14">
                             <lb n="110"/>Le scuole di <term type="music" ref="#composizione">composizione</term> hanno dato ottimi risultati
                             <lb n="111"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
@@ -528,7 +527,6 @@
                             <lb n="185" break="no"/>piamente splendido.
                         </p>
 
-                        <!-- AGGIUNGI LABEL E TYPE ALLA LISTA -->
                         <p facs="#art1_p20">
                             <lb n="186"/>Per riassumere, ecco quali sarebbero le condizioni ne-
                             <lb n="187" break="no"/>cessarie a rendere i nostri <rs type="institution" subtype="music" ref="#conservatorii">conservatorii</rs> molto migliori e
@@ -1038,7 +1036,7 @@
                         <pb n="485" facs="#surf_art_2_1" />
                         <cb n="1" />
 
-                        <head facs="#art2_title">IL SOCIALISMO IN ITALIA</head>
+                        <head facs="#art2_title">IL SOCIALISMO IN ITALIA.</head>
                         <p facs="#art2_p1">
                             <lb n="1"/>Ci sono veramente pericoli sociali in <placeName ref="#Italia_2">Italia</placeName>? o sono so-
                             <lb n="2" break="no"/>gni di menti malate, di spiriti irrequieti e turbolenti? Do-
@@ -2169,7 +2167,7 @@
             <text>
                 <body>
                     <div type="bibliography" xml:id="biblio1" source="#bibliografia">
-                        <head>BIBLIOGRAFIA</head>
+                        <head>BIBLIOGRAFIA.</head>
                         <pb n="242" facs="#surf_bibliografia_1"/>
                         <cb n="2"/>
                         <div type="review" xml:id="rev1">
@@ -2209,7 +2207,7 @@
                                 <lb n="28"/><choice><orig>ne'</orig><reg>nei</reg></choice> suoi <distinct type="literary">primordi</distinct>, non si distinse troppo dalla scuola di
                                 <lb n="29"/><persName ref="#GBSay">G. B. Say</persName> il quale esagerò quasi quanto lui e quanto tutti
                                 <lb n="30"/>i pensatori politici <choice><orig>de'</orig><reg>dei</reg></choice> tempi così agitati e così sterili del
-                                <lb n="31"/><rs type="period" xml:id="Primo_Impero">primo Impero</rs>, l'importanza dell'educazione nella società. <!-- cambio e metto date? -->
+                                <lb n="31"/><rs type="period" xml:id="Primo_Impero">primo Impero</rs>, l'importanza dell'educazione nella società.
                             </p>
                             <p facs="#bibl1_p2 #bibl1_p3">
                                 <lb n="32"/>Solamente il <persName ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</persName> - come chiaramente dimo-
@@ -2218,7 +2216,7 @@
                                 <lb n="35" break="no"/>dovi le proprie idee - o meglio le proprie fisime - a
                                 <lb n="36"/>proposito della proprietà, della religione e della famiglia.
                                 <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="#Sansimonismo">Sansimonismo</term>
-                                <lb n="38"/><distinct type="archaic" xml:id="affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più <!-- decidere se è distinct archaic o metterlo in choice -->
+                                <lb n="38"/><distinct type="archaic" xml:id="affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più
                                 <lb n="39"/>il principio dell'autorità, mettendosi <choice><orig>viemaggiormente</orig><reg>ancor di più</reg></choice> in
                                 <lb n="40"/>opposizione col <rs type="politicalGroup" xml:id="liberali2">liberalismo politico</rs>. Bisogna leggere tutto
                                 <lb n="41"/>questo svolgimento, già molto succinto e condensato, nel-
@@ -2247,7 +2245,7 @@
                         </div>
 
                         <div type="review" xml:id="biblio2" source="#bibliografia">
-                            <head type="sub" facs="#bibl2_title">SCIENZE NATURALI</head>
+                            <head type="sub" facs="#bibl2_title">SCIENZE NATURALI.</head>
                             <pb n="243" facs="#surf_bibliografia_2"/>
                             <cb n="2"/>
                             <bibl facs="#bibl_2">
@@ -2632,7 +2630,7 @@
             <text>
                 <body>
                     <div type="section" xml:id="notizie_sec" source="#notizie">
-                        <head facs="#notizie_title">NOTIZIE</head>
+                        <head facs="#notizie_title">NOTIZIE.</head>
                         <pb n="244" facs="#surf_notizie"/>
                         <cb n="1"/>
                         <p facs="#notizia_1">

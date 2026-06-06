@@ -1,3 +1,32 @@
 .interpretative{
-display:none;
+
+    font-weight: bold;
+    display: none;
+}
+
+.term{
+    text-decoration: underline;
+    position: relative;
+}
+.term_content {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 10;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.term:hover .term_content {
+    visibility: visible;
+    opacity: 1;
 }

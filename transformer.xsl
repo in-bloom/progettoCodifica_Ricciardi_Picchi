@@ -31,9 +31,11 @@
                         </xsl:for-each>
                     </ul>
                 </nav>
+
                 <div id="image-section">
-                    <xsl:apply-templates select="//tei:surface"/>
+                    <xsl:apply-templates select="//tei:facsimile/tei:surface"/>
                 </div>
+
                  <div id="text-section">
                     <xsl:apply-templates select="//tei:body"/>
                 </div>
@@ -41,12 +43,14 @@
         </html>
     </xsl:template>
 
+    <!-- Inserire facsimile, trasforma le zone in dei rettangoli. Prima vanno aggiustati con ZoneRW -->
+
     <xsl:template match="tei:body">
         <xsl:apply-templates select="tei:div[@type='article' or @type='bibliography' or @type='section']"/>
     </xsl:template>
 
     <xsl:template match="tei:div">
-        <article id="{@xml:id}">
+        <article class="articolo" id="{@xml:id}">
             <xsl:apply-templates />
         </article>
     </xsl:template>
@@ -57,6 +61,7 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+
     <xsl:template match="tei:p">
         <xsl:variable name="facs" select="translate(@facs, '#', '')"/>
         <div class="paragrafo" data-facs="{$facs}">
@@ -69,30 +74,28 @@
     </xsl:template>
 
      <xsl:template match="tei:pb">
-        <div class="page-break">Pagina <xsl:value-of select="@n"/></div>
+        <div class="page-break"><strong>Pagina <xsl:value-of select="@n"/></strong></div>
     </xsl:template>
 
     <xsl:template match="tei:choice">
         <span class="choice">
             <xsl:if test="tei:abbr">
-                <span class="diplomatic abbr"><xsl:apply-templates select="tei:abbr"/></span>
+                <span class="diplomatic"><xsl:apply-templates select="tei:abbr"/></span>
             </xsl:if>
             <xsl:if test="tei:sic">
-                <span class="diplomatic sic"><xsl:apply-templates select="tei:sic"/></span>
+                <span class="diplomatic"><xsl:apply-templates select="tei:sic"/></span>
             </xsl:if>
             <xsl:if test="tei:orig">
-                <span class="diplomatic orig"><xsl:apply-templates select="tei:orig"/></span>
+                <span class="diplomatic"><xsl:apply-templates select="tei:orig"/></span>
             </xsl:if>
-
-            <!--le tre opzioni "interpretative" (che migliorano la lettura del testo venendo meno alla totale fedeltà al testo originale)-->
             <xsl:if test="tei:expan">
-                <span class="interpretative expan"><xsl:apply-templates select="tei:expan"/></span>
+                <span class="interpretative"><xsl:apply-templates select="tei:expan"/></span>
             </xsl:if>
             <xsl:if test="tei:corr">
-                <span class="interpretative corr"><xsl:apply-templates select="tei:corr"/></span>
+                <span class="interpretative"><xsl:apply-templates select="tei:corr"/></span>
             </xsl:if>
             <xsl:if test="tei:reg">
-                <span class="interpretative reg"><xsl:apply-templates select="tei:reg"/></span>
+                <span class="interpretative"><xsl:apply-templates select="tei:reg"/></span>
             </xsl:if>
         </span>
     </xsl:template>
@@ -105,8 +108,34 @@
         <span class="placeName" title="Luogo"><xsl:apply-templates /></span>
     </xsl:template>
     
+    <xsl:template match="tei:orgName">
+        <span class="orgName" title="Organizzazione"><xsl:apply-templates/></span>
+    </xsl:template>
 
-    <xsl:template match="tei:hi[@rend='bold'] | tei:emph[@rend='bold']"><strong><xsl:apply-templates/></strong></xsl:template>
-    <xsl:template match="tei:hi[@rend='italic'] | tei:emph[@rend='italic']"><em><xsl:apply-templates/></em></xsl:template>
+    <xsl:template match="tei:date">
+        <span class="date" title="Data"><xsl:apply-templates/></span>
+    </xsl:template>
+
+    <xsl:template match="tei:distinct | tei:term">
+        <span class="term" data-id="{@xml:id}">
+            <xsl:apply-templates/>
+            <span class="term_content">
+                <xsl:value-of
+                    select="//tei:gloss[@target = concat('#', current()/@xml:id)]"/>
+            </span>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="*[@rend='bold']">
+        <strong>
+            <xsl:apply-templates/>
+        </strong>
+    </xsl:template>
+
+    <xsl:template match="*[@rend='italic']">
+        <em>
+            <xsl:apply-templates/>
+        </em>
+    </xsl:template>
 
 </xsl:stylesheet>
