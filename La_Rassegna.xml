@@ -1413,8 +1413,18 @@
                     <div type="gloss">
                         <head>GLOSSARIO</head>
                         <list>
-                            <label></label>
+                            <label>pergamo</label>
                             <item>
+                                <gloss xml:id="pergamo"></gloss>
+                            </item>
+                            <label>socialismo</label>
+                            <item>
+                                <gloss xml:id="socialismo"></gloss>
+                            </item>
+
+                            <label>pellagra</label>
+                            <item>
+                                <gloss xml:id="pellagra"></gloss>
                             </item>
                         </list>
                     </div>
@@ -1587,7 +1597,7 @@
                             <lb n="134"/>Il <persName ref="#Puttkamer"><roleName type="honorific">signor</roleName> Puttkamer</persName>, fedele alle sue opinioni ortodosso-
                             <lb n="135" break="no"/>conservative, non ha trovato nulla di più urgente da fare
                             <lb n="136"/>che manifestare, dal primo momento del suo ministero,
-                            <lb n="137"/>un'aperta ostilità contro queste cosiddette <term type="education">«Scuole simulta-
+                            <lb n="137"/>un'aperta ostilità contro queste cosiddette <term type="education" ref="#scuole_simultanee">«Scuole simulta-
                             <lb n="138" break="no"/>nee.»</term> Ciò accadde soprattutto quando egli proibì per tele-
                             <lb n="139" break="no"/>grafo nella città di <placeName ref="#Elbing">Elbing</placeName> la imminente apertura di <term type="education">scuole
                             <lb n="140"/>simultanee</term>, la cui fondazione era avvenuta con espressa
