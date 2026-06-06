@@ -281,7 +281,7 @@
                             <lb n="3"/> ogni monastero era un centro di studi musicali. <choice><orig>Da'</orig><reg>Dai</reg></choice> mona-
                             <lb n="4" break="no"/>steri vennero i <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> (o più propriamente allora or-
                             <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date notBefore="1500" notAfter="1599">secolo XVI</date> ed
-                            <lb n="6"/>erano destinati a formare <choice><orig>de'</orig><reg>dei</reg></choice> ragazzi <term type="music">cantori</term> (<foreign xml:lang="fr" xml:id="enf_de_ch">enfants de
+                            <lb n="6"/>erano destinati a formare <choice><orig>de'</orig><reg>dei</reg></choice> ragazzi <term type="music">cantori</term> (<foreign xml:lang="fr" xml:id="enf_de_ch" rend="italic">enfants de
                             <lb n="7"/> chœur</foreign>); si occupavano però necessariamente anche dello
                             <lb n="8"/>studio tecnico degli strumenti. Il primo <rs type="institution"  subtype="music" ref="#conservatorii">Conservatorio</rs>, quello
                             <lb n="9"/> di musica di <orgName ref="#conservatorioSML">Santa Maria di Loreto</orgName> fu fondato in <placeName ref="#Napoli">Napoli</placeName>
@@ -2649,7 +2649,7 @@
                         </p>
                         <p facs="#notizia_2 #notizia_2_2">
                             <lb n="5"/>-<space/>Sta per uscire a <placeName ref="#Parigi_not">Parigi</placeName> per cura del <persName ref="#Laffitte"><roleName type="honorific">signor</roleName> Laffitte</persName> e di alcuni
-                            <lb n="6"/><term type="philosophical" xml:id="positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
+                            <lb n="6"/><term type="philosophical" ref="#positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
                             <lb n="7"/>aveva già concepito il disegno. Uscirà ogni due mesi e si occuperà del
                             <cb n="2"/>
                             <lb n="8"/>movimento politico, sociale e intellettuale e conterrà lavori dovuti a

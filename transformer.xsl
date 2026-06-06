@@ -101,29 +101,65 @@
     </xsl:template>
 
     <xsl:template match="tei:persName">
-        <span class="persName" title="Persona"><xsl:apply-templates /></span>
+        <span class="persName"><xsl:apply-templates /></span>
     </xsl:template>
 
     <xsl:template match="tei:placeName">
-        <span class="placeName" title="Luogo"><xsl:apply-templates /></span>
+        <span class="placeName"><xsl:apply-templates /></span>
     </xsl:template>
     
     <xsl:template match="tei:orgName">
-        <span class="orgName" title="Organizzazione"><xsl:apply-templates/></span>
+        <span class="orgName"><xsl:apply-templates/></span>
     </xsl:template>
 
     <xsl:template match="tei:date">
-        <span class="date" title="Data"><xsl:apply-templates/></span>
+        <span class="date"><xsl:apply-templates/></span>
     </xsl:template>
 
-    <xsl:template match="tei:distinct | tei:term">
-        <span class="term" data-id="{@xml:id}">
-            <xsl:apply-templates/>
-            <span class="term_content">
-                <xsl:value-of
-                    select="//tei:gloss[@target = concat('#', current()/@xml:id)]"/>
-            </span>
-        </span>
+    <xsl:template match="tei:term">
+        <xsl:variable name="reference" select="translate(@ref, '#', '')"/>
+        <xsl:variable name="gloss" select="//tei:gloss[@xml:id = $reference]"/>
+
+        <xsl:choose>
+            <xsl:when test="$gloss">
+                <span class="term" data-id="{$reference}">
+                    <xsl:apply-templates/>
+
+                    <span class="term_content">
+                        <xsl:value-of select="$gloss"/>
+                    </span>
+                </span>
+            </xsl:when>
+
+            <xsl:otherwise>
+                <span class="term" title="{@type}">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="tei:distinct">
+        <xsl:variable name="reference" select="translate(@ref, '#', '')"/>
+        <xsl:variable name="gloss" select="//tei:gloss[@xml:id = $reference]"/>
+
+        <xsl:choose>
+            <xsl:when test="$gloss">
+                <span class="distinct" data-id="{$reference}">
+                    <xsl:apply-templates/>
+
+                    <span class="distinct_content">
+                        <xsl:value-of select="$gloss"/>
+                    </span>
+                </span>
+            </xsl:when>
+
+            <xsl:otherwise>
+                <span class="distinct" title="{@type}">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="*[@rend='bold']">
