@@ -1081,7 +1081,7 @@
                             <lb n="31"/>della natura, del fato, di <rs type="deity">Dio</rs> stesso. Il <pc type="emdash">—</pc> pensare che si possa
                             <lb n="32"/>fare altrimenti, non entra più nella loro testa. Bisogna es-
                             <lb n="33" break="no"/>sere vissuto trent'anni <choice><orig>colà</orig><reg>là</reg></choice> per capire questo sentimento. —
-                            <lb n="34"/>Il <rs type="person" ref="#pastore_scozzese">reverendo uomo</rs> era appena disceso dal <term type="architecture" xml:id="pergamo">pergamo</term>, che il
+                            <lb n="34"/>Il <rs type="person" ref="#pastore_scozzese">reverendo uomo</rs> era appena disceso dal <term type="architecture" ref="#pergamo">pergamo</term>, che il
                             <lb n="35"/>telegrafo <choice><orig>annunziava</orig><reg>annunciava</reg></choice> lo scoppio sanguinoso del <foreign xml:lang="en" rend="italic"><rs type="event">great mutiny</rs></foreign>.
                             <lb n="36"/>Nè egli era stato solo ad ingannarsi, con lui s'erano in-
                             <lb n="37" break="no"/>gannati gli uomini di Stato più competenti nell'<placeName ref="#Inghilterra">Inghilterra</placeName>.
@@ -1098,7 +1098,7 @@
                             <lb n="46"/>i miliardi che le ha dovuto dare la <placeName ref="#Francia">Francia</placeName>, dovesse a un
                             <lb n="47"/>tratto levare un grido d'allarme, e vedere minacciata la
                             <lb n="48"/>sua quiete, la società stessa, da quella terribile e spaven-
-                            <lb n="49"/>tosa <soCalled>malattia</soCalled> che si chiama il <term type="political" xml:id="socialismo">socialismo</term>?
+                            <lb n="49"/>tosa <soCalled>malattia</soCalled> che si chiama il <term type="political" ref="#socialismo">socialismo</term>?
                         </p>
                         <p facs="#art2_p4 #art2_p5">
                             <lb n="50"/>Non è la ricchezza, non sono le libertà politiche, nè
@@ -1243,7 +1243,7 @@
                             <lb n="174"/>nelle <rs type="place" ref="#Pianure_Lombarde">pianure Lombarde</rs> la terra fertile, l'irrigazione am-
                             <lb n="175" break="no"/>mirabile, l'agricoltura eccellente, i prodotti ricchissimi e il
                             <lb n="176"/>contadino ripiegato dalla fatica, consumato dagli stenti,
-                            <lb n="177"/>assalito dalla febbre e dalla <term type="medical" xml:id="pellagra">pellagra</term>, cacciato nell'ospedale
+                            <lb n="177"/>assalito dalla febbre e dalla <term type="medical" ref="#pellagra">pellagra</term>, cacciato nell'ospedale
                             <lb n="178"/>dei pazzi. Che cosa importa più al <rs type="org" ref="#Italia_2">paese</rs>, sollevare que-
                             <lb n="179" break="no"/>st'uomo o aspettare che i gruppi si mettano in equilibrio?
                             <lb n="180"/>Dobbiamo ricordare lo spettacolo non meno triste delle
@@ -1469,7 +1469,7 @@
                         <list>
                             <label>socialismo</label>
                             <item>
-                                <gloss target="#socialismo">
+                                <gloss xml:id="socialismo">
                                     Movimento politico e sociale che mira a una maggiore uguaglianza economica e sociale e alla tutela delle classi lavoratrici.
                                 </gloss>
                             </item>
@@ -1483,7 +1483,7 @@
 
                             <label>pergamo</label>
                             <item>
-                                <gloss target="#pergamo">
+                                <gloss xml:id="pergamo">
                                     Pulpito o luogo elevato da cui si predica o si parla al pubblico.
                                 </gloss>
                             </item>
@@ -1502,7 +1502,7 @@
 
                             <label>pellagra</label>
                             <item>
-                                <gloss target="#pellagra">
+                                <gloss xml:id="pellagra">
                                     Malattia legata a carenze alimentari, diffusa storicamente tra le popolazioni povere e rurali.
                                 </gloss>
                             </item>
@@ -1529,7 +1529,7 @@
                             <lb n="6"/>ottenuto una vittoria che, come hanno poi confessato i suoi
                             <lb n="7"/>organi stessi, <choice><orig>neppur</orig><reg>neppure</reg></choice> esso si aspettava <choice><orig>sì</orig><reg>così</reg></choice> grande, e tutte le
                             <lb n="8"/>inquietudini dei <rs type="politicalGroup" xml:id="liberali">liberali</rs> circa alle perdite che li minaccia-
-                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. <distinct type="literary" xml:id="ambedue">Ambedue</distinct>
+                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. <distinct type="literary" corresp="#ambedue">Ambedue</distinct>
                             <lb n="10"/>i partiti liberali, tanto il <orgName ref="#Partito_Nazionale_Liberale">nazionale liberale</orgName> quanto quello
                             <lb n="11"/>del <orgName ref="#Partito_del_Progresso">progresso</orgName>, hanno perduto quasi la metà dei collegi che
                             <lb n="12"/>possedevano. La composizione della <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati
@@ -1611,7 +1611,7 @@
                             <lb n="82" break="no"/>cettare il mandato, <choice><orig>rinunziando</orig><reg>rinunciando</reg></choice> alla sua risoluzione di dimet-
                             <lb n="83" break="no"/>tersi. Si è generalmente convinti che ciò non sia accaduto
                             <lb n="84"/>senza l'influenza del <persName ref="#Bismarck"><roleName type="honorific">Principe</roleName> Bismarck</persName>. Certo vanno troppo
-                            <lb n="85"/><distinct type="literary" xml:id="lungi">lungi</distinct> le voci che già sostengono doversi in breve riprendere
+                            <lb n="85"/><distinct type="literary" corresp="#lungi">lungi</distinct> le voci che già sostengono doversi in breve riprendere
                             <lb n="86"/>quella combinazione di <placeName ref="#Varzin">Varzin</placeName> dell'inverno del <date when="1878">1878</date>, secondo
                             <lb n="87"/>la quale il <persName ref="#Bennigsen">sig. Von Bennigsen</persName> entrerebbe nel <orgName ref="#Ministero_prussiano">Ministero</orgName> e che
                             <lb n="88"/>con ciò succederebbe la durevole unione in un solo partito dei
@@ -1677,9 +1677,9 @@
                             <lb n="134"/>Il <persName ref="#Puttkamer"><roleName type="honorific">signor</roleName> Puttkamer</persName>, fedele alle sue opinioni ortodosso-
                             <lb n="135" break="no"/>conservative, non ha trovato nulla di più urgente da fare
                             <lb n="136"/>che manifestare, dal primo momento del suo ministero,
-                            <lb n="137"/>un'aperta ostilità contro queste cosiddette <term xml:id="scuole_simultanee">«Scuole simulta-
+                            <lb n="137"/>un'aperta ostilità contro queste cosiddette <term type="education" ref="#scuole_simultanee">«Scuole simulta-
                             <lb n="138" break="no"/>nee.»</term> Ciò accadde soprattutto quando egli proibì per tele-
-                            <lb n="139" break="no"/>grafo nella città di <placeName ref="#Elbing">Elbing</placeName> la imminente apertura di <term type="education">scuole
+                            <lb n="139" break="no"/>grafo nella città di <placeName ref="#Elbing">Elbing</placeName> la imminente apertura di <term type="education" ref="#scuole_simultanee">scuole
                             <lb n="140"/>simultanee</term>, la cui fondazione era avvenuta con espressa
                             <lb n="141"/>approvazione del <orgName ref="#Governo_prussiano">governo</orgName>. Considerando che il <persName ref="#Bismarck"><roleName type="honorific">principe</roleName>
                             <lb n="142"/>Bismarck</persName> è uomo di forti tendenze religiose, è presumibile
@@ -1759,7 +1759,7 @@
                             <lb n="207"/>nel contegno del <orgName ref="#Governo_prussiano">Governo</orgName> verso i partiti, e la condotta del
                             <lb n="208"/><persName ref="#Puttkamer"><roleName type="politic">ministro</roleName> Puttkamer</persName> nella questione scolastica, ha occupato
                             <lb n="209"/>nelle ultime settimane l'opinione pubblica da noi quasi più
-                            <lb n="210"/>che il trattato <distinct type="literary" xml:id="conchiuso">conchiuso</distinct> a <placeName ref="#Vienna">Vienna</placeName> dal <persName ref="#Bismarck">Bismarck</persName> <choice><orig>coll'</orig><reg>con l'</reg></choice><placeName ref="#Austria">Austria</placeName>.
+                            <lb n="210"/>che il trattato <distinct type="literary" corresp="#conchiuso">conchiuso</distinct> a <placeName ref="#Vienna">Vienna</placeName> dal <persName ref="#Bismarck">Bismarck</persName> <choice><orig>coll'</orig><reg>con l'</reg></choice><placeName ref="#Austria">Austria</placeName>.
                             <lb n="211"/>Non già che qui non si valuti abbastanza l'importanza
                             <lb n="212"/>di questo accordo; ma la disputa che si è agitata <choice><orig>sì</orig><reg>così</reg></choice> vivamente
                             <lb n="213"/>nei giornali sulla <hi rend="italic">forma</hi> cioè: se sia stato sottoscritto un
@@ -2133,28 +2133,28 @@
 
                             <label>Ambedue</label>
                             <item>
-                                <gloss target="#ambedue">
+                                <gloss xml:id="ambedue">
                                     Entrambi, tutti e due.
                                 </gloss>
                             </item>
 
                             <label>lungi</label>
                             <item>
-                                <gloss target="#lungi">
+                                <gloss xml:id="lungi">
                                     Lontano; nell'espressione “vanno troppo lungi” significa “si spingono troppo oltre”.
                                 </gloss>
                             </item>
 
                             <label>Scuole simultanee</label>
                             <item>
-                                <gloss target="#scuole_simultanee">
+                                <gloss xml:id="scuole_simultanee">
                                     Scuole comuni frequentate da alunni di confessioni religiose diverse.
                                 </gloss>
                             </item>
 
                             <label>conchiuso</label>
                             <item>
-                                <gloss target="#conchiuso">
+                                <gloss xml:id="conchiuso">
                                     Concluso.
                                 </gloss>
                             </item>
@@ -2194,10 +2194,10 @@
                                 <lb n="7"/>Scienze Politiche di <placeName ref="#Parigi_2">Parigi</placeName></orgName>, e poi nella <title level="j" rend="italic">Revue des Deux
                                 <lb n="8"/>Mondes</title>. L'opera si divide in due parti. Nella prima l'<rs type="person" ref="#Janet">Au-
                                 <lb n="9" break="no"/>tore</rs> tratta del <persName ref="#SaintSimon">Saint-Simon</persName> e, invece di raccontarci per la
-                                <lb n="10"/>centesima volta la vita del <rs type="person" ref="#SaintSimon">filosofo</rs> con le osservazioni <distinct type="archaic" xml:id="obbligate">ob-
+                                <lb n="10"/>centesima volta la vita del <rs type="person" ref="#SaintSimon">filosofo</rs> con le osservazioni <distinct type="archaic" corresp="#obbligate">ob-
                                 <lb n="11" break="no"/>bligate</distinct> e <choice><orig>cogli</orig><reg>con gli</reg></choice> aneddoti stantii che sentiamo ripetere da
                                 <lb n="12"/>cinquant'anni, analizza gli scritti di lui, dichiara e giudica
-                                <lb n="13"/>la sua filosofia e i suoi disegni di <distinct type="archaic" xml:id="riorganamento">riorganamento</distinct> sociale;
+                                <lb n="13"/>la sua filosofia e i suoi disegni di <distinct type="archaic" corresp="#riorganamento">riorganamento</distinct> sociale;
                                 <lb n="14"/>cose tutte che non <choice><orig>gl'</orig><reg>gli </reg></choice>impediscono di dare nell'appendice
                                 <lb n="15"/>una notizia biografica, come pure un catalogo ragionato
                                 <lb n="16"/>delle opere del <persName ref="#SaintSimon">Saint-Simon</persName>: tutti e due scritti succosi e
@@ -2208,7 +2208,7 @@
                                 <lb n="21"/>sia della stessa natura di quelle di <persName ref="#GiuseppeDeMaistre">Giuseppe De Maistre</persName> e
                                 <lb n="22"/>della sua scuola. Prova <choice><orig>sopra tutto</orig><reg>soprattutto</reg></choice> a <choice><orig>maraviglia</orig><reg>meraviglia</reg></choice> come
                                 <lb n="23"/>niente fosse tanto estraneo allo spirito riformatore del
-                                <lb n="24"/><persName ref="#SaintSimon">Saint-Simon</persName>, quanto l'<term type="political" xml:id="idea_rivoluzionaria">idea rivoluzionaria</term>; <choice><orig>ch'egli</orig><reg>perché egli</reg></choice> non pensò
+                                <lb n="24"/><persName ref="#SaintSimon">Saint-Simon</persName>, quanto l'<term type="political" ref="#idea_rivoluzionaria">idea rivoluzionaria</term>; <choice><orig>ch'egli</orig><reg>perché egli</reg></choice> non pensò
                                 <lb n="25"/>mai a far guerra alla monarchia, giacchè le forme politiche
                                 <lb n="26"/>gli erano del tutto indifferenti, nè a combattere il capitale,
                                 <lb n="27"/>nè a predicare l'emancipazione della donna; che, <choice><orig>massime</orig><reg>specialmente</reg></choice>
@@ -2220,11 +2220,11 @@
                             <p facs="#bibl1_p2 #bibl1_p3">
                                 <lb n="32"/>Solamente il <persName ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</persName> - come chiaramente dimo-
                                 <lb n="33" break="no"/>stra il <persName ref="#Janet">Janet</persName> nella seconda metà del suo breve scritto
-                                <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" xml:id="Sansimonismo">Sansimonismo</term> introducen-
+                                <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" ref="#Sansimonismo">Sansimonismo</term> introducen-
                                 <lb n="35" break="no"/>dovi le proprie idee - o meglio le proprie fisime - a
                                 <lb n="36"/>proposito della proprietà, della religione e della famiglia.
                                 <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="#Sansimonismo">Sansimonismo</term>
-                                <lb n="38"/><distinct type="archaic" xml:id="affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più
+                                <lb n="38"/><distinct type="archaic" corresp="#affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più
                                 <lb n="39"/>il principio dell'autorità, mettendosi <choice><orig>viemaggiormente</orig><reg>ancor di più</reg></choice> in
                                 <lb n="40"/>opposizione col <rs type="politicalGroup" xml:id="liberali2">liberalismo politico</rs>. Bisogna leggere tutto
                                 <lb n="41"/>questo svolgimento, già molto succinto e condensato, nel-
@@ -2244,7 +2244,7 @@
                                 <pb n="243" facs="#surf_bibliografia_2"/>
                                 <cb n="1"/>
                                 <lb n="55"/><seg type="metaphor" xml:id="codino_franc_Catt">il codino del francese e del Cattolico</seg>, abituato a conside-
-                                <lb n="56" break="no"/>rare come verità innate le leggi della <orgName ref="#Chiesa_2">Chiesa</orgName> e del <term type="political" xml:id="Codice_Civile">Codice
+                                <lb n="56" break="no"/>rare come verità innate le leggi della <orgName ref="#Chiesa_2">Chiesa</orgName> e del <term type="political" ref="#Codice_Civile">Codice
                                 <lb n="57"/>Civile</term>. Insomma, il merito principale di questo ottimo libric-
                                 <lb n="58" break="no"/>cino è d'aver stabilita in una forma eccellente, la distinzione
                                 <lb n="59"/>fra il <persName ref="#SaintSimon">Saint-Simon</persName> e la sua <rs type="movement" ref="#Sansimonismo">Scuola</rs>, fra il <term type="political" ref="#Sansimonismo">Sansimonismo</term> del
@@ -2269,7 +2269,7 @@
                                 <lb n="8" break="no"/>scritti molti lavori del <persName ref="#Mantegazza">Mantegazza</persName> sul dolore e uno studio
                                 <lb n="9"/>del <roleName type="title"><choice><abbr>prof.</abbr><expan>professor</expan></choice></roleName> <persName ref="#Lombroso">Lombroso</persName> sulla misura del dolore. Non sappiamo
                                 <lb n="10"/>però con quanta opportunità ciò sia stato fatto; dacchè
-                                <lb n="11"/>frammenti isolati di una <term type="scientific" xml:id="fisiologia">fisiologia</term> del dolore che è di là
+                                <lb n="11"/>frammenti isolati di una <term type="scientific" ref="#fisiologia">fisiologia</term> del dolore che è di là
                                 <lb n="12"/>da venire non possono essere ben intesi, quando son tolti
                                 <lb n="13"/><choice><orig>da'</orig><reg>dai </reg></choice> giornali di medicina e di antropologia, dove furono pub-
                                 <lb n="14" break="no"/>blicati, quasi come saggio di un lavoro completo, che il
@@ -2284,9 +2284,9 @@
                             <p facs="#bibl2_p2 #bibl2_p3">
                                 <lb n="22"/><persName ref="#Dumont">Dumont</persName> appartiene a quella scuola di filosofi moderni,
                                 <lb n="23"/>che chiameremmo volentieri con linguaggio preso a pre-
-                                <lb n="24" break="no"/>stito dalla geologia, <term type="scientific" xml:id="metamorfici">metamorfici</term>; perchè ripudiano in
-                                <lb n="25"/>teoria le vecchie <term type="philosophical" xml:id="scuole_metafisiche">scuole metafisiche</term>, e facendo atto di
-                                <lb n="26"/><term type="philosophical" xml:id="fede_positivista">fede positivista</term>, ricadono ad ogni passo nell'<term type="scientific" xml:id="apriorismo">apriorismo</term>,
+                                <lb n="24" break="no"/>stito dalla geologia, <term type="scientific" ref="#metamorfici">metamorfici</term>; perchè ripudiano in
+                                <lb n="25"/>teoria le vecchie <term type="philosophical" ref="#scuole_metafisiche">scuole metafisiche</term>, e facendo atto di
+                                <lb n="26"/><term type="philosophical" ref="#fede_positivista">fede positivista</term>, ricadono ad ogni passo nell'<term type="scientific" ref="#apriorismo">apriorismo</term>,
                                 <pb n="244" facs="#surf_notizie"/>
                                 <lb n="27"/>mostrando il singolare intreccio di due opposti indirizzi.
                                 <lb n="28"/><rs type="person" ref="#Dumont">Egli</rs>, per esempio, mostra di aver studiato la <term type="scientific" ref="#fisiologia">fisiologia</term>,
@@ -2313,8 +2313,8 @@
                                 <lb n="47"/>concetto è assolutamente falso, e troppo facile sarebbe il
                                 <lb n="48"/>citare molti fatti di piacere accompagnati da una grande
                                 <lb n="49"/>debolezza e dolori che vanno insieme ad una straordinaria
-                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'<term type="scientific" xml:id="istologia">isto-
-                                <lb n="51" break="no"/>logia</term> e la <term type="scientific" xml:id="chimica_organica">chimica organica</term> non avranno progredito di tanto
+                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'<term type="scientific" ref="#istologia">isto-
+                                <lb n="51" break="no"/>logia</term> e la <term type="scientific" ref="#chimica_organica">chimica organica</term> non avranno progredito di tanto
                                 <lb n="52"/>da darci l'<emph rend="italic">equivalente</emph> e la <emph rend="italic"><choice><sic>formola</sic><corr>formula</corr></choice></emph> del nervo che sente e della
                                 <lb n="53"/>cellula nervosa centrale, che raccoglie e conserva la sensa-
                                 <lb n="54" break="no"/>zione, noi dovremo accontentarci di descrivere e di ordinare
@@ -2521,91 +2521,91 @@
                         <list>
                             <label>obbligate</label>
                             <item>
-                                <gloss target="#obbligate">
+                                <gloss xml:id="obbligate">
                                     Consuete, ricorrenti, quasi inevitabili.
                                 </gloss>
                             </item>
 
                             <label>riorganamento</label>
                             <item>
-                                <gloss target="#riorganamento">
+                                <gloss xml:id="riorganamento">
                                     Riorganizzazione, nuovo ordinamento.
                                 </gloss>
                             </item>
 
-                            <label>idea rivoluzionaria</label>
+                            <label>idea rivoluzionarsia</label>
                             <item>
-                                <gloss target="#idea_rivoluzionaria">
+                                <gloss xml:id="idea_rivoluzionaria">
                                     Concezione politica orientata alla trasformazione radicale dell'ordine sociale e politico esistente.
                                 </gloss>
                             </item>
 
                             <label>Sansimonismo</label>
                             <item>
-                                <gloss target="#Sansimonismo">
+                                <gloss xml:id="Sansimonismo">
                                     Dottrina sociale e politica ispirata al pensiero di Saint-Simon e sviluppata dai suoi seguaci.
                                 </gloss>
                             </item>
 
                             <label>affettò</label>
                             <item>
-                                <gloss target="#affettò">
+                                <gloss xml:id="affettò">
                                     Assunse ostentatamente, prese volutamente una certa forma o apparenza.
                                 </gloss>
                             </item>
 
                             <label>Codice Civile</label>
                             <item>
-                                <gloss target="#Codice_Civile">
+                                <gloss xml:id="Codice_Civile">
                                     Raccolta organica delle norme che regolano i rapporti civili tra i cittadini.
                                 </gloss>
                             </item>
 
                             <label>fisiologia</label>
                             <item>
-                                <gloss target="#fisiologia">
+                                <gloss xml:id="fisiologia">
                                     Disciplina scientifica che studia il funzionamento degli organismi viventi.
                                 </gloss>
                             </item>
 
                             <label>metamorfici</label>
                             <item>
-                                <gloss target="#metamorfici">
+                                <gloss xml:id="metamorfici">
                                     Termine usato metaforicamente per indicare pensatori che trasformano vecchie idee in forme apparentemente nuove.
                                 </gloss>
                             </item>
 
                             <label>scuole metafisiche</label>
                             <item>
-                                <gloss target="#scuole_metafisiche">
+                                <gloss xml:id="scuole_metafisiche">
                                     Correnti filosofiche fondate su principi astratti e non direttamente verificabili con il metodo sperimentale.
                                 </gloss>
                             </item>
 
                             <label>fede positivista</label>
                             <item>
-                                <gloss target="#fede_positivista">
+                                <gloss xml:id="fede_positivista">
                                     Adesione al positivismo, orientamento filosofico che privilegia il metodo scientifico e l'osservazione dei fatti.
                                 </gloss>
                             </item>
 
                             <label>apriorismo</label>
                             <item>
-                                <gloss target="#apriorismo">
+                                <gloss xml:id="apriorismo">
                                     Tendenza a formulare principi o spiegazioni indipendentemente dall'esperienza e dall'osservazione dei fatti.
                                 </gloss>
                             </item>
 
                             <label>istologia</label>
                             <item>
-                                <gloss target="#istologia">
+                                <gloss xml:id="istologia">
                                     Disciplina biologica che studia i tessuti degli organismi viventi.
                                 </gloss>
                             </item>
 
                             <label>chimica organica</label>
                             <item>
-                                <gloss target="#chimica_organica">
+                                <gloss xml:id="chimica_organica">
                                     Branca della chimica che studia i composti organici e le sostanze legate agli organismi viventi.
                                 </gloss>
                             </item>
@@ -2649,7 +2649,7 @@
                         </p>
                         <p facs="#notizia_2 #notizia_2_2">
                             <lb n="5"/>-<space/>Sta per uscire a <placeName ref="#Parigi_not">Parigi</placeName> per cura del <persName ref="#Laffitte"><roleName type="honorific">signor</roleName>Laffitte</persName> e di alcuni
-                            <lb n="6"/><term type="philosophical" xml:id="positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
+                            <lb n="6"/><term type="philosophical" ref="#positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
                             <lb n="7"/>aveva già concepito il disegno. Uscirà ogni due mesi e si occuperà del
                             <cb n="2"/>
                             <lb n="8"/>movimento politico, sociale e intellettuale e conterrà lavori dovuti a
@@ -2741,7 +2741,7 @@
                         <list>
                             <label>positivisti</label>
                             <item>
-                                <gloss target="#positivisti">
+                                <gloss xml:id="positivisti">
                                     Seguaci del positivismo, corrente filosofica fondata sull’osservazione dei fatti e sul metodo scientifico.
                                 </gloss>
                             </item>
