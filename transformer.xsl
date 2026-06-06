@@ -45,6 +45,56 @@
 
     <!-- Inserire facsimile, trasforma le zone in dei rettangoli. Prima vanno aggiustati con ZoneRW -->
 
+    <xsl:template match="tei:surface">
+        <div class="facsimile-page" id="{@xml:id}">
+            <h3>
+                Facsimile pagina <xsl:value-of select="@n"/>
+            </h3>
+
+            <svg class="facsimile-svg">
+                <xsl:attribute name="viewBox">
+                    <xsl:text>0 0 </xsl:text>
+                    <xsl:value-of select="translate(tei:graphic/@width, 'px', '')"/>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="translate(tei:graphic/@height, 'px', '')"/>
+                </xsl:attribute>
+
+                <image x="0" y="0" width="100%" height="100%">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="tei:graphic/@url"/>
+                    </xsl:attribute>
+                </image>
+
+                <xsl:apply-templates select="tei:zone"/>
+            </svg>
+        </div>
+    </xsl:template>
+
+
+    <xsl:template match="tei:zone">
+        <rect class="facsimile-zone">
+            <xsl:attribute name="id">
+                <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="x">
+                <xsl:value-of select="@ulx"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="y">
+                <xsl:value-of select="@uly"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="width">
+                <xsl:value-of select="@lrx - @ulx"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="height">
+                <xsl:value-of select="@lry - @uly"/>
+            </xsl:attribute>
+        </rect>
+    </xsl:template>
+
     <xsl:template match="tei:body">
         <xsl:apply-templates select="tei:div[@type='article' or @type='bibliography' or @type='section']"/>
     </xsl:template>
