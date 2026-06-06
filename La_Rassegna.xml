@@ -2640,7 +2640,7 @@
                             <lb n="4"/>Nordan</persName> col titolo: <title level="m" rend="italic">Il vero paese dei miliardi</title>.
                         </p>
                         <p facs="#notizia_2 #notizia_2_2">
-                            <lb n="5"/>-<space/>Sta per uscire a <placeName ref="#Parigi_not">Parigi</placeName> per cura del <persName ref="#Laffitte"><roleName type="honorific">signor</roleName>Laffitte</persName> e di alcuni
+                            <lb n="5"/>-<space/>Sta per uscire a <placeName ref="#Parigi_not">Parigi</placeName> per cura del <persName ref="#Laffitte"><roleName type="honorific">signor</roleName> Laffitte</persName> e di alcuni
                             <lb n="6"/><term type="philosophical" xml:id="positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
                             <lb n="7"/>aveva già concepito il disegno. Uscirà ogni due mesi e si occuperà del
                             <cb n="2"/>
