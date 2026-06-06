@@ -168,119 +168,102 @@
 
         <surface n="1.1" xml:id="surf_art_1_1">
 
-            <graphic url='img/I_conservatorii.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="158" uly="1570" lrx="1125" lry="1638" rendition="" xml:id="art1_title"/>
-            <zone ulx="140" uly="1655" lrx="1150" lry="2382" rendition="" xml:id="art1_p1"/>
-            <zone ulx="142" uly="2390" lrx="1148" lry="2678" rendition="" xml:id="art1_p2"/>
-            <zone ulx="145" uly="2688" lrx="1155" lry="3128" rendition="" xml:id="art1_p3"/>
-            <zone ulx="1160" uly="232" lrx="2168" lry="370" rendition="" xml:id="art1_p4"/>
+            <graphic url='I_conservatorii.jpg' width='2273.66666px' height='3282.66666px' />
+            <zone ulx="140" uly="1570" lrx="1145" lry="1638" rendition="" xml:id="art1_titolo"/>
+            <zone ulx="140" uly="1655" lrx="1145" lry="2388" rendition="" xml:id="art1_p1"/>
+            <zone ulx="140" uly="2382" lrx="1145" lry="2685" rendition="" xml:id="art1_p2"/>
+            <zone ulx="140" uly="2688" lrx="1145" lry="3128" rendition="" xml:id="art1_p3"/>
+            <zone ulx="1160" uly="232" lrx="2175" lry="370" rendition="" xml:id="art1_p4"/>
             <zone ulx="1160" uly="372" lrx="2175" lry="968" rendition="" xml:id="art1_p5"/>
-            <zone ulx="1162" uly="972" lrx="2172" lry="1350" rendition="" xml:id="art1_p6"/>
-            <zone ulx="1165" uly="1360" lrx="2175" lry="1828" rendition="" xml:id="art1_p7"/>
-            <zone ulx="1168" uly="1835" lrx="2178" lry="2170" rendition="" xml:id="art1_p8"/>
-            <zone ulx="1168" uly="2175" lrx="2185" lry="2425" rendition="" xml:id="art1_p9"/>
-            <zone ulx="1170" uly="2430" lrx="2182" lry="2642" rendition="" xml:id="art1_p10"/>
-            <zone ulx="1172" uly="2648" lrx="2190" lry="3072" rendition="" xml:id="art1_p11"/>
-            <zone ulx="1172" uly="3075" lrx="2195" lry="3120" rendition="" xml:id="art1_p12"/>
-
-            
+            <zone ulx="1160" uly="972" lrx="2175" lry="1350" rendition="" xml:id="art1_p6"/>
+            <zone ulx="1160" uly="1360" lrx="2175" lry="1828" rendition="" xml:id="art1_p7"/>
+            <zone ulx="1160" uly="1835" lrx="2175" lry="2170" rendition="" xml:id="art1_p8"/>
+            <zone ulx="1160" uly="2175" lrx="2175" lry="2425" rendition="" xml:id="art1_p9"/>
+            <zone ulx="1160" uly="2430" lrx="2175" lry="2642" rendition="" xml:id="art1_p10"/>
+            <zone ulx="1160" uly="2648" lrx="2175" lry="3072" rendition="" xml:id="art1_p11"/>
+            <zone ulx="1160" uly="3075" lrx="2175" lry="3128" rendition="" xml:id="art1_p12"/>
         </surface>
         <surface n="1.2" xml:id="surf_art_1_2">
         
-            <graphic url='img/I_conservatorii_2.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="120" uly="252" lrx="1131" lry="593" rendition="" xml:id="art1_p13"/>
-            <zone ulx="125" uly="595" lrx="1134" lry="1102" rendition="" xml:id="art1_p14"/>
-            <zone ulx="123" uly="1104" lrx="1129" lry="2078" rendition="" xml:id="art1_p15"/>
-            <zone ulx="128" uly="2085" lrx="1134" lry="2550" rendition="" xml:id="art1_p16"/>
-            <zone ulx="130" uly="2547" lrx="1129" lry="3096" rendition="" xml:id="art1_p17"/>
-            <zone ulx="1151" uly="256" lrx="2149" lry="391" rendition="" xml:id="art1_p18"/>
-            <zone ulx="1151" uly="393" lrx="2144" lry="979" rendition="" xml:id="art1_p19"/>
-            <zone ulx="1156" uly="981" lrx="2147" lry="1662" rendition="" xml:id="art1_p20"/>
-
-
+            <graphic url='I_conservatorii_2.jpg' width='2273.66666px' height='3282.66666px' />
+            <zone ulx="130" uly="252" lrx="1130" lry="593" rendition="" xml:id="art1_p13"/>
+            <zone ulx="130" uly="595" lrx="1130" lry="1102" rendition="" xml:id="art1_p14"/>
+            <zone ulx="130" uly="1104" lrx="1130" lry="2078" rendition="" xml:id="art1_p15"/>
+            <zone ulx="130" uly="2085" lrx="1130" lry="2550" rendition="" xml:id="art1_p16"/>
+            <zone ulx="130" uly="2547" lrx="1130" lry="3096" rendition="" xml:id="art1_p17"/>
+            <zone ulx="1150" uly="256" lrx="2145" lry="391" rendition="" xml:id="art1_p18"/>
+            <zone ulx="1150" uly="393" lrx="2145" lry="979" rendition="" xml:id="art1_p19"/>
+            <zone ulx="1150" uly="981" lrx="2145" lry="1662" rendition="" xml:id="art1_p20"/>
         </surface>
-
         <surface n="2.1" xml:id="surf_art_2_1" >
-            <graphic url="img/Il_socialismo.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="109" uly="2227" lrx="1116" lry="2654" rendition="" xml:id="art2_p3"/>
-            <zone ulx="109" uly="2649" lrx="1118" lry="3115" rendition="" xml:id="art2_p4"/>
-            <zone ulx="128" uly="512" lrx="1125" lry="578" rendition="" xml:id="art2_title"/>
-            <zone ulx="130" uly="585" lrx="1132" lry="918" rendition="" xml:id="art2_p1"/>
-            <zone ulx="108" uly="922" lrx="1124" lry="2225" rendition="" xml:id="art2_p2"/>
-            <zone ulx="1158" uly="525" lrx="2153" lry="695" rendition="" xml:id="art2_p5"/>
-            <zone ulx="1151" uly="1322" lrx="2146" lry="1969" rendition="" xml:id="art2_p7"/>
-            <zone ulx="1151" uly="690" lrx="2148" lry="1325" rendition="" xml:id="art2_p6"/>
-            <zone ulx="1134" uly="1969" lrx="2141" lry="2991" rendition="" xml:id="art2_p8"/>
-            <zone ulx="1136" uly="2994" lrx="2150" lry="3093" rendition="" xml:id="art2_p9"/>
-
-
+            <graphic url="Il_socialismo.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="110" uly="512" lrx="1115" lry="578" rendition="" xml:id="art2_title"/>
+            <zone ulx="110" uly="575" lrx="1115" lry="918" rendition="" xml:id="art2_p1"/>
+            <zone ulx="110" uly="922" lrx="1115" lry="2225" rendition="" xml:id="art2_p2"/>
+            <zone ulx="110" uly="2227" lrx="1115" lry="2654" rendition="" xml:id="art2_p3"/>
+            <zone ulx="110" uly="2649" lrx="1115" lry="3115" rendition="" xml:id="art2_p4"/>
+            <zone ulx="1135" uly="525" lrx="2150" lry="695" rendition="" xml:id="art2_p5"/>
+            <zone ulx="1135" uly="1322" lrx="2150" lry="1969" rendition="" xml:id="art2_p7"/>
+            <zone ulx="1135" uly="690" lrx="2150" lry="1325" rendition="" xml:id="art2_p6"/>
+            <zone ulx="1135" uly="1969" lrx="2150" lry="2991" rendition="" xml:id="art2_p8"/>
+            <zone ulx="1135" uly="2994" lrx="2150" lry="3093" rendition="" xml:id="art2_p9"/>
         </surface>
-
         <surface n="2.2" xml:id="surf_art_2_2">
-            <graphic url="img/Il_socialismo2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="129" uly="185" lrx="1154" lry="781" rendition="" xml:id="art2_p10"/>
-            <zone ulx="129" uly="786" lrx="1154" lry="1870" rendition="" xml:id="art2_p11"/>
-            <zone ulx="132" uly="1872" lrx="1157" lry="2915" rendition="" xml:id="art2_p12"/>
-            <zone ulx="132" uly="2917" lrx="1154" lry="3097" rendition="" xml:id="art2_p13"/>
-            <zone ulx="1180" uly="175" lrx="2215" lry="1182" rendition="" xml:id="art2_p14"/>
-
+            <graphic url="Il_socialismo2.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="125" uly="185" lrx="1155" lry="781" rendition="" xml:id="art2_p10"/>
+            <zone ulx="125" uly="786" lrx="1155" lry="1870" rendition="" xml:id="art2_p11"/>
+            <zone ulx="125" uly="1872" lrx="1155" lry="2915" rendition="" xml:id="art2_p12"/>
+            <zone ulx="125" uly="2917" lrx="1155" lry="3097" rendition="" xml:id="art2_p13"/>
+            <zone ulx="1180" uly="175" lrx="2200" lry="1182" rendition="" xml:id="art2_p14"/>
         </surface>
-
         <surface n="3.1" xml:id="surf_art_3_1">
-            <graphic url="img/Corrispondenza_Berlino.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="278" uly="1109" lrx="1218" lry="1160" rendition="" xml:id="art3_title"/>
-            <zone ulx="278" uly="1162" lrx="1218" lry="1992" rendition="" xml:id="art3_p1"/>
-            <zone ulx="281" uly="1999" lrx="1220" lry="2990" rendition="" xml:id="art3_p2"/>
-            <zone ulx="1241" uly="320" lrx="2183" lry="1086" rendition="" xml:id="art3_p3"/>
-            <zone ulx="1241" uly="1088" lrx="2173" lry="2846" rendition="" xml:id="art3_p4"/>
-            <zone ulx="1234" uly="2855" lrx="2169" lry="3004" rendition="" xml:id="art3_nota"/>
-
-
-
+            <graphic url="Corrispondenza_Berlino.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="275" uly="1109" lrx="1215" lry="1160" rendition="" xml:id="art3_title"/>
+            <zone ulx="275" uly="1162" lrx="1215" lry="1992" rendition="" xml:id="art3_p1"/>
+            <zone ulx="275" uly="1999" lrx="1215" lry="2990" rendition="" xml:id="art3_p2"/>
+            <zone ulx="1235" uly="320" lrx="2170" lry="1086" rendition="" xml:id="art3_p3"/>
+            <zone ulx="1235" uly="1088" lrx="2170" lry="2846" rendition="" xml:id="art3_p4"/>
+            <zone ulx="1235" uly="2855" lrx="2170" lry="3004" rendition="" xml:id="art3_nota"/>
         </surface>
-
         <surface n="3.2" xml:id="surf_art_3_2">
-            <graphic url="img/Corrispondenze_Berlino_2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="134" uly="260" lrx="1121" lry="476" rendition="" xml:id="art3_p5"/>
-            <zone ulx="134" uly="481" lrx="1119" lry="1313" rendition="" xml:id="art3_p6"/>
-            <zone ulx="136" uly="1316" lrx="1117" lry="2726" rendition="" xml:id="art3_p7"/>
-            <zone ulx="136" uly="2731" lrx="1119" lry="3061" rendition="" xml:id="art3_p8"/>
-            <zone ulx="1141" uly="279" lrx="2126" lry="1073" rendition="" xml:id="art3_p9"/>
-            <zone ulx="1138" uly="1068" lrx="2122" lry="1568" rendition="" xml:id="art3_p10"/>
-            <zone ulx="1141" uly="1568" lrx="2122" lry="2835" rendition="" xml:id="art3_p11"/>
-
+            <graphic url="Corrispondenze_Berlino_2.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="135" uly="260" lrx="1120" lry="476" rendition="" xml:id="art3_p5"/>
+            <zone ulx="135" uly="481" lrx="1120" lry="1313" rendition="" xml:id="art3_p6"/>
+            <zone ulx="135" uly="1316" lrx="1120" lry="2726" rendition="" xml:id="art3_p7"/>
+            <zone ulx="135" uly="2731" lrx="1120" lry="3061" rendition="" xml:id="art3_p8"/>
+            <zone ulx="1140" uly="279" lrx="2125" lry="1073" rendition="" xml:id="art3_p9"/>
+            <zone ulx="1140" uly="1068" lrx="2125" lry="1568" rendition="" xml:id="art3_p10"/>
+            <zone ulx="1140" uly="1568" lrx="2125" lry="2835" rendition="" xml:id="art3_p11"/>
         </surface>
-
         <surface n="4.1" xml:id="surf_bibliografia_1">
-            <graphic url="img/Bibliografia1.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="1185" uly="751" lrx="2167" lry="807" rendition="" xml:id="bibl_subtitle"/>
-            <zone ulx="1185" uly="807" lrx="2165" lry="901" rendition="" xml:id="bibl_1"/>
-            <zone ulx="1185" uly="904" lrx="2185" lry="2119" rendition="" xml:id="bibl1_p1"/>
-            <zone ulx="1190" uly="2117" lrx="2185" lry="3089" rendition="" xml:id="bibl1_p2"/>
+            <graphic url="Bibliografia1.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="1185" uly="751" lrx="2180" lry="807" rendition="" xml:id="bibl_subtitle"/>
+            <zone ulx="1185" uly="807" lrx="2180" lry="901" rendition="" xml:id="bibl_1"/>
+            <zone ulx="1185" uly="904" lrx="2180" lry="2119" rendition="" xml:id="bibl1_p1"/>
+            <zone ulx="1185" uly="2117" lrx="2180" lry="3089" rendition="" xml:id="bibl1_p2"/>
         </surface>
-
         <surface n="4.2" xml:id="surf_bibliografia_2">
-            <graphic url="img/Bibliografia2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="117" uly="282" lrx="1119" lry="556" rendition="" xml:id="bibl1_p3"/>
-            <zone ulx="1142" uly="1969" lrx="2114" lry="2015" rendition="" xml:id="bibl2_title"/>
-            <zone ulx="1140" uly="2025" lrx="2129" lry="2155" rendition="" xml:id="bibl_2"/>
-            <zone ulx="1140" uly="2157" lrx="2139" lry="2916" rendition="" xml:id="bibl2_p1"/>
-            <zone ulx="1140" uly="2914" lrx="2155" lry="3127" rendition="" xml:id="bibl2_p2"/>
+            <graphic url="Bibliografia2.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="110" uly="282" lrx="1120" lry="556" rendition="" xml:id="bibl1_p3"/>
+            <zone ulx="1140" uly="1969" lrx="2150" lry="2025" rendition="" xml:id="bibl2_title"/>
+            <zone ulx="1140" uly="2025" lrx="2150" lry="2155" rendition="" xml:id="bibl_2"/>
+            <zone ulx="1140" uly="2157" lrx="2150" lry="2916" rendition="" xml:id="bibl2_p1"/>
+            <zone ulx="1140" uly="2914" lrx="2150" lry="3127" rendition="" xml:id="bibl2_p2"/>
         </surface>
 
         <surface n="5" xml:id="surf_notizie">
-            <graphic url="img/Biblio_Notizie.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="132" uly="287" lrx="1129" lry="746" rendition="" xml:id="bibl2_p3"/>
-            <zone ulx="135" uly="744" lrx="1129" lry="1586" rendition="" xml:id="bibl2_p4"/>
-            <zone ulx="129" uly="1589" lrx="1129" lry="2221" rendition="" xml:id="bibl2_p5"/>
-            <zone ulx="129" uly="2223" lrx="1129" lry="2736" rendition="" xml:id="bibl2_p6"/>
-            <zone ulx="137" uly="2769" lrx="1122" lry="2848" rendition="" xml:id="notizie_title"/>
-            <zone ulx="127" uly="2848" lrx="1119" lry="2995" rendition="" xml:id="notizia_1"/>
-            <zone ulx="124" uly="3002" lrx="1119" lry="3112" rendition="" xml:id="notizia_2"/>
-            <zone ulx="1147" uly="287" lrx="2139" lry="363" rendition="" xml:id="notizia_2_2"/>
-
+            <graphic url="Biblio_Notizie.jpg" width='2273.66666px' height='3282.66666px'/>
+            <zone ulx="130" uly="287" lrx="1130" lry="746" rendition="" xml:id="bibl2_p3"/>
+            <zone ulx="130" uly="744" lrx="1130" lry="1586" rendition="" xml:id="bibl2_p4"/>
+            <zone ulx="130" uly="1589" lrx="1130" lry="2221" rendition="" xml:id="bibl2_p5"/>
+            <zone ulx="130" uly="2223" lrx="1130" lry="2736" rendition="" xml:id="bibl2_p6"/>
+            <zone ulx="130" uly="2769" lrx="1130" lry="2848" rendition="" xml:id="notizie_title"/>
+            <zone ulx="130" uly="2848" lrx="1130" lry="2995" rendition="" xml:id="notizia_1"/>
+            <zone ulx="130" uly="3002" lrx="1130" lry="3112" rendition="" xml:id="notizia_2"/>
+            <zone ulx="1150" uly="287" lrx="2145" lry="363" rendition="" xml:id="notizia_2_2"/>
         </surface>
     </facsimile>
+
     <text>
         <group>
             <!-- ARTICOLO 1: I CONSERVATORII DI MUSICA IN ITALIA -->
@@ -290,7 +273,7 @@
                         <pb n="238" facs="#surf_art_1_1" />
                         <cb n="1" />
 
-                        <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA.</head>
+                        <head facs="#art1_titolo">I CONSERVATORII DI MUSICA IN ITALIA.</head>
 
                         <p facs="#art1_p1">
                             <lb n="1"/>I <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> italiani, come tutti sanno, scendono di-
@@ -324,7 +307,7 @@
                             <lb n="25"/><said who="#Filippi">I <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> non sono tenuti a far germogliare i geni</said>,
                             <lb n="26"/>ben disse il <persName ref="#Filippi">Filippi</persName>, <said who="#Filippi">ma debbono formare ottimi musicisti</said>;
                             <lb n="27"/>e siccome hanno diritto e dovere di scelta nell'ammettere
-                            <lb n="28"/>gli alunni, così quelli che sanno poco o <distinct type="literary" xml:id="punto">punto</distinct> (anche dopo
+                            <lb n="28"/>gli alunni, così quelli che sanno poco o <distinct type="literary" corresp="#punto">punto</distinct> (anche dopo
                             <lb n="29"/>aver frequentato l'<rs type="institution" subtype="music" ref="#conservatorii">Istituto</rs>) dovrebbero essere espulsi come
                             <lb n="30"/>inetti o almeno non ottenere la licenza: nè da alcun <rs type="institution" subtype="music" ref="#conservatorii">Conser-
                             <lb n="31" break="no"/>vatorii</rs> dovrebbero uscire de'giovani che non conoscono le
@@ -345,7 +328,7 @@
                             <lb n="42"/>necessario, qui più che mai, una sagace severità nell'am-
                             <lb n="43" break="no"/>missione degli alunni, escludendo inesorabilmente quelli che
                             <lb n="44"/>non hanno voci ed attitudini tali da promettere un'ottima
-                            <lb n="45"/>riuscita. Poi ci vorrebbero <rs type="person">professori</rs> di provata <distinct type="archaic" xml:id="valentia">valentia</distinct>
+                            <lb n="45"/>riuscita. Poi ci vorrebbero <rs type="person">professori</rs> di provata <distinct type="archaic" corresp="#valentia">valentia</distinct>
                             <lb n="46"/>che rimettessero in voga lo studio <choice><orig>de'</orig><reg>dei </reg></choice>nostri classici (<persName ref="#Scarlatti">Scar-
                             <lb n="47" break="no"/>latti</persName>, <persName ref="#Leo">Leo</persName>, <persName ref="#Porpora">Porpora</persName>, <persName ref="#Durante">Durante</persName>, <persName ref="#Marcello">Marcello</persName> ecc.) e che indicassero
                             <lb n="48"/>il modo di interpretare quella musica, rinfrescandone la tra-
@@ -357,8 +340,8 @@
                         <p facs="#art1_p6">
                             <lb n="52"/>Così probabilmente si giungerebbe ad avere dei cantanti
                             <lb n="53"/>invece di quell'esercito di urlatori a ogni costo, tremolanti
-                            <lb n="54"/>e sfiatati poi <distinct type="literary" xml:id="anzitempo">anzi tempo</distinct>, che sono gl'interpreti drammatici
-                            <lb n="55"/>d'<distinct type="literary" xml:id="oggidì">oggidì</distinct>. Ma finchè mancheranno i maestri capaci e i sani
+                            <lb n="54"/>e sfiatati poi <distinct type="literary" corresp="#anzitempo">anzi tempo</distinct>, che sono gl'interpreti drammatici
+                            <lb n="55"/>d'<distinct type="literary" corresp="#oggidì">oggidì</distinct>. Ma finchè mancheranno i maestri capaci e i sani
                             <lb n="56"/>intendimenti artistici, si andrà di male in peggio. Non sap-
                             <lb n="57" break="no"/>piamo perchè, vedendo che i professori fanno cattiva prova,
                             <lb n="58"/>non si tenti di affidare tale insegnamento a qualche valente
@@ -372,9 +355,9 @@
                             <lb n="63"/>che ha. E qui pure ci vorrebbe un artista provetto che
                             <lb n="64"/>educasse gli scolari ad <choice><orig>eseguir</orig><reg>eseguire</reg></choice> degnamente la musica dei
                             <lb n="65"/>classici nostrali e forestieri. Il vantaggio sarebbe immenso
-                            <lb n="66"/>per tutti i discepoli, e <distinct type="literary" xml:id="segnatamente">segnatamente</distinct> per quelli che studiano
-                            <lb n="67"/>la <term type="music" xml:id="composizione">composizione</term>; si educherebbero così ai potenti effetti
-                            <lb n="68"/>dell'<term type="music" xml:id="armoniavocale">armonia vocale</term>, alla varia poesia, alla maestosa sem-
+                            <lb n="66"/>per tutti i discepoli, e <distinct type="literary" corresp="#segnatamente">segnatamente</distinct> per quelli che studiano
+                            <lb n="67"/>la <term type="music" ref="#composizione">composizione</term>; si educherebbero così ai potenti effetti
+                            <lb n="68"/>dell'<term type="music" ref="armoniavocale">armonia vocale</term>, alla varia poesia, alla maestosa sem-
                             <lb n="69" break="no"/>plicità <seg type="rethorical_figure">ch'entro vi spira</seg>, e infine all'ottima disposizione
                             <lb n="70"/>delle voci. Ed è qui che ci gioverebbe particolarmente lo
                             <lb n="71"/>studio degli istituti appositi in <placeName ref="#Germania">Germania</placeName>.
@@ -382,11 +365,11 @@
 
                         <p facs="#art1_p8">
                             <lb n="72"/>Per simili ragioni sarebbe indispensabile anche una vera
-                            <lb n="73"/>scuola di <term type="music" xml:id="quartetto">quartetto</term> largamente concepita. Ne'<rs type="institution" subtype="music" ref="#conservatorii">conservatorii</rs>
+                            <lb n="73"/>scuola di <term type="music" ref="#quartetto">quartetto</term> largamente concepita. Ne'<rs type="institution" subtype="music" ref="#conservatorii">conservatorii</rs>
                             <lb n="74"/>si suonano qualche volta <choice><orig>de'</orig><reg>dei </reg></choice>quartetti; ma non è raro il
                             <lb n="75"/>caso che ne escano parecchi alunni senza averne mai ese-
                             <lb n="76" break="no"/>guiti. Questa scuola dovrebbe comprendere collettive eser-
-                            <lb n="77" break="no"/>citazioni di <term type="music" xml:id="trii">trii</term>, <term type="music" ref="#quartetto">quartetti</term>, <term type="music" xml:id="quintetti">quintetti</term>, <term type="music" xml:id="settimini">settimini</term>, <choice><abbr>ec.</abbr><expan>eccetera</expan></choice> e sarebbe
+                            <lb n="77" break="no"/>citazioni di <term type="music" ref="#trii">trii</term>, <term type="music" ref="#quartetto">quartetti</term>, <term type="music" ref="#quintetti">quintetti</term>, <term type="music" ref="#settimini">settimini</term>, <choice><abbr>ec.</abbr><expan>eccetera</expan></choice> e sarebbe
                             <lb n="78"/>un tale insegnamento <distinct type="literary">anco</distinct> più importante dell'istruzione
                             <lb n="79"/>orchestrale, perchè questa è, quasi direi, compresa in quello.
                         </p>
@@ -395,7 +378,7 @@
                             <lb n="80"/>L'esecuzione <choice><orig>de'</orig><reg>dei </reg></choice>capolavori strumentali di <persName ref="#Boccherini">Boccherini</persName>, <persName ref="#Cherubini">Che-
                             <lb n="81" break="no"/>rubini</persName>, <persName ref="#Mozart">Mozart</persName>, <persName ref="#Haydn">Haydn</persName>, <persName ref="#Beethoven">Beethoven</persName>, ec. sarebbe degno e ne-
                             <lb n="82" break="no"/>cessario complemento delle esercitazioni corali, e potendo
-                            <lb n="83"/>aggiungervi le <term type="music" xml:id="orchestrali_sinfoniche">orchestrali sinfoniche</term>, si verrebbero a dare
+                            <lb n="83"/>aggiungervi le <term type="music" ref="#orchestrali_sinfoniche">orchestrali sinfoniche</term>, si verrebbero a dare
                             <lb n="84"/>altrettante lezioni pratiche e sommatamente utili non solo
                             <lb n="85"/>agli esecutori, ma a tutti gli altri alunni.
                         </p>
@@ -410,12 +393,12 @@
 
                         <p facs="#art1_p11">
                             <lb n="91"/>La scuola del pianoforte da qualche anno è <choice><orig>dimolto</orig><reg>di molto</reg></choice> mi-
-                            <lb n="92" break="no"/>gliorata, <distinct type="literary" xml:id="mercè">mercè</distinct> l'impulso gagliardo che le ha dato qualche
+                            <lb n="92" break="no"/>gliorata, <distinct type="literary" corresp="#mercè">mercè</distinct> l'impulso gagliardo che le ha dato qualche
                             <lb n="93"/>coraggioso e valentissimo professore. La soppressione della
-                            <lb n="94"/>fantasia o <term type="music" xml:id="pout-purri"><foreign xml:lang="fr">pout-pourri</foreign></term> sopra <term type="music">motivi</term> d'opera (che ebbe voga
+                            <lb n="94"/>fantasia o <term type="music" ref="#pout-purri"><foreign xml:lang="fr">pout-pourri</foreign></term> sopra <term type="music" ref="#motivi">motivi</term> d'opera (che ebbe voga
                             <lb n="95"/>negli ultimi tempi di decadenza), l'introduzione delle ardite
-                            <lb n="96"/>e sapienti innovazioni nel meccanismo e nella <term type="music">diteggiatura</term>,
-                            <lb n="97"/>inaugurate dal <persName ref="#Liszt">Liszt</persName> e propagate in <distinct type="literary" xml:id="ispecie">ispecie</distinct> da <persName ref="#Tausig">Tausig</persName> e
+                            <lb n="96"/>e sapienti innovazioni nel meccanismo e nella <term type="music" ref="#diteggiatura">diteggiatura</term>,
+                            <lb n="97"/>inaugurate dal <persName ref="#Liszt">Liszt</persName> e propagate in <distinct type="literary" corresp="#ispecie">ispecie</distinct> da <persName ref="#Tausig">Tausig</persName> e
                             <lb n="98"/>dal <persName ref="#Bulow">Bulow</persName>, la poetica e meditata interpretazione <choice><orig>de'</orig><reg>dei </reg></choice>classici,
                             <lb n="99"/>moltiplicheranno gli ottimi saggi che se ne ebbero finora.
                             <lb n="100"/>Ma bisogna che il buon esempio sia maggiormente imitato.
@@ -432,7 +415,7 @@
                             <lb n="106" break="no"/>gnare l'esecuzione e l'interpretazione delle <choice><orig>maravigliose</orig><reg>meravigliose</reg></choice>
                             <lb n="107"/>opere di <persName ref="#Bach">Bach</persName>? È molto se di <persName ref="#Bach">Bach</persName>, il più grande orga-
                             <lb n="108" break="no"/>nista d'ogni tempo, si <choice><orig>eseguisce</orig><reg>esegue</reg></choice> sull'organo di qualche no-
-                            <lb n="109" break="no"/>stro <rs type="institution" subtype="music" ref="#conservatorii">Conservatorio</rs> una <term type="music" xml:id="fuga">fuga</term> del <title level="m" xml:id="clavecin" xml:lang="fr" rend="italic">Clavecin bien tempéré!</title>
+                            <lb n="109" break="no"/>stro <rs type="institution" subtype="music" ref="#conservatorii">Conservatorio</rs> una <term type="music" ref="#fuga">fuga</term> del <title level="m" xml:id="clavecin" xml:lang="fr" rend="italic">Clavecin bien tempéré!</title>
                         </p>
 
                         <p facs="#art1_p14">
@@ -440,7 +423,7 @@
                             <lb n="111"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
                             <lb n="112" break="no"/>guissero le <distinct type="literary">savie</distinct> norme e i salutari intendimenti dei
                             <lb n="113"/>pochi egregi. Dice il <persName ref="#Gevaert">Gevaert</persName> (direttore del <orgName ref="#Cons_Bruxelles">Conservatorio
-                            <lb n="114"/>di <placeName ref="#Bruxelles">Bruxelles</placeName></orgName>) che è <distinct type="archaic" xml:id="duopo">d'uopo</distinct> insegnare <choice><orig>a'</orig><reg>ai</reg></choice> discepoli non <emph rend="italic">ciò
+                            <lb n="114"/>di <placeName ref="#Bruxelles">Bruxelles</placeName></orgName>) che è <distinct type="archaic" corresp="#duopo">d'uopo</distinct> insegnare <choice><orig>a'</orig><reg>ai</reg></choice> discepoli non <emph rend="italic">ciò
                             <lb n="115"/>che bisogna sapere, ma ciò che bisogna saper fare</emph>; ed ha ra-
                             <lb n="116" break="no"/>gione, perché il saper fare include necessariamente il sa-
                             <lb n="117" break="no"/>pere. L'insegnamento teorico deve procedere di pari passo
@@ -461,15 +444,15 @@
                             <lb n="129" break="no"/>menti;»</quote> chiaccherano molto in nome dell'arte, ma sono i
                             <lb n="130"/>primi ad offenderla <choice><orig>co'</orig><reg>coi</reg></choice> fatti; osteggiano, con una guerra
                             <lb n="131"/>sorda, i più valenti; seminano la zizzania: ed ecco <choice><orig>donde</orig><reg>da dove</reg></choice>
-                            <lb n="132"/>nascono la <term type="social">camorra</term> e la <term type="social">fiaccona</term>. I pochi egregi fanno
+                            <lb n="132"/>nascono la <term type="social">camorra</term> e la <term type="social">fiaccona</term>. I pochi egregi fanno <!-- forse al posto di term meglio distinct poi vediamo-->
                             <lb n="133"/>quello che possono, ma sono sforzi isolati: di qui i risul-
                             <lb n="134" break="no"/>tati parziali, non generali. Sarebbe, per esempio, necessario
-                            <lb n="135"/>che alle cattedre d'<term type="music">armonia elementare</term> si desse tanta im-
-                            <lb n="136" break="no"/>portanza quanta se ne dà a quelle di <term type="music">contrappunto</term> e di
+                            <lb n="135"/>che alle cattedre d'<term type="music" ref="#armonia_elementare">armonia elementare</term> si desse tanta im-
+                            <lb n="136" break="no"/>portanza quanta se ne dà a quelle di <term type="music" ref="#contrappunto">contrappunto</term> e di
                             <lb n="137"/><term type="music">composizione</term>: trattandosi <choice><orig>de'</orig><reg>dei</reg></choice> fondamenti di un grande edi-
                             <lb n="138" break="no"/>ficio, bisogna che siano solidi e chi li pone <choice><orig><distinct type="archaic">dee</distinct></orig><reg>deve</reg></choice> risponderne.
                             <lb n="139"/>Ma invece avviene non di rado che quando un alunno passa
-                            <lb n="140"/>alla scuola di <term type="music">contrappunto</term> e di <term type="music">composizione</term> sotto altro
+                            <lb n="140"/>alla scuola di <term type="music" ref="#contrappunto">contrappunto</term> e di <term type="music" ref="#composizione">composizione</term> sotto altro
                             <lb n="141"/>professore, tocca a quest'ultimo di rifarsi da capo, e di dover
                             <lb n="142"/>demolire per poi riedificare: tante sono le storture che gli
                             <lb n="143"/>tocca riaddrizzare. Lo stesso dicasi per tutti gli altri in-
@@ -515,7 +498,7 @@
                             <lb n="173"/>tal punto un aiuto ben maggiore: e ad appoggiare quanto
                             <lb n="174"/>diciamo, trascriviamo le seguenti parole che <choice><orig>leggonsi</orig><reg>si leggono</reg></choice> nel
                             <lb n="175"/><title level="m" rend="italic" xml:lang="it">Disegno di Statuto per l'Università musicale di Napoli</title>, con
-                            <lb n="176"/>cui alcuni egregi uomini (<distinct type="archaic">all'uopo</distinct> eletti) propongono le
+                            <lb n="176"/>cui alcuni egregi uomini (<distinct type="archaic" corresp="#duopo">all'uopo</distinct> eletti) propongono le
                             <lb n="177"/>riforme necessarie a quel <rs type="institution" subtype="music" ref="#conservatorioNapoli">Conservatorio</rs>:<quote>«lo studio delle
                             <lb n="178"/>lettere amplia le idee, allarga l'orizzonte delle conoscenze,
                             <lb n="179"/>ed è raro che un artista privo di questo soccorso possa di-
@@ -929,73 +912,73 @@
 
                             <label>punto</label>
                             <item>
-                                <gloss target="#punto">Niente, nulla</gloss>
+                                <gloss xml:id="punto">Niente, nulla</gloss>
                             </item>
 
                             <label>valentia</label>
                             <item>
-                                <gloss target="#valentia">valore, competenza</gloss>
+                                <gloss xml:id="valentia">valore, competenza</gloss>
                             </item>
 
                             <label>anzi tempo</label>
                             <item>
-                                <gloss target="#anzitempo">Prematuramente, prima del tempo</gloss>
+                                <gloss xml:id="anzitempo">Prematuramente, prima del tempo</gloss>
                             </item>
 
                             <label>oggidì</label>
                             <item>
-                                <gloss target="#oggidì">Oggi, al giorno d'oggi</gloss>
+                                <gloss xml:id="oggidì">Oggi, al giorno d'oggi</gloss>
                             </item>
                             
                             <label>d'uopo</label>
                             <item>
-                                <gloss target="#duopo">Necessario, opportuno.</gloss>
+                                <gloss xml:id="duopo">Necessario, opportuno</gloss>
                             </item>
                             
                             <label>segnatamente</label>
                             <item>
-                                <gloss target="#segnatamente">Soprattutto, in particolare</gloss>
+                                <gloss xml:id="segnatamente">Soprattutto, in particolare</gloss>
                             </item>
 
                             <label>mercè</label>
                             <item>
-                                <gloss target="#mercè">Merito, grazie a</gloss>
+                                <gloss xml:id="mercè">Merito, grazie a</gloss>
                             </item>
 
                             <label>ispecie</label>
                             <item>
-                                <gloss target="#ispecie">Soprattutto, specificamente</gloss>
+                                <gloss xml:id="ispecie">Soprattutto, specificamente</gloss>
                             </item>
 
                             <label>composizione</label>
                             <item>
-                                <gloss target="#composizione">Composizione in musica: arte e tecnica di creare un'opera musicale combinando suono, melodia e armonia</gloss>
+                                <gloss xml:id="composizione">Composizione in musica: arte e tecnica di creare un'opera musicale combinando suono, melodia e armonia</gloss>
                             </item>
 
                             <label>armonia vocale</label>
                             <item>
-                                <gloss target="#armoniavocale">Sovrapposizione di più voci che producono diverse note creando un accordo</gloss>
+                                <gloss xml:id="armoniavocale">Sovrapposizione di più voci che producono diverse note creando un accordo</gloss>
                             </item>
 
                             <label>pout-pourri</label>
                             <item>
-                                <gloss target="#pout-purri">
+                                <gloss xml:id="pout-purri">
                                     Composizione musicale formata da una successione di motivi tratti da opere diverse.
                                 </gloss>
                             </item>
                             <label>quartetto</label>
                             <item>
-                                <gloss target="#quartetto">Insieme musicale di quattro esecutori</gloss>
+                                <gloss xml:id="quartetto">Insieme musicale di quattro esecutori</gloss>
                             </item>
 
                             <label>orchestrali sinfoniche</label>
                             <item>
-                                <gloss target="#orchestrali_sinfoniche">esecuzioni/esercitazioni orchestrali e sinfoniche</gloss>
+                                <gloss xml:id="orchestrali_sinfoniche">esecuzioni/esercitazioni orchestrali e sinfoniche</gloss>
                             </item>
 
                             <label>fuga</label>
                             <item>
-                                <gloss target="#fuga">Forma musicale polifonica in cui una melodia principale (soggetto) viene ripresa e sviluppata da più voci o strumenti che si intrecciano o susseguono.</gloss>
+                                <gloss xml:id="fuga">Forma musicale polifonica in cui una melodia principale (soggetto) viene ripresa e sviluppata da più voci o strumenti che si intrecciano o susseguono.</gloss>
                             </item>
 
                             <label>Clavier bien tempéré</label>
@@ -1004,28 +987,53 @@
                             </item>
                             <label>trii</label>
                             <item>
-                                <gloss target="#trii">
+                                <gloss xml:id="trii">
                                     Composizioni o formazioni musicali per tre esecutori o tre parti.
                                 </gloss>
                             </item>
 
                             <label>quintetti</label>
                             <item>
-                                <gloss target="#quintetti">
+                                <gloss xml:id="quintetti">
                                     Composizioni o formazioni musicali per cinque esecutori o cinque parti.
                                 </gloss>
                             </item>
 
                             <label>settimini</label>
                             <item>
-                                <gloss target="#settimini">
+                                <gloss xml:id="settimini">
                                     Composizioni o formazioni musicali per sette esecutori o sette parti.
                                 </gloss>
                             </item>
-                        </list>
-                        
-                    </div>
+                            <label>motivi</label>
+                            <item>
+                                <gloss xml:id="motivi">
+                                    Brevi cellule melodiche o ritmiche che costituiscono il nucleo di un'idea musicale.
+                                </gloss>
+                            </item>
 
+                            <label>diteggiatura</label>
+                            <item>
+                                <gloss xml:id="diteggiatura">
+                                    Sistema di indicazioni che stabilisce quali dita utilizzare per eseguire le note su uno strumento musicale.
+                                </gloss>
+                            </item>
+
+                            <label>contrappunto</label>
+                            <item>
+                                <gloss xml:id="contrappunto">
+                                    Tecnica compositiva che combina più linee melodiche indipendenti e simultanee.
+                                </gloss>
+                            </item>
+
+                            <label>armonia elementare</label>
+                            <item>
+                                <gloss xml:id="armonia_elementare">
+                                    Studio delle basi dell'armonia musicale, in particolare degli accordi fondamentali e delle loro principali relazioni funzionali.
+                                </gloss>
+                            </item>
+                        </list>
+                    </div>
                 </back>
             </text>
 
@@ -1073,7 +1081,7 @@
                             <lb n="31"/>della natura, del fato, di <rs type="deity">Dio</rs> stesso. Il <pc type="emdash">—</pc> pensare che si possa
                             <lb n="32"/>fare altrimenti, non entra più nella loro testa. Bisogna es-
                             <lb n="33" break="no"/>sere vissuto trent'anni <choice><orig>colà</orig><reg>là</reg></choice> per capire questo sentimento. —
-                            <lb n="34"/>Il <rs type="person" ref="#pastore_scozzese">reverendo uomo</rs> era appena disceso dal <term type="architecture" xml:id="pergamo">pergamo</term>, che il
+                            <lb n="34"/>Il <rs type="person" ref="#pastore_scozzese">reverendo uomo</rs> era appena disceso dal <term type="architecture" ref="#pergamo">pergamo</term>, che il
                             <lb n="35"/>telegrafo <choice><orig>annunziava</orig><reg>annunciava</reg></choice> lo scoppio sanguinoso del <foreign xml:lang="en" rend="italic"><rs type="event">great mutiny</rs></foreign>.
                             <lb n="36"/>Nè egli era stato solo ad ingannarsi, con lui s'erano in-
                             <lb n="37" break="no"/>gannati gli uomini di Stato più competenti nell'<placeName ref="#Inghilterra">Inghilterra</placeName>.
@@ -1090,7 +1098,7 @@
                             <lb n="46"/>i miliardi che le ha dovuto dare la <placeName ref="#Francia">Francia</placeName>, dovesse a un
                             <lb n="47"/>tratto levare un grido d'allarme, e vedere minacciata la
                             <lb n="48"/>sua quiete, la società stessa, da quella terribile e spaven-
-                            <lb n="49"/>tosa <soCalled>malattia</soCalled> che si chiama il <term type="political" xml:id="socialismo">socialismo</term>?
+                            <lb n="49"/>tosa <soCalled>malattia</soCalled> che si chiama il <term type="political" ref="#socialismo">socialismo</term>?
                         </p>
                         <p facs="#art2_p4 #art2_p5">
                             <lb n="50"/>Non è la ricchezza, non sono le libertà politiche, nè
@@ -1235,7 +1243,7 @@
                             <lb n="174"/>nelle <rs type="place" ref="#Pianure_Lombarde">pianure Lombarde</rs> la terra fertile, l'irrigazione am-
                             <lb n="175" break="no"/>mirabile, l'agricoltura eccellente, i prodotti ricchissimi e il
                             <lb n="176"/>contadino ripiegato dalla fatica, consumato dagli stenti,
-                            <lb n="177"/>assalito dalla febbre e dalla <term type="medical" xml:id="pellagra">pellagra</term>, cacciato nell'ospedale
+                            <lb n="177"/>assalito dalla febbre e dalla <term type="medical" ref="#pellagra">pellagra</term>, cacciato nell'ospedale
                             <lb n="178"/>dei pazzi. Che cosa importa più al <rs type="org" ref="#Italia_2">paese</rs>, sollevare que-
                             <lb n="179" break="no"/>st'uomo o aspettare che i gruppi si mettano in equilibrio?
                             <lb n="180"/>Dobbiamo ricordare lo spettacolo non meno triste delle
@@ -1461,7 +1469,7 @@
                         <list>
                             <label>socialismo</label>
                             <item>
-                                <gloss target="#socialismo">
+                                <gloss xml:id="socialismo">
                                     Movimento politico e sociale che mira a una maggiore uguaglianza economica e sociale e alla tutela delle classi lavoratrici.
                                 </gloss>
                             </item>
@@ -1475,7 +1483,7 @@
 
                             <label>pergamo</label>
                             <item>
-                                <gloss target="#pergamo">
+                                <gloss xml:id="pergamo">
                                     Pulpito o luogo elevato da cui si predica o si parla al pubblico.
                                 </gloss>
                             </item>
@@ -1494,7 +1502,7 @@
 
                             <label>pellagra</label>
                             <item>
-                                <gloss target="#pellagra">
+                                <gloss xml:id="pellagra">
                                     Malattia legata a carenze alimentari, diffusa storicamente tra le popolazioni povere e rurali.
                                 </gloss>
                             </item>
@@ -1521,7 +1529,7 @@
                             <lb n="6"/>ottenuto una vittoria che, come hanno poi confessato i suoi
                             <lb n="7"/>organi stessi, <choice><orig>neppur</orig><reg>neppure</reg></choice> esso si aspettava <choice><orig>sì</orig><reg>così</reg></choice> grande, e tutte le
                             <lb n="8"/>inquietudini dei <rs type="politicalGroup" xml:id="liberali">liberali</rs> circa alle perdite che li minaccia-
-                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. <distinct type="literary" xml:id="ambedue">Ambedue</distinct>
+                            <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. <distinct type="literary" corresp="#ambedue">Ambedue</distinct>
                             <lb n="10"/>i partiti liberali, tanto il <orgName ref="#Partito_Nazionale_Liberale">nazionale liberale</orgName> quanto quello
                             <lb n="11"/>del <orgName ref="#Partito_del_Progresso">progresso</orgName>, hanno perduto quasi la metà dei collegi che
                             <lb n="12"/>possedevano. La composizione della <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati
@@ -1603,7 +1611,7 @@
                             <lb n="82" break="no"/>cettare il mandato, <choice><orig>rinunziando</orig><reg>rinunciando</reg></choice> alla sua risoluzione di dimet-
                             <lb n="83" break="no"/>tersi. Si è generalmente convinti che ciò non sia accaduto
                             <lb n="84"/>senza l'influenza del <persName ref="#Bismarck"><roleName type="honorific">Principe</roleName> Bismarck</persName>. Certo vanno troppo
-                            <lb n="85"/><distinct type="literary" xml:id="lungi">lungi</distinct> le voci che già sostengono doversi in breve riprendere
+                            <lb n="85"/><distinct type="literary" corresp="#lungi">lungi</distinct> le voci che già sostengono doversi in breve riprendere
                             <lb n="86"/>quella combinazione di <placeName ref="#Varzin">Varzin</placeName> dell'inverno del <date when="1878">1878</date>, secondo
                             <lb n="87"/>la quale il <persName ref="#Bennigsen">sig. Von Bennigsen</persName> entrerebbe nel <orgName ref="#Ministero_prussiano">Ministero</orgName> e che
                             <lb n="88"/>con ciò succederebbe la durevole unione in un solo partito dei
@@ -1669,9 +1677,9 @@
                             <lb n="134"/>Il <persName ref="#Puttkamer"><roleName type="honorific">signor</roleName> Puttkamer</persName>, fedele alle sue opinioni ortodosso-
                             <lb n="135" break="no"/>conservative, non ha trovato nulla di più urgente da fare
                             <lb n="136"/>che manifestare, dal primo momento del suo ministero,
-                            <lb n="137"/>un'aperta ostilità contro queste cosiddette <term xml:id="scuole_simultanee">«Scuole simulta-
+                            <lb n="137"/>un'aperta ostilità contro queste cosiddette <term type="education" ref="#scuole_simultanee">«Scuole simulta-
                             <lb n="138" break="no"/>nee.»</term> Ciò accadde soprattutto quando egli proibì per tele-
-                            <lb n="139" break="no"/>grafo nella città di <placeName ref="#Elbing">Elbing</placeName> la imminente apertura di <term type="education">scuole
+                            <lb n="139" break="no"/>grafo nella città di <placeName ref="#Elbing">Elbing</placeName> la imminente apertura di <term type="education" ref="#scuole_simultanee">scuole
                             <lb n="140"/>simultanee</term>, la cui fondazione era avvenuta con espressa
                             <lb n="141"/>approvazione del <orgName ref="#Governo_prussiano">governo</orgName>. Considerando che il <persName ref="#Bismarck"><roleName type="honorific">principe</roleName>
                             <lb n="142"/>Bismarck</persName> è uomo di forti tendenze religiose, è presumibile
@@ -1751,7 +1759,7 @@
                             <lb n="207"/>nel contegno del <orgName ref="#Governo_prussiano">Governo</orgName> verso i partiti, e la condotta del
                             <lb n="208"/><persName ref="#Puttkamer"><roleName type="politic">ministro</roleName> Puttkamer</persName> nella questione scolastica, ha occupato
                             <lb n="209"/>nelle ultime settimane l'opinione pubblica da noi quasi più
-                            <lb n="210"/>che il trattato <distinct type="literary" xml:id="conchiuso">conchiuso</distinct> a <placeName ref="#Vienna">Vienna</placeName> dal <persName ref="#Bismarck">Bismarck</persName> <choice><orig>coll'</orig><reg>con l'</reg></choice><placeName ref="#Austria">Austria</placeName>.
+                            <lb n="210"/>che il trattato <distinct type="literary" corresp="#conchiuso">conchiuso</distinct> a <placeName ref="#Vienna">Vienna</placeName> dal <persName ref="#Bismarck">Bismarck</persName> <choice><orig>coll'</orig><reg>con l'</reg></choice><placeName ref="#Austria">Austria</placeName>.
                             <lb n="211"/>Non già che qui non si valuti abbastanza l'importanza
                             <lb n="212"/>di questo accordo; ma la disputa che si è agitata <choice><orig>sì</orig><reg>così</reg></choice> vivamente
                             <lb n="213"/>nei giornali sulla <hi rend="italic">forma</hi> cioè: se sia stato sottoscritto un
@@ -2125,28 +2133,28 @@
 
                             <label>Ambedue</label>
                             <item>
-                                <gloss target="#ambedue">
+                                <gloss xml:id="ambedue">
                                     Entrambi, tutti e due.
                                 </gloss>
                             </item>
 
                             <label>lungi</label>
                             <item>
-                                <gloss target="#lungi">
+                                <gloss xml:id="lungi">
                                     Lontano; nell'espressione “vanno troppo lungi” significa “si spingono troppo oltre”.
                                 </gloss>
                             </item>
 
                             <label>Scuole simultanee</label>
                             <item>
-                                <gloss target="#scuole_simultanee">
+                                <gloss xml:id="scuole_simultanee">
                                     Scuole comuni frequentate da alunni di confessioni religiose diverse.
                                 </gloss>
                             </item>
 
                             <label>conchiuso</label>
                             <item>
-                                <gloss target="#conchiuso">
+                                <gloss xml:id="conchiuso">
                                     Concluso.
                                 </gloss>
                             </item>
@@ -2186,10 +2194,10 @@
                                 <lb n="7"/>Scienze Politiche di <placeName ref="#Parigi_2">Parigi</placeName></orgName>, e poi nella <title level="j" rend="italic">Revue des Deux
                                 <lb n="8"/>Mondes</title>. L'opera si divide in due parti. Nella prima l'<rs type="person" ref="#Janet">Au-
                                 <lb n="9" break="no"/>tore</rs> tratta del <persName ref="#SaintSimon">Saint-Simon</persName> e, invece di raccontarci per la
-                                <lb n="10"/>centesima volta la vita del <rs type="person" ref="#SaintSimon">filosofo</rs> con le osservazioni <distinct type="archaic" xml:id="obbligate">ob-
+                                <lb n="10"/>centesima volta la vita del <rs type="person" ref="#SaintSimon">filosofo</rs> con le osservazioni <distinct type="archaic" corresp="#obbligate">ob-
                                 <lb n="11" break="no"/>bligate</distinct> e <choice><orig>cogli</orig><reg>con gli</reg></choice> aneddoti stantii che sentiamo ripetere da
                                 <lb n="12"/>cinquant'anni, analizza gli scritti di lui, dichiara e giudica
-                                <lb n="13"/>la sua filosofia e i suoi disegni di <distinct type="archaic" xml:id="riorganamento">riorganamento</distinct> sociale;
+                                <lb n="13"/>la sua filosofia e i suoi disegni di <distinct type="archaic" corresp="#riorganamento">riorganamento</distinct> sociale;
                                 <lb n="14"/>cose tutte che non <choice><orig>gl'</orig><reg>gli </reg></choice>impediscono di dare nell'appendice
                                 <lb n="15"/>una notizia biografica, come pure un catalogo ragionato
                                 <lb n="16"/>delle opere del <persName ref="#SaintSimon">Saint-Simon</persName>: tutti e due scritti succosi e
@@ -2200,7 +2208,7 @@
                                 <lb n="21"/>sia della stessa natura di quelle di <persName ref="#GiuseppeDeMaistre">Giuseppe De Maistre</persName> e
                                 <lb n="22"/>della sua scuola. Prova <choice><orig>sopra tutto</orig><reg>soprattutto</reg></choice> a <choice><orig>maraviglia</orig><reg>meraviglia</reg></choice> come
                                 <lb n="23"/>niente fosse tanto estraneo allo spirito riformatore del
-                                <lb n="24"/><persName ref="#SaintSimon">Saint-Simon</persName>, quanto l'<term type="political" xml:id="idea_rivoluzionaria">idea rivoluzionaria</term>; <choice><orig>ch'egli</orig><reg>perché egli</reg></choice> non pensò
+                                <lb n="24"/><persName ref="#SaintSimon">Saint-Simon</persName>, quanto l'<term type="political" ref="#idea_rivoluzionaria">idea rivoluzionaria</term>; <choice><orig>ch'egli</orig><reg>perché egli</reg></choice> non pensò
                                 <lb n="25"/>mai a far guerra alla monarchia, giacchè le forme politiche
                                 <lb n="26"/>gli erano del tutto indifferenti, nè a combattere il capitale,
                                 <lb n="27"/>nè a predicare l'emancipazione della donna; che, <choice><orig>massime</orig><reg>specialmente</reg></choice>
@@ -2212,11 +2220,11 @@
                             <p facs="#bibl1_p2 #bibl1_p3">
                                 <lb n="32"/>Solamente il <persName ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</persName> - come chiaramente dimo-
                                 <lb n="33" break="no"/>stra il <persName ref="#Janet">Janet</persName> nella seconda metà del suo breve scritto
-                                <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" xml:id="Sansimonismo">Sansimonismo</term> introducen-
+                                <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" ref="#Sansimonismo">Sansimonismo</term> introducen-
                                 <lb n="35" break="no"/>dovi le proprie idee - o meglio le proprie fisime - a
                                 <lb n="36"/>proposito della proprietà, della religione e della famiglia.
                                 <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="#Sansimonismo">Sansimonismo</term>
-                                <lb n="38"/><distinct type="archaic" xml:id="affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più
+                                <lb n="38"/><distinct type="archaic" corresp="#affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più
                                 <lb n="39"/>il principio dell'autorità, mettendosi <choice><orig>viemaggiormente</orig><reg>ancor di più</reg></choice> in
                                 <lb n="40"/>opposizione col <rs type="politicalGroup" xml:id="liberali2">liberalismo politico</rs>. Bisogna leggere tutto
                                 <lb n="41"/>questo svolgimento, già molto succinto e condensato, nel-
@@ -2236,7 +2244,7 @@
                                 <pb n="243" facs="#surf_bibliografia_2"/>
                                 <cb n="1"/>
                                 <lb n="55"/><seg type="metaphor" xml:id="codino_franc_Catt">il codino del francese e del Cattolico</seg>, abituato a conside-
-                                <lb n="56" break="no"/>rare come verità innate le leggi della <orgName ref="#Chiesa_2">Chiesa</orgName> e del <term type="political" xml:id="Codice_Civile">Codice
+                                <lb n="56" break="no"/>rare come verità innate le leggi della <orgName ref="#Chiesa_2">Chiesa</orgName> e del <term type="political" ref="#Codice_Civile">Codice
                                 <lb n="57"/>Civile</term>. Insomma, il merito principale di questo ottimo libric-
                                 <lb n="58" break="no"/>cino è d'aver stabilita in una forma eccellente, la distinzione
                                 <lb n="59"/>fra il <persName ref="#SaintSimon">Saint-Simon</persName> e la sua <rs type="movement" ref="#Sansimonismo">Scuola</rs>, fra il <term type="political" ref="#Sansimonismo">Sansimonismo</term> del
@@ -2261,7 +2269,7 @@
                                 <lb n="8" break="no"/>scritti molti lavori del <persName ref="#Mantegazza">Mantegazza</persName> sul dolore e uno studio
                                 <lb n="9"/>del <roleName type="title"><choice><abbr>prof.</abbr><expan>professor</expan></choice></roleName> <persName ref="#Lombroso">Lombroso</persName> sulla misura del dolore. Non sappiamo
                                 <lb n="10"/>però con quanta opportunità ciò sia stato fatto; dacchè
-                                <lb n="11"/>frammenti isolati di una <term type="scientific" xml:id="fisiologia">fisiologia</term> del dolore che è di là
+                                <lb n="11"/>frammenti isolati di una <term type="scientific" ref="#fisiologia">fisiologia</term> del dolore che è di là
                                 <lb n="12"/>da venire non possono essere ben intesi, quando son tolti
                                 <lb n="13"/><choice><orig>da'</orig><reg>dai </reg></choice> giornali di medicina e di antropologia, dove furono pub-
                                 <lb n="14" break="no"/>blicati, quasi come saggio di un lavoro completo, che il
@@ -2276,9 +2284,9 @@
                             <p facs="#bibl2_p2 #bibl2_p3">
                                 <lb n="22"/><persName ref="#Dumont">Dumont</persName> appartiene a quella scuola di filosofi moderni,
                                 <lb n="23"/>che chiameremmo volentieri con linguaggio preso a pre-
-                                <lb n="24" break="no"/>stito dalla geologia, <term type="scientific" xml:id="metamorfici">metamorfici</term>; perchè ripudiano in
-                                <lb n="25"/>teoria le vecchie <term type="philosophical" xml:id="scuole_metafisiche">scuole metafisiche</term>, e facendo atto di
-                                <lb n="26"/><term type="philosophical" xml:id="fede_positivista">fede positivista</term>, ricadono ad ogni passo nell'<term type="scientific" xml:id="apriorismo">apriorismo</term>,
+                                <lb n="24" break="no"/>stito dalla geologia, <term type="scientific" ref="#metamorfici">metamorfici</term>; perchè ripudiano in
+                                <lb n="25"/>teoria le vecchie <term type="philosophical" ref="#scuole_metafisiche">scuole metafisiche</term>, e facendo atto di
+                                <lb n="26"/><term type="philosophical" ref="#fede_positivista">fede positivista</term>, ricadono ad ogni passo nell'<term type="scientific" ref="#apriorismo">apriorismo</term>,
                                 <pb n="244" facs="#surf_notizie"/>
                                 <lb n="27"/>mostrando il singolare intreccio di due opposti indirizzi.
                                 <lb n="28"/><rs type="person" ref="#Dumont">Egli</rs>, per esempio, mostra di aver studiato la <term type="scientific" ref="#fisiologia">fisiologia</term>,
@@ -2305,8 +2313,8 @@
                                 <lb n="47"/>concetto è assolutamente falso, e troppo facile sarebbe il
                                 <lb n="48"/>citare molti fatti di piacere accompagnati da una grande
                                 <lb n="49"/>debolezza e dolori che vanno insieme ad una straordinaria
-                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'<term type="scientific" xml:id="istologia">isto-
-                                <lb n="51" break="no"/>logia</term> e la <term type="scientific" xml:id="chimica_organica">chimica organica</term> non avranno progredito di tanto
+                                <lb n="50"/>attività di un organo o di tutto l'organismo. Finchè l'<term type="scientific" ref="#istologia">isto-
+                                <lb n="51" break="no"/>logia</term> e la <term type="scientific" ref="#chimica_organica">chimica organica</term> non avranno progredito di tanto
                                 <lb n="52"/>da darci l'<emph rend="italic">equivalente</emph> e la <emph rend="italic"><choice><sic>formola</sic><corr>formula</corr></choice></emph> del nervo che sente e della
                                 <lb n="53"/>cellula nervosa centrale, che raccoglie e conserva la sensa-
                                 <lb n="54" break="no"/>zione, noi dovremo accontentarci di descrivere e di ordinare
@@ -2513,91 +2521,91 @@
                         <list>
                             <label>obbligate</label>
                             <item>
-                                <gloss target="#obbligate">
+                                <gloss xml:id="obbligate">
                                     Consuete, ricorrenti, quasi inevitabili.
                                 </gloss>
                             </item>
 
                             <label>riorganamento</label>
                             <item>
-                                <gloss target="#riorganamento">
+                                <gloss xml:id="riorganamento">
                                     Riorganizzazione, nuovo ordinamento.
                                 </gloss>
                             </item>
 
-                            <label>idea rivoluzionaria</label>
+                            <label>idea rivoluzionarsia</label>
                             <item>
-                                <gloss target="#idea_rivoluzionaria">
+                                <gloss xml:id="idea_rivoluzionaria">
                                     Concezione politica orientata alla trasformazione radicale dell'ordine sociale e politico esistente.
                                 </gloss>
                             </item>
 
                             <label>Sansimonismo</label>
                             <item>
-                                <gloss target="#Sansimonismo">
+                                <gloss xml:id="Sansimonismo">
                                     Dottrina sociale e politica ispirata al pensiero di Saint-Simon e sviluppata dai suoi seguaci.
                                 </gloss>
                             </item>
 
                             <label>affettò</label>
                             <item>
-                                <gloss target="#affettò">
+                                <gloss xml:id="affettò">
                                     Assunse ostentatamente, prese volutamente una certa forma o apparenza.
                                 </gloss>
                             </item>
 
                             <label>Codice Civile</label>
                             <item>
-                                <gloss target="#Codice_Civile">
+                                <gloss xml:id="Codice_Civile">
                                     Raccolta organica delle norme che regolano i rapporti civili tra i cittadini.
                                 </gloss>
                             </item>
 
                             <label>fisiologia</label>
                             <item>
-                                <gloss target="#fisiologia">
+                                <gloss xml:id="fisiologia">
                                     Disciplina scientifica che studia il funzionamento degli organismi viventi.
                                 </gloss>
                             </item>
 
                             <label>metamorfici</label>
                             <item>
-                                <gloss target="#metamorfici">
+                                <gloss xml:id="metamorfici">
                                     Termine usato metaforicamente per indicare pensatori che trasformano vecchie idee in forme apparentemente nuove.
                                 </gloss>
                             </item>
 
                             <label>scuole metafisiche</label>
                             <item>
-                                <gloss target="#scuole_metafisiche">
+                                <gloss xml:id="scuole_metafisiche">
                                     Correnti filosofiche fondate su principi astratti e non direttamente verificabili con il metodo sperimentale.
                                 </gloss>
                             </item>
 
                             <label>fede positivista</label>
                             <item>
-                                <gloss target="#fede_positivista">
+                                <gloss xml:id="fede_positivista">
                                     Adesione al positivismo, orientamento filosofico che privilegia il metodo scientifico e l'osservazione dei fatti.
                                 </gloss>
                             </item>
 
                             <label>apriorismo</label>
                             <item>
-                                <gloss target="#apriorismo">
+                                <gloss xml:id="apriorismo">
                                     Tendenza a formulare principi o spiegazioni indipendentemente dall'esperienza e dall'osservazione dei fatti.
                                 </gloss>
                             </item>
 
                             <label>istologia</label>
                             <item>
-                                <gloss target="#istologia">
+                                <gloss xml:id="istologia">
                                     Disciplina biologica che studia i tessuti degli organismi viventi.
                                 </gloss>
                             </item>
 
                             <label>chimica organica</label>
                             <item>
-                                <gloss target="#chimica_organica">
+                                <gloss xml:id="chimica_organica">
                                     Branca della chimica che studia i composti organici e le sostanze legate agli organismi viventi.
                                 </gloss>
                             </item>
@@ -2733,7 +2741,7 @@
                         <list>
                             <label>positivisti</label>
                             <item>
-                                <gloss target="#positivisti">
+                                <gloss xml:id="positivisti">
                                     Seguaci del positivismo, corrente filosofica fondata sull’osservazione dei fatti e sul metodo scientifico.
                                 </gloss>
                             </item>
