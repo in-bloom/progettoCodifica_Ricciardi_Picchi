@@ -170,116 +170,98 @@
         <surface n="1.1" xml:id="surf_art_1_1">
 
             <graphic url='I_conservatorii.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="158" uly="1570" lrx="1125" lry="1638" rendition="" xml:id="art1_titolo"/>
-            <zone ulx="140" uly="1655" lrx="1150" lry="2382" rendition="" xml:id="art1_p1"/>
-            <zone ulx="142" uly="2390" lrx="1148" lry="2678" rendition="" xml:id="art1_p2"/>
-            <zone ulx="145" uly="2688" lrx="1155" lry="3128" rendition="" xml:id="art1_p3"/>
-            <zone ulx="1160" uly="232" lrx="2168" lry="370" rendition="" xml:id="art1_p4"/>
+            <zone ulx="140" uly="1570" lrx="1145" lry="1638" rendition="" xml:id="art1_titolo"/>
+            <zone ulx="140" uly="1655" lrx="1145" lry="2388" rendition="" xml:id="art1_p1"/>
+            <zone ulx="140" uly="2382" lrx="1145" lry="2685" rendition="" xml:id="art1_p2"/>
+            <zone ulx="140" uly="2688" lrx="1145" lry="3128" rendition="" xml:id="art1_p3"/>
+            <zone ulx="1160" uly="232" lrx="2175" lry="370" rendition="" xml:id="art1_p4"/>
             <zone ulx="1160" uly="372" lrx="2175" lry="968" rendition="" xml:id="art1_p5"/>
-            <zone ulx="1162" uly="972" lrx="2172" lry="1350" rendition="" xml:id="art1_p6"/>
-            <zone ulx="1165" uly="1360" lrx="2175" lry="1828" rendition="" xml:id="art1_p7"/>
-            <zone ulx="1168" uly="1835" lrx="2178" lry="2170" rendition="" xml:id="art1_p8"/>
-            <zone ulx="1168" uly="2175" lrx="2185" lry="2425" rendition="" xml:id="art1_p9"/>
-            <zone ulx="1170" uly="2430" lrx="2182" lry="2642" rendition="" xml:id="art1_p10"/>
-            <zone ulx="1172" uly="2648" lrx="2190" lry="3072" rendition="" xml:id="art1_p11"/>
-            <zone ulx="1172" uly="3075" lrx="2195" lry="3120" rendition="" xml:id="art1_p12"/>
-
-            
+            <zone ulx="1160" uly="972" lrx="2175" lry="1350" rendition="" xml:id="art1_p6"/>
+            <zone ulx="1160" uly="1360" lrx="2175" lry="1828" rendition="" xml:id="art1_p7"/>
+            <zone ulx="1160" uly="1835" lrx="2175" lry="2170" rendition="" xml:id="art1_p8"/>
+            <zone ulx="1160" uly="2175" lrx="2175" lry="2425" rendition="" xml:id="art1_p9"/>
+            <zone ulx="1160" uly="2430" lrx="2175" lry="2642" rendition="" xml:id="art1_p10"/>
+            <zone ulx="1160" uly="2648" lrx="2175" lry="3072" rendition="" xml:id="art1_p11"/>
+            <zone ulx="1160" uly="3075" lrx="2175" lry="3128" rendition="" xml:id="art1_p12"/>
         </surface>
         <surface n="1.2" xml:id="surf_art_1_2">
         
             <graphic url='I_conservatorii_2.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="120" uly="252" lrx="1131" lry="593" rendition="" xml:id="art1_p13"/>
-            <zone ulx="125" uly="595" lrx="1134" lry="1102" rendition="" xml:id="art1_p14"/>
-            <zone ulx="123" uly="1104" lrx="1129" lry="2078" rendition="" xml:id="art1_p15"/>
-            <zone ulx="128" uly="2085" lrx="1134" lry="2550" rendition="" xml:id="art1_p16"/>
-            <zone ulx="130" uly="2547" lrx="1129" lry="3096" rendition="" xml:id="art1_p17"/>
-            <zone ulx="1151" uly="256" lrx="2149" lry="391" rendition="" xml:id="art1_p18"/>
-            <zone ulx="1151" uly="393" lrx="2144" lry="979" rendition="" xml:id="art1_p19"/>
-            <zone ulx="1156" uly="981" lrx="2147" lry="1662" rendition="" xml:id="art1_p20"/>
-
-
+            <zone ulx="130" uly="252" lrx="1130" lry="593" rendition="" xml:id="art1_p13"/>
+            <zone ulx="130" uly="595" lrx="1130" lry="1102" rendition="" xml:id="art1_p14"/>
+            <zone ulx="130" uly="1104" lrx="1130" lry="2078" rendition="" xml:id="art1_p15"/>
+            <zone ulx="130" uly="2085" lrx="1130" lry="2550" rendition="" xml:id="art1_p16"/>
+            <zone ulx="130" uly="2547" lrx="1130" lry="3096" rendition="" xml:id="art1_p17"/>
+            <zone ulx="1150" uly="256" lrx="2145" lry="391" rendition="" xml:id="art1_p18"/>
+            <zone ulx="1150" uly="393" lrx="2145" lry="979" rendition="" xml:id="art1_p19"/>
+            <zone ulx="1150" uly="981" lrx="2145" lry="1662" rendition="" xml:id="art1_p20"/>
         </surface>
-
         <surface n="2.1" xml:id="surf_art_2_1" >
             <graphic url="Il_socialismo.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="109" uly="2227" lrx="1116" lry="2654" rendition="" xml:id="art2_p3"/>
-            <zone ulx="109" uly="2649" lrx="1118" lry="3115" rendition="" xml:id="art2_p4"/>
-            <zone ulx="128" uly="512" lrx="1125" lry="578" rendition="" xml:id="art2_title"/>
-            <zone ulx="130" uly="585" lrx="1132" lry="918" rendition="" xml:id="art2_p1"/>
-            <zone ulx="108" uly="922" lrx="1124" lry="2225" rendition="" xml:id="art2_p2"/>
-            <zone ulx="1158" uly="525" lrx="2153" lry="695" rendition="" xml:id="art2_p5"/>
-            <zone ulx="1151" uly="1322" lrx="2146" lry="1969" rendition="" xml:id="art2_p7"/>
-            <zone ulx="1151" uly="690" lrx="2148" lry="1325" rendition="" xml:id="art2_p6"/>
-            <zone ulx="1134" uly="1969" lrx="2141" lry="2991" rendition="" xml:id="art2_p8"/>
-            <zone ulx="1136" uly="2994" lrx="2150" lry="3093" rendition="" xml:id="art2_p9"/>
-
-
+            <zone ulx="110" uly="512" lrx="1115" lry="578" rendition="" xml:id="art2_title"/>
+            <zone ulx="110" uly="575" lrx="1115" lry="918" rendition="" xml:id="art2_p1"/>
+            <zone ulx="110" uly="922" lrx="1115" lry="2225" rendition="" xml:id="art2_p2"/>
+            <zone ulx="110" uly="2227" lrx="1115" lry="2654" rendition="" xml:id="art2_p3"/>
+            <zone ulx="110" uly="2649" lrx="1115" lry="3115" rendition="" xml:id="art2_p4"/>
+            <zone ulx="1135" uly="525" lrx="2150" lry="695" rendition="" xml:id="art2_p5"/>
+            <zone ulx="1135" uly="1322" lrx="2150" lry="1969" rendition="" xml:id="art2_p7"/>
+            <zone ulx="1135" uly="690" lrx="2150" lry="1325" rendition="" xml:id="art2_p6"/>
+            <zone ulx="1135" uly="1969" lrx="2150" lry="2991" rendition="" xml:id="art2_p8"/>
+            <zone ulx="1135" uly="2994" lrx="2150" lry="3093" rendition="" xml:id="art2_p9"/>
         </surface>
-
         <surface n="2.2" xml:id="surf_art_2_2">
             <graphic url="Il_socialismo2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="129" uly="185" lrx="1154" lry="781" rendition="" xml:id="art2_p10"/>
-            <zone ulx="129" uly="786" lrx="1154" lry="1870" rendition="" xml:id="art2_p11"/>
-            <zone ulx="132" uly="1872" lrx="1157" lry="2915" rendition="" xml:id="art2_p12"/>
-            <zone ulx="132" uly="2917" lrx="1154" lry="3097" rendition="" xml:id="art2_p13"/>
-            <zone ulx="1180" uly="175" lrx="2215" lry="1182" rendition="" xml:id="art2_p14"/>
-
+            <zone ulx="125" uly="185" lrx="1155" lry="781" rendition="" xml:id="art2_p10"/>
+            <zone ulx="125" uly="786" lrx="1155" lry="1870" rendition="" xml:id="art2_p11"/>
+            <zone ulx="125" uly="1872" lrx="1155" lry="2915" rendition="" xml:id="art2_p12"/>
+            <zone ulx="125" uly="2917" lrx="1155" lry="3097" rendition="" xml:id="art2_p13"/>
+            <zone ulx="1180" uly="175" lrx="2200" lry="1182" rendition="" xml:id="art2_p14"/>
         </surface>
-
         <surface n="3.1" xml:id="surf_art_3_1">
             <graphic url="Corrispondenza_Berlino.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="278" uly="1109" lrx="1218" lry="1160" rendition="" xml:id="art3_title"/>
-            <zone ulx="278" uly="1162" lrx="1218" lry="1992" rendition="" xml:id="art3_p1"/>
-            <zone ulx="281" uly="1999" lrx="1220" lry="2990" rendition="" xml:id="art3_p2"/>
-            <zone ulx="1241" uly="320" lrx="2183" lry="1086" rendition="" xml:id="art3_p3"/>
-            <zone ulx="1241" uly="1088" lrx="2173" lry="2846" rendition="" xml:id="art3_p4"/>
-            <zone ulx="1234" uly="2855" lrx="2169" lry="3004" rendition="" xml:id="art3_nota"/>
-
-
-
+            <zone ulx="275" uly="1109" lrx="1215" lry="1160" rendition="" xml:id="art3_title"/>
+            <zone ulx="275" uly="1162" lrx="1215" lry="1992" rendition="" xml:id="art3_p1"/>
+            <zone ulx="275" uly="1999" lrx="1215" lry="2990" rendition="" xml:id="art3_p2"/>
+            <zone ulx="1235" uly="320" lrx="2170" lry="1086" rendition="" xml:id="art3_p3"/>
+            <zone ulx="1235" uly="1088" lrx="2170" lry="2846" rendition="" xml:id="art3_p4"/>
+            <zone ulx="1235" uly="2855" lrx="2170" lry="3004" rendition="" xml:id="art3_nota"/>
         </surface>
-
         <surface n="3.2" xml:id="surf_art_3_2">
             <graphic url="Corrispondenze_Berlino_2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="134" uly="260" lrx="1121" lry="476" rendition="" xml:id="art3_p5"/>
-            <zone ulx="134" uly="481" lrx="1119" lry="1313" rendition="" xml:id="art3_p6"/>
-            <zone ulx="136" uly="1316" lrx="1117" lry="2726" rendition="" xml:id="art3_p7"/>
-            <zone ulx="136" uly="2731" lrx="1119" lry="3061" rendition="" xml:id="art3_p8"/>
-            <zone ulx="1141" uly="279" lrx="2126" lry="1073" rendition="" xml:id="art3_p9"/>
-            <zone ulx="1138" uly="1068" lrx="2122" lry="1568" rendition="" xml:id="art3_p10"/>
-            <zone ulx="1141" uly="1568" lrx="2122" lry="2835" rendition="" xml:id="art3_p11"/>
-
+            <zone ulx="135" uly="260" lrx="1120" lry="476" rendition="" xml:id="art3_p5"/>
+            <zone ulx="135" uly="481" lrx="1120" lry="1313" rendition="" xml:id="art3_p6"/>
+            <zone ulx="135" uly="1316" lrx="1120" lry="2726" rendition="" xml:id="art3_p7"/>
+            <zone ulx="135" uly="2731" lrx="1120" lry="3061" rendition="" xml:id="art3_p8"/>
+            <zone ulx="1140" uly="279" lrx="2125" lry="1073" rendition="" xml:id="art3_p9"/>
+            <zone ulx="1140" uly="1068" lrx="2125" lry="1568" rendition="" xml:id="art3_p10"/>
+            <zone ulx="1140" uly="1568" lrx="2125" lry="2835" rendition="" xml:id="art3_p11"/>
         </surface>
-
         <surface n="4.1" xml:id="surf_bibliografia_1">
             <graphic url="Bibliografia1.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="1185" uly="751" lrx="2167" lry="807" rendition="" xml:id="bibl_subtitle"/>
-            <zone ulx="1185" uly="807" lrx="2165" lry="901" rendition="" xml:id="bibl_1"/>
-            <zone ulx="1185" uly="904" lrx="2185" lry="2119" rendition="" xml:id="bibl1_p1"/>
-            <zone ulx="1190" uly="2117" lrx="2185" lry="3089" rendition="" xml:id="bibl1_p2"/>
+            <zone ulx="1185" uly="751" lrx="2180" lry="807" rendition="" xml:id="bibl_subtitle"/>
+            <zone ulx="1185" uly="807" lrx="2180" lry="901" rendition="" xml:id="bibl_1"/>
+            <zone ulx="1185" uly="904" lrx="2180" lry="2119" rendition="" xml:id="bibl1_p1"/>
+            <zone ulx="1185" uly="2117" lrx="2180" lry="3089" rendition="" xml:id="bibl1_p2"/>
         </surface>
-
         <surface n="4.2" xml:id="surf_bibliografia_2">
             <graphic url="Bibliografia2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="117" uly="282" lrx="1119" lry="556" rendition="" xml:id="bibl1_p3"/>
-            <zone ulx="1142" uly="1969" lrx="2114" lry="2015" rendition="" xml:id="bibl2_title"/>
-            <zone ulx="1140" uly="2025" lrx="2129" lry="2155" rendition="" xml:id="bibl_2"/>
-            <zone ulx="1140" uly="2157" lrx="2139" lry="2916" rendition="" xml:id="bibl2_p1"/>
-            <zone ulx="1140" uly="2914" lrx="2155" lry="3127" rendition="" xml:id="bibl2_p2"/>
+            <zone ulx="110" uly="282" lrx="1120" lry="556" rendition="" xml:id="bibl1_p3"/>
+            <zone ulx="1140" uly="1969" lrx="2150" lry="2025" rendition="" xml:id="bibl2_title"/>
+            <zone ulx="1140" uly="2025" lrx="2150" lry="2155" rendition="" xml:id="bibl_2"/>
+            <zone ulx="1140" uly="2157" lrx="2150" lry="2916" rendition="" xml:id="bibl2_p1"/>
+            <zone ulx="1140" uly="2914" lrx="2150" lry="3127" rendition="" xml:id="bibl2_p2"/>
         </surface>
 
         <surface n="5" xml:id="surf_notizie">
             <graphic url="Biblio_Notizie.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="132" uly="287" lrx="1129" lry="746" rendition="" xml:id="bibl2_p3"/>
-            <zone ulx="135" uly="744" lrx="1129" lry="1586" rendition="" xml:id="bibl2_p4"/>
-            <zone ulx="129" uly="1589" lrx="1129" lry="2221" rendition="" xml:id="bibl2_p5"/>
-            <zone ulx="129" uly="2223" lrx="1129" lry="2736" rendition="" xml:id="bibl2_p6"/>
-            <zone ulx="137" uly="2769" lrx="1122" lry="2848" rendition="" xml:id="notizie_title"/>
-            <zone ulx="127" uly="2848" lrx="1119" lry="2995" rendition="" xml:id="notizia_1"/>
-            <zone ulx="124" uly="3002" lrx="1119" lry="3112" rendition="" xml:id="notizia_2"/>
-            <zone ulx="1147" uly="287" lrx="2139" lry="363" rendition="" xml:id="notizia_2_2"/>
-
+            <zone ulx="130" uly="287" lrx="1130" lry="746" rendition="" xml:id="bibl2_p3"/>
+            <zone ulx="130" uly="744" lrx="1130" lry="1586" rendition="" xml:id="bibl2_p4"/>
+            <zone ulx="130" uly="1589" lrx="1130" lry="2221" rendition="" xml:id="bibl2_p5"/>
+            <zone ulx="130" uly="2223" lrx="1130" lry="2736" rendition="" xml:id="bibl2_p6"/>
+            <zone ulx="130" uly="2769" lrx="1130" lry="2848" rendition="" xml:id="notizie_title"/>
+            <zone ulx="130" uly="2848" lrx="1130" lry="2995" rendition="" xml:id="notizia_1"/>
+            <zone ulx="130" uly="3002" lrx="1130" lry="3112" rendition="" xml:id="notizia_2"/>
+            <zone ulx="1150" uly="287" lrx="2145" lry="363" rendition="" xml:id="notizia_2_2"/>
         </surface>
     </facsimile>
     <text>
@@ -291,7 +273,7 @@
                         <pb n="238" facs="#surf_art_1_1" />
                         <cb n="1" />
 
-                        <head facs="#art1_title">I CONSERVATORII DI MUSICA IN ITALIA</head>
+                        <head facs="#art1_titolo">I CONSERVATORII DI MUSICA IN ITALIA</head>
 
                         <p facs="#art1_p1">
                             <lb n="1"/>I <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> italiani, come tutti sanno, scendono di-
@@ -325,7 +307,7 @@
                             <lb n="25"/><said who="#Filippi">I <rs type="institution" subtype="music" ref="#conservatori">Conservatorii</rs> non sono tenuti a far germogliare i geni</said>,
                             <lb n="26"/>ben disse il <persName ref="#Filippi">Filippi</persName>, <said who="#Filippi">ma debbono formare ottimi musicisti</said>;
                             <lb n="27"/>e siccome hanno diritto e dovere di scelta nell'ammettere
-                            <lb n="28"/>gli alunni, così quelli che sanno poco o <distinct type="literary" xml:id="punto">punto</distinct> (anche dopo
+                            <lb n="28"/>gli alunni, così quelli che sanno poco o <distinct type="literary" corresp="#punto">punto</distinct> (anche dopo
                             <lb n="29"/>aver frequentato l'<rs type="institution" subtype="music" ref="#conservatori">Istituto</rs>) dovrebbero essere espulsi come
                             <lb n="30"/>inetti o almeno non ottenere la licenza: nè da alcun <rs type="institution" subtype="music" ref="#conservatori">Conser-
                             <lb n="31" break="no"/>vatorii</rs> dovrebbero uscire <choice><orig>de'</orig><reg>dei</reg></choice> giovani che non conoscono le
@@ -346,7 +328,7 @@
                             <lb n="42"/>necessario, qui più che mai, una sagace severità nell'am-
                             <lb n="43" break="no"/>missione degli alunni, escludendo inesorabilmente quelli che
                             <lb n="44"/>non hanno voci ed attitudini tali da promettere un'ottima
-                            <lb n="45"/>riuscita. Poi ci vorrebbero <rs type="person">professori</rs> di provata <distinct type="archaic" xml:id="valentia">valentia</distinct>
+                            <lb n="45"/>riuscita. Poi ci vorrebbero <rs type="person">professori</rs> di provata <distinct type="archaic" corresp="#valentia">valentia</distinct>
                             <lb n="46"/>che rimettessero in voga lo studio <choice><orig>de'</orig><reg>dei </reg></choice>nostri classici (<persName ref="#Scarlatti">Scar-
                             <lb n="47" break="no"/>latti</persName>, <persName ref="#Leo">Leo</persName>, <persName ref="#Porpora">Porpora</persName>, <persName ref="#Durante">Durante</persName>, <persName ref="#Marcello">Marcello</persName> ecc.) e che indicassero
                             <lb n="48"/>il modo di interpretare quella musica, rinfrescandone la tra-
@@ -358,8 +340,8 @@
                         <p facs="#art1_p6">
                             <lb n="52"/>Così probabilmente si giungerebbe ad avere dei cantanti
                             <lb n="53"/>invece di quell'esercito di urlatori a ogni costo, tremolanti
-                            <lb n="54"/>e sfiatati poi <distinct type="literary" xml:id="anzitempo">anzi tempo</distinct>, che sono gl'interpreti drammatici
-                            <lb n="55"/>d'<distinct type="literary" xml:id="oggidì">oggidì</distinct>. Ma finchè mancheranno i maestri capaci e i sani
+                            <lb n="54"/>e sfiatati poi <distinct type="literary" corresp="#anzitempo">anzi tempo</distinct>, che sono gl'interpreti drammatici
+                            <lb n="55"/>d'<distinct type="literary" corresp="#oggidì">oggidì</distinct>. Ma finchè mancheranno i maestri capaci e i sani
                             <lb n="56"/>intendimenti artistici, si andrà di male in peggio. Non sap-
                             <lb n="57" break="no"/>piamo perchè, vedendo che i professori fanno cattiva prova, <!-- cattiva prova va segnato? -->
                             <lb n="58"/>non si tenti di affidare tale insegnamento a qualche valente
@@ -373,9 +355,9 @@
                             <lb n="63"/>che ha. E qui pure ci vorrebbe un artista provetto che
                             <lb n="64"/>educasse gli scolari ad <choice><orig>eseguir</orig><reg>eseguire</reg></choice> degnamente la musica dei
                             <lb n="65"/>classici nostrali e forestieri. Il vantaggio sarebbe immenso
-                            <lb n="66"/>per tutti i discepoli, e <distinct type="literary" xml:id="segnatamente">segnatamente</distinct> per quelli che studiano
-                            <lb n="67"/>la <term type="music" xml:id="composizione">composizione</term>; si educherebbero così ai potenti effetti
-                            <lb n="68"/>dell'<term type="music" xml:id="armoniavocale">armonia vocale</term>, alla varia poesia, alla maestosa sem-
+                            <lb n="66"/>per tutti i discepoli, e <distinct type="literary" corresp="#segnatamente">segnatamente</distinct> per quelli che studiano
+                            <lb n="67"/>la <term type="music" ref="#composizione">composizione</term>; si educherebbero così ai potenti effetti
+                            <lb n="68"/>dell'<term type="music" ref="#armoniavocale">armonia vocale</term>, alla varia poesia, alla maestosa sem-
                             <lb n="69" break="no"/>plicità <seg type="rethorical_figure">ch'entro vi spira</seg>, e infine all'ottima disposizione
                             <lb n="70"/>delle voci. Ed è qui che ci gioverebbe particolarmente lo
                             <lb n="71"/>studio degli istituti appositi in <placeName ref="#Germania">Germania</placeName>.
@@ -383,7 +365,7 @@
 
                         <p facs="#art1_8">
                             <lb n="72"/>Per simili ragioni sarebbe indispensabile anche una vera
-                            <lb n="73"/>scuola di <term type="music" xml:id="quartetto">quartetto</term> largamente concepita. <choice><orig>Ne'</orig><reg>Nei</reg></choice> <rs type="institution" subtype="music" ref="#conservatori">conservatorii</rs>
+                            <lb n="73"/>scuola di <term type="music" ref="#quartetto">quartetto</term> largamente concepita. <choice><orig>Ne'</orig><reg>Nei</reg></choice> <rs type="institution" subtype="music" ref="#conservatori">conservatorii</rs>
                             <lb n="74"/>si suonano qualche volta <choice><orig>de'</orig><reg>dei</reg></choice> <term type="music" ref="#quartetto">quartetti</term>; ma non è raro il
                             <lb n="75"/>caso che ne escano parecchi alunni senza averne mai ese-
                             <lb n="76" break="no"/>guiti. Questa scuola dovrebbe comprendere collettive eser-
@@ -396,7 +378,7 @@
                             <lb n="80"/>L'esecuzione <choice><orig>de'</orig><reg>dei </reg></choice>capolavori strumentali di <persName ref="#Boccherini">Boccherini</persName>, <persName ref="#Cherubini">Che-
                             <lb n="81" break="no"/>rubini</persName>, <persName ref="#Mozart">Mozart</persName>, <persName ref="#Haydn">Haydn</persName>, <persName ref="#Beethoven">Beethoven</persName>, ec. sarebbe degno e ne-
                             <lb n="82" break="no"/>cessario complemento delle esercitazioni corali, e potendo
-                            <lb n="83"/>aggiungervi le <term type="music" xml:id="orchestrali_sinfoniche">orchestrali sinfoniche</term>, si verrebbero a dare
+                            <lb n="83"/>aggiungervi le <term type="music" ref="#orchestrali_sinfoniche">orchestrali sinfoniche</term>, si verrebbero a dare
                             <lb n="84"/>altrettante lezioni pratiche e sommatamente utili non solo
                             <lb n="85"/>agli esecutori, ma a tutti gli altri alunni.
                         </p>
@@ -411,12 +393,12 @@
 
                         <p facs="#art1_11">
                             <lb n="91"/>La scuola del pianoforte da qualche anno è <choice><orig>dimolto</orig><reg>di molto</reg></choice> mi-
-                            <lb n="92" break="no"/>gliorata, <distinct type="literary" xml:id="mercè">mercè</distinct> l'impulso gagliardo che le ha dato qualche
+                            <lb n="92" break="no"/>gliorata, <distinct type="literary" corresp="#mercè">mercè</distinct> l'impulso gagliardo che le ha dato qualche
                             <lb n="93"/>coraggioso e valentissimo professore. La soppressione della
-                            <lb n="94"/>fantasia o <term type="music" xml:id="pout-purri"><foreign xml:lang="fr">pout-pourri</foreign></term> sopra <term type="music">motivi</term> d'opera (che ebbe voga
+                            <lb n="94"/>fantasia o <foreign xml:lang="fr">pout-pourri</foreign> sopra <term type="music" ref="#motivi">motivi</term> d'opera (che ebbe voga
                             <lb n="95"/>negli ultimi tempi di decadenza), l'introduzione delle ardite
-                            <lb n="96"/>e sapienti innovazioni nel meccanismo e nella <term type="music">diteggiatura</term>,
-                            <lb n="97"/>inaugurate dal <persName ref="#Liszt">Liszt</persName> e propagate in <distinct type="literary">ispecie</distinct> da <persName ref="#Tausig">Tausig</persName> e
+                            <lb n="96"/>e sapienti innovazioni nel meccanismo e nella <term type="music" ref="#diteggiatura">diteggiatura</term>,
+                            <lb n="97"/>inaugurate dal <persName ref="#Liszt">Liszt</persName> e propagate in <distinct type="literary" corresp="#ispecie">ispecie</distinct> da <persName ref="#Tausig">Tausig</persName> e
                             <lb n="98"/>dal <persName ref="#Bulow">Bulow</persName>, la poetica e meditata interpretazione <choice><orig>de'</orig><reg>dei </reg></choice>classici,
                             <lb n="99"/>moltiplicheranno gli ottimi saggi che se ne ebbero finora.
                             <lb n="100"/>Ma bisogna che il buon esempio sia maggiormente imitato.
@@ -433,15 +415,15 @@
                             <lb n="106" break="no"/>gnare l'esecuzione e l'interpretazione delle <choice><orig>maravigliose</orig><reg>meravigliose</reg></choice>
                             <lb n="107"/>opere di <persName ref="#Bach">Bach</persName>? È molto se di <persName ref="#Bach">Bach</persName>, il più grande orga-
                             <lb n="108" break="no"/>nista d'ogni tempo, si <choice><orig>eseguisce</orig><reg>esegue</reg></choice> sull'organo di qualche no-
-                            <lb n="109" break="no"/>stro <rs type="institution" subtype="music" ref="#conservatori">Conservatorio</rs> una <term type="music" xml:id="fuga">fuga</term> del <title level="m" xml:id="clavecin" xml:lang="fr" rend="italic">Clavecin bien tempéré!</title>
+                            <lb n="109" break="no"/>stro <rs type="institution" subtype="music" ref="#conservatori">Conservatorio</rs> una <term type="music" ref="#fuga">fuga</term> del <title level="m" ref="#clavecin" xml:lang="fr" rend="italic">Clavecin bien tempéré!</title>
                         </p>
                         <!-- Da ricontrollare da qua al p20 -->
                         <p facs="#art1_p14">
-                            <lb n="110"/>Le scuole di <term type="music" xml:id="composizione2">composizione</term> hanno dato ottimi risultati
+                            <lb n="110"/>Le scuole di <term type="music" ref="#composizione">composizione</term> hanno dato ottimi risultati
                             <lb n="112"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
                             <lb n="113" break="no"/>guissero le <distinct type="literary">savie</distinct> norme e i salutari intendimenti dei
                             <lb n="114"/>pochi egregi. Dice il <persName ref="#Gevaert">Gevaert</persName> (direttore del <orgName ref="#Cons_Bruxelles">Conservatorio
-                            <lb n="115"/>di <placeName ref="#Bruxelles">Bruxelles</placeName></orgName>) che è <distinct type="archaic" xml:id="duopo">d'uopo</distinct> insegnare <choice><orig>a'</orig><reg>ai</reg></choice> discepoli non <emph rend="italic">ciò
+                            <lb n="115"/>di <placeName ref="#Bruxelles">Bruxelles</placeName></orgName>) che è <distinct type="archaic" corresp="#duopo">d'uopo</distinct> insegnare <choice><orig>a'</orig><reg>ai</reg></choice> discepoli non <emph rend="italic">ciò
                             <lb n="116"/>che bisogna sapere, ma ciò che bisogna saper fare</emph>; ed ha ra-
                             <lb n="117" break="no"/>gione, perché il saper fare include necessariamente il sa-
                             <lb n="118" break="no"/>pere. L'insegnamento teorico deve procedere di pari passo
@@ -462,15 +444,15 @@
                             <lb n="129" break="no"/>menti;»</quote> chiaccherano molto in nome dell'arte, ma sono i
                             <lb n="130"/>primi ad offenderla <choice><orig>co'</orig><reg>coi</reg></choice> fatti; osteggiano, con una guerra
                             <lb n="131"/>sorda, i più valenti; seminano la zizzania: ed ecco <choice><orig>donde</orig><reg>da dove</reg></choice>
-                            <lb n="132"/>nascono la <term type="social">camorra</term> e la <term type="social">fiaccona</term>. I pochi egregi fanno
+                            <lb n="132"/>nascono la <term type="social">camorra</term> e la <term type="social">fiaccona</term>. I pochi egregi fanno <!-- distinct al posto di term per fiaccona direi e anche per camorra -->
                             <lb n="133"/>quello che possono, ma sono sforzi isolati: di qui i risul-
                             <lb n="134" break="no"/>tati parziali, non generali. Sarebbe, per esempio, necessario
                             <lb n="135"/>che alle cattedre d'<term type="music">armonia elementare</term> si desse tanta im-
-                            <lb n="136" break="no"/>portanza quanta se ne dà a quelle di <term type="music">contrappunto</term> e di
-                            <lb n="137"/><term type="music">composizione</term>: trattandosi <choice><orig>de'</orig><reg>dei</reg></choice> fondamenti di un grande edi-
+                            <lb n="136" break="no"/>portanza quanta se ne dà a quelle di <term type="music" ref="#contrappunto">contrappunto</term> e di
+                            <lb n="137"/><term type="music" ref="#composizione">composizione</term>: trattandosi <choice><orig>de'</orig><reg>dei</reg></choice> fondamenti di un grande edi-
                             <lb n="138" break="no"/>ficio, bisogna che siano solidi e chi li pone <choice><orig><distinct type="archaic">dee</distinct></orig><reg>deve</reg></choice> risponderne.
                             <lb n="139"/>Ma invece avviene non di rado che quando un alunno passa
-                            <lb n="140"/>alla scuola di <term type="music">contrappunto</term> e di <term type="music">composizione</term> sotto altro
+                            <lb n="140"/>alla scuola di <term type="music" ref="#contrappunto">contrappunto</term> e di <term type="music" ref="#composizione">composizione</term> sotto altro
                             <lb n="141"/>professore, tocca a quest'ultimo di rifarsi da capo, e di dover
                             <lb n="142"/>demolire per poi riedificare: tante sono le storture che gli
                             <lb n="143"/>tocca riaddrizzare. Lo stesso dicasi per tutti gli altri in-
@@ -480,7 +462,7 @@
                         <p facs="#art1_p16">
                             <lb n="145"/>Ed ora a un altro guaio.
                             <lb n="146"/>Noi crediamo che la cultura intellettuale in genere, e la
-                            <lb n="147"/>letteraria in <distinct type="literary">ispecie</distinct>, abbiano al <choice><orig>dì</orig><reg>giorno</reg></choice> d'oggi un'influenza molto
+                            <lb n="147"/>letteraria in <distinct type="literary" corresp="#ispecie">ispecie</distinct>, abbiano al <choice><orig>dì</orig><reg>giorno</reg></choice> d'oggi un'influenza molto
                             <lb n="148"/>maggiore di quanto si crede sulla riuscita di un musicista.
                             <lb n="149"/>Scrive il <persName ref="#Lenz">Lenz</persName> (nel suo libro: <title level="m" rend="italic" xml:lang="fr">Beethoven et ses trois styles</title>)
                             <lb n="150"/>che <quote>«la sola diga da opporre a tante profanazioni sarebbe
@@ -517,7 +499,7 @@
                             <lb n="173"/>tal punto un aiuto ben maggiore: e ad appoggiare quanto
                             <lb n="174"/>diciamo, trascriviamo le seguenti parole che <choice><orig>leggonsi</orig><reg>si leggono</reg></choice> nel
                             <lb n="175"/><title level="m" rend="italic" xml:lang="it">Disegno di Statuto per l'Università musicale di Napoli</title>, con
-                            <lb n="176"/>cui alcuni egregi uomini (<distinct type="archaic">all'uopo</distinct> eletti) propongono le
+                            <lb n="176"/>cui alcuni egregi uomini (<distinct type="archaic" corresp="#duopo">all'uopo</distinct> eletti) propongono le
                             <lb n="177"/>riforme necessarie a quel <rs type="institution" subtype="music" ref="#conservatorioNapoli">Conservatorio</rs>:<quote>«lo studio delle
                             <lb n="178"/>lettere amplia le idee, allarga l'orizzonte delle conoscenze,
                             <lb n="179"/>ed è raro che un artista privo di questo soccorso possa di-
@@ -913,67 +895,93 @@
 
                             <label>punto</label>
                             <item>
-                                <gloss target="#punto">Niente, nulla</gloss>
+                                <gloss xml:id="punto">Niente, nulla</gloss>
                             </item>
 
                             <label>valentia</label>
                             <item>
-                                <gloss target="#valentia">valore, competenza</gloss>
+                                <gloss xml:id="valentia">valore, competenza</gloss>
                             </item>
 
                             <label>anzi tempo</label>
                             <item>
-                                <gloss target="#anzitempo">Prematuramente, prima del tempo</gloss>
+                                <gloss xml:id="anzitempo">Prematuramente, prima del tempo</gloss>
                             </item>
 
                             <label>oggidì</label>
                             <item>
-                                <gloss target="#oggidì">Oggi, al giorno d'oggi</gloss>
+                                <gloss xml:id="oggidì">Oggi, al giorno d'oggi</gloss>
                             </item>
 
                             <label>segnatamente</label>
                             <item>
-                                <gloss target="#segnatamente">Soprattutto, in particolare</gloss>
+                                <gloss xml:id="segnatamente">Soprattutto, in particolare</gloss>
                             </item>
 
                             <label>mercè</label>
                             <item>
-                                <gloss target="#mercè">Merito, grazie a</gloss>
+                                <gloss xml:id="mercè">Merito, grazie a</gloss>
+                            </item>
+
+                            <label>d'uopo/all'uopo</label>
+                            <item>
+                                <gloss xml:id="duopo">Per "d'uopo" s'intende come "è necessario". Per "all'uopo" invece si intende "ad hoc" </gloss>
                             </item>
 
                             <label>ispecie</label>
                             <item>
-                                <gloss target="#ispecie">Soprattutto, specificamente</gloss>
+                                <gloss xml:id="ispecie">Soprattutto, specificamente</gloss>
                             </item>
 
                             <label>composizione</label>
                             <item>
-                                <gloss target="#composizione">Composizione in musica: arte e tecnica di creare un'opera musicale combinando suono, melodia e armonia</gloss>
+                                <gloss xml:id="composizione">Composizione in musica: arte e tecnica di creare un'opera musicale combinando suono, melodia e armonia</gloss>
                             </item>
 
                             <label>armonia vocale</label>
                             <item>
-                                <gloss target="#armoniavocale">Sovrapposizione di più voci che producono diverse note creando un accordo</gloss>
+                                <gloss xml:id="armoniavocale">Sovrapposizione di più voci che producono diverse note creando un accordo</gloss>
                             </item>
 
                             <label>quartetto</label>
                             <item>
-                                <gloss target="#quartetto">Insieme musicale di quattro esecutori</gloss>
+                                <gloss xml:id="quartetto">Insieme musicale di quattro esecutori</gloss>
                             </item>
 
                             <label>orchestrali sinfoniche</label>
                             <item>
-                                <gloss target="#orchestrali_sinfoniche">esecuzioni/esercitazioni orchestrali e sinfoniche</gloss>
+                                <gloss xml:id="orchestrali_sinfoniche">esecuzioni/esercitazioni orchestrali e sinfoniche</gloss>
                             </item>
 
                             <label>fuga</label>
                             <item>
-                                <gloss target="#fuga">Forma musicale polifonica in cui una melodia principale (soggetto) viene ripresa e sviluppata da più voci o strumenti che si intrecciano o susseguono.</gloss>
+                                <gloss xml:id="fuga">Forma musicale polifonica in cui una melodia principale (soggetto) viene ripresa e sviluppata da più voci o strumenti che si intrecciano o susseguono.</gloss>
                             </item>
 
                             <label>Clavier bien tempéré</label>
                             <item>
-                                <gloss target="#clavecin">Il Clavicembalo Ben Temperato: raccolta divisa in due libri composta da Bach</gloss>
+                                <gloss xml:id="clavecin">Il Clavicembalo Ben Temperato: raccolta divisa in due libri composta da Bach</gloss>
+                            </item>
+
+                            <label>motivi</label>
+                            <item>
+                                <gloss xml:id="motivi">
+                                    Brevi cellule melodiche o ritmiche riconoscibili che costituiscono il materiale fondamentale di una composizione.
+                                </gloss>
+                            </item>
+
+                            <label>diteggiatura</label>
+                            <item>
+                                <gloss xml:id="diteggiatura">
+                                    L'insieme delle regole e dei segni utilizzati per indicare quali dita e quali posizioni devono essere impiegate per suonare uno spartito.
+                                </gloss>
+                            </item>
+
+                            <label>contrappunto</label>
+                            <item>
+                                <gloss xml:id="contrappunto">
+                                    Tecnica compositiva che combina due o più linee melodiche indipendenti, armonicamente compatibili tra loro, secondo regole precise di scrittura musicale.
+                                </gloss>
                             </item>
 
                         </list>
