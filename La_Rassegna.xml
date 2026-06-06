@@ -295,7 +295,7 @@
 
                         <p facs="#art1_p1">
                             <lb n="1"/>I <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> italiani, come tutti sanno, scendono di-
-                            <lb n="2" break="no"/>rettamente dalla <orgName key="Chiesa">Chiesa</orgName>; dalla <date from="1300" to="1500">metà del 1300 fino al 1500</date>
+                            <lb n="2" break="no"/>rettamente dalla <orgName ref="#Chiesa">Chiesa</orgName>; dalla <date from="1300" to="1500">metà del 1300 fino al 1500</date>
                             <lb n="3"/> ogni monastero era un centro di studi musicali. <choice><orig>Da'</orig><reg>Dai</reg></choice> mona-
                             <lb n="4" break="no"/>steri vennero i <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> (o più propriamente allora or-
                             <lb n="5" break="no"/>fanotrofi) alcuni dei quali esistevano fino dal <date notBefore="1500" notAfter="1599">secolo XVI</date> ed
@@ -303,7 +303,7 @@
                             <lb n="7"/> chœur</foreign>); si occupavano però necessariamente anche dello
                             <lb n="8"/>studio tecnico degli strumenti. Il primo <rs type="institution"  subtype="music" ref="#conservatorii">Conservatorio</rs>, quello
                             <lb n="9"/> di musica di <orgName ref="#conservatorioSML">Santa Maria di Loreto</orgName> fu fondato in <placeName ref="#Napoli">Napoli</placeName>
-                            <lb n="10"/>nel <date when="1573">1537</date>: e i Conservatorii di <placeName ref="#Napoli">Napoli</placeName> e di <placeName ref="#Venezia">Venezia</placeName> ebbero
+                            <lb n="10"/>nel <date when="1537">1537</date>: e i Conservatorii di <placeName ref="#Napoli">Napoli</placeName> e di <placeName ref="#Venezia">Venezia</placeName> ebbero
                             <lb n="11"/>una grande influenza sulla formazione e sui progressi della
                             <lb n="12"/>nostra scuola del secolo passato. I nostri <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> ser-
                             <lb n="13" break="no"/>virono di modello a tutti gli altri d'<placeName ref="#europa">Europa</placeName>, compreso quello
@@ -387,7 +387,7 @@
                             <lb n="74"/>si suonano qualche volta <choice><orig>de'</orig><reg>dei </reg></choice>quartetti; ma non è raro il
                             <lb n="75"/>caso che ne escano parecchi alunni senza averne mai ese-
                             <lb n="76" break="no"/>guiti. Questa scuola dovrebbe comprendere collettive eser-
-                            <lb n="77" break="no"/>citazioni di <term type="music" ref="#trii">trii</term>, <term type="music" ref="#quartetto">quartetti</term>, <term type="music" ref="#quintetti">quintetti</term>, <term type="music" ref="#settimini">settimini</term>, <choice><abbr>ec.</abbr><expan>eccetera</expan></choice> e sarebbe
+                            <lb n="77" break="no"/>citazioni di <term type="music" xml:id="trii">trii</term>, <term type="music" ref="#quartetto">quartetti</term>, <term type="music" xml:id="quintetti">quintetti</term>, <term type="music" xml:id="settimini">settimini</term>, <choice><abbr>ec.</abbr><expan>eccetera</expan></choice> e sarebbe
                             <lb n="78"/>un tale insegnamento <distinct type="literary">anco</distinct> più importante dell'istruzione
                             <lb n="79"/>orchestrale, perchè questa è, quasi direi, compresa in quello.
                         </p>
@@ -437,7 +437,7 @@
                         </p>
                         <!-- Da ricontrollare da qua al p20 -->
                         <p facs="#art1_p14">
-                            <lb n="110"/>Le scuole di <term type="music" xml:id="composizione2">composizione</term> hanno dato ottimi risultati
+                            <lb n="110"/>Le scuole di <term type="music" ref="#composizione">composizione</term> hanno dato ottimi risultati
                             <lb n="111"/>parziali, o li darebbero generali se tutti gl'insegnanti se-
                             <lb n="112" break="no"/>guissero le <distinct type="literary">savie</distinct> norme e i salutari intendimenti dei
                             <lb n="113"/>pochi egregi. Dice il <persName ref="#Gevaert">Gevaert</persName> (direttore del <orgName ref="#Cons_Bruxelles">Conservatorio
@@ -917,6 +917,12 @@
                                 Conservatorio musicale napoletano citato nel Disegno di Statuto.
                             </desc>
                         </org>
+                        <org xml:id="Cons_Bruxelles">
+                            <orgName>Conservatorio di Bruxelles</orgName>
+                            <desc>
+                                Conservatorio citato in relazione a Gevaert, suo direttore.
+                            </desc>
+                        </org>
                     </listOrg>
 
                     <div type="gloss">
@@ -942,7 +948,12 @@
                             <item>
                                 <gloss target="#oggidì">Oggi, al giorno d'oggi</gloss>
                             </item>
-
+                            
+                            <label>d'uopo</label>
+                            <item>
+                                <gloss target="#duopo">Necessario, opportuno.</gloss>
+                            </item>
+                            
                             <label>segnatamente</label>
                             <item>
                                 <gloss target="#segnatamente">Soprattutto, in particolare</gloss>
@@ -968,6 +979,12 @@
                                 <gloss target="#armoniavocale">Sovrapposizione di più voci che producono diverse note creando un accordo</gloss>
                             </item>
 
+                            <label>pout-pourri</label>
+                            <item>
+                                <gloss target="#pout-purri">
+                                    Composizione musicale formata da una successione di motivi tratti da opere diverse.
+                                </gloss>
+                            </item>
                             <label>quartetto</label>
                             <item>
                                 <gloss target="#quartetto">Insieme musicale di quattro esecutori</gloss>
@@ -987,9 +1004,28 @@
                             <item>
                                 <gloss target="#clavecin">Il Clavicembalo Ben Temperato: raccolta divisa in due libri composta da Bach</gloss>
                             </item>
+                            <label>trii</label>
+                            <item>
+                                <gloss target="#trii">
+                                    Composizioni o formazioni musicali per tre esecutori o tre parti.
+                                </gloss>
+                            </item>
 
+                            <label>quintetti</label>
+                            <item>
+                                <gloss target="#quintetti">
+                                    Composizioni o formazioni musicali per cinque esecutori o cinque parti.
+                                </gloss>
+                            </item>
+
+                            <label>settimini</label>
+                            <item>
+                                <gloss target="#settimini">
+                                    Composizioni o formazioni musicali per sette esecutori o sette parti.
+                                </gloss>
+                            </item>
                         </list>
-
+                        
                     </div>
 
                 </back>
@@ -1017,7 +1053,7 @@
                             <lb n="9"/>Se non che la storia ci dà a questo proposito lezioni
                             <lb n="10"/>assai curiose. Quando si leggono i libri dei <distinct type="literary">savi</distinct> del <date notBefore="1700" notAfter="1799">se-
                             <lb n="11" break="no"/>colo XVIII</date>, quelli che furono gli autori o promotori della
-                            <lb n="12"/><rs type="event" ref="#rivoluzione_francese">rivoluzione francese</rs>, non si può contenere la <choice><orig>maraviglia</orig><reg>meraviglia</reg></choice>,
+                            <lb n="12"/><rs type="event" xml:id="rivoluzione_francese">rivoluzione francese</rs>, non si può contenere la <choice><orig>maraviglia</orig><reg>meraviglia</reg></choice>,
                             <lb n="13"/>vedendo come essi <choice><orig>annunziano</orig><reg>annunciano</reg></choice> al mondo la giustizia, la 
                             <lb n="14"/>fratellanza, la pace, il secolo dei lumi, e furono invece il-
                             <lb n="15" break="no"/>luminati <choice><orig>colla</orig><reg>con la</reg></choice> ghigliottina e <choice><orig>col</orig><reg>con il</reg></choice> regno del terrore. Il nostro
@@ -1039,7 +1075,7 @@
                             <lb n="31"/>della natura, del fato, di <rs type="deity">Dio</rs> stesso. Il <pc type="emdash">—</pc> pensare che si possa
                             <lb n="32"/>fare altrimenti, non entra più nella loro testa. Bisogna es-
                             <lb n="33" break="no"/>sere vissuto trent'anni <choice><orig>colà</orig><reg>là</reg></choice> per capire questo sentimento. —
-                            <lb n="34"/>Il <rs type="person" ref="#pastore_scozzese">reverendo uomo</rs> era appena disceso dal <term type="architecture" ref="#pergamo">pergamo</term>, che il
+                            <lb n="34"/>Il <rs type="person" ref="#pastore_scozzese">reverendo uomo</rs> era appena disceso dal <term type="architecture" xml:id="pergamo">pergamo</term>, che il
                             <lb n="35"/>telegrafo <choice><orig>annunziava</orig><reg>annunciava</reg></choice> lo scoppio sanguinoso del <foreign xml:lang="en" rend="italic"><rs type="event">great mutiny</rs></foreign>.
                             <lb n="36"/>Nè egli era stato solo ad ingannarsi, con lui s'erano in-
                             <lb n="37" break="no"/>gannati gli uomini di Stato più competenti nell'<placeName ref="#Inghilterra">Inghilterra</placeName>.
@@ -1053,10 +1089,10 @@
                             <lb n="43"/>rapido cammino che in essa ha fatto la scienza, per la dif-
                             <lb n="44" break="no"/>fusione della sua istruzione elementare; dopo i progressi
                             <lb n="45"/>della sua industria, dopo i prodigiosi trionfi militari, dopo
-                            <lb n="46"/>i miliardi che le ha dovuto dare la <placeName ref="#Francia_2">Francia</placeName>, dovesse a un
+                            <lb n="46"/>i miliardi che le ha dovuto dare la <placeName ref="#Francia">Francia</placeName>, dovesse a un
                             <lb n="47"/>tratto levare un grido d'allarme, e vedere minacciata la
                             <lb n="48"/>sua quiete, la società stessa, da quella terribile e spaven-
-                            <lb n="49"/>tosa <soCalled>malattia</soCalled> che si chiama il <term type="political" ref="#socialismo">socialismo</term>?
+                            <lb n="49"/>tosa <soCalled>malattia</soCalled> che si chiama il <term type="political" xml:id="socialismo">socialismo</term>?
                         </p>
                         <p facs="#art2_p4 #art2_p5">
                             <lb n="50"/>Non è la ricchezza, non sono le libertà politiche, nè
@@ -1136,8 +1172,8 @@
                             <lb n="117"/>parrebbero a molti pazzie.
                         </p>
                         <p facs="#art2_p9 #art2_p10">
-                            <lb n="118"/>Se noi non chiameremo al <orgName ref="#Governo">Governo</orgName> i <rs type="politicalGroup" ref="#clericali">clericali</rs> che disfa-
-                            <lb n="119"/>rebbero l'<placeName ref="#Italia_2">Italia</placeName> o i <rs type="politicalGroup" ref="#repubblicani">repubblicani</rs> che disfarebbero la mo-
+                            <lb n="118"/>Se noi non chiameremo al <orgName ref="#Governo">Governo</orgName> i <rs type="politicalGroup" xml:id="clericali_art2">clericali</rs> che disfa-
+                            <lb n="119"/>rebbero l'<placeName ref="#Italia_2">Italia</placeName> o i <rs type="politicalGroup" xml:id="repubblicani">repubblicani</rs> che disfarebbero la mo-
                             <pb n="486" facs="#surf_art_2_2"/>
                             <cb n="1"/>
                             <lb n="120" break="no"/>narchia, abbiamo già percorsa tutta la serie dei possibili
@@ -1201,7 +1237,7 @@
                             <lb n="174"/>nelle <rs type="place" ref="#Pianure_Lombarde">pianure Lombarde</rs> la terra fertile, l'irrigazione am-
                             <lb n="175" break="no"/>mirabile, l'agricoltura eccellente, i prodotti ricchissimi e il
                             <lb n="176"/>contadino ripiegato dalla fatica, consumato dagli stenti,
-                            <lb n="177"/>assalito dalla febbre e dalla <term type="medical" ref="#pellagra">pellagra</term>, cacciato nell'ospedale
+                            <lb n="177"/>assalito dalla febbre e dalla <term type="medical" xml:id="pellagra">pellagra</term>, cacciato nell'ospedale
                             <lb n="178"/>dei pazzi. Che cosa importa più al <rs type="org" ref="#Italia_2">paese</rs>, sollevare que-
                             <lb n="179" break="no"/>st'uomo o aspettare che i gruppi si mettano in equilibrio?
                             <lb n="180"/>Dobbiamo ricordare lo spettacolo non meno triste delle
@@ -1431,94 +1467,37 @@
                                     Movimento politico e sociale che mira a una maggiore uguaglianza economica e sociale e alla tutela delle classi lavoratrici.
                                 </gloss>
                             </item>
-                            <label>liberali</label>
+                            
+                            <label>rivoluzione francese</label>
                             <item>
-                                <gloss xml:id="liberali">
-                                    Gruppo politico favorevole a principi liberali, come le libertà costituzionali, parlamentari e civili.
+                                <gloss target="#rivoluzione_francese">
+                                    Evento politico e sociale iniziato in Francia nel 1789, richiamato nel testo come esempio storico.
                                 </gloss>
                             </item>
 
-                            <label>conservativi</label>
+                            <label>pergamo</label>
                             <item>
-                                <gloss xml:id="conservativi">
-                                    Gruppo politico orientato alla conservazione dell'ordine politico e sociale esistente.
+                                <gloss target="#pergamo">
+                                    Pulpito o luogo elevato da cui si predica o si parla al pubblico.
                                 </gloss>
                             </item>
-
                             <label>clericali</label>
                             <item>
-                                <gloss xml:id="clericali">
-                                    Gruppo politico vicino agli interessi della Chiesa e favorevole a un ruolo rilevante dell'autorità religiosa nella vita pubblica.
+                                <gloss target="#clericali_art2">
+                                    Gruppo politico vicino agli interessi della Chiesa, citato nell'articolo in opposizione allo Stato italiano.
+                                </gloss>
+                            </item>
+                            <label>repubblicani</label>
+                            <item>
+                                <gloss target="#repubblicani">
+                                    Gruppo politico favorevole alla forma repubblicana dello Stato.
                                 </gloss>
                             </item>
 
-                            <label>centro</label>
+                            <label>pellagra</label>
                             <item>
-                                <gloss xml:id="centro">
-                                    Gruppo politico parlamentare collocato fra le posizioni liberali e conservatrici; nel contesto tedesco-prussiano indica il gruppo cattolico di Centro.
-                                </gloss>
-                            </item>
-
-                            <label>Destra</label>
-                            <item>
-                                <gloss xml:id="destra">
-                                    Fazione politica di orientamento più moderato o conservatore all'interno del quadro parlamentare.
-                                </gloss>
-                            </item>
-
-                            <label>Sinistra</label>
-                            <item>
-                                <gloss xml:id="sinistra">
-                                    Fazione politica di orientamento più progressista o liberale all'interno del quadro parlamentare.
-                                </gloss>
-                            </item>
-
-                            <label>liberali moderati</label>
-                            <item>
-                                <gloss xml:id="liberali_moderati">
-                                    Gruppo liberale caratterizzato da posizioni politiche moderate e disponibili alla cooperazione con forze conservatrici.
-                                </gloss>
-                            </item>
-
-                            <label>conservatori moderati</label>
-                            <item>
-                                <gloss xml:id="conservatori_moderati">
-                                    Gruppo conservatore caratterizzato da posizioni meno rigide e più aperte ad accordi con i liberali.
-                                </gloss>
-                            </item>
-
-                            <label>conservatori liberali</label>
-                            <item>
-                                <gloss xml:id="conservatori_liberali">
-                                    Gruppo politico intermedio tra conservatorismo e liberalismo, favorevole a una collaborazione tra conservatori e liberali.
-                                </gloss>
-                            </item>
-
-                            <label>Tedeschi dell'Impero</label>
-                            <item>
-                                <gloss xml:id="Tedeschi_Impero">
-                                    Popolazione tedesca appartenente all'Impero tedesco.
-                                </gloss>
-                            </item>
-
-                            <label>Tedeschi dell'Austria</label>
-                            <item>
-                                <gloss xml:id="Tedeschi_Austria">
-                                    Popolazione di lingua o identità tedesca residente nell'Impero austro-ungarico.
-                                </gloss>
-                            </item>
-
-                            <label>Tedeschi</label>
-                            <item>
-                                <gloss xml:id="Tedeschi">
-                                    Popolazione di lingua o identità tedesca, considerata al di là dei confini politici dei singoli Stati.
-                                </gloss>
-                            </item>
-
-                            <label>leggi di maggio</label>
-                            <item>
-                                <gloss xml:id="Leggi_di_maggio">
-                                    Provvedimenti legislativi prussiani legati al conflitto politico-religioso tra lo Stato prussiano e la Chiesa cattolica.
+                                <gloss target="#pellagra">
+                                    Malattia legata a carenze alimentari, diffusa storicamente tra le popolazioni povere e rurali.
                                 </gloss>
                             </item>
                         </list>
@@ -1543,7 +1522,7 @@
                             <lb n="5" break="no"/>tato</orig><reg>risultato</reg></choice> delle elezioni prussiane furono superati. Il <rs type="org" ref="#Governo_prussiano">governo</rs> ha
                             <lb n="6"/>ottenuto una vittoria che, come hanno poi confessato i suoi
                             <lb n="7"/>organi stessi, <choice><orig>neppur</orig><reg>neppure</reg></choice> esso si aspettava <choice><orig>sì</orig><reg>così</reg></choice> grande, e tutte le
-                            <lb n="8"/>inquietudini dei <rs type="politicalGroup" ref="#liberali">liberali</rs> circa alle perdite che li minaccia-
+                            <lb n="8"/>inquietudini dei <rs type="politicalGroup" xml:id="liberali">liberali</rs> circa alle perdite che li minaccia-
                             <lb n="9" break="no"/>vano, si sono chiarite molto inferiori alla realtà. <distinct type="literary" xml:id="ambedue">Ambedue</distinct>
                             <lb n="10"/>i partiti liberali, tanto il <orgName ref="#Partito_Nazionale_Liberale">nazionale liberale</orgName> quanto quello
                             <lb n="11"/>del <orgName ref="#Partito_del_Progresso">progresso</orgName>, hanno perduto quasi la metà dei collegi che
@@ -1552,8 +1531,8 @@
                             <lb n="14"/>nel <orgName ref="#Reichstag_tedesco">Reichstag tedesco</orgName> l'anno scorso sotto la impressione
                             <lb n="15"/>recente dell'attentato <persName ref="#Nobiling">Nobiling</persName>. La <orgName ref="#Camera_dei_deputati_prussiani">rappresentanza popo-
                             <lb n="16" break="no"/>lare prussiana</orgName> si divide ora, presso a poco come quella
-                            <lb n="17"/><rs type="org" ref="#camera_germanica">germanica</rs>, in tre gruppi: un <rs type="politicalGroup" ref="#conservativi">conservativo</rs>, un <rs type="politicalGroup" ref="#liberali">liberale</rs>
-                            <lb n="18"/>ed uno <rs type="politicalGroup" ref="#clericali">clericale</rs>; i due primi contano 150 membri ciascuno,
+                            <lb n="17"/><rs type="org" xml:id="camera_germanica">germanica</rs>, in tre gruppi: un <rs type="politicalGroup" xml:id="conservativi">conservativo</rs>, un <rs type="politicalGroup" ref="#liberali">liberale</rs>
+                            <lb n="18"/>ed uno <rs type="politicalGroup" xml:id="clericali">clericale</rs>; i due primi contano 150 membri ciascuno,
                             <lb n="19"/>il <rs type="politicalGroup" ref="#clericali">clericale</rs> 100. Oltre a ciò vi è un certo numero di depu-
                             <lb n="20" break="no"/>tati che non appartengono a nessun partito.
                         </p>
@@ -1570,14 +1549,14 @@
                             <lb n="29" break="no"/>rono contro i <rs type="politicalGroup" ref="#liberali">liberali</rs>, mentre nelle due precedenti elezioni
                             <lb n="30"/>per la <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati</orgName>, negli anni <date when="1873">1873</date> e <date when="1876">1876</date>, in grazia
                             <lb n="31"/>della lotta sostenuta in comune dal <orgName ref="#Governo_prussiano">governo</orgName> e dai <rs type="politicalGroup" ref="#liberali">liberali</rs>
-                            <lb n="32"/>contro il <rs type="politicalGroup" ref="#centro">centro</rs>, questi ultimi si giovarono dell'aiuto dell'in-
+                            <lb n="32"/>contro il <rs type="politicalGroup" xml:id="centro">centro</rs>, questi ultimi si giovarono dell'aiuto dell'in-
                             <lb n="33" break="no"/>fluenza governativa. A questo si aggiunga che regna nella
                             <lb n="34"/>popolazione grande <seg type="metaphorical">atonia politica</seg> e molto malcontento per
                             <lb n="35"/>le inevitabili perturbazioni che sogliono sempre prodursi in
                             <lb n="36"/>conseguenza di un numero straordinario di nuove leggi e
                             <lb n="37"/>di profonde riforme. <choice><orig>Devesi</orig><reg>Si deve</reg></choice> inoltre avvertire che dal lato del
                             <lb n="38"/><orgName ref="#Partito_Nazionale_Liberale">partito nazionale liberale</orgName>, in seguito della tensione esistente
-                            <lb n="39"/>fra la <rs type="politicalGroup" ref="#destra">Destra</rs> e la <rs type="politicalGroup" ref="#sinistra">Sinistra</rs> e non ancora rimossa dal tempo
+                            <lb n="39"/>fra la <rs type="politicalGroup" xml:id="destra">Destra</rs> e la <rs type="politicalGroup" xml:id="sinistra">Sinistra</rs> e non ancora rimossa dal tempo
                             <lb n="40"/>dell'ultimo <orgName ref="#Reichstag_tedesco">Reichstag</orgName>, non fu condotta che una tepidissima
                             <lb n="41"/>agitazione elettorale; e finalmente il <orgName ref="#Partito_del_Progresso">partito progressista</orgName>
                             <lb n="42"/>commise un grave errore quando nel principio dell'agita-
@@ -1594,7 +1573,7 @@
                             <lb n="52"/>tempo che una tale maggioranza fu riconosciuta come un
                             <lb n="53"/>fatto, quelli che ci avevano speculato sopra erano già dis-
                             <lb n="54" break="no"/>illusi. Non appena venne in sodo che i <rs type="politicalGroup" ref="#clericali">clericali</rs>, insieme
-                            <lb n="55"/>con quei <rs type="politicalGroup" ref="#conservatori">conservatori</rs> che non sono incondizionatamente
+                            <lb n="55"/>con quei <rs type="politicalGroup" xml:id="conservatori">conservatori</rs> che non sono incondizionatamente
                             <lb n="56"/>ministeriali nel senso del <persName ref="#Bismarck"><roleName type="honorific">principe</roleName> Bismarck</persName>, possono domi-
                             <lb n="57" break="no"/>nare la <orgName ref="#Camera_dei_deputati_prussiani">Camera</orgName>, si operò nella stampa officiosa un'evo-
                             <lb n="58" break="no"/>luzione manifesta. Mentre questa durante l'agitazione elet-
@@ -1626,18 +1605,18 @@
                             <lb n="82" break="no"/>cettare il mandato, <choice><orig>rinunziando</orig><reg>rinunciando</reg></choice> alla sua risoluzione di dimet-
                             <lb n="83" break="no"/>tersi. Si è generalmente convinti che ciò non sia accaduto
                             <lb n="84"/>senza l'influenza del <persName ref="#Bismarck"><roleName type="honorific">Principe</roleName> Bismarck</persName>. Certo vanno troppo
-                            <lb n="85"/><distinct type="literary">lungi</distinct> le voci che già sostengono doversi in breve riprendere
+                            <lb n="85"/><distinct type="literary" xml:id="lungi">lungi</distinct> le voci che già sostengono doversi in breve riprendere
                             <lb n="86"/>quella combinazione di <placeName ref="#Varzin">Varzin</placeName> dell'inverno del <date when="1878">1878</date>, secondo
                             <lb n="87"/>la quale il <persName ref="#Bennigsen">sig. Von Bennigsen</persName> entrerebbe nel <orgName ref="#Ministero_prussiano">Ministero</orgName> e che
                             <lb n="88"/>con ciò succederebbe la durevole unione in un solo partito dei
-                            <lb n="89"/><rs type="politicalGroup" ref="#liberali_moderati">liberali moderati</rs> e dei <rs type="politicalGroup" ref="#conservatori_moderati">conservatori moderati</rs>. Non è ancora
+                            <lb n="89"/><rs type="politicalGroup" xml:id="liberali_moderati">liberali moderati</rs> e dei <rs type="politicalGroup" xml:id="conservatori_moderati">conservatori moderati</rs>. Non è ancora
                             <lb n="90"/>neppure accertato se il <persName ref="#Bennigsen">sig. Bennigsen</persName> sarà rieletto pre-
                             <lb n="91" break="no"/>sidente della <orgName ref="#Camera_dei_deputati_prussiani">Camera dei deputati</orgName>, quantunque i nostri fogli
                             <lb n="92"/>la considerino già cosa sicura; è però probabile, ed è in-
                             <lb n="93" break="no"/>dubitabile che il <persName ref="#Bismarck">Cancelliere dell'Impero</persName> la desidera. <ref type="note" target="#nota_art3_p4">*</ref> Se al-
                             <lb n="94"/>l'influenza degli amici del <persName ref="#Bismarck">Bismarck</persName> appartenenti alla <rs type="politicalGroup" ref="#conservatori">fra-
                             <lb n="95" break="no"/>zione conservativa</rs>, che ora conta 115 membri, riuscisse
-                            <lb n="96"/>indurre questa a cooperare coi <rs type="politicalGroup" ref="#conservatori_liberali">conservatori liberali</rs> e coi
+                            <lb n="96"/>indurre questa a cooperare coi <rs type="politicalGroup" xml:id="conservatori_liberali">conservatori liberali</rs> e coi
                             <lb n="97"/><rs type="politicalGroup" ref="#liberali">liberali</rs> per l'elezione del <persName ref="#Bennigsen">Bennigsen</persName> a Presidente, ciò sa-
                             <lb n="98" break="no"/>rebbe certamente un primo passo fatto verso l'effettuazione
                             <lb n="99"/>di quei disegni della maggioranza, che il <persName ref="#Bismarck">Principe Bismarck</persName>
@@ -1661,8 +1640,8 @@
                             <note xml:id="nota_art3_p4" place="foot" hand="editor">
                                 <p>
                                     Queste previsioni non si sono avverate. Un telegramma del 30 da <placeName ref="#Berlino">Berlino</placeName>
-                                    reca che alla <orgName ref="#Camera_dei_deputati_prussiani">Presidenza della Camera</orgName> è stato eletto <persName ref="#Kölier">Kölier</persName> con 218 voti,
-                                    contro 161 ottenuti dal <persName ref="#Benningsen">Bennigsen</persName>. <choice><abbr>N. d. D.</abbr><expan>Nota del Direttore</expan></choice>
+                                    reca che alla <orgName ref="#Camera_dei_deputati_prussiani">Presidenza della Camera</orgName> è stato eletto <persName ref="#Köller">Köller</persName> con 218 voti,
+                                    contro 161 ottenuti dal <persName ref="#Bennigsen">Bennigsen</persName>. <choice><abbr>N. d. D.</abbr><expan>Nota del Direttore</expan></choice>
                                 </p>
                             </note>
                         </p>
@@ -1672,7 +1651,7 @@
                             <lb n="116" break="no"/>nione pubblica liberale del paese, mediante un provvedi-
                             <lb n="117" break="no"/>mento da lui adottato nella città di <placeName ref="#Elbing">Elbing</placeName> sul terreno
                             <lb n="118"/>dell'insegnamento. Fra i più <distinct type="literary">savi</distinct> provvedimenti del passato
-                            <lb n="119"/><roleName ref="#Falk">ministro del culto e dell'istruzione</roleName>, <persName ref="#Falk">Falk</persName>, vi era quello che
+                            <lb n="119"/><roleName>ministro del culto e dell'istruzione</roleName>, <persName ref="#Falk">Falk</persName>, vi era quello che
                             <lb n="120"/>nelle città dove la popolazione è molto mista sotto il rap-
                             <lb n="121" break="no"/>porto confessionale, le scuole elementari, già separate se-
                             <lb n="122" break="no"/>condo le confessioni, erano state da lui riunite in istituti
@@ -1711,7 +1690,7 @@
                             <lb n="153"/>Oltre a ciò, si dà per sicuro che egli reputi imprudente che
                             <lb n="154"/>il <roleName>ministro dei culti</roleName> nel sinodo della <orgName ref="#Chiesa_protestante">Chiesa protestante</orgName>,
                             <lb n="155"/>ora qui adunato, si sia espresso molto sprezzantemente sul-
-                            <lb n="156" break="no"/>l'esame governativo dei teologi introdotto dalle <rs type="law" ref="#Leggi_di_maggio">leggi di
+                            <lb n="156" break="no"/>l'esame governativo dei teologi introdotto dalle <rs type="law" xml:id="Leggi_di_maggio">leggi di
                             <lb n="157"/>maggio</rs>; su di che probabilmente appunto ora pendono
                             <lb n="158"/>trattative fra il <persName ref="#Bismarck">Cancelliere</persName> e il <orgName ref="#Vaticano">Vaticano</orgName>. Lo indispone fi-
                             <lb n="159" break="no"/>nalmente che il <persName ref="#Puttkamer"><roleName type="honorific">signor</roleName> <addName>von</addName> Puttkamer</persName> dal principio del suo
@@ -1719,7 +1698,7 @@
                             <lb n="161"/>discorsi pubblici superflui, ognuno dei quali deve poi essere
                             <lb n="162"/>officiosamente smentito, perchè il <rs type="person" ref="#Puttkamer">ministro</rs> ha detto qual-
                             <lb n="163" break="no"/>che cosa di insostenibile. Però questa disapprovazione del
-                            <lb n="164"/>metodo e dei modi del <roleName ref="#Puttkamer">ministro dei culti</roleName> difficilmente de-
+                            <lb n="164"/>metodo e dei modi del <roleName>ministro dei culti</roleName> difficilmente de-
                             <lb n="165" break="no"/>terminerà il <persName ref="#Bismarck">Cancelliere</persName> alla risoluzione che la nostra stampa
                             <lb n="166"/>gli ha ripetutamente suggerito, di provocare già la di-
                             <lb n="167" break="no"/>missione del <persName ref="#Puttkamer"><roleName type="honorific">signor</roleName> <addName>von</addName> Puttkamer</persName>.
@@ -1738,9 +1717,9 @@
                             <lb n="177"/>ai grandi piani di acquisto di strade ferrate. Bisogna inoltre
                             <lb n="178"/>avvertire che la surrogazione del <persName ref="#Falk">Falk</persName> col <persName ref="#Puttkamer">Puttkamer</persName> fu
                             <lb n="179"/>una concessione che fece il <persName ref="#Bismarck">Cancelliere</persName> ai sentimenti orto-
-                            <lb n="180" break="no"/>dossi dell'<rs type="person" role="politician" ref="#Imperatore_di_Germania">Imperatore</rs>; ed appunto perchè il principe di
+                            <lb n="180" break="no"/>dossi dell'<rs type="person" role="politician" ref="#Imperatore_di_Germania2">Imperatore</rs>; ed appunto perchè il principe di
                             <lb n="181"/><persName ref="#Bismarck">Bismarck</persName> dovette mettere alla prova recentemente tutta la
-                            <lb n="182"/>forza della sua influenza per ottenere l'adesione del <rs type="person" ref="#Imperatore_di_Germania">mo-
+                            <lb n="182"/>forza della sua influenza per ottenere l'adesione del <rs type="person" ref="#Imperatore_di_Germania2">mo-
                             <lb n="183" break="no"/>narca</rs> agli accordi fatti a <placeName ref="#Vienna">Vienna</placeName>, e dovette perfino a questo
                             <lb n="184"/>scopo (il che non è più da mettersi in dubbio) presentare
                             <lb n="185"/>la sua dimissione, è difficile che voglia immediatamente ri-
@@ -1790,11 +1769,11 @@
                             <lb n="223"/>molto calore a discutere i particolari, a ciò contribuì an-
                             <lb n="224" break="no"/>che il trattarsi appunto di un accordo con l'<hi rend="italic"><placeName ref="#Austria">Austria</placeName></hi>. Nes-
                             <lb n="225"/>suno pensa ormai nell'<placeName ref="#Impero_tedesco">Impero tedesco</placeName> a ristabilire in qual-
-                            <lb n="226" break="no"/>sivoglia forma il vincolo statuale fra i <rs type="population" ref="#Tedeschi_Impero">Tedeschi dell'Impero</rs>
-                            <lb n="227"/>e i <rs type="population" ref="#Tedeschi_Austria">Tedeschi dell'<placeName ref="#Austria">Austria</placeName></rs>, spezzato sanguinosamente nel <date when="1866">1866</date>,
+                            <lb n="226" break="no"/>sivoglia forma il vincolo statuale fra i <rs type="population" xml:id="Tedeschi_Impero">Tedeschi dell'Impero</rs>
+                            <lb n="227"/>e i <rs type="population" xml:id="Tedeschi_Austria">Tedeschi dell'<placeName ref="#Austria">Austria</placeName></rs>, spezzato sanguinosamente nel <date when="1866">1866</date>,
                             <lb n="228"/>ma tutti da noi desiderano di stare in relazioni <emph rend="italic">internazio-
                             <lb n="229" break="no"/>nali</emph>, quanto è possibile intime e buone, con uno Stato nel
-                            <lb n="230"/>quale vivono milioni di <rs type="population" ref="#Tedeschi">Tedeschi</rs>. La piega che ha preso a
+                            <lb n="230"/>quale vivono milioni di <rs type="population" xml:id="Tedeschi">Tedeschi</rs>. La piega che ha preso a
                             <lb n="231"/><placeName ref="#Vienna">Vienna</placeName> la nostra politica estera risponde talmente a que-
                             <lb n="232" break="no"/>sta tendenza, che il <persName ref="#Bismarck">principe Bismarck</persName> può sperare con
                             <lb n="233"/>qualche fiducia di risentire anche in parlamento, nella po-
@@ -1884,6 +1863,30 @@
                                 Ministro prussiano del commercio
                             </occupation>
                             <idno type="URI">https://www.wikidata.org/wiki/Q71541</idno>
+                        </person>
+                        
+                        <person xml:id="Imperatore_di_Germania2">
+                            <persName>
+                                Guglielmo I di Germania
+                            </persName>
+                            <occupation>
+                                Imperatore di Germania
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q150652</idno>
+                        </person>
+
+                        <person xml:id="Köller">
+                            <persName>
+                                <forename>Georg</forename>
+                                <forename>Ernst</forename>
+                                <forename>Maximilian</forename>
+                                <addName type="nobility">von</addName>
+                                <surname>Köller</surname>
+                            </persName>
+                            <occupation>
+                                Politico prussiano, presidente della Camera dei deputati prussiani
+                            </occupation>
+                            <idno type="URI">https://www.wikidata.org/wiki/Q1506622</idno>
                         </person>
                     </listPerson>
 
@@ -2023,6 +2026,105 @@
                     <div type="gloss">
                         <head>GLOSSARIO</head>
                         <list>
+
+                            <label>liberali</label>
+                            <item>
+                                <gloss target="#liberali">
+                                    Gruppo politico favorevole a principi liberali, come le libertà costituzionali, parlamentari e civili.
+                                </gloss>
+                            </item>
+
+                            <label>conservativi</label>
+                            <item>
+                                <gloss target="#conservativi">
+                                    Gruppo politico orientato alla conservazione dell'ordine politico e sociale esistente.
+                                </gloss>
+                            </item>
+
+                            <label>clericali</label>
+                            <item>
+                                <gloss target="#clericali">
+                                    Gruppo politico vicino agli interessi della Chiesa e favorevole a un ruolo rilevante dell'autorità religiosa nella vita pubblica.
+                                </gloss>
+                            </item>
+
+                            <label>centro</label>
+                            <item>
+                                <gloss target="#centro">
+                                    Gruppo politico parlamentare collocato fra le posizioni liberali e conservatrici; nel contesto tedesco-prussiano indica il gruppo cattolico di Centro.
+                                </gloss>
+                            </item>
+
+                            <label>Destra</label>
+                            <item>
+                                <gloss target="#destra">
+                                    Fazione politica di orientamento più moderato o conservatore all'interno del quadro parlamentare.
+                                </gloss>
+                            </item>
+
+                            <label>Sinistra</label>
+                            <item>
+                                <gloss target="#sinistra">
+                                    Fazione politica di orientamento più progressista o liberale all'interno del quadro parlamentare.
+                                </gloss>
+                            </item>
+
+                            <label>liberali moderati</label>
+                            <item>
+                                <gloss target="#liberali_moderati">
+                                    Gruppo liberale caratterizzato da posizioni politiche moderate e disponibili alla cooperazione con forze conservatrici.
+                                </gloss>
+                            </item>
+
+                            <label>conservatori moderati</label>
+                            <item>
+                                <gloss target="#conservatori_moderati">
+                                    Gruppo conservatore caratterizzato da posizioni meno rigide e più aperte ad accordi con i liberali.
+                                </gloss>
+                            </item>
+
+                            <label>conservatori liberali</label>
+                            <item>
+                                <gloss target="#conservatori_liberali">
+                                    Gruppo politico intermedio tra conservatorismo e liberalismo, favorevole a una collaborazione tra conservatori e liberali.
+                                </gloss>
+                            </item>
+
+                            <label>conservatori</label>
+                            <item>
+                                <gloss target="#conservatori">
+                                    Gruppo politico orientato alla conservazione dell'ordine politico e sociale esistente.
+                                </gloss>
+                            </item>
+
+                            <label>Tedeschi dell'Impero</label>
+                            <item>
+                                <gloss target="#Tedeschi_Impero">
+                                    Popolazione tedesca appartenente all'Impero tedesco.
+                                </gloss>
+                            </item>
+
+                            <label>Tedeschi dell'Austria</label>
+                            <item>
+                                <gloss target="#Tedeschi_Austria">
+                                    Popolazione di lingua o identità tedesca residente nell'Impero austro-ungarico.
+                                </gloss>
+                            </item>
+
+                            <label>Tedeschi</label>
+                            <item>
+                                <gloss target="#Tedeschi">
+                                    Popolazione di lingua o identità tedesca, considerata al di là dei confini politici dei singoli Stati.
+                                </gloss>
+                            </item>
+
+                            <label>leggi di maggio</label>
+                            <item>
+                                <gloss target="#Leggi_di_maggio">
+                                    Provvedimenti legislativi prussiani legati al conflitto politico-religioso tra lo Stato prussiano e la Chiesa cattolica.
+                                </gloss>
+                            </item>
+
                             <label>Ambedue</label>
                             <item>
                                 <gloss target="#ambedue">
@@ -2050,6 +2152,14 @@
                                     Concluso.
                                 </gloss>
                             </item>
+
+                            <label>camera germanica</label>
+                            <item>
+                                <gloss target="#camera_germanica">
+                                    Riferimento alla rappresentanza parlamentare tedesca, richiamata in confronto alla Camera dei deputati prussiani.
+                                </gloss>
+                            </item>
+
                         </list>
                     </div>
                 </back>
@@ -2071,7 +2181,7 @@
                             </bibl>
 
                             <p facs="#bibl1_p1">
-                                <lb n="3"/>Ecco un libretto come sanno farli in <placeName ref="#Francia_3">Francia</placeName>: comple-
+                                <lb n="3"/>Ecco un libretto come sanno farli in <placeName ref="#Francia_2">Francia</placeName>: comple-
                                 <lb n="4" break="no"/>tissimo, esattissimo e pure tanto breve quanto pieno di
                                 <lb n="5"/>vita. Il <persName ref="#Janet"><roleName type="honorific">signor</roleName> Janet</persName> possiede perfettamente il soggetto
                                 <lb n="6"/>avendolo svolto da prima come <roleName>Professore</roleName> alla <orgName ref="#ScuoleScienPolPar">Scuola delle
@@ -2099,7 +2209,7 @@
                                 <lb n="28"/><choice><orig>ne'</orig><reg>nei</reg></choice> suoi <distinct type="literary">primordi</distinct>, non si distinse troppo dalla scuola di
                                 <lb n="29"/><persName ref="#GBSay">G. B. Say</persName> il quale esagerò quasi quanto lui e quanto tutti
                                 <lb n="30"/>i pensatori politici <choice><orig>de'</orig><reg>dei</reg></choice> tempi così agitati e così sterili del
-                                <lb n="31"/><rs type="period" ref="#Primo_Impero">primo Impero</rs>, l'importanza dell'educazione nella società. <!-- cambio e metto date? -->
+                                <lb n="31"/><rs type="period" xml:id="Primo_Impero">primo Impero</rs>, l'importanza dell'educazione nella società. <!-- cambio e metto date? -->
                             </p>
                             <p facs="#bibl1_p2 #bibl1_p3">
                                 <lb n="32"/>Solamente il <persName ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</persName> - come chiaramente dimo-
@@ -2107,10 +2217,10 @@
                                 <lb n="34"/>- fu <choice><orig>quegli</orig><reg>colui che</reg></choice> che trasformò il <term type="political" xml:id="Sansimonismo">Sansimonismo</term> introducen-
                                 <lb n="35" break="no"/>dovi le proprie idee - o meglio le proprie fisime - a
                                 <lb n="36"/>proposito della proprietà, della religione e della famiglia.
-                                <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="Sansimonismo">Sansimonismo</term>
+                                <lb n="37"/>Sotto l'influenza di <choice><orig>cotesta</orig><reg>questa</reg></choice> natura pretesca, il <term type="political" ref="#Sansimonismo">Sansimonismo</term>
                                 <lb n="38"/><distinct type="archaic" xml:id="affettò">affettò</distinct> sempre più una forma religiosa, rialzò sempre più <!-- decidere se è distinct archaic o metterlo in choice -->
                                 <lb n="39"/>il principio dell'autorità, mettendosi <choice><orig>viemaggiormente</orig><reg>ancor di più</reg></choice> in
-                                <lb n="40"/>opposizione col <rs type="politicalGroup" ref="#liberali2">liberalismo politico</rs>. Bisogna leggere tutto
+                                <lb n="40"/>opposizione col <rs type="politicalGroup" xml:id="liberali2">liberalismo politico</rs>. Bisogna leggere tutto
                                 <lb n="41"/>questo svolgimento, già molto succinto e condensato, nel-
                                 <lb n="42" break="no"/>l'opera del <persName ref="#Janet"><roleName>signor </roleName>Janet</persName>, che è impossibile riassumere, e della
                                 <lb n="43"/>quale potremmo <choice><orig>accoglier</orig><reg>accogliere</reg></choice> quasi tutto, facendo pochissime
@@ -2118,7 +2228,7 @@
                                 <lb n="45"/>il <rs type="person" ref="#Enfantin"><rs type="epithet">Padre</rs> Enfantin</rs>, nel quale vede troppo il sensualista,
                                 <lb n="46"/>l'ambizioso e quasi il taumaturgo e l'ipocrita <choice><orig>consciente</orig><reg>cosciente</reg></choice>;
                                 <lb n="47"/>ma noi non sapremmo che approvare di cuore quando dice
-                                <lb n="48"/>che la <rs type="movement" ref="#Sansimonismo_Enfantin">dottrina</rs> di <choice><orig>cotesto</orig><reg>questo</reg></choice> <rs type="epithet" ref="#Enfantin">Padre</rs> è <quote source="#SaintSimon_lib">« una delle più sner-
+                                <lb n="48"/>che la <rs type="movement" xml:id="Sansimonismo_Enfantin">dottrina</rs> di <choice><orig>cotesto</orig><reg>questo</reg></choice> <rs type="epithet" ref="#Enfantin">Padre</rs> è <quote source="#SaintSimon_lib">« una delle più sner-
                                 <lb n="49" break="no"/>vanti e delle più vergognose »</quote> che <choice><orig>siansi</orig><reg>si siano</reg></choice> mai fabbricate.
                                 <lb n="50"/>Forse anche faremmo qualche riserva su ciò che il
                                 <lb n="51"/><persName ref="#Janet"><roleName>signor </roleName>Janet</persName> dice del divorzio, in favore del quale non ammette
@@ -2493,6 +2603,27 @@
                                     Branca della chimica che studia i composti organici e le sostanze legate agli organismi viventi.
                                 </gloss>
                             </item>
+
+                            <label>primo Impero</label>
+                            <item>
+                                <gloss target="#Primo_Impero">
+                                    Periodo dell'Impero francese sotto Napoleone I.
+                                </gloss>
+                            </item>
+
+                            <label>liberalismo politico</label>
+                            <item>
+                                <gloss target="#liberali2">
+                                    Orientamento politico fondato sulla difesa delle libertà individuali, civili e politiche.
+                                </gloss>
+                            </item>
+
+                            <label>sansimonismo dei successori</label>
+                            <item>
+                                <gloss target="#Sansimonismo_Enfantin">
+                                    Forma del sansimonismo sviluppata dai successori di Saint-Simon, in particolare da Enfantin.
+                                </gloss>
+                            </item>
                         </list>
                     </div>
                 </back>
@@ -2510,9 +2641,9 @@
                             <lb n="3"/>pratica di Parigi</title> di <persName ref="#Folchetto">Folchetto</persName>; o un libro su Parigi del dottor <persName ref="#MaxNordan">Max
                             <lb n="4"/>Nordan</persName> col titolo: <title level="m" rend="italic">Il vero paese dei miliardi</title>.
                         </p>
-                        <p facs="#notizie_2 #notizie_2_2">
+                        <p facs="#notizia_2 #notizia_2_2">
                             <lb n="5"/>-<space/>Sta per uscire a <placeName ref="#Parigi_not">Parigi</placeName> per cura del <persName ref="#Laffitte"><roleName type="honorific">signor</roleName>Laffitte</persName> e di alcuni
-                            <lb n="6"/><term type="philosophical" ref="#positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
+                            <lb n="6"/><term type="philosophical" xml:id="positivisti">positivisti</term> della sua scuola, una <title level="j" rend="italic" xml:lang="fr">Revue Occidentale</title> di cui <persName ref="#Comte">Auguste Comte</persName>
                             <lb n="7"/>aveva già concepito il disegno. Uscirà ogni due mesi e si occuperà del
                             <cb n="2"/>
                             <lb n="8"/>movimento politico, sociale e intellettuale e conterrà lavori dovuti a
@@ -2604,7 +2735,7 @@
                         <list>
                             <label>positivisti</label>
                             <item>
-                                <gloss xml:id="positivisti">
+                                <gloss target="#positivisti">
                                     Seguaci del positivismo, corrente filosofica fondata sull’osservazione dei fatti e sul metodo scientifico.
                                 </gloss>
                             </item>
