@@ -30,6 +30,7 @@
                             </li>
                         </xsl:for-each>
                     </ul>
+                    
                     <div class="hamburger-menu">
                         <button type="button" id="menu-toggle" class="menu-toggle" aria-label="Apri menu evidenziazioni" aria-expanded="false">
                             <span></span>
@@ -57,6 +58,25 @@
                             <button type="button" id="reset-highlights">
                                 Rimuovi evidenziazioni
                             </button>
+                            <p class="version-switch-title">Versione testo</p>
+
+                            <div class="version-switch-buttons" role="group" aria-label="Seleziona la versione del testo">
+                                <button 
+                                    type="button" 
+                                    class="version-button" 
+                                    data-version="diplomatic" 
+                                    aria-pressed="true">
+                                    Diplomatica
+                                </button>
+
+                                <button 
+                                    type="button" 
+                                    class="version-button" 
+                                    data-version="interpretative" 
+                                    aria-pressed="false">
+                                    Interpretativa
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -303,7 +323,7 @@
     </xsl:template>
 
     <xsl:template match="tei:distinct">
-        <xsl:variable name="reference" select="translate(@ref, '#', '')"/>
+        <xsl:variable name="reference" select="translate(@corresp, '#', '')"/>
         <xsl:variable name="gloss" select="//tei:gloss[@xml:id = $reference]"/>
 
         <xsl:choose>

@@ -20,11 +20,10 @@ body {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-h1{
+h1 {
   font-size: large;
   color: #f3f4f6;
 }
-
 
 /* NAVIGAZIONE */
 
@@ -129,17 +128,6 @@ h1{
   padding: 0.5rem;
 }
 
-/* ELEMENTI TEI */
-
-.choice .diplomatic {
-  display: none;
-}
-
-.interpretative {
-  font-weight: bold;
-  display: none;
-}
-
 /* GLOSSARIO */
 
 .term,
@@ -173,9 +161,25 @@ h1{
   box-shadow: 0 8px 18px rgba(31, 41, 55, 0.25);
   z-index: 1000;
 }
+.distinct_content {
+  display: none;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  padding: 0.75rem;
+  background-color: #1f2937;
+  color: #f3f4f6;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  box-shadow: 0 8px 18px rgba(31, 41, 55, 0.25);
+  z-index: 1000;
+}
 
 .term:hover .term_content,
-.distinct:hover .term_content {
+.distinct:hover .distinct_content {
   display: block;
 }
 
@@ -408,26 +412,93 @@ h1{
 }
 
 .footnote p {
-    margin: 0.3rem 0;
+  margin: 0.3rem 0;
 }
 
 /* RESPONSIVE */
 
 @media (max-width: 1100px) {
+  main,
+  .edizione {
+    flex-direction: column;
+  }
 
-    main,
-    .edizione {
-        flex-direction: column;
-    }
+  #image-section,
+  #text-section {
+    width: 100%;
+  }
 
-    #image-section,
-    #text-section {
-        width: 100%;
-    }
+  #image-section {
+    border-right: none;
+    border-bottom: 1px solid #bbb;
+  }
+}
 
-    #image-section {
-        border-right: none;
-        border-bottom: 1px solid #bbb;
-    }
+/* Switch versione diplomatica / interpretativa */
 
+.version-switch {
+  width: 100%;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.version-switch-title {
+  margin: 0 0 0.55rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+  color:#f3f4f6;
+}
+
+.version-switch-buttons {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.version-button {
+  cursor: pointer;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  background: transparent;
+  color: inherit;
+  font-size: 0.9rem;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+
+.version-button:hover {
+  transform: translateY(-1px);
+}
+
+.version-button.is-active {
+  background: currentColor;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.version-button.is-active::first-line {
+  color: inherit;
+}
+
+.version-button.is-active {
+  color: #111;
+  background: #fff;
+  border-color: #fff;
+  font-weight: 700;
+}
+
+body.show-diplomatic .choice .interpretative,
+body.show-interpretative .choice .diplomatic {
+  display: none;
+}
+
+body.show-interpretative .choice .interpretative {
+  font-weight: 700;
 }

@@ -157,4 +157,36 @@ document.addEventListener("DOMContentLoaded", function () {
       menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
   }
+
+  function initTextVersionSwitch() {
+    const buttons = document.querySelectorAll(".version-button[data-version]");
+
+    function setTextVersion(version) {
+      const selectedVersion =
+        version === "interpretative" ? "interpretative" : "diplomatic";
+
+      const otherVersion =
+        selectedVersion === "diplomatic" ? "interpretative" : "diplomatic";
+
+      document.body.classList.remove("show-" + otherVersion);
+      document.body.classList.add("show-" + selectedVersion);
+
+      buttons.forEach(function (button) {
+        const isActive = button.dataset.version === selectedVersion;
+
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+      });
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        setTextVersion(button.dataset.version);
+      });
+    });
+
+    setTextVersion("diplomatic");
+  }
+
+  initTextVersionSwitch();
 });
