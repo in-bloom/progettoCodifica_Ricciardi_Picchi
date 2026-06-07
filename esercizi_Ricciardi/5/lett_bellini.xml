@@ -1,23 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
 
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Codifica TEI della lettera Bellini</title>
+        <title>Codifica TEI di una lettera manoscritta attribuita a Bellini</title>
+
         <respStmt>
-          <resp>Codifica TEI di</resp>
+          <resp>Codifica TEI a cura di</resp>
           <persName xml:id="Francesco_Ricciardi">Francesco Ricciardi</persName>
         </respStmt>
       </titleStmt>
-      <publicationStmt>
-        <publisher>Università di Pisa</publisher>
-      </publicationStmt>
+
       <sourceDesc>
-      <bibl>
-        <publisher>unknown</publisher>
-      </bibl>
+        <msDesc>
+          <msIdentifier>
+            <country>Italia</country>
+            <idno>lettera_bellini</idno>
+          </msIdentifier>
+
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <support>
+                  Foglio manoscritto piegato, utilizzato anche come supporto per l'indirizzo postale.
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -25,18 +37,101 @@
   <facsimile>
     <surface xml:id="lettera_bellini">
       <graphic url="lett_bellini.png" width="1306" height="884"/>
-        <zone ulx="20" uly="28" lrx="638" lry="145" rendition="" xml:id="verde"/>
-        <zone ulx="25" uly="152" lrx="638" lry="504" rendition="" xml:id="celeste"/>
-        <zone ulx="26" uly="514" lrx="639" lry="869" rendition="" xml:id="blu"/>
-        <zone ulx="649" uly="22" lrx="1285" lry="116" rendition="" xml:id="rosso"/>
-        <zone ulx="700" uly="125" lrx="1272" lry="838" rendition="" xml:id="arancio"/>
-        <zone ulx="984" uly="786" lrx="1272" lry="859" rendition="" xml:id="fucsia"/>
+
+      <zone ulx="20" uly="28" lrx="638" lry="145" xml:id="verde"/>
+      <zone ulx="25" uly="152" lrx="638" lry="504" xml:id="celeste"/>
+      <zone ulx="26" uly="514" lrx="639" lry="869" xml:id="blu"/>
+      <zone ulx="649" uly="22" lrx="1285" lry="116" xml:id="rosso"/>
+      <zone ulx="700" uly="125" lrx="1272" lry="838" xml:id="arancio"/>
+      <zone ulx="984" uly="786" lrx="1272" lry="859" xml:id="fucsia"/>
     </surface>
   </facsimile>
 
   <text>
     <body>
-      
+
+      <div type="letter" xml:id="lettera" facs="#lettera_bellini">
+
+        <div type="postalArea" facs="#verde">
+          <p>
+            <stamp type="postmark">
+              <desc>Timbro postale parzialmente visibile nella parte superiore sinistra.</desc>
+            </stamp>
+          </p>
+        </div>
+
+        <div type="address" facs="#celeste">
+          <address>
+            <addrLine>
+              <persName>
+                <unclear>Monsieur</unclear>
+              </persName>
+            </addrLine>
+
+            <addrLine>
+              <unclear>monsieur <gap reason="illegible"></gap> Pepoli</unclear>
+            </addrLine>
+
+            <addrLine>
+              <placeName>à Paris</placeName>
+            </addrLine>
+          </address>
+
+          <stamp type="postmark">
+            <desc>Timbro circolare sovrapposto</desc>
+          </stamp>
+        </div>
+
+        <div type="postalArea" facs="#blu">
+          <p>
+            <stamp type="postmark">
+              <desc>Timbro postale nella parte inferiore sinistra.</desc>
+            </stamp>
+          </p>
+
+          <p>
+            <gap reason="illegible" extent="unknown"/>
+          </p>
+        </div>
+
+        <div type="opener" facs="#rosso">
+          <opener>
+            <dateline>
+              <date when="26"><unclear>Jun</unclear> 26:</date>
+              <placeName>Puteau</placeName>
+            </dateline>
+          </opener>
+        </div>
+
+        <div type="message" facs="#arancio">
+          <p>
+            <unclear>Mio caro Carluccio</unclear>
+            <s>Avendo steso l'intero duetto</s>
+            <s>e mancando in esso qualche</s>
+            <s>cosetta, desidererei che tu</s>
+            <s>t'incommodassi a venire a'</s>
+            <s>Puteau per tutto affinare, e</s>
+            <s>nell'intero tempo darmi la</s>
+            <s>sortita di Rubini, se è termi-</s>
+            <s>nata. T'aspetto in qual giorno</s>
+            <s>ed in qual'ora sappi. - Addio</s>
+          </p>
+
+        </div>
+
+        <div type="closer" facs="#fucsia">
+          <closer>
+            <signed>
+              <persName>
+                <unclear>Bellini</unclear>
+              </persName>
+            </signed>
+          </closer>
+        </div>
+
+      </div>
+
     </body>
   </text>
+
 </TEI>
