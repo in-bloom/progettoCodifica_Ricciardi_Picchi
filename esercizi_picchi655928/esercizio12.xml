@@ -1,0 +1,168 @@
+git <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Filename: lettera_bellini_facsimile.xml
+    Author: Elisabetta Picchi
+    Date: 07/06/2026
+    Descrizione: Codifica TEI image-based della lettera Bellini con tagset facsimile
+    e collegamento testo-immagine.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettera Bellini: edizione image-based</title>
+                <respStmt>
+                    <resp>Trascrizione e codifica XML-TEI a cura di</resp>
+                    <name>Elisabetta Picchi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa - Corso di Codifica di Testi</publisher>
+                <date when="2026">2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    Lettera attribuita a Bellini, codificata a partire dall'immagine fornita
+                    per l'esercizio sulle edizioni image-based.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="facsimile_bellini" n="1">
+            <graphic url="lettera_bellini_facsimile.png" width="297px" height="197px"/>
+
+            <!-- Zone generali della pagina -->
+            <zone xml:id="z_recto_sinistra" ulx="0" uly="0" lrx="149" lry="197"/>
+            <zone xml:id="z_verso_destra" ulx="149" uly="0" lrx="297" lry="197"/>
+
+            <!-- Zone della parte sinistra: indirizzo, timbri e testo ruotato -->
+            <zone xml:id="z_addr_1" ulx="6" uly="41" lrx="142" lry="86"/>
+            <zone xml:id="z_addr_2" ulx="6" uly="86" lrx="145" lry="126"/>
+            <zone xml:id="z_stamp_1" ulx="11" uly="128" lrx="55" lry="172"/>
+            <zone xml:id="z_rotated_text" ulx="85" uly="112" lrx="143" lry="190"/>
+
+            <!-- Zone della parte destra: righe della lettera -->
+            <zone xml:id="z_l1" ulx="167" uly="24" lrx="292" lry="38"/>
+            <zone xml:id="z_l2" ulx="163" uly="45" lrx="293" lry="57"/>
+            <zone xml:id="z_l3" ulx="161" uly="59" lrx="294" lry="72"/>
+            <zone xml:id="z_l4" ulx="159" uly="74" lrx="293" lry="88"/>
+            <zone xml:id="z_l5" ulx="156" uly="90" lrx="294" lry="104"/>
+            <zone xml:id="z_l6" ulx="155" uly="107" lrx="294" lry="121"/>
+            <zone xml:id="z_l7" ulx="154" uly="123" lrx="294" lry="137"/>
+            <zone xml:id="z_l8" ulx="153" uly="139" lrx="294" lry="153"/>
+            <zone xml:id="z_l9" ulx="152" uly="155" lrx="294" lry="169"/>
+            <zone xml:id="z_l10" ulx="151" uly="171" lrx="294" lry="185"/>
+            <zone xml:id="z_l11" ulx="178" uly="183" lrx="294" lry="196"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="letter" facs="#z_verso_destra">
+                <opener>
+                    <dateline facs="#z_l1">
+                        <lb n="1" facs="#z_l1"/>
+                        <date when="1835-01-08">8 Gennaio 1835</date>
+                    </dateline>
+                    <salute facs="#z_l2">
+                        <lb n="2" facs="#z_l2"/>
+                        <unclear>Cara</unclear>
+                        <rs type="person">sorella</rs>
+                    </salute>
+                </opener>
+
+                <p>
+                    <lb n="3" facs="#z_l3"/>
+                    <unclear>Quando</unclear>
+                    <unclear>fosti</unclear>
+                    <unclear>così</unclear>
+                    <unclear>mia</unclear>
+
+                    <lb n="4" facs="#z_l4"/>
+                    <unclear>a me</unclear>
+                    <gap reason="illegible" quantity="3" unit="words"/>
+                    <unclear>non</unclear>
+
+                    <lb n="5" facs="#z_l5"/>
+                    <unclear>operar</unclear>
+                    <unclear>che</unclear>
+                    <unclear>un</unclear>
+
+                    <lb n="6" facs="#z_l6"/>
+                    <unclear>immenso</unclear>
+                    <unclear>servizio</unclear>
+                    <unclear>a</unclear>
+
+                    <lb n="7" facs="#z_l7"/>
+                    <unclear>codesto</unclear>
+                    <unclear>e</unclear>
+                    <unclear>non</unclear>
+                    <unclear>sapendo</unclear>
+
+                    <lb n="8" facs="#z_l8"/>
+                    <unclear>mai</unclear>
+                    <unclear>ringraziare</unclear>
+                    <unclear>la</unclear>
+
+                    <lb n="9" facs="#z_l9"/>
+                    <unclear>buona</unclear>
+                    <unclear>e</unclear>
+                    <unclear>...</unclear>
+
+                    <lb n="10" facs="#z_l10"/>
+                    <unclear>nostra</unclear>
+                    <unclear>povera</unclear>
+                    <unclear>figlia</unclear>
+
+                    <lb n="11" facs="#z_l11"/>
+                    <unclear>così</unclear>
+                    <unclear>...</unclear>
+                </p>
+
+                <closer>
+                    <signed>
+                        <gap reason="illegible" quantity="1" unit="word"/>
+                    </signed>
+                </closer>
+            </div>
+
+            <div type="address" facs="#z_recto_sinistra">
+                <head>Indirizzo e segni postali</head>
+
+                <p facs="#z_addr_1">
+                    <lb n="a1" facs="#z_addr_1"/>
+                    <gap reason="illegible" quantity="1" unit="line"/>
+                </p>
+
+                <p facs="#z_addr_2">
+                    <lb n="a2" facs="#z_addr_2"/>
+                    <gap reason="illegible" quantity="1" unit="line"/>
+                </p>
+
+                <stamp facs="#z_stamp_1" type="postmark">
+                    <p>
+                        <gap reason="illegible" quantity="1" unit="stamp"/>
+                    </p>
+                </stamp>
+
+                <p facs="#z_rotated_text" rend="rotated">
+                    <lb n="a3" facs="#z_rotated_text"/>
+                    <gap reason="illegible" quantity="1" unit="line"/>
+                </p>
+            </div>
+
+            <div type="editorialNote">
+                <head>Nota alla trascrizione</head>
+                <p>
+                    La trascrizione è conservativa: le parole non leggibili con sicurezza sono marcate con
+                    <gi>unclear</gi>, mentre le porzioni completamente illeggibili sono marcate con
+                    <gi>gap</gi>. Il collegamento testo-immagine è realizzato con l'attributo
+                    <att>facs</att> su <gi>div</gi>, <gi>p</gi>, <gi>dateline</gi>, <gi>salute</gi>
+                    e <gi>lb</gi>, che puntano alle rispettive <gi>zone</gi> del facsimile.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
