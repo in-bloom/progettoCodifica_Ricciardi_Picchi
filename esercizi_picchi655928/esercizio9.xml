@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Filename: esercizio9.xml
+    Author: Elisabetta Picchi
+    Date: 07/06/2026
+    Descrizione: Marcatura XML-TEI dell'incipit de I Promessi Sposi,
+    con puntatori, note, lista, glossario, nomi, rs e term.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I Promessi Sposi: edizione digitale dell'incipit</title>
+                <respStmt>
+                    <resp>Codifica XML-TEI a cura di</resp>
+                    <name>Elisabetta Picchi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa - Corso di Codifica di Testi</publisher>
+                <date>2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alessandro Manzoni</author>
+                    <title level="m">I Promessi Sposi</title>
+                    <pubPlace>Milano</pubPlace>
+                    <date>1840</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="capitolo" n="1">
+                <head>Capitolo I</head>
+
+                <p>Quel ramo del <rs type="place" ref="#lago-como">lago di Como</rs>, che volge a mezzogiorno, tra due catene non interrotte di monti, tutto a seni e a golfi, a seconda dello sporgere e del rientrare di quelli, vien, quasi a un tratto, a ristringersi, e a prender corso e figura di fiume, tra un promontorio a destra, e un'ampia costiera dall'altra parte; e il ponte, che ivi congiunge le due rive, par che renda ancor più sensibile all'occhio questa trasformazione, e segni il punto in cui il lago cessa, e l'<name type="place" ref="#adda">Adda</name> ricomincia, per ripigliar poi nome di lago dove le rive, allontanandosi di nuovo, lascian l'acqua distendersi e rallentarsi in nuovi golfi e in nuovi seni.</p>
+
+                <p>La costiera, formata dal deposito di tre grossi torrenti, scende appoggiata a due monti contigui, l'uno detto di <name type="place" ref="#san-martino">san Martino</name>, l'altro, con voce lombarda, il <name type="place" ref="#resegone">Resegone</name><note xml:id="nota-resegone" place="foot">Il nome del monte richiama il suo profilo dentellato, simile a una sega.</note>, dai molti suoi picchi in fila, che in vero lo fanno somigliare a una sega: talché non è chi, al primo vederlo, purché sia di fronte, come per esempio di su le mura di <name type="place" ref="#milano">Milano</name> che guardano a settentrione, non lo discerna tosto a un tal contrassegno, in quella lunga e vasta giogaia, dagli altri monti di nome più oscuro e di forma più comune.</p>
+
+                <p>Per un buon pezzo, la costa sale con un pendìo lento e continuo; poi si rompe in balzi e in gironi, in vallicelli e in poggi, secondo l'ossatura de' due monti e il lavoro dell'acque. Il lembo estremo, tagliato dalle foci de' torrenti, è quasi tutto ghiaia e ciottoloni; il resto, campi e vigne, sparse di terre, di ville, di casali; in qualche parte boschi, che si prolungano su per la montagna. <name type="place" ref="#lecco">Lecco</name>, il principale di questi borghi, e che dà nome al territorio, giace poco distante dal ponte, alla riva del lago, anzi viene in parte a trovarsi nel lago stesso, quando questo cresce; un gran borgo al giorno d'oggi, e che s'incammina a diventar città.</p>
+
+                <p>Ai tempi in cui accaddero i fatti che prendiamo a raccontare, quel <term ref="#gloss-borgo">borgo</term><ptr target="#gloss-borgo"/>, già considerabile, era anche un <term ref="#gloss-castello">castello</term><ptr target="#gloss-castello"/>, e aveva perciò l'onore d'alloggiare un comandante, e il vantaggio di possedere una stabile guarnigione di soldati <rs type="people" ref="#spagnoli">spagnoli</rs>, che insegnavan la modestia alle fanciulle e alle donne del paese, carezzavan di tempo in tempo le spalle a qualche marito, a qualche padre; e, sul finir dell'estate, non mancavan mai di spandersi nelle vigne, per diradar l'uve, e alleggerire a' contadini le fatiche della vendemmia.</p>
+
+                <p>Dall'una all'altra di quelle terre, dall'alture alla riva, da un poggio all'altro, correvano e corrono tuttavia strade e stradicciole, più o meno ripide, o piane; ogni tanto affondate, sepolte tra due muri, donde, alzando lo sguardo, non iscorgete che un pezzo di cielo e qualche vetta di monte; ogni tanto elevate su terrapieni aperti: e da qui la vista spazia per prospetti più o meno estesi, ma ricchi sempre e sempre nuovi, secondo che i diversi punti piglian più o meno della vasta scena circostante, e secondo che questa o quella parte campeggia o si scorcia, spunta o sparisce a vicenda.</p>
+
+                <p>Per una di queste stradicciole, tornava daccanto dal passeggio verso sera, sulla fine del giorno <date when="1628-11-07">7 novembre dell'anno 1628</date>, <name type="person" ref="#don-abbondio">don Abbondio</name>, <term ref="#gloss-curato">curato</term><ptr target="#gloss-curato"/> d'una delle terre accennate di sopra: il nome di questa, né il casato del personaggio, non si trovan nel manoscritto, né a questo luogo, né altrove. Diceva tranquillamente il suo <term ref="#gloss-ufizio">ufizio</term><ptr target="#gloss-ufizio"/>, e talvolta, tra un salmo e l'altro, chiudeva il <term ref="#gloss-breviario">breviario</term><ptr target="#gloss-breviario"/>, tenendovi dentro, per segno, l'indice della mano destra.</p>
+            </div>
+
+            <div type="appendice" xml:id="appendice">
+                <head>Liste e glossario</head>
+
+                <div type="lista_luoghi" xml:id="lista-luoghi">
+                    <head>Luoghi citati</head>
+                    <list type="places">
+                        <item xml:id="lago-como"><name type="place">lago di Como</name></item>
+                        <item xml:id="adda"><name type="place">Adda</name></item>
+                        <item xml:id="san-martino"><name type="place">san Martino</name></item>
+                        <item xml:id="resegone"><name type="place">Resegone</name></item>
+                        <item xml:id="milano"><name type="place">Milano</name></item>
+                        <item xml:id="lecco"><name type="place">Lecco</name></item>
+                    </list>
+                </div>
+
+                <div type="lista_persone" xml:id="lista-persone">
+                    <head>Persone e gruppi citati</head>
+                    <list type="persons">
+                        <item xml:id="don-abbondio"><name type="person">don Abbondio</name></item>
+                        <item xml:id="spagnoli"><rs type="people">soldati spagnoli</rs></item>
+                    </list>
+                </div>
+
+                <div type="glossario" xml:id="glossario">
+                    <head>Glossario</head>
+                    <list type="gloss">
+                        <label>Borgo</label>
+                        <item xml:id="gloss-borgo">
+                            <gloss>Centro abitato di dimensioni intermedie, spesso minore rispetto a una città.</gloss>
+                        </item>
+                        <label>Castello</label>
+                        <item xml:id="gloss-castello">
+                            <gloss>Centro fortificato o struttura militare difensiva.</gloss>
+                        </item>
+                        <label>Curato</label>
+                        <item xml:id="gloss-curato">
+                            <gloss>Sacerdote incaricato della cura spirituale di una comunità parrocchiale.</gloss>
+                        </item>
+                        <label>Ufizio</label>
+                        <item xml:id="gloss-ufizio">
+                            <gloss>Forma antica per indicare l'ufficio divino, cioè la preghiera liturgica recitata dai religiosi.</gloss>
+                        </item>
+                        <label>Breviario</label>
+                        <item xml:id="gloss-breviario">
+                            <gloss>Libro liturgico che contiene le preghiere dell'ufficio divino.</gloss>
+                        </item>
+                    </list>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Scrivere e fare il check di un xml non opportunamente annidato -->
+<famiglia>
+    <padre>
+        <nome>Mario</nome>
+        <cognome>Rossi</cognome>
+        <data_nascita>01/01/1970</data_nascita>
+    </padre>
+    <madre> 
+        <nome>Anna</nome>
+        <cognome>Bianchi</cognome>
+        <data_nascita>02/02/1975</data_nascita>
+    </madre>
+    <figlio>
+        <nome>Giulio</nome>
+        <cognome>Rossi</cognome>
+        <data_nascita>03/03/2000</data_nascita>
+    </padre>
+</famiglia>

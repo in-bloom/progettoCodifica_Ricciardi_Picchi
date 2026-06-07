@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Filename: esercizio10_rivista.xml
+    Author: Elisabetta Picchi
+    Date: 07/06/2026
+    Descrizione: Codifica TEI di un articolo di rivista:
+    Federico Raffaele, "Il concetto di specie in Biologia: Avanti e in Darwin",
+    in Rivista di Scienza, vol. I, 1907.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il concetto di specie in Biologia: Avanti e in Darwin</title>
+                <author>
+                    <persName xml:id="raffaele">
+                        <forename>Federico</forename>
+                        <surname>Raffaele</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp>Codifica XML-TEI a cura di</resp>
+                    <name>Elisabetta Picchi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa - Corso di Codifica di Testi</publisher>
+                <date when="2026">2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>
+                            <persName ref="#raffaele">Federico Raffaele</persName>
+                        </author>
+                        <title level="a">Il concetto di specie in Biologia: Avanti e in Darwin</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Rivista di Scienza</title>
+                        <imprint>
+                            <date when="1907">1907</date>
+                            <biblScope unit="volume">I</biblScope>
+                            <biblScope unit="page" from="67" to="90">67-90</biblScope>
+                        </imprint>
+                    </monogr>
+                    <ref target="https://it.wikisource.org/wiki/Rivista_di_Scienza_-_Vol._I/Il_concetto_di_specie_in_Biologia:_Avanti_e_in_Darwin">Fonte digitale: Wikisource</ref>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>biologia</term>
+                    <term>specie</term>
+                    <term>darwinismo</term>
+                    <term>rivista scientifica</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+    <text type="article">
+        <body>
+            <div type="article" n="1">
+                <head>Il concetto di specie in Biologia</head>
+                <head type="sub">I. - Avanti e in <persName ref="#darwin">Darwin</persName></head>
+                <byline>di <persName ref="#raffaele">Federico Raffaele</persName></byline>
+
+                <p>
+                    Col progredire delle <term xml:id="scienze_biologiche">scienze biologiche</term> è accaduto pel
+                    <term xml:id="concetto_specie">concetto di specie</term> quello che suole accadere per tutti i nostri
+                    concetti, quando cerchiamo di determinarli con una certa precisione, sforzandoci di circoscriverli
+                    e fissarli in una definizione; che cioè il concetto, che noi credevamo di possedere chiaro e netto
+                    e semplice nella nostra mente, ci si è andato tanto più complicando e annebbiando, quanto più
+                    tentavamo di analizzarlo.
+                    <ptr target="#gloss_specie"/>
+                </p>
+
+                <p>
+                    Le scienze hanno come scopo finale la determinazione di concetti, i cui germi si trovano belli e
+                    formati, per effetto della quotidiana e comune esperienza.
+                </p>
+
+                <p>
+                    Ma spesso il concetto scientifico finisce per essere molto diverso, talvolta addirittura opposto
+                    a quello volgare che gli è servito di punto di partenza; o, meglio: spesso a questo concetto
+                    iniziale, la indagine scientifica conduce a sostituirne un altro, che poi man mano, col diffondersi
+                    della coltura, quasi senza che ce ne accorgiamo, prende il posto del primo nel nostro patrimonio
+                    intellettuale.
+                </p>
+
+                <p>
+                    Così accade che un dato concetto, dopo attraversato un processo di epurazione e di determinazione,
+                    si trasforma in maniera da non essere nè meno più riconoscibile nè intelligibile per coloro, la gran
+                    maggioranza cioè, che non hanno partecipato alla elaborazione del concetto stesso.
+                </p>
+
+                <p>
+                    Basti citare il concetto di limite in matematica, quello di forza o quello di potenziale, quello di
+                    equivalente meccanico del calore ecc., i quali, pure avendo il loro punto di partenza nell’esperienza
+                    ordinaria della vita e trovandosi in germe, sia pur confusamente, anche nella mente del più rozzo e
+                    ignorante fra gli uomini, si sono andati determinando e precisando in una forma che li rende
+                    inaccessibili a chi non abbia, rifacendo in certo modo il cammino fatto da essi, acquistato le
+                    nozioni necessarie a impadronirsene.
+                </p>
+
+                <note xml:id="nota_fonte" place="foot">
+                    Il testo è tratto dall'articolo pubblicato nella <title level="j">Rivista di Scienza</title>,
+                    vol. I, 1907, secondo la trascrizione disponibile su Wikisource.
+                </note>
+
+                <div type="glossario">
+                    <head>Glossario</head>
+                    <list type="gloss">
+                        <label>Concetto di specie</label>
+                        <item xml:id="gloss_specie">
+                            <gloss target="#concetto_specie">
+                                Categoria usata in biologia per distinguere gruppi di organismi sulla base di caratteri comuni.
+                            </gloss>
+                        </item>
+                        <label>Scienze biologiche</label>
+                        <item>
+                            <gloss target="#scienze_biologiche">
+                                Insieme delle discipline che studiano gli organismi viventi.
+                            </gloss>
+                        </item>
+                    </list>
+                </div>
+
+                <div type="indice">
+                    <head>Nomi citati</head>
+                    <list>
+                        <item>
+                            <persName xml:id="darwin">Charles Darwin</persName>
+                        </item>
+                        <item>
+                            <persName ref="#raffaele">Federico Raffaele</persName>
+                        </item>
+                    </list>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

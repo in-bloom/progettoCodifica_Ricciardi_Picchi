@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- documento xml da validare -->
+<!-- 
+    file: esercizio3.xml
+    nome: ELISABETTA PICCHI
+    data: 01/06/2026
+-->
+
+<!-- corpo del documento XML-->
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>        
+            <!-- 
+            <elementoAnnidato> non chiuso correttamente, al posto della chiusura del tag c'è un tag aperto 
+            (<elementoFiglio>) che sostituisco con </elementoAnnidato> per chiudere correttamente il tag 
+            -->
+            </elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <!-- 
+    <elementoAnnodato> viene aperto ma non chiuso, seguono apertura e chiusura del tag <elementoFiglio>.
+    Chiudo il tag <elementoAnnidato> e indento. Inoltre, aggiungo l'apertura del tag <elementoFiglio> 
+    -->   
+    <elementoFiglio>     
+        <elementoAnnidato>
+            <elementoFiglio>
+            </elementoFiglio>
+            <!-- Aggiungo un figlio a <elementoFiglio> -->
+            <elementoFiglio>
+            </elementoFiglio>
+        </elementoAnnidato>
+        <!--Aggiungo un fratello a <elementoAnnidato>-->
+        <elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+</elementoRadice>
+
+<!-- epilogo -->

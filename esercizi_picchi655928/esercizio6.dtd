@@ -1,0 +1,37 @@
+<!--Esercizio
+root: TEI
+Figli:
+- header(obbligatorio una volta sola)
+- facsimile(opzionale una volta sola)
+- testo(obbligatorio una o più volte)
+* testo è un mixed content con possibile elemento <seg>
+Attributi:
+- header: type:(fixed, CDATA “intestazione”); lang(opzionale,
+NMTOKEN)
+- facsimile: source:(obbligatorio); ref(optionale, IDREFS)
+- testo: id(obbligatorio, ID) type(opzionale contenuto testuale)
+-->
+
+<!-- Dichiarazione dell'elemento root e della gerarchia dei figli -->
+<!ELEMENT TEI (header, facsimile?, testo+)>
+
+<!-- Definizione dell'elemento header e dei suoi attributi -->
+<!ELEMENT header (#PCDATA)>
+<!ATTLIST header 
+          type CDATA #FIXED "intestazione"
+          lang NMTOKEN #IMPLIED>
+
+<!-- Definizione dell'elemento facsimile e dei suoi attributi -->
+<!ELEMENT facsimile (#PCDATA)>
+<!ATTLIST facsimile 
+          source CDATA #REQUIRED
+          ref IDREFS #IMPLIED>
+
+<!-- Definizione dell'elemento testo (Mixed Content) e dei suoi attributi -->
+<!ELEMENT testo (#PCDATA | seg)*>
+<!ATTLIST testo 
+          id ID #REQUIRED
+          type CDATA #IMPLIED>
+
+<!-- Definizione dell'elemento seg contenuto in testo -->
+<!ELEMENT seg (#PCDATA)>

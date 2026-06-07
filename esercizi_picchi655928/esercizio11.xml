@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Filename: esercizio11.xml
+    Author: Elisabetta Picchi
+    Date: 07/06/2026
+    Descrizione: Trascrizione e codifica TEI delle prime righe della pagina indicata
+    nella slide "Elementi interventi editoriali".
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trascrizione delle prime righe di una pagina manoscritta dal sito CDEC</title>
+                <respStmt>
+                    <resp>Trascrizione e codifica XML-TEI a cura di</resp>
+                    <name>Elisabetta Picchi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa - Corso di Codifica di Testi</publisher>
+                <date when="2026">2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    Pagina selezionata dal sito della Digital Library CDEC:
+                    <ref target="http://digital-library.cdec.it/cdec-web/viewer/cdecDamsHist003/IT-CDEC-ST0003-000032#page/3/mode/1up">
+                        IT-CDEC-ST0003-000032, pagina 3
+                    </ref>.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="pag3">
+            <graphic url="http://digital-library.cdec.it/cdec-web/viewer/cdecDamsHist003/IT-CDEC-ST0003-000032#page/3/mode/1up"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="transcription" facs="#pag3">
+                <head>Prime righe della pagina manoscritta</head>
+
+                <p>
+                    <lb n="1"/><date when="1920-04-25">25 Aprile 1920</date> - <date when="1940-07-23">23 Luglio 1940</date> - <seg>Vent'anni</seg>:
+
+                    <lb n="2"/>appena il limitare della vita - <del rend="overstrike"><unclear>ma</unclear></del> breve e lumino-
+
+                    <lb n="3"/>so veramente come era il ricordo <unclear>marmoreo</unclear>;
+
+                    <lb n="4"/>promessa, <add place="above">come <unclear>fiamma</unclear> di <unclear>meridie</unclear>che si<unclear>volgevano</unclear>tra casa e scuola,</add> speranza, <unclear>disagio</unclear>. <unclear>Concedete</unclear> a chi
+
+                    <lb n="5"/>l'ha <add place="above">il<unclear>fremere</unclear><unclear>e</unclear> <unclear>fermarsi</unclear>, e lo <unclear>sboccare</unclear> di un'anima eletta,d'un'intelligenza</add>conosciuto nella prima infanzia, di ricorda-
+
+                    <lb n="6"/><add place="above">eccezionale:</add> re anche i ricordi di quei primi anni, <del rend="overstrike"><unclear>in</unclear></del>felici.
+
+                    <lb n="7"/><del rend="overstrike"><unclear>quando si apriva gioiosamente alla vita.</unclear></del>
+
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

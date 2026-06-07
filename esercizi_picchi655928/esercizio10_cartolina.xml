@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Filename: esercizio10_cartolina.xml
+    Author: Elisabetta Picchi
+    Date: 07/06/2026
+    Descrizione: Codifica TEI di una cartolina:
+    Cartolina postale italiana in franchigia - Corrispondenza del R. Esercito,
+    30 gennaio 1916, da Trissino/Vicenza a Milano.
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina postale italiana in franchigia - Corrispondenza del R. Esercito</title>
+                <respStmt>
+                    <resp>Codifica XML-TEI a cura di</resp>
+                    <name>Elisabetta Picchi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa - Corso di Codifica di Testi</publisher>
+                <date when="2026">2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Trissino</settlement>
+                        <repository>Collezione cartoline Albertomos</repository>
+                        <idno>1916-cartolina-postale-Trissino</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            Cartolina postale italiana in franchigia, corrispondenza del Regio Esercito,
+                            inviata da A. Faccin ai suoi scolaretti di classe IIIA della Scuola Maschile,
+                            Via Galvani, Porta Nuova, Milano.
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Cartolina postale con recto destinato all'indirizzo e verso contenente il messaggio manoscritto.</support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="#trissino">Trissino, Vicenza</placeName>
+                            </origPlace>
+                            <origDate when="1916-01-30">30 gennaio 1916</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName xml:id="faccin">A. Faccin</persName>
+                    <placeName xml:id="trissino">Trissino</placeName>
+                    <placeName>Vicenza</placeName>
+                    <date when="1916-01-30">30 gennaio 1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <rs type="group" xml:id="scolaretti">scolaretti di classe IIIA della Scuola Maschile</rs>
+                    <placeName xml:id="milano">Milano</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+        <facsimile>
+            <surface xml:id="recto">
+                <graphic url="https://commons.wikimedia.org/wiki/File:1916-cartolina-postale-Trissino-recto.jpg"/>
+            </surface>
+            <surface xml:id="verso">
+                <graphic url="https://commons.wikimedia.org/wiki/File:1916-cartolina-postale-Trissino-verso.jpg"/>
+            </surface>
+        </facsimile>
+    </teiHeader>
+
+    <text type="postcard">
+        <body>
+            <div type="recto" facs="#recto">
+                <head>Recto</head>
+
+                <p>
+                    <term>Cartolina postale italiana in franchigia</term> -
+                    <rs type="institution">Corrispondenza del R. Esercito</rs>.
+                </p>
+
+                <div type="address">
+                    <head>Indirizzo del destinatario</head>
+                    <address>
+                        <addrLine>Ai cari <rs type="group" ref="#scolaretti">scolaretti di classe</rs></addrLine>
+                        <addrLine>IIIA della Scuola Maschile</addrLine>
+                        <addrLine>Via Galvani</addrLine>
+                        <addrLine>Porta Nuova</addrLine>
+                        <addrLine><placeName ref="#milano">Milano</placeName></addrLine>
+                    </address>
+                </div>
+
+                <div type="sender">
+                    <head>Mittente</head>
+                    <p>
+                        Cognome e nome:
+                        <persName ref="#faccin">A. Faccin</persName>.
+                        Grado: <rs type="status">in licenza</rs>.
+                        Compagnia: a <placeName ref="#trissino">Trissino</placeName>,
+                        <placeName>Vicenza</placeName>.
+                    </p>
+                </div>
+            </div>
+
+            <div type="verso" facs="#verso">
+                <head>Verso</head>
+
+                <opener>
+                    <dateline>
+                        Dalla <term xml:id="trincea">trincea</term>
+                        <date when="1916-01-29T22:00">29.1.1916 ore 22</date>
+                    </dateline>
+                    <salute>Cari piccini miei,</salute>
+                </opener>
+
+                <p>
+                    lo sapete che vado anch’io in <term xml:id="licenza">licenza invernale</term>?
+                    Anche per me la <rs type="concept" xml:id="patria">Patria</rs> pensa, anch’io fra pochi giorni
+                    avrò la felicità di poter rivedere la mamma e il papà! Come è buona la Patria con i suoi figli.
+                    In questi giorni io vi ho sempre pensato, sempre, le vostre tanto care letterine, il vostro
+                    regolamento così gradito mi è sempre caro.
+                    <ptr target="#gloss_licenza"/>
+                </p>
+
+                <p>
+                    Penso sempre a voi perché veggo in voi il futuro e buon elemento segno di una Patria ingrandita
+                    nei suoi confini, continuate sempre così e ricordatevi di essere grati al vostro precettore che
+                    sa infondere ed instillare nelle vostre anime si nobili sentimenti.
+                </p>
+
+                <closer>
+                    <salute>Una vostra mi è sempre gradita</salute>
+                    <signed>vostro <rs type="role">Soldatino</rs></signed>
+                </closer>
+
+                <note xml:id="nota_data" place="foot">
+                    La pagina fonte di Wikimedia Commons data la cartolina al 30 gennaio 1916,
+                    mentre nel messaggio compare la data 29 gennaio 1916, ore 22.
+                </note>
+            </div>
+
+            <div type="glossary">
+                <head>Glossario</head>
+                <list type="gloss">
+                    <label>Licenza invernale</label>
+                    <item xml:id="gloss_licenza">
+                        <gloss target="#licenza">
+                            Periodo di permesso temporaneo concesso a un militare, in questo caso durante l'inverno.
+                        </gloss>
+                    </item>
+                    <label>Trincea</label>
+                    <item>
+                        <gloss target="#trincea">
+                            Scavo difensivo usato dai soldati durante la guerra.
+                        </gloss>
+                    </item>
+                    <label>Patria</label>
+                    <item>
+                        <gloss target="#patria">
+                            Nel testo indica l'Italia, rappresentata con tono patriottico e affettivo.
+                        </gloss>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

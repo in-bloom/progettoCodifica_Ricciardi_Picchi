@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "esercizio7.dtd">
+
+<TEI>
+    <header lang="it">Intestazione esercizio 7</header>
+
+    <facsimile source="immagine.jpg">scansione</facsimile>
+
+    <testo id="t1" type="introduzione">
+        Questo è un <seg>segmento</seg> di testo.
+    </testo>
+</TEI>
