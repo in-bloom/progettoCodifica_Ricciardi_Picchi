@@ -287,3 +287,116 @@ body {
 .highlighted-date {
   color: #ca8a04 !important;
 }
+
+/* MENU A PANINO PER LE EVIDENZIAZIONI */
+#indice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.nav-links {
+  flex: 1;
+  justify-content: center;
+}
+
+.hamburger-menu {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 150;
+}
+
+.menu-toggle {
+  width: 42px;
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 0.45rem;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.menu-toggle:hover,
+.menu-toggle.is-open {
+  background-color: #9ca3af;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 999px;
+  background-color: #f3f4f6;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.menu-toggle:hover span,
+.menu-toggle.is-open span {
+  background-color: #1f2937;
+}
+
+.menu-toggle.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle.is-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.highlight-buttons.menu-panel {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.8rem);
+  min-width: 210px;
+  margin: 0;
+  padding: 0.6rem;
+  background-color: #4b5563;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(31, 41, 55, 0.25);
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: stretch;
+}
+
+.highlight-buttons.menu-panel.is-open {
+  display: flex;
+}
+
+.highlight-buttons.menu-panel button {
+  width: 100%;
+  margin: 0;
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  border: none;
+  border-radius: 7px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.highlight-buttons.menu-panel button:hover {
+  background-color: #9ca3af;
+}
+
+#reset-highlights {
+  margin-top: 0.25rem;
+}

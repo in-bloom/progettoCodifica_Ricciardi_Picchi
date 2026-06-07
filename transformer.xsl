@@ -30,26 +30,34 @@
                             </li>
                         </xsl:for-each>
                     </ul>
-                    <div class="highlight-buttons">
-                        <button type="button" data-highlight="persName">
-                            Persone
+                    <div class="hamburger-menu">
+                        <button type="button" id="menu-toggle" class="menu-toggle" aria-label="Apri menu evidenziazioni" aria-expanded="false">
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </button>
 
-                        <button type="button" data-highlight="placeName">
-                            Luoghi
-                        </button>
+                        <div class="highlight-buttons menu-panel" id="highlight-menu">
+                            <button type="button" data-highlight="persName">
+                                Persone
+                            </button>
 
-                        <button type="button" data-highlight="orgName">
-                            Organizzazioni
-                        </button>
+                            <button type="button" data-highlight="placeName">
+                                Luoghi
+                            </button>
 
-                        <button type="button" data-highlight="date">
-                            Date
-                        </button>
+                            <button type="button" data-highlight="orgName">
+                                Organizzazioni
+                            </button>
 
-                        <button type="button" id="reset-highlights">
-                            Rimuovi evidenziazioni
-                        </button>
+                            <button type="button" data-highlight="date">
+                                Date
+                            </button>
+
+                            <button type="button" id="reset-highlights">
+                                Rimuovi evidenziazioni
+                            </button>
+                        </div>
                     </div>
                 </nav>
 
@@ -69,9 +77,6 @@
 
     <xsl:template match="tei:surface">
         <div class="facsimile-page" id="{@xml:id}">
-            <h3>
-                Facsimile pagina <xsl:value-of select="@n"/>
-            </h3>
 
             <svg class="facsimile-svg" preserveAspectRatio="xMidYMid meet">
                 <xsl:attribute name="viewBox">

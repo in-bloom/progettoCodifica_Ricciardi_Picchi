@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function findTextByZone(zoneId) {
     return document.querySelector(
-      '#text-section [data-facs~="' + escapeSelector(zoneId) + '"]'
+      '#text-section [data-facs~="' + escapeSelector(zoneId) + '"]',
     );
   }
 
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function toggleHighlight(className) {
     const elements = document.querySelectorAll(
-      "#text-section span." + className
+      "#text-section span." + className,
     );
 
     elements.forEach(function (element) {
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     classes.forEach(function (className) {
       const elements = document.querySelectorAll(
-        "#text-section span." + className
+        "#text-section span." + className,
       );
 
       elements.forEach(function (element) {
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   const highlightButtons = document.querySelectorAll(
-    ".highlight-buttons button[data-highlight]"
+    ".highlight-buttons button[data-highlight]",
   );
 
   const resetButton = document.getElementById("reset-highlights");
@@ -124,6 +124,17 @@ document.addEventListener("DOMContentLoaded", function () {
   if (resetButton) {
     resetButton.addEventListener("click", function () {
       resetHighlights();
+    });
+  }
+
+  const menuToggle = document.getElementById("menu-toggle");
+  const highlightMenu = document.getElementById("highlight-menu");
+
+  if (menuToggle && highlightMenu) {
+    menuToggle.addEventListener("click", function () {
+      const isOpen = highlightMenu.classList.toggle("is-open");
+      menuToggle.classList.toggle("is-open", isOpen);
+      menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
   }
 });
