@@ -4,10 +4,8 @@
     
     <xsl:output method="html" encoding="UTF-8" indent="yes" />
 
-    <xsl:param name="mode" select="'original'" />
-
     <xsl:template match="/">
-        <html>
+        <html lang="it">
             <head>
                 <title><xsl:value-of select="//tei:titleStmt/tei:title"/></title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -22,7 +20,7 @@
                 <nav id="indice">
                     <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
                     <ul class="nav-links">
-                        <xsl:for-each select="//tei:div[@type='article' or @type='bibliography' or @type='section']">
+                        <xsl:for-each select="//tei:div[@type='article' or @type='bibliography' or @type='section' or @type='correspondence']">
                             <li>
                                 <a href="#{@xml:id}">
                                     <xsl:value-of select="tei:head[not(@type)]"/>
@@ -152,7 +150,7 @@
     </xsl:template>
 
     <xsl:template match="tei:body">
-        <xsl:apply-templates select="tei:div[@type='article' or @type='bibliography' or @type='section']"/>
+        <xsl:apply-templates select="tei:div[@type='article' or @type='bibliography' or @type='section' or @type='correspondence']"/>
     </xsl:template>
 
     <xsl:template match="tei:div">
@@ -284,19 +282,11 @@
     </xsl:template>
     
     <xsl:template match="tei:note">
-        <xsl:choose>
-            <xsl:when test="@place = 'foot'">
-                <div class="footnote">
+                <div class="footnote" data-facs="{translate(@facs, '#', '')}">
                     <xsl:apply-templates/>
                 </div>
-            </xsl:when>
 
-            <xsl:otherwise>
-                <span class="note">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:otherwise>
-        </xsl:choose>
+   
     </xsl:template>
 
     <xsl:template match="tei:term">
@@ -362,6 +352,10 @@
         </span>
         <xsl:apply-templates/>
 
+    </xsl:template>
+    
+    <xsl:template match="tei:cb">
+        <div class="column-break"><span>Colonna <xsl:value-of select="@n"/></span></div>
     </xsl:template>
 
 </xsl:stylesheet>

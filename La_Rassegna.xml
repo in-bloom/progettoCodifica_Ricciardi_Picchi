@@ -155,10 +155,10 @@
 
             <editorialDecl>
                 <normalization>
-                    <p>La normalizzazione è stata effettuata principalmente su elementi del testo come (da' ne' etc. spiega meglio) in modo da rendere la lettura più scorrevole. Per determinati termini arcaici o letterari si è deciso di fornire la spiegazione in un glossario rispetto al cambiare troppo il testo originale</p>
+                    <p>La normalizzazione è stata effettuata principalmente su forme grafiche e morfosintattiche non più comuni, come elisioni, preposizioni articolate e forme ottocentesche quali da', ne', a' e de'. Le forme originali sono state conservate tramite <gi>orig</gi>, mentre le forme regolarizzate sono state inserite tramite <gi>reg</gi>. Per i termini arcaici, letterari o tecnici si è scelto di mantenere il testo originale e di fornire una spiegazione attraverso il glossario.</p>
                 </normalization>
                 <correction>
-                    <p>Le correzioni sono state in merito a parole non riconducibili a versioni arcaiche o letterarie di quelle attualmente in uso nell'italiano, inoltre sono state corrtti quelli che sono interpretabili come errori di stampa</p>
+                    <p>Le correzioni sono state limitate ai casi interpretabili come refusi o errori di stampa, distinguendoli dalle forme linguistiche storiche proprie del testo originale.</p>
                 </correction>
             </editorialDecl>
         </encodingDesc>
@@ -357,8 +357,8 @@
                             <lb n="65"/>classici nostrali e forestieri. Il vantaggio sarebbe immenso
                             <lb n="66"/>per tutti i discepoli, e <distinct type="literary" corresp="#segnatamente">segnatamente</distinct> per quelli che studiano
                             <lb n="67"/>la <term type="music" ref="#composizione">composizione</term>; si educherebbero così ai potenti effetti
-                            <lb n="68"/>dell'<term type="music" ref="armoniavocale">armonia vocale</term>, alla varia poesia, alla maestosa sem-
-                            <lb n="69" break="no"/>plicità <seg type="rethorical_figure">ch'entro vi spira</seg>, e infine all'ottima disposizione
+                            <lb n="68"/>dell'<term type="music" ref="#armoniavocale">armonia vocale</term>, alla varia poesia, alla maestosa sem-
+                            <lb n="69" break="no"/>plicità <seg type="rhetorical_figure">ch'entro vi spira</seg>, e infine all'ottima disposizione
                             <lb n="70"/>delle voci. Ed è qui che ci gioverebbe particolarmente lo
                             <lb n="71"/>studio degli istituti appositi in <placeName ref="#Germania">Germania</placeName>.
                         </p>
@@ -410,7 +410,7 @@
                             <cb n="1" />
                             <lb n="102"/>giù non può andare: basta sentire <choice><orig>qual</orig><reg>quale</reg></choice> sia la musica che,
                             <lb n="103"/>nelle <rs type="place">chiese</rs> d'<placeName ref="#Italia">Italia</placeName>, si suona dalla maggior parte degli
-                            <lb n="104"/>organisti.-Anco ne' <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> <seg type="rethorical_figure">non sono rose quelle che 
+                            <lb n="104"/>organisti.-Anco ne' <rs type="institution" subtype="music" ref="#conservatorii">Conservatorii</rs> <seg type="rhetorical_figure">non sono rose quelle che 
                             <lb n="105"/>fioriscono</seg>. Quanti professori sanno eseguire o sanno inse-
                             <lb n="106" break="no"/>gnare l'esecuzione e l'interpretazione delle <choice><orig>maravigliose</orig><reg>meravigliose</reg></choice>
                             <lb n="107"/>opere di <persName ref="#Bach">Bach</persName>? È molto se di <persName ref="#Bach">Bach</persName>, il più grande orga-
@@ -444,7 +444,7 @@
                             <lb n="129" break="no"/>menti;»</quote> chiaccherano molto in nome dell'arte, ma sono i
                             <lb n="130"/>primi ad offenderla <choice><orig>co'</orig><reg>coi</reg></choice> fatti; osteggiano, con una guerra
                             <lb n="131"/>sorda, i più valenti; seminano la zizzania: ed ecco <choice><orig>donde</orig><reg>da dove</reg></choice>
-                            <lb n="132"/>nascono la <distinct type="literary" corresp="https://www.treccani.it/vocabolario/camorra1_(Sinonimi-e-Contrari)/">camorra</distinct> e la <distinct type="archaic" corresp="https://www.treccani.it/vocabolario/fiacca/">fiaccona</distinct>. I pochi egregi fanno <!-- forse al posto di term meglio distinct poi vediamo-->
+                            <lb n="132"/>nascono la <distinct type="literary" corresp="https://www.treccani.it/vocabolario/camorra1_(Sinonimi-e-Contrari)/">camorra</distinct> e la <distinct type="archaic" corresp="https://www.treccani.it/vocabolario/fiacca/">fiaccona</distinct>. I pochi egregi fanno
                             <lb n="133"/>quello che possono, ma sono sforzi isolati: di qui i risul-
                             <lb n="134" break="no"/>tati parziali, non generali. Sarebbe, per esempio, necessario
                             <lb n="135"/>che alle cattedre d'<term type="music" ref="#armonia_elementare">armonia elementare</term> si desse tanta im-
@@ -521,7 +521,7 @@
                             <lb n="193"/><item>3° Creare un'atmosfera sana <choice><orig>coll'</orig><reg>con l'</reg></choice>accurata esecuzione collet-
                             <lb n="194" break="no"/>tiva delle opere dei grandi maestri del passato e del presente,
                             <lb n="195"/>nostrali e forestieri, perché l'arte è <emph rend="italic">una</emph>; e in quest'atmo-
-                            <lb n="196" break="no"/>sfera saranno efficacemente <seg type="rethorical_figure">fecondati i germi</seg> che l'istruzione
+                            <lb n="196" break="no"/>sfera saranno efficacemente <seg type="rhetorical_figure">fecondati i germi</seg> che l'istruzione
                             <lb n="197"/>parziale <choice><orig>de'</orig><reg>dei</reg></choice> buoni maestri avrà fatto nascere.</item><item>4° Dare il
                             <lb n="198"/>maggiore sviluppo possibile alla cultura intellettuale e <distinct type="literary" corresp="#segnatamente">se-
                             <lb n="199" break="no"/>gnatamente</distinct> alla letteraria, sempre <choice><orig>coll'</orig><reg>con l'</reg></choice>occhio rivolto allo
@@ -531,7 +531,6 @@
                     </div>
                 </body>
                 <back>
-                    <!-- Person list -->
                     
                     <listPerson>
                         <person xml:id="Cherubini">
@@ -1130,7 +1129,7 @@
                             <lb n="73"/>anonime che, di fronte all'operaio che suda e stenta pon-
                             <lb n="74" break="no"/>gono <emph rend="italic">un capitale</emph> impassibile, impersonale, che moltiplica
                             <lb n="75"/>se stesso, come per forza intrinseca, ed arricchisce i suoi
-                            <lb n="76"/>possessori, i quali <seg type="rethorical_figure">dormono sonni tranquilli</seg>, pensando ad
+                            <lb n="76"/>possessori, i quali <seg type="rhetorical_figure">dormono sonni tranquilli</seg>, pensando ad
                             <lb n="77"/>altro, o viaggiano in lontane regioni per <choice><orig>diporto</orig><reg>svago</reg></choice>; questi
                             <lb n="78"/>sono i fatti sociali in mezzo a cui il <term type="political" ref="#socialismo">socialismo</term> si sviluppa.
                         </p>
@@ -1213,7 +1212,7 @@
                             <lb n="146"/>fra i vari modi proposti per effettuare la diminuzione;
                             <lb n="147"/>ed ora che la disputa è accesa e le passioni si sono scal-
                             <lb n="148" break="no"/>date, già si dice che <foreign xml:lang="la" rend="italic">pro bono pacis</foreign> tutto sarà rimandato
-                            <lb n="149"/>alle <seg type="rethorical_figure">calende greche</seg>. Si scherza dunque col fuoco! Non si
+                            <lb n="149"/>alle <seg type="rhetorical_figure">calende greche</seg>. Si scherza dunque col fuoco! Non si
                             <lb n="150"/>vede dunque la immensa gravità della <choice><orig><distinct type="literary">quistione</distinct></orig><reg>questione</reg></choice>? Se la di-
                             <lb n="151" break="no"/>minuzione non era possibile, bisognava tacere e non pro-
                             <lb n="152" break="no"/>porre su di essa la <choice><orig><distinct type="literary">quistione</distinct></orig><reg>questione</reg></choice> ministeriale. Qual legge più
@@ -1513,8 +1512,8 @@
             <!-- ARTICOLO 3: CORRISPONDENZA DA BERLINO-->
             <text>
                 <body>
-                    <!-- Forse meglio mettere type="correspondence" ? -->
-                    <div type="article" xml:id="articolo_3" source="#articolo_3_bibl">
+
+                    <div type="correspondence" xml:id="articolo_3" source="#articolo_3_bibl">
                         <pb n="298" facs="#surf_art_3_1" />
                         <cb n="1" />
 
@@ -1635,7 +1634,7 @@
                             <lb n="106"/>corrente politica, che da un anno e mezzo ha deviato da quello
                             <lb n="107"/>scopo, nella direzione verso cui si muoveva finché anda-
                             <lb n="108" break="no"/>rono a vuoto le trattative di <placeName ref="#Varzin">Varzin</placeName> fra il <persName ref="#Bismarck">Bismarck</persName> e il
-                            <note xml:id="nota_art3_p4" place="foot" hand="editor">
+                            <note xml:id="nota_art3_p4" place="foot" hand="editor" facs="#art3_nota">
                                 <p>
                                     <lb />* Queste previsioni non si sono avverate. Un telegramma del 30 da <placeName ref="#Berlino">Berlino</placeName>
                                     <lb/>reca che alla <orgName ref="#Camera_dei_deputati_prussiani">Presidenza della Camera</orgName> è stato eletto <persName ref="#Köller">Köller</persName> con 218 voti,
@@ -2203,7 +2202,7 @@
                                 <lb n="17"/><foreign xml:lang="en" rend="italic" xml:id="matteroffact">matter of fact</foreign> senz'ombra di <choice><orig>pretensione</orig><reg>pretesa</reg></choice> letteraria. Il
                                 <lb n="18"/><persName ref="#Janet"><roleName type="honorific">signor</roleName>Janet</persName> ha egregiamente mostrato come il <persName ref="#SaintSimon">Saint-Simon</persName> si
                                 <lb n="19"/>ricolleghi al movimento di reazione storica e religiosa del
-                                <lb n="20"/><date notBefore="1800" notAfter="1810">principio di questo secolo</date>, e come la sua prima ispirazione <!-- trattandosi di inizio secolo è stato considerato il primo decennio del 1800 -->
+                                <lb n="20"/><date notBefore="1800" notAfter="1810">principio di questo secolo</date>, e come la sua prima ispirazione 
                                 <lb n="21"/>sia della stessa natura di quelle di <persName ref="#GiuseppeDeMaistre">Giuseppe De Maistre</persName> e
                                 <lb n="22"/>della sua scuola. Prova <choice><orig>sopra tutto</orig><reg>soprattutto</reg></choice> a <choice><orig>maraviglia</orig><reg>meraviglia</reg></choice> come
                                 <lb n="23"/>niente fosse tanto estraneo allo spirito riformatore del
