@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function findTextByZone(zoneId) {
     return document.querySelector(
-      '#text-section [data-facs~="' + escapeSelector(zoneId) + '"]',
+      '#text-section [data-facs~="' + escapeSelector(zoneId) + '"]'
     );
   }
 
@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function highlightFromZone(zoneElement) {
     var zoneId =
       zoneElement.getAttribute("data-zone") || zoneElement.getAttribute("id");
+
     if (!zoneId) return;
 
     var textElement = findTextByZone(zoneId);
@@ -67,6 +68,32 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function toggleHighlight(className) {
+    const elements = document.querySelectorAll(
+      "#text-section span." + className
+    );
+
+    elements.forEach(function (element) {
+      element.classList.toggle("highlighted-entity");
+      element.classList.toggle("highlighted-" + className);
+    });
+  }
+
+  function resetHighlights() {
+    const classes = ["persName", "placeName", "orgName", "date"];
+
+    classes.forEach(function (className) {
+      const elements = document.querySelectorAll(
+        "#text-section span." + className
+      );
+
+      elements.forEach(function (element) {
+        element.classList.remove("highlighted-entity");
+        element.classList.remove("highlighted-" + className);
+      });
+    });
+  }
+
   document
     .querySelectorAll("#text-section [data-facs]")
     .forEach(function (textElement) {
@@ -80,4 +107,23 @@ document.addEventListener("DOMContentLoaded", function () {
       highlightFromZone(zoneElement);
     });
   });
+
+  const highlightButtons = document.querySelectorAll(
+    ".highlight-buttons button[data-highlight]"
+  );
+
+  const resetButton = document.getElementById("reset-highlights");
+
+  highlightButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      const className = button.getAttribute("data-highlight");
+      toggleHighlight(className);
+    });
+  });
+
+  if (resetButton) {
+    resetButton.addEventListener("click", function () {
+      resetHighlights();
+    });
+  }
 });

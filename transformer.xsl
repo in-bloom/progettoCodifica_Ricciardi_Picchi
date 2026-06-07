@@ -30,6 +30,27 @@
                             </li>
                         </xsl:for-each>
                     </ul>
+                    <div class="highlight-buttons">
+                        <button type="button" data-highlight="persName">
+                            Persone
+                        </button>
+
+                        <button type="button" data-highlight="placeName">
+                            Luoghi
+                        </button>
+
+                        <button type="button" data-highlight="orgName">
+                            Organizzazioni
+                        </button>
+
+                        <button type="button" data-highlight="date">
+                            Date
+                        </button>
+
+                        <button type="button" id="reset-highlights">
+                            Rimuovi evidenziazioni
+                        </button>
+                    </div>
                 </nav>
 
                 <div id="image-section">
