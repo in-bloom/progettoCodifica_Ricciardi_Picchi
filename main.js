@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (zone) {
       zone.classList.add("active-facs");
 
-      var page = zone.closest(".facsimile-page");
+      var page = zone;
       if (page) {
         page.scrollIntoView({
           behavior: "smooth",
