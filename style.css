@@ -63,23 +63,21 @@ body {
   grid-row: 2;
   height: calc(100vh - 80px);
   overflow-y: auto;
-  padding: 1rem;
+  padding: 0.8rem;
   box-sizing: border-box;
   border-left: 1px solid #ddd;
-  background-color: #f7f7f7;
+  background-color: #f5f2ed;
 }
 
 .facsimile-page {
-  min-height: calc(100vh - 120px);
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .facsimile-page h3 {
-  margin: 0 0 0.8rem 0;
+  margin: 0.5rem 0 0.8rem 0;
   text-align: center;
   font-size: 1rem;
 }
@@ -87,21 +85,50 @@ body {
 .facsimile-svg {
   display: block;
   width: 100%;
-  max-width: 100%;
-  max-height: calc(100vh - 140px);
   height: auto;
   background-color: white;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.28);
 }
 
+/* Rettangoli invisibili normalmente */
 .facsimile-zone {
   fill: transparent;
   stroke: transparent;
-  stroke-width: 4;
+  stroke-width: 6;
   pointer-events: all;
+  cursor: pointer;
+  transition:
+    fill 0.2s ease,
+    stroke 0.2s ease,
+    filter 0.2s ease;
 }
 
+/* Hover più carino */
 .facsimile-zone:hover {
-  fill: rgba(255, 255, 0, 0.25);
-  stroke: rgba(255, 0, 0, 0.9);
+  fill: rgba(255, 210, 80, 0.25);
+  stroke: rgba(180, 90, 0, 0.95);
+  filter: drop-shadow(0 0 6px rgba(180, 90, 0, 0.65));
+}
+
+/* Rettangolo evidenziato dopo il click */
+.facsimile-zone.active-facs {
+  fill: rgba(255, 210, 80, 0.35);
+  stroke: rgba(180, 60, 0, 1);
+  filter: drop-shadow(0 0 8px rgba(180, 60, 0, 0.8));
+}
+
+/* Paragrafi cliccabili */
+.paragrafo,
+.titolo_articolo {
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Evidenziazione del testo dopo click sul facsimile */
+.paragrafo.active-text,
+.titolo_articolo.active-text {
+  background-color: rgba(255, 230, 130, 0.45);
+  box-shadow: inset 4px 0 0 rgba(180, 90, 0, 0.9);
 }

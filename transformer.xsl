@@ -39,6 +39,7 @@
                  <div id="text-section">
                     <xsl:apply-templates select="//tei:body"/>
                 </div>
+                <script src="main.js"></script>
             </body>
         </html>
     </xsl:template>
@@ -51,7 +52,7 @@
                 Facsimile pagina <xsl:value-of select="@n"/>
             </h3>
 
-            <svg class="facsimile-svg">
+            <svg class="facsimile-svg" preserveAspectRatio="xMidYMid meet">
                 <xsl:attribute name="viewBox">
                     <xsl:text>0 0 </xsl:text>
                     <xsl:value-of select="translate(tei:graphic/@width, 'px', '')"/>
@@ -59,7 +60,13 @@
                     <xsl:value-of select="translate(tei:graphic/@height, 'px', '')"/>
                 </xsl:attribute>
 
-                <image x="0" y="0" width="100%" height="100%">
+                <image x="0" y="0">
+                    <xsl:attribute name="width">
+                        <xsl:value-of select="translate(tei:graphic/@width, 'px', '')"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="height">
+                        <xsl:value-of select="translate(tei:graphic/@height, 'px', '')"/>
+                    </xsl:attribute>
                     <xsl:attribute name="href">
                         <xsl:value-of select="tei:graphic/@url"/>
                     </xsl:attribute>
@@ -74,6 +81,10 @@
     <xsl:template match="tei:zone">
         <rect class="facsimile-zone">
             <xsl:attribute name="id">
+                <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+
+            <xsl:attribute name="data-zone">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
 
@@ -107,14 +118,36 @@
 
     <xsl:template match="tei:head">
         <xsl:variable name="facs" select="translate(@facs, '#', '')"/>
-        <div class="titolo_articolo" data-facs="{$facs}">
+        <xsl:variable name="firstFacs">
+            <xsl:choose>
+                <xsl:when test="contains($facs, ' ')">
+                    <xsl:value-of select="substring-before($facs, ' ')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$facs"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
+        <div class="titolo_articolo" id="text-{$firstFacs}" data-facs="{$facs}">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
 
     <xsl:template match="tei:p">
         <xsl:variable name="facs" select="translate(@facs, '#', '')"/>
-        <div class="paragrafo" data-facs="{$facs}">
+        <xsl:variable name="firstFacs">
+            <xsl:choose>
+                <xsl:when test="contains($facs, ' ')">
+                    <xsl:value-of select="substring-before($facs, ' ')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$facs"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+
+        <div class="paragrafo" id="text-{$firstFacs}" data-facs="{$facs}">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
