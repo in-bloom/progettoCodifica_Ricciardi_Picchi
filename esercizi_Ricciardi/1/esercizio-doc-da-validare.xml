@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- documento xml da validare -->
+<!-- 
+    file: esercizio-doc-da-validare
+    nome: Francesco Ricciardi
+    data: DATA
+-->
+
+<!-- corpo del documento XML-->
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+            <elementoFiglio>
+        </elementoAnnidato>
+    </elementoFiglio>
+        <elementoAnnidato><elementoFiglio></elementoFiglio>
+    </elementoFiglio>
+</elementoRadice>
+
+<!-- epilogo -->
+<!-- Errore ritornato da Xerces
+ [Fatal Error] esercizio-doc-da-validare.xml:19:11: The element type "elementoFiglio" must be terminated by the matching end-tag "</elementoFiglio>".
+ -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+    <!ELEMENT TEI (header, facsimile?, text+)>
+    <!ELEMENT header (#PCDATA)>
+    <!ELEMENT facsimile (#PCDATA)>
+    <!ELEMENT text (#PCDATA)>
+]>
+<TEI>
+    <header>
+        Header
+    </header>
+    <facsimile>
+
+    </facsimile>
+    <text>
+        testo
+    </text>
+</TEI>
+
+<!-- Risultato della validazione:
+    esercizi_Ricciardi/2/dtd_interna.xml: 9;1;0 ms (4 elems, 0 attrs, 16 spaces, 45 chars)
+-->

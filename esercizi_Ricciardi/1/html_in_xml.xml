@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <htmlCode>
+        <![CDATA[ 
+        <h1>Titolo html in xml</h1>
+        <h2> Sottotitolo</h2>
+        ]]>
+    </htmlCode>
+</root>

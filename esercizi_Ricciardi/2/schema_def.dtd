@@ -1,0 +1,5 @@
+<!-- Definizione di DTD con root TEI, e figli: header(obbl. un'occorrenza), facsimile(opzionale max 1 occorr.), text(almeno 1 occorr.) tutti con content model testuale-->
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>

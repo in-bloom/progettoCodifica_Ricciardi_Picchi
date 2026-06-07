@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Corpo del doc. xml -->
+<Radice>
+    <el1>
+    <el2>
+        
+        </el2>
+    </el1> <!-- el1 chiude prima di el2 -->
+</Radice>
+
+<!-- Risultato della validazione con Xerces:
+    [Fatal Error] xml_check.xml:7:7: The element type "el2" must be terminated by the matching end-tag "</el2>". 
+-->

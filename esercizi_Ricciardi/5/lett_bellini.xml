@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Codifica TEI della lettera Bellini</title>
+        <respStmt>
+          <resp>Codifica TEI di</resp>
+          <persName xml:id="Francesco_Ricciardi">Francesco Ricciardi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Università di Pisa</publisher>
+      </publicationStmt>
+      <sourceDesc>
+      <bibl>
+        <publisher>unknown</publisher>
+      </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface xml:id="lettera_bellini">
+      <graphic url="lett_bellini.png" width="1306" height="884"/>
+        <zone ulx="20" uly="28" lrx="638" lry="145" rendition="" xml:id="verde"/>
+        <zone ulx="25" uly="152" lrx="638" lry="504" rendition="" xml:id="celeste"/>
+        <zone ulx="26" uly="514" lrx="639" lry="869" rendition="" xml:id="blu"/>
+        <zone ulx="649" uly="22" lrx="1285" lry="116" rendition="" xml:id="rosso"/>
+        <zone ulx="700" uly="125" lrx="1272" lry="838" rendition="" xml:id="arancio"/>
+        <zone ulx="984" uly="786" lrx="1272" lry="859" rendition="" xml:id="fucsia"/>
+    </surface>
+  </facsimile>
+
+  <text>
+    <body>
+      
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "schema_def.dtd">
+<!--Utilizzo la stessa struttura del file con dtd interna-->
+<TEI>
+    <header>
+        Header
+    </header>
+    <facsimile>
+
+    </facsimile>
+    <text>
+        testo
+    </text>
+</TEI>
+
+<!-- 
+Validazione: esercizi_Ricciardi/2/dtd_esterna.xml: 9;2;0 ms (4 elems, 0 attrs, 16 spaces, 45 chars)
+-->

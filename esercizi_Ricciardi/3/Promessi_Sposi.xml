@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I promessi sposi. Il Ratto di Lucia</title>
+      </titleStmt>
+
+      <publicationStmt>
+        <p>Codifica TEI-P5 del capitolo V de I promessi sposi.</p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>Alessandro Manzoni, <title>I promessi sposi</title>, capitolo V, Il ratto di Lucia.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="chapter" n="5">
+        <div type="section" xml:lang="it">
+          <head>V. IL RATTO DI LUCIA</head>
+
+          <p>
+            <persName xml:id="Lucia">Lucia</persName> uscì nella via e s'incamminò con grande attenzione,
+            con gran riserbo, con un gran battito al cuore, tutta raccolta in sè,
+            studiando la sua strada con le indicazioni che aveva avute e con la memoria
+            che le restava della strada già fatta.
+          </p>
+
+          <p>
+            Giunse così all'uscita del borgo (perchè il convento dov'ella s'avviava
+            era al di fuori in <term ref="#picciola">picciola</term> distanza), riconobbe la porta
+            per dove era entrata la prima volta, e prese a sinistra la via che l'era stata insegnata.
+          </p>
+
+          <p>
+            Tutte le strade del <placeName xml:id="Milanese">Milanese</placeName> erano a quel tempo
+            anguste, tortuose e nel pian paese profonde e, come <term ref="#quivi">quivi</term>
+            si dice, invallate, a guisa di un letto di fiume, fra due rive di campi,
+            alte non di rado un uomo, e orlate di piante, che, intrecciate al pedale
+            di rovi, di biancospini e di pruni, riunivano in alto i rami loro in volta
+            dall'una all'altra parte: e tali sono ancora in gran parte le strade comunali.
+          </p>
+
+          <p>
+            Quando <ref target="#Lucia">Lucia</ref> si trovò soletta in una strada simile,
+            si pentì quasi di essersi tanto rischiata, e studiò il passo, per giunger presto,
+            proponendo fermamente di non ritornar dal convento a casa senza una qualche scorta.
+          </p>
+
+          <p>
+            Ma, voltato uno di quei tanti andirivieni, vide una carrozza da viaggio ferma
+            nel mezzo della via, e fuori della carrozza, innanzi allo sportello, che era aperto,
+            <rs type="person" subtype="group">due uomini</rs> che guardavano su e giù per la via,
+            come incerti del cammino.
+          </p>
+
+          <p>
+            E per quella presunzione comune che coloro i quali vanno in carrozza sieno
+            <term ref="#galantuomini">galantuomini</term>, <ref target="#Lucia">Lucia</ref>
+            si sentì tutta rincorata, e le parve d'aver trovata una salvaguardia alla metà
+            appunto del cammino, nel luogo più lontano dall'abitato, e dove il bisogno era più grande.
+          </p>
+
+          <p>
+            Continuò <term ref="#adunque">adunque</term> più animosamente a camminare, e quando fu presso
+            alla carrozza tanto che si potessero distinguer le parole, intese
+            <rs type="person" xml:id="uomo_bergamasco">uno di quelli</rs>, che stavano al di fuori,
+            dire, con una pronunzia e con un linguaggio, che lo fece conoscere a
+            <ref target="#Lucia">Lucia</ref> per
+            <rs type="person" subtype="origin">bergamasco</rs>:
+            ecco una buona donna che c'insegnerà la strada.
+          </p>
+
+          <p>
+            Giunta a paro della carrozza, quel medesimo le si volse con un atto più cortese
+            che non fosse la sua faccia, e le disse: buona giovane, sapreste voi insegnarci
+            la strada di <placeName xml:id="Monza">Monza</placeName>? Mentre costui parlava,
+            <rs type="person" xml:id="altro_uomo">l'altro</rs> s'era posto dinanzi a
+            <ref target="#Lucia">Lucia</ref> in modo da sbarrarle la via,
+            ma come un uomo che sta per udire.
+          </p>
+
+          <p>
+            Loro signori, rispose <ref target="#Lucia">Lucia</ref>, sono voltati a rovescio:
+            <placeName ref="#Monza">Monza</placeName> è per di qua
+            (alzando la mano e stendendo il pollice al disopra delle spalle),
+            girino la carrozza, e vadano per questa strada, e saranno a
+            <placeName ref="#Monza">Monza</placeName> in poco più d'un
+            <term ref="#miserere">miserere</term>.
+          </p>
+
+          <p>
+            Così detto, voleva continuare il suo cammino, e s'avvicinava alla riva,
+            per passare senza urtare quel
+            <term ref="#forastiero">forastiero</term> che stava lì ritto come un
+            <term ref="#termine">termine</term>, e senza dirgli che facesse largo,
+            cosa che alla nostra povera <term ref="#forese">forese</term>
+            sarebbe sembrata troppo famigliare.
+          </p>
+
+          <p>
+            Un momento, disse <ref target="#uomo_bergamasco">colui che le aveva già parlato</ref>,
+            ritenendola dolcemente: noi siamo ben impacciati in queste strade dell'altro mondo:
+            non potreste voi farci la cortesia di salire in carrozza con noi e d'insegnarci
+            la strada fino a <placeName ref="#Monza">Monza</placeName>?
+          </p>
+        </div>
+      </div>
+    </body>
+
+    <back>
+      <div type="glossary">
+        <head>Glossario</head>
+        <list>
+          <label>picciola</label>
+          <item>
+            <gloss xml:id="picciola">Piccola, minuscola.</gloss>
+          </item>
+
+          <label>quivi</label>
+          <item>
+            <gloss xml:id="quivi">Qui, in questo luogo.</gloss>
+          </item>
+
+          <label>galantuomini</label>
+          <item>
+            <gloss xml:id="galantuomini">Uomini di rango, gentiluomini.</gloss>
+          </item>
+
+          <label>adunque</label>
+          <item>
+            <gloss xml:id="adunque">Dunque, quindi.</gloss>
+          </item>
+
+          <label>miserere</label>
+          <item>
+            <gloss xml:id="miserere">Preghiera liturgica, qui indica un breve lasso di tempo.</gloss>
+          </item>
+
+          <label>forastiero</label>
+          <item>
+            <gloss xml:id="forastiero">Straniero, forestiero, persona proveniente da fuori.</gloss>
+          </item>
+
+          <label>termine</label>
+          <item>
+            <gloss xml:id="termine">Cippo o colonna di confine; qui usato in senso figurato per indicare una persona immobile.</gloss>
+          </item>
+
+          <label>forese</label>
+          <item>
+            <gloss xml:id="forese">Donna di campagna, contadina.</gloss>
+          </item>
+        </list>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Codifica TEI di una cartolina postale</title>
+
+        <respStmt>
+          <resp>Codifica TEI di</resp>
+          <persName xml:id="Francesco_Ricciardi">Francesco Ricciardi</persName>
+        </respStmt>
+      </titleStmt>
+
+    <publicationStmt>
+        <p>Codifica di una cartolina secondo TEI P5</p>
+    </publicationStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Italia</country>
+            <repository>Biblioteca nazionale centrale di Roma</repository>
+            <idno>Cartolina_1</idno>
+          </msIdentifier>
+
+          <history>
+            <origin>
+                <p>La cartolina è stata inviata da Gabriele D'Annunzio a Ugo Ojetti, la data non è presente. Probabilmente è stata inviata da San Giacomo di Spoleto</p>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="postcard">
+
+        <div type="printedText">
+          <head>
+            CARTOLINA POSTALE ITALIANA
+            <lb/>(<foreign xml:lang="fr">CARTE POSTALE D'ITALIE</foreign>)
+          </head>
+
+          <p>
+            <note type="instruction">
+              Sul lato anteriore della presente si scrive soltanto l'indirizzo.
+            </note>
+          </p>
+        </div>
+
+        <div type="message">
+            <p>
+                Ad Ugo Ojetti
+                <lb/>
+                <placeName>San Giacomo di Spoleto</placeName>
+                <lb />(<placeName>Umbria</placeName>)
+            </p>
+        </div>
+    </div>
+    </body>
+  </text>
+</TEI>

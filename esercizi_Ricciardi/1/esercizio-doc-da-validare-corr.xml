@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- documento xml da validare -->
+<!-- 
+    file: esercizio-doc-da-validare
+    nome: Francesco Ricciardi
+    data: DATA
+-->
+
+<!-- corpo del documento XML-->
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <figlioAnnodato></figlioAnnodato> <!-- Aggiunto elemento figlio a elementoAnnodato-->
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+                <elementoFiglio></elementoFiglio> <!-- chiudo il tag elementoFiglio -->
+            </elementoAnnidato> <!--Aggiungo il tag di chiusura elementoAnnidato-->
+        </elementoAnnidato>
+        <fratelloAnnidato></fratelloAnnidato> <!-- aggiungo un sibling a elementoAnnidato-->
+    </elementoFiglio>
+    <elementoFiglio> <!-- Aggiungo il tag di apertura elementoFiglio-->
+        <elementoAnnidato>
+            <elementoFiglio></elementoFiglio>
+        </elementoAnnidato> <!-- aggiungo il tag di chiusura elementoAnnidato-->
+    </elementoFiglio>
+</elementoRadice>
+
+<!-- epilogo -->
+
+<!-- Validazione Xerces:
+ esercizi_Ricciardi/esercizio-doc-da-validare-corr.xml: 19;1;0 ms (12 elems, 0 attrs, 0 spaces, 169 chars)
+ -->

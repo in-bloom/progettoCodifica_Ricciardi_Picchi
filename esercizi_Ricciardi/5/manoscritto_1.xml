@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Codifica TEI di cdexDamsHist003</title>
+        <respStmt>
+          <resp>Codifica TEI di</resp>
+          <persName xml:id="Francesco_Ricciardi">Francesco Ricciardi</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Università di Pisa</publisher>
+      </publicationStmt>
+      <sourceDesc>
+      <bibl>
+        <publisher>Sito CDEC (digital library)</publisher>
+      </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div>
+        <s><date when="1920-04-25">25 Aprile 1920</date> - <date when="1940-07-29">29 luglio 1940</date> - vent'anni:</s>
+        <s>appena il limitare della vita - ma breve e lumino</s>
+        <s>sa veramente, come fece il ricordo marmoreo</s>
+        <s>promessa, speranza, <gap reason="illegible"/>. Credete a chi</s>
+        <s>l'ha conosciuto nella prima infanzia, di <gap reason="illegible"/></s>
+        <s>se anche i ricordi di quei primi anni, felici.</s>
+        <s><del rend="overstrike"><gap reason="illegible"></gap></del></s>
+      </div>
+    </body>
+  </text>
+</TEI>

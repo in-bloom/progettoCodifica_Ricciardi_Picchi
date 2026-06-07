@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FATE PRESTO - codifica TEI di una prima pagina de Il Mattino</title>
+
+                <respStmt>
+                    <resp>Codifica TEI di</resp>
+                    <persName xml:id="Francesco_Ricciardi">Francesco Ricciardi</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Codifica di una pagina de Il Mattino secondo TEI P5</p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">FATE PRESTO</title>
+                        <author>
+                            <orgName>Redazione de Il Mattino</orgName>
+                        </author>
+                    </analytic>
+
+                    <monogr>
+                        <title level="j">Il Mattino</title>
+                        <imprint>
+                            <pubPlace>Napoli</pubPlace>
+                            <date when="1980-11-26">Mercoledì 26 novembre 1980</date>
+                            <biblScope unit="issue">301</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Codifica TEI di una prima pagina del quotidiano Il Mattino relativa al terremoto
+                    dell'Irpinia del 1980.
+                </p>
+            </projectDesc>
+
+            <editorialDecl>
+                <transcription>
+                    <p>
+                        Sono stati trascritti soltanto gli elementi testuali chiaramente leggibili
+                        nell'immagine.
+                    </p>
+                </transcription>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="article">
+
+                <head type="masthead">IL MATTINO</head>
+
+                <byline>
+                    <date when="1980-11-26">Mercoledì 26 novembre 1980</date>
+                </byline>
+
+                <div type="article">
+
+                    <head type="kicker"> CRESCE IN MANIERA CATASTROFICA IL NUMERO DEI MORTI <lb />(SONO
+                        10.000?) E DEI RIMASTI SENZA TETTO(250.000?) </head>
+
+                    <head type="main">
+                        FATE PRESTO
+                    </head>
+
+                    <p><emph rend="italic">per salvare chi è ancora vivo <lb /> per aiutare chi non ha più nulla</emph></p>
+
+                    <p>
+                        <gap reason="illegible" unit="lines" extent="unknown" />
+                    </p>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
