@@ -26,24 +26,44 @@ document.addEventListener("DOMContentLoaded", function () {
     var facs = textElement.getAttribute("data-facs");
     if (!facs) return;
 
-    var firstZoneId = facs.trim().split(/\s+/)[0];
-    var zone = document.getElementById(firstZoneId);
+    var zoneIds = facs.trim().split(/\s+/);
 
     clearHighlights();
 
     textElement.classList.add("active-text");
 
-    if (zone) {
-      zone.classList.add("active-facs");
+    zoneIds.forEach(function (zoneId) {
+      var zone = document.getElementById(zoneId);
 
-      var page = zone;
-      if (page) {
-        page.scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-        });
+      if (zone) {
+        zone.classList.add("active-facs");
       }
+    });
+
+    var firstZone = document.getElementById(zoneIds[0]);
+
+    if (firstZone) {
+      scrollZoneIntoView(firstZone);
     }
+  }
+
+  function scrollZoneIntoView(zone) {
+    var imageSection = document.getElementById("image-section");
+    if (!imageSection || !zone) return;
+
+    var zoneBox = zone.getBoundingClientRect();
+    var sectionBox = imageSection.getBoundingClientRect();
+
+    var zoneCenter =
+      zoneBox.top -
+      sectionBox.top +
+      imageSection.scrollTop +
+      zoneBox.height / 2;
+
+    imageSection.scrollTo({
+      top: zoneCenter - imageSection.clientHeight / 2,
+      behavior: "smooth",
+    });
   }
 
   function highlightFromZone(zoneElement) {

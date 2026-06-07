@@ -168,7 +168,7 @@
 
         <surface n="1.1" xml:id="surf_art_1_1">
 
-            <graphic url='img/I_conservatorii.jpg' width='2273.66666px' height='3282.66666px' />
+            <graphic url='img/I_conservatorii.jpg' width='2274px' height='3283px' />
             <zone ulx="140" uly="1570" lrx="1145" lry="1638" rendition="" xml:id="art1_titolo"/>
             <zone ulx="140" uly="1655" lrx="1145" lry="2388" rendition="" xml:id="art1_p1"/>
             <zone ulx="140" uly="2382" lrx="1145" lry="2685" rendition="" xml:id="art1_p2"/>
@@ -185,82 +185,82 @@
         </surface>
         <surface n="1.2" xml:id="surf_art_1_2">
         
-            <graphic url='img/I_conservatorii_2.jpg' width='2273.66666px' height='3282.66666px' />
-            <zone ulx="130" uly="252" lrx="1130" lry="593" rendition="" xml:id="art1_p13"/>
-            <zone ulx="130" uly="595" lrx="1130" lry="1102" rendition="" xml:id="art1_p14"/>
-            <zone ulx="130" uly="1104" lrx="1130" lry="2078" rendition="" xml:id="art1_p15"/>
-            <zone ulx="130" uly="2085" lrx="1130" lry="2550" rendition="" xml:id="art1_p16"/>
-            <zone ulx="130" uly="2547" lrx="1130" lry="3096" rendition="" xml:id="art1_p17"/>
-            <zone ulx="1150" uly="256" lrx="2145" lry="391" rendition="" xml:id="art1_p18"/>
-            <zone ulx="1150" uly="393" lrx="2145" lry="979" rendition="" xml:id="art1_p19"/>
-            <zone ulx="1150" uly="981" lrx="2145" lry="1662" rendition="" xml:id="art1_p20"/>
+            <graphic url='img/I_conservatorii_2.jpg' width='2312px' height='3341px' />
+            <zone ulx="130" uly="252" lrx="1145" lry="605" rendition="" xml:id="art1_p13"/>
+            <zone ulx="130" uly="605" lrx="1145" lry="1120" rendition="" xml:id="art1_p14"/>
+            <zone ulx="130" uly="1125" lrx="1145" lry="2110" rendition="" xml:id="art1_p15"/>
+            <zone ulx="130" uly="2112" lrx="1145" lry="2588" rendition="" xml:id="art1_p16"/>
+            <zone ulx="130" uly="2590" lrx="1145" lry="3155" rendition="" xml:id="art1_p17"/>
+            <zone ulx="1170" uly="268" lrx="2180" lry="390" rendition="" xml:id="art1_p18"/>
+            <zone ulx="1170" uly="395" lrx="2180" lry="1002" rendition="" xml:id="art1_p19"/>
+            <zone ulx="1170" uly="998" lrx="2180" lry="1695" rendition="" xml:id="art1_p20"/>
         </surface>
         <surface n="2.1" xml:id="surf_art_2_1" >
-            <graphic url="img/Il_socialismo.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="110" uly="512" lrx="1115" lry="578" rendition="" xml:id="art2_title"/>
-            <zone ulx="110" uly="575" lrx="1115" lry="918" rendition="" xml:id="art2_p1"/>
-            <zone ulx="110" uly="922" lrx="1115" lry="2225" rendition="" xml:id="art2_p2"/>
-            <zone ulx="110" uly="2227" lrx="1115" lry="2654" rendition="" xml:id="art2_p3"/>
-            <zone ulx="110" uly="2649" lrx="1115" lry="3115" rendition="" xml:id="art2_p4"/>
-            <zone ulx="1135" uly="525" lrx="2150" lry="695" rendition="" xml:id="art2_p5"/>
-            <zone ulx="1135" uly="1322" lrx="2150" lry="1969" rendition="" xml:id="art2_p7"/>
-            <zone ulx="1135" uly="690" lrx="2150" lry="1325" rendition="" xml:id="art2_p6"/>
-            <zone ulx="1135" uly="1969" lrx="2150" lry="2991" rendition="" xml:id="art2_p8"/>
-            <zone ulx="1135" uly="2994" lrx="2150" lry="3093" rendition="" xml:id="art2_p9"/>
+            <graphic url="img/Il_socialismo.jpg" width='2292px' height='3327px'/>
+            <zone ulx="110" uly="512" lrx="1125" lry="578" rendition="" xml:id="art2_title"/>
+            <zone ulx="110" uly="575" lrx="1125" lry="918" rendition="" xml:id="art2_p1"/>
+            <zone ulx="110" uly="922" lrx="1125" lry="2238" rendition="" xml:id="art2_p2"/>
+            <zone ulx="110" uly="2240" lrx="1125" lry="2670" rendition="" xml:id="art2_p3"/>
+            <zone ulx="110" uly="2672" lrx="1125" lry="3115" rendition="" xml:id="art2_p4"/>
+            <zone ulx="1150" uly="520" lrx="2160" lry="698" rendition="" xml:id="art2_p5"/>
+            <zone ulx="1150" uly="1330" lrx="2160" lry="1969" rendition="" xml:id="art2_p7"/>
+            <zone ulx="1150" uly="695" lrx="2160" lry="1325" rendition="" xml:id="art2_p6"/>
+            <zone ulx="1150" uly="1969" lrx="2160" lry="3018" rendition="" xml:id="art2_p8"/>
+            <zone ulx="1150" uly="3018" lrx="2160" lry="3110" rendition="" xml:id="art2_p9"/>
         </surface>
         <surface n="2.2" xml:id="surf_art_2_2">
-            <graphic url="img/Il_socialismo2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="125" uly="185" lrx="1155" lry="781" rendition="" xml:id="art2_p10"/>
-            <zone ulx="125" uly="786" lrx="1155" lry="1870" rendition="" xml:id="art2_p11"/>
-            <zone ulx="125" uly="1872" lrx="1155" lry="2915" rendition="" xml:id="art2_p12"/>
-            <zone ulx="125" uly="2917" lrx="1155" lry="3097" rendition="" xml:id="art2_p13"/>
-            <zone ulx="1180" uly="175" lrx="2200" lry="1182" rendition="" xml:id="art2_p14"/>
+            <graphic url="img/Il_socialismo2.jpg" width='2241px' height='3231px'/>
+            <zone ulx="125" uly="185" lrx="1135" lry="770" rendition="" xml:id="art2_p10"/>
+            <zone ulx="125" uly="772" lrx="1135" lry="1845" rendition="" xml:id="art2_p11"/>
+            <zone ulx="125" uly="1845" lrx="1135" lry="2870" rendition="" xml:id="art2_p12"/>
+            <zone ulx="125" uly="2872" lrx="1135" lry="3060" rendition="" xml:id="art2_p13"/>
+            <zone ulx="1155" uly="180" lrx="2168" lry="1182" rendition="" xml:id="art2_p14"/>
         </surface>
         <surface n="3.1" xml:id="surf_art_3_1">
-            <graphic url="img/Corrispondenza_Berlino.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="275" uly="1109" lrx="1215" lry="1160" rendition="" xml:id="art3_title"/>
-            <zone ulx="275" uly="1162" lrx="1215" lry="1992" rendition="" xml:id="art3_p1"/>
-            <zone ulx="275" uly="1999" lrx="1215" lry="2990" rendition="" xml:id="art3_p2"/>
-            <zone ulx="1235" uly="320" lrx="2170" lry="1086" rendition="" xml:id="art3_p3"/>
-            <zone ulx="1235" uly="1088" lrx="2170" lry="2846" rendition="" xml:id="art3_p4"/>
-            <zone ulx="1235" uly="2855" lrx="2170" lry="3004" rendition="" xml:id="art3_nota"/>
+            <graphic url="img/Corrispondenza_Berlino.jpg" width='2451px' height='3454px'/>
+            <zone ulx="300" uly="1195" lrx="1310" lry="1258" rendition="" xml:id="art3_title"/>
+            <zone ulx="300" uly="1258" lrx="1310" lry="2155" rendition="" xml:id="art3_p1"/>
+            <zone ulx="300" uly="2160" lrx="1310" lry="3240" rendition="" xml:id="art3_p2"/>
+            <zone ulx="1335" uly="358" lrx="2345" lry="1165" rendition="" xml:id="art3_p3"/>
+            <zone ulx="1338" uly="1165" lrx="2345" lry="3090" rendition="" xml:id="art3_p4"/>
+            <zone ulx="1335" uly="3090" lrx="2345" lry="3242" rendition="" xml:id="art3_nota"/>
         </surface>
         <surface n="3.2" xml:id="surf_art_3_2">
-            <graphic url="img/Corrispondenze_Berlino_2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="135" uly="260" lrx="1120" lry="476" rendition="" xml:id="art3_p5"/>
-            <zone ulx="135" uly="481" lrx="1120" lry="1313" rendition="" xml:id="art3_p6"/>
-            <zone ulx="135" uly="1316" lrx="1120" lry="2726" rendition="" xml:id="art3_p7"/>
-            <zone ulx="135" uly="2731" lrx="1120" lry="3061" rendition="" xml:id="art3_p8"/>
-            <zone ulx="1140" uly="279" lrx="2125" lry="1073" rendition="" xml:id="art3_p9"/>
-            <zone ulx="1140" uly="1068" lrx="2125" lry="1568" rendition="" xml:id="art3_p10"/>
-            <zone ulx="1140" uly="1568" lrx="2125" lry="2835" rendition="" xml:id="art3_p11"/>
+            <graphic url="img/Corrispondenze_Berlino_2.jpg" width='2342px' height='3424px'/>
+            <zone ulx="135" uly="260" lrx="1150" lry="492" rendition="" xml:id="art3_p5"/>
+            <zone ulx="135" uly="492" lrx="1150" lry="1355" rendition="" xml:id="art3_p6"/>
+            <zone ulx="135" uly="1355" lrx="1150" lry="2812" rendition="" xml:id="art3_p7"/>
+            <zone ulx="135" uly="2815" lrx="1150" lry="3152" rendition="" xml:id="art3_p8"/>
+            <zone ulx="1170" uly="272" lrx="2195" lry="1108" rendition="" xml:id="art3_p9"/>
+            <zone ulx="1170" uly="1105" lrx="2195" lry="1612" rendition="" xml:id="art3_p10"/>
+            <zone ulx="1170" uly="1618" lrx="2195" lry="2908" rendition="" xml:id="art3_p11"/>
         </surface>
         <surface n="4.1" xml:id="surf_bibliografia_1">
-            <graphic url="img/Bibliografia1.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="1185" uly="751" lrx="2180" lry="807" rendition="" xml:id="bibl_subtitle"/>
-            <zone ulx="1185" uly="807" lrx="2180" lry="901" rendition="" xml:id="bibl_1"/>
-            <zone ulx="1185" uly="904" lrx="2180" lry="2119" rendition="" xml:id="bibl1_p1"/>
-            <zone ulx="1185" uly="2117" lrx="2180" lry="3089" rendition="" xml:id="bibl1_p2"/>
+            <graphic url="img/Bibliografia1.jpg" width='2240px' height='3330px'/>
+            <zone ulx="1175" uly="751" lrx="2170" lry="807" rendition="" xml:id="bibl_subtitle"/>
+            <zone ulx="1175" uly="810" lrx="2170" lry="888" rendition="" xml:id="bibl_1"/>
+            <zone ulx="1175" uly="890" lrx="2170" lry="2090" rendition="" xml:id="bibl1_p1"/>
+            <zone ulx="1175" uly="2090" lrx="2170" lry="3050" rendition="" xml:id="bibl1_p2"/>
         </surface>
         <surface n="4.2" xml:id="surf_bibliografia_2">
-            <graphic url="img/Bibliografia2.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="110" uly="282" lrx="1120" lry="556" rendition="" xml:id="bibl1_p3"/>
-            <zone ulx="1140" uly="1969" lrx="2150" lry="2025" rendition="" xml:id="bibl2_title"/>
-            <zone ulx="1140" uly="2025" lrx="2150" lry="2155" rendition="" xml:id="bibl_2"/>
-            <zone ulx="1140" uly="2157" lrx="2150" lry="2916" rendition="" xml:id="bibl2_p1"/>
-            <zone ulx="1140" uly="2914" lrx="2150" lry="3127" rendition="" xml:id="bibl2_p2"/>
+            <graphic url="img/Bibliografia2.jpg" width='2240px' height='3330px'/>
+            <zone ulx="110" uly="282" lrx="1100" lry="548" rendition="" xml:id="bibl1_p3"/>
+            <zone ulx="1130" uly="1935" lrx="2120" lry="1995" rendition="" xml:id="bibl2_title"/>
+            <zone ulx="1130" uly="1995" lrx="2120" lry="2118" rendition="" xml:id="bibl_2"/>
+            <zone ulx="1130" uly="2118" lrx="2120" lry="2870" rendition="" xml:id="bibl2_p1"/>
+            <zone ulx="1130" uly="2870" lrx="2120" lry="3085" rendition="" xml:id="bibl2_p2"/>
         </surface>
 
         <surface n="5" xml:id="surf_notizie">
-            <graphic url="img/Biblio_Notizie.jpg" width='2273.66666px' height='3282.66666px'/>
-            <zone ulx="130" uly="287" lrx="1130" lry="746" rendition="" xml:id="bibl2_p3"/>
-            <zone ulx="130" uly="744" lrx="1130" lry="1586" rendition="" xml:id="bibl2_p4"/>
-            <zone ulx="130" uly="1589" lrx="1130" lry="2221" rendition="" xml:id="bibl2_p5"/>
-            <zone ulx="130" uly="2223" lrx="1130" lry="2736" rendition="" xml:id="bibl2_p6"/>
-            <zone ulx="130" uly="2769" lrx="1130" lry="2848" rendition="" xml:id="notizie_title"/>
-            <zone ulx="130" uly="2848" lrx="1130" lry="2995" rendition="" xml:id="notizia_1"/>
-            <zone ulx="130" uly="3002" lrx="1130" lry="3112" rendition="" xml:id="notizia_2"/>
-            <zone ulx="1150" uly="287" lrx="2145" lry="363" rendition="" xml:id="notizia_2_2"/>
+            <graphic url="img/Biblio_Notizie.jpg" width='2240px' height='3330px'/>
+            <zone ulx="130" uly="278" lrx="1115" lry="728" rendition="" xml:id="bibl2_p3"/>
+            <zone ulx="130" uly="732" lrx="1115" lry="1565" rendition="" xml:id="bibl2_p4"/>
+            <zone ulx="130" uly="1570" lrx="1115" lry="2188" rendition="" xml:id="bibl2_p5"/>
+            <zone ulx="130" uly="2185" lrx="1115" lry="2698" rendition="" xml:id="bibl2_p6"/>
+            <zone ulx="130" uly="2725" lrx="1115" lry="2798" rendition="" xml:id="notizie_title"/>
+            <zone ulx="130" uly="2802" lrx="1110" lry="2948" rendition="" xml:id="notizia_1"/>
+            <zone ulx="130" uly="2950" lrx="1115" lry="3075" rendition="" xml:id="notizia_2"/>
+            <zone ulx="1130" uly="282" lrx="2115" lry="352" rendition="" xml:id="notizia_2_2"/>
         </surface>
     </facsimile>
 
@@ -444,7 +444,7 @@
                             <lb n="129" break="no"/>menti;»</quote> chiaccherano molto in nome dell'arte, ma sono i
                             <lb n="130"/>primi ad offenderla <choice><orig>co'</orig><reg>coi</reg></choice> fatti; osteggiano, con una guerra
                             <lb n="131"/>sorda, i più valenti; seminano la zizzania: ed ecco <choice><orig>donde</orig><reg>da dove</reg></choice>
-                            <lb n="132"/>nascono la <term type="social">camorra</term> e la <term type="social">fiaccona</term>. I pochi egregi fanno <!-- forse al posto di term meglio distinct poi vediamo-->
+                            <lb n="132"/>nascono la <distinct type="literary" corresp="https://www.treccani.it/vocabolario/camorra1_(Sinonimi-e-Contrari)/">camorra</distinct> e la <distinct type="archaic" corresp="https://www.treccani.it/vocabolario/fiacca/">fiaccona</distinct>. I pochi egregi fanno <!-- forse al posto di term meglio distinct poi vediamo-->
                             <lb n="133"/>quello che possono, ma sono sforzi isolati: di qui i risul-
                             <lb n="134" break="no"/>tati parziali, non generali. Sarebbe, per esempio, necessario
                             <lb n="135"/>che alle cattedre d'<term type="music" ref="#armonia_elementare">armonia elementare</term> si desse tanta im-
@@ -2178,7 +2178,7 @@
                         <pb n="242" facs="#surf_bibliografia_1"/>
                         <cb n="2"/>
                         <div type="review" xml:id="rev1">
-                            <head type="sub">SCIENZE POLITICHE.</head>
+                            <head type="sub" facs="#bibl_subtitle">SCIENZE POLITICHE.</head>
 
                             <bibl facs="#bibl_1">
                                 <lb n="1"/><persName ref="#Janet">PAUL JANET</persName>. <title level="m" rend="italic" xml:id="SaintSimon_lib">Saint-Simon et le Saint-Simonisme</title>. - <placeName>Paris</placeName>,

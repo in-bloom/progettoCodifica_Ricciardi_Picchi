@@ -20,7 +20,7 @@
             </head>
             <body>
                 <nav id="indice">
-
+                    <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
                     <ul class="nav-links">
                         <xsl:for-each select="//tei:div[@type='article' or @type='bibliography' or @type='section']">
                             <li>
@@ -73,11 +73,8 @@
         </html>
     </xsl:template>
 
-    <!-- Inserire facsimile, trasforma le zone in dei rettangoli. Prima vanno aggiustati con ZoneRW -->
-
     <xsl:template match="tei:surface">
         <div class="facsimile-page" id="{@xml:id}">
-
             <svg class="facsimile-svg" preserveAspectRatio="xMidYMid meet">
                 <xsl:attribute name="viewBox">
                     <xsl:text>0 0 </xsl:text>
@@ -86,13 +83,15 @@
                     <xsl:value-of select="translate(tei:graphic/@height, 'px', '')"/>
                 </xsl:attribute>
 
-                <image x="0" y="0">
+                <image x="0" y="0" preserveAspectRatio="none">
                     <xsl:attribute name="width">
                         <xsl:value-of select="translate(tei:graphic/@width, 'px', '')"/>
                     </xsl:attribute>
+
                     <xsl:attribute name="height">
                         <xsl:value-of select="translate(tei:graphic/@height, 'px', '')"/>
                     </xsl:attribute>
+
                     <xsl:attribute name="href">
                         <xsl:value-of select="tei:graphic/@url"/>
                     </xsl:attribute>
@@ -143,21 +142,60 @@
     </xsl:template>
 
     <xsl:template match="tei:head">
-        <xsl:variable name="facs" select="translate(@facs, '#', '')"/>
-        <xsl:variable name="firstFacs">
-            <xsl:choose>
-                <xsl:when test="contains($facs, ' ')">
-                    <xsl:value-of select="substring-before($facs, ' ')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$facs"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
+        <xsl:choose>
+            <xsl:when test="@facs">
+                <xsl:variable name="facs" select="translate(@facs, '#', '')"/>
+                <xsl:variable name="firstFacs">
+                    <xsl:choose>
+                        <xsl:when test="contains($facs, ' ')">
+                            <xsl:value-of select="substring-before($facs, ' ')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$facs"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
 
-        <div class="titolo_articolo" id="text-{$firstFacs}" data-facs="{$facs}">
-            <xsl:apply-templates/>
-        </div>
+                <div class="titolo_articolo" id="text-{$firstFacs}" data-facs="{$facs}">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+
+            <xsl:otherwise>
+                <div class="titolo_articolo">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="tei:bibl">
+        <xsl:variable name="facs" select="translate(@facs, '#', '')"/>
+
+        <xsl:choose>
+            <xsl:when test="@facs">
+                <xsl:variable name="firstFacs">
+                    <xsl:choose>
+                        <xsl:when test="contains($facs, ' ')">
+                            <xsl:value-of select="substring-before($facs, ' ')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$facs"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+                <div class="paragrafo bibl-entry" id="text-{$firstFacs}" data-facs="{$facs}">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+
+            <xsl:otherwise>
+                <div class="paragrafo bibl-entry">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="tei:p">

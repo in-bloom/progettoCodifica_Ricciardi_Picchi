@@ -20,6 +20,12 @@ body {
   font-family: Georgia, "Times New Roman", serif;
 }
 
+h1{
+  font-size: large;
+  color: #f3f4f6;
+}
+
+
 /* NAVIGAZIONE */
 
 #indice {
@@ -46,7 +52,7 @@ body {
 .nav-links a {
   color: #f3f4f6;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: x-small;
   letter-spacing: 0.03em;
   padding: 0.45rem 0.7rem;
   border-radius: 6px;
