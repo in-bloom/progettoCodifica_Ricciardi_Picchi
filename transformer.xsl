@@ -198,6 +198,22 @@
     <xsl:template match="tei:date">
         <span class="date"><xsl:apply-templates/></span>
     </xsl:template>
+    
+    <xsl:template match="tei:note">
+        <xsl:choose>
+            <xsl:when test="@place = 'foot'">
+                <div class="footnote">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+
+            <xsl:otherwise>
+                <span class="note">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
     <xsl:template match="tei:term">
         <xsl:variable name="reference" select="translate(@ref, '#', '')"/>
@@ -255,6 +271,13 @@
         <em>
             <xsl:apply-templates/>
         </em>
+    </xsl:template>
+
+    <xsl:template match="tei:space">
+        <span style="width: 10em;">
+        </span>
+        <xsl:apply-templates/>
+
     </xsl:template>
 
 </xsl:stylesheet>

@@ -1635,6 +1635,13 @@
                             <lb n="106"/>corrente politica, che da un anno e mezzo ha deviato da quello
                             <lb n="107"/>scopo, nella direzione verso cui si muoveva finché anda-
                             <lb n="108" break="no"/>rono a vuoto le trattative di <placeName ref="#Varzin">Varzin</placeName> fra il <persName ref="#Bismarck">Bismarck</persName> e il
+                            <note xml:id="nota_art3_p4" place="foot" hand="editor">
+                                <p>
+                                    <lb />* Queste previsioni non si sono avverate. Un telegramma del 30 da <placeName ref="#Berlino">Berlino</placeName>
+                                    <lb/>reca che alla <orgName ref="#Camera_dei_deputati_prussiani">Presidenza della Camera</orgName> è stato eletto <persName ref="#Köller">Köller</persName> con 218 voti,
+                                    <lb/>contro 161 ottenuti dal <persName ref="#Bennigsen">Bennigsen</persName>. <choice><abbr>N. d. D.</abbr><expan>Nota del Direttore</expan></choice>
+                                </p>
+                            </note>
                             <pb n="299" facs="#surf_art_3_2"/>
                             <cb n="1"/>
                             <lb n="109"/><persName ref="#Bennigsen">Bennigsen</persName>. La maggiore difficoltà per una cooperazione fra
@@ -1642,14 +1649,6 @@
                             <lb n="111"/>che comincerà a giorni, è venuta formandosi nelle ultime
                             <lb n="112"/>settimane per l'azione del nuovo <roleName>Ministro dei culti e del-
                             <lb n="113" break="no"/>l'istruzione</roleName>, <persName ref="#Puttkamer">Puttkamer</persName>.
-
-                            <note xml:id="nota_art3_p4" place="foot" hand="editor">
-                                <p>
-                                    Queste previsioni non si sono avverate. Un telegramma del 30 da <placeName ref="#Berlino">Berlino</placeName>
-                                    reca che alla <orgName ref="#Camera_dei_deputati_prussiani">Presidenza della Camera</orgName> è stato eletto <persName ref="#Köller">Köller</persName> con 218 voti,
-                                    contro 161 ottenuti dal <persName ref="#Bennigsen">Bennigsen</persName>. <choice><abbr>N. d. D.</abbr><expan>Nota del Direttore</expan></choice>
-                                </p>
-                            </note>
                         </p>
                         <p facs="#art3_p6">
                             <lb n="114"/>Anche i <choice><orig>fogli</orig><reg>giornali</reg></choice> italiani avranno dato notizia del conflitto
