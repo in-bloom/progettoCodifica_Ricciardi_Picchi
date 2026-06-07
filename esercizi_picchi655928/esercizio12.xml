@@ -1,4 +1,4 @@
-git <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     Filename: lettera_bellini_facsimile.xml
     Author: Elisabetta Picchi
@@ -30,31 +30,14 @@ git <?xml version="1.0" encoding="UTF-8"?>
     </teiHeader>
 
     <facsimile>
-        <surface xml:id="facsimile_bellini" n="1">
-            <graphic url="lettera_bellini_facsimile.png" width="297px" height="197px"/>
-
-            <!-- Zone generali della pagina -->
-            <zone xml:id="z_recto_sinistra" ulx="0" uly="0" lrx="149" lry="197"/>
-            <zone xml:id="z_verso_destra" ulx="149" uly="0" lrx="297" lry="197"/>
-
-            <!-- Zone della parte sinistra: indirizzo, timbri e testo ruotato -->
-            <zone xml:id="z_addr_1" ulx="6" uly="41" lrx="142" lry="86"/>
-            <zone xml:id="z_addr_2" ulx="6" uly="86" lrx="145" lry="126"/>
-            <zone xml:id="z_stamp_1" ulx="11" uly="128" lrx="55" lry="172"/>
-            <zone xml:id="z_rotated_text" ulx="85" uly="112" lrx="143" lry="190"/>
-
-            <!-- Zone della parte destra: righe della lettera -->
-            <zone xml:id="z_l1" ulx="167" uly="24" lrx="292" lry="38"/>
-            <zone xml:id="z_l2" ulx="163" uly="45" lrx="293" lry="57"/>
-            <zone xml:id="z_l3" ulx="161" uly="59" lrx="294" lry="72"/>
-            <zone xml:id="z_l4" ulx="159" uly="74" lrx="293" lry="88"/>
-            <zone xml:id="z_l5" ulx="156" uly="90" lrx="294" lry="104"/>
-            <zone xml:id="z_l6" ulx="155" uly="107" lrx="294" lry="121"/>
-            <zone xml:id="z_l7" ulx="154" uly="123" lrx="294" lry="137"/>
-            <zone xml:id="z_l8" ulx="153" uly="139" lrx="294" lry="153"/>
-            <zone xml:id="z_l9" ulx="152" uly="155" lrx="294" lry="169"/>
-            <zone xml:id="z_l10" ulx="151" uly="171" lrx="294" lry="185"/>
-            <zone xml:id="z_l11" ulx="178" uly="183" lrx="294" lry="196"/>
+        <surface xml:id="lettera_bellini">
+            <graphic url="lettera_bellini.png" width="1306" height="884"/>
+            <zone ulx="20" uly="28" lrx="638" lry="145" rendition="" xml:id="verde"/>
+            <zone ulx="25" uly="152" lrx="638" lry="504" rendition="" xml:id="celeste"/>
+            <zone ulx="26" uly="514" lrx="639" lry="869" rendition="" xml:id="blu"/>
+            <zone ulx="649" uly="22" lrx="1285" lry="116" rendition="" xml:id="rosso"/>
+            <zone ulx="700" uly="125" lrx="1272" lry="838" rendition="" xml:id="arancio"/>
+            <zone ulx="984" uly="786" lrx="1272" lry="859" rendition="" xml:id="fucsia"/>
         </surface>
     </facsimile>
 
