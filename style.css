@@ -1,16 +1,85 @@
 /* RESET */
 
+/* Stile per la sezione delle immagini */
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#indice {
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  z-index: 20;
+}
+
+#text-section {
+  grid-column: 1;
+  grid-row: 2;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+#image-section {
+  grid-column: 2;
+  grid-row: 2;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-left: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.facsimile-page {
+  min-height: calc(100vh - 120px);
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.facsimile-page h3 {
+  margin: 0 0 0.8rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.facsimile-svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: calc(100vh - 140px);
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+
+.facsimile-zone {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 4;
+  pointer-events: all;
+}
+
+.facsimile-zone:hover {
+  fill: rgba(255, 255, 0, 0.25);
+  stroke: rgba(255, 0, 0, 0.9);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Georgia, "Times New Roman", serif;
-    background-color: #f5f3ee;
-    color: #222;
-    line-height: 1.6;
 }
 
 /* NAVIGAZIONE */
@@ -47,24 +116,6 @@ main,
 .edizione {
     display: flex;
     min-height: calc(100vh - 60px);
-}
-
-/* COLONNA IMMAGINI */
-
-#image-section {
-    width: 50%;
-    background: #ddd;
-    padding: 2rem;
-    overflow-y: auto;
-    border-right: 1px solid #bbb;
-}
-
-/* COLONNA TESTO */
-
-#text-section {
-    width: 50%;
-    padding: 3rem;
-    overflow-y: auto;
 }
 
 /* ARTICOLI */
@@ -309,25 +360,4 @@ body {
 
 .footnote p {
     margin: 0.3rem 0;
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 1100px) {
-
-    main,
-    .edizione {
-        flex-direction: column;
-    }
-
-    #image-section,
-    #text-section {
-        width: 100%;
-    }
-
-    #image-section {
-        border-right: none;
-        border-bottom: 1px solid #bbb;
-    }
-
 }
