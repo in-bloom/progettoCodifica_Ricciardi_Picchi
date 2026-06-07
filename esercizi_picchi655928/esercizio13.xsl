@@ -1,50 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet 
-    version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs tei">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
+                version="1.0">
 
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
-    <xsl:variable name="titoloPagina" select="'Esercizio XSLT'"/>
-
-    <xsl:param name="mostraNote" select="'si'"/>
+    <xsl:param name="visualizzaSommario" select="'true'"/>
+    <xsl:param name="colorePrincipale" select="'darkred'"/>
+    <xsl:param name="titoloIndice" select="'SOMMARIO'"/>
 
     <xsl:template match="/">
         <html>
             <head>
+
+                <xsl:variable name="titoloPagina"
+                              select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+
                 <title>
                     <xsl:value-of select="$titoloPagina"/>
                 </title>
+
+                <link rel="stylesheet" type="text/css" href="./mycss.css"/>
+
+                <style>
+                    h1 {
+                        color: <xsl:value-of select="$colorePrincipale"/>;
+                    }
+
+                    .scheda-documento {
+                        margin-bottom: 1em;
+                        font-style: italic;
+                    }
+                </style>
             </head>
 
             <body>
-                <h1>
-                    <xsl:value-of select="$titoloPagina"/>
-                </h1>
 
-                <xsl:call-template name="mostra-intestazione">
-                    <xsl:with-param name="testo" select="'Documento trasformato con XSLT'"/>
-                </xsl:call-template>
+                <xsl:if test="$visualizzaSommario = 'true'">
+                    <xsl:call-template name="creaSommario"/>
+                </xsl:if>
 
-                <div>
-                    <xsl:apply-templates/>
+                <div class="contenuto">
+
+                    <xsl:call-template name="infoDocumento"/>
+
+                    <xsl:apply-templates select="tei:TEI"/>
                 </div>
+
             </body>
         </html>
     </xsl:template>
 
-    <xsl:template name="mostra-intestazione">
-        <xsl:param name="testo"/>
+    <xsl:template name="creaSommario">
+        <div class="index">
+            <h1>
+                <xsl:value-of select="$titoloIndice"/>
+            </h1>
 
-        <div class="intestazione">
-            <p>
-                <xsl:value-of select="$testo"/>
-            </p>
+            <ul>
+                <xsl:apply-templates select="//tei:div[@type='chapter']" mode="sommario"/>
+            </ul>
         </div>
+    </xsl:template>
+
+    <xsl:template name="infoDocumento">
+
+        <xsl:variable name="codiceDocumento" select="/tei:TEI/@xml:id"/>
+
+        <div class="scheda-documento">
+            <span>
+                Documento:
+                <xsl:choose>
+                    <xsl:when test="$codiceDocumento">
+                        <xsl:value-of select="$codiceDocumento"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        identificativo non disponibile
+                    </xsl:otherwise>
+                </xsl:choose>
+            </span>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:TEI">
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="tei:teiHeader">
+        <div class="teiHeader">
+            <xsl:apply-templates select="tei:fileDesc/tei:titleStmt"/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:titleStmt">
+        <div class="titleStmt">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:titleStmt/tei:title">
+        <h2>
+            <xsl:value-of select="."/>
+        </h2>
     </xsl:template>
 
     <xsl:template match="tei:text">
@@ -53,22 +111,28 @@
         </main>
     </xsl:template>
 
-    <xsl:template match="tei:div">
-        <section>
-            <xsl:if test="@type">
-                <xsl:attribute name="class">
-                    <xsl:value-of select="@type"/>
-                </xsl:attribute>
-            </xsl:if>
+    <xsl:template match="tei:body">
+        <xsl:apply-templates/>
+    </xsl:template>
 
+    <xsl:template match="tei:div" mode="sommario">
+        <li>
+            <a href="#{@xml:id}">
+                <xsl:value-of select="tei:head"/>
+            </a>
+        </li>
+    </xsl:template>
+
+    <xsl:template match="tei:div[@type='chapter']">
+        <section class="capitolo" id="{@xml:id}">
             <xsl:apply-templates/>
         </section>
     </xsl:template>
 
-    <xsl:template match="tei:head">
-        <h2>
-            <xsl:apply-templates/>
-        </h2>
+    <xsl:template match="tei:div/tei:head">
+        <h3>
+            <xsl:value-of select="."/>
+        </h3>
     </xsl:template>
 
     <xsl:template match="tei:p">
@@ -77,38 +141,17 @@
         </p>
     </xsl:template>
 
-    <xsl:template match="tei:name | tei:persName | tei:placeName">
-        <span class="nome">
-            <xsl:apply-templates/>
+    <xsl:template match="tei:persName">
+        <span class="persona">
+            <a>
+                <xsl:attribute name="href">
+                    <xsl:text>#</xsl:text>
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
+
+                <xsl:value-of select="."/>
+            </a>
         </span>
-    </xsl:template>
-
-    <xsl:template match="tei:term">
-        <span class="termine">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-    <xsl:template match="tei:note">
-        <xsl:if test="$mostraNote = 'si'">
-            <span class="nota">
-                <xsl:text> [Nota: </xsl:text>
-                <xsl:apply-templates/>
-                <xsl:text>]</xsl:text>
-            </span>
-        </xsl:if>
-    </xsl:template>
-
-    <xsl:template match="tei:list">
-        <ul>
-            <xsl:apply-templates/>
-        </ul>
-    </xsl:template>
-
-    <xsl:template match="tei:item">
-        <li>
-            <xsl:apply-templates/>
-        </li>
     </xsl:template>
 
 </xsl:stylesheet>

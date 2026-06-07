@@ -12,8 +12,11 @@
             <titleStmt>
                 <title>Lettera Bellini: edizione image-based</title>
                 <respStmt>
-                    <resp>Trascrizione e codifica XML-TEI a cura di</resp>
-                    <name>Elisabetta Picchi</name>
+                    <resp>Trascrizione e codifica XML-TEI P5 a cura di</resp>
+                    <persName xml:id="Elisabetta_Picchi">
+                        <name>Elisabetta</name>
+                        <surname>Picchi</surname>
+                    </persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -22,8 +25,7 @@
             </publicationStmt>
             <sourceDesc>
                 <p>
-                    Lettera attribuita a Bellini, codificata a partire dall'immagine fornita
-                    per l'esercizio sulle edizioni image-based.
+                    Lettera attribuita a Bellini, compositore del '800
                 </p>
             </sourceDesc>
         </fileDesc>
@@ -31,121 +33,102 @@
 
     <facsimile>
         <surface xml:id="lettera_bellini">
+
             <graphic url="lettera_bellini.png" width="1306" height="884"/>
-            <zone ulx="20" uly="28" lrx="638" lry="145" rendition="" xml:id="verde"/>
-            <zone ulx="25" uly="152" lrx="638" lry="504" rendition="" xml:id="celeste"/>
-            <zone ulx="26" uly="514" lrx="639" lry="869" rendition="" xml:id="blu"/>
+            <zone ulx="21" uly="28" lrx="638" lry="146" rendition="" xml:id="verde"/>
+            <zone ulx="26" uly="514" lrx="639" lry="870" rendition="" xml:id="azzurro"/>
+            <zone ulx="24" uly="152" lrx="638" lry="505" rendition="" xml:id="celeste"/>
             <zone ulx="649" uly="22" lrx="1285" lry="116" rendition="" xml:id="rosso"/>
-            <zone ulx="700" uly="125" lrx="1272" lry="838" rendition="" xml:id="arancio"/>
-            <zone ulx="984" uly="786" lrx="1272" lry="859" rendition="" xml:id="fucsia"/>
+            <zone ulx="984" uly="786" lrx="1272" lry="859" rendition="" xml:id="rosa"/>
+            <zone ulx="700" uly="125" lrx="1272" lry="838" rendition="" xml:id="arancione"/>
+
         </surface>
     </facsimile>
 
     <text>
         <body>
-            <div type="letter" facs="#z_verso_destra">
-                <opener>
-                    <dateline facs="#z_l1">
-                        <lb n="1" facs="#z_l1"/>
-                        <date when="1835-01-08">8 Gennaio 1835</date>
-                    </dateline>
-                    <salute facs="#z_l2">
-                        <lb n="2" facs="#z_l2"/>
-                        <unclear>Cara</unclear>
-                        <rs type="person">sorella</rs>
-                    </salute>
-                </opener>
 
+            <div type="letter" xml:id="lettera" facs="#lettera_bellini">
+
+                <div type="mark" facs="#verde">
                 <p>
-                    <lb n="3" facs="#z_l3"/>
-                    <unclear>Quando</unclear>
-                    <unclear>fosti</unclear>
-                    <unclear>così</unclear>
-                    <unclear>mia</unclear>
+                    <stamp type="postmark">
+                    <desc>Timbro postale nella parte superiore sinistra</desc>
+                    </stamp>
+                </p>
+                </div>
 
-                    <lb n="4" facs="#z_l4"/>
-                    <unclear>a me</unclear>
-                    <gap reason="illegible" quantity="3" unit="words"/>
-                    <unclear>non</unclear>
+                <div type="address" facs="#celeste">
+                <address>
+                    <addrLine>
+                    <persName>
+                        <unclear>Monsieur</unclear>
+                    </persName>
+                    </addrLine>
 
-                    <lb n="5" facs="#z_l5"/>
-                    <unclear>operar</unclear>
-                    <unclear>che</unclear>
-                    <unclear>un</unclear>
+                    <addrLine>
+                    <unclear>Monsieur <gap reason="illegible"></gap>Pepoli</unclear>
+                    </addrLine>
 
-                    <lb n="6" facs="#z_l6"/>
-                    <unclear>immenso</unclear>
-                    <unclear>servizio</unclear>
-                    <unclear>a</unclear>
+                    <addrLine>
+                    <placeName>à Paris</placeName>
+                    </addrLine>
+                </address>
 
-                    <lb n="7" facs="#z_l7"/>
-                    <unclear>codesto</unclear>
-                    <unclear>e</unclear>
-                    <unclear>non</unclear>
-                    <unclear>sapendo</unclear>
+                <stamp type="postmark">
+                    <desc>Timbro circolare</desc>
+                </stamp>
+                </div>
 
-                    <lb n="8" facs="#z_l8"/>
-                    <unclear>mai</unclear>
-                    <unclear>ringraziare</unclear>
-                    <unclear>la</unclear>
-
-                    <lb n="9" facs="#z_l9"/>
-                    <unclear>buona</unclear>
-                    <unclear>e</unclear>
-                    <unclear>...</unclear>
-
-                    <lb n="10" facs="#z_l10"/>
-                    <unclear>nostra</unclear>
-                    <unclear>povera</unclear>
-                    <unclear>figlia</unclear>
-
-                    <lb n="11" facs="#z_l11"/>
-                    <unclear>così</unclear>
-                    <unclear>...</unclear>
+                <div type="mark" facs="#azzurro">
+                <p>
+                    <stamp type="postmark">
+                    <desc>Timbro postale nella parte inferiore sinistra</desc>
+                    </stamp>
                 </p>
 
+                <p>
+                    <gap reason="illegible" extent="unknown"/>
+                </p>
+                </div>
+
+                <div type="opener" facs="#rosso">
+                <opener>
+                    <dateline>
+                    <date when="26"><unclear>Juin</unclear> 26:</date>
+                    <placeName>Puteau</placeName>
+                    </dateline>
+                </opener>
+                </div>
+
+                <div type="message" facs="#arancione">
+                <p>
+                    <unclear>Mio caro <gap reason="illegible"></gap></unclear>
+                    <s>Avendo steso l'intero duetto</s>
+                    <s>e mancando in <gap reason="illegible"></gap> qualche</s>
+                    <s>cosetta, desidererei che tu</s>
+                    <s>t'incomodassi a venire a'</s>
+                    <s>Puteau per tutto finire, e</s>
+                    <s>nell'intero tempo darmi la</s>
+                    <s>sortita di <gap reason="illegible"></gap>, se è termi-</s>
+                    <s>nata. T'aspetto in qual giorno</s>
+                    <s>ed in qual'ora sappi. - Addio</s>
+                </p>
+
+                </div>
+
+                <div type="closer" facs="#rosa">
                 <closer>
                     <signed>
-                        <gap reason="illegible" quantity="1" unit="word"/>
+                    <persName>
+                        <unclear><gap reason="illegible"></gap> Bellini</unclear>
+                    </persName>
                     </signed>
                 </closer>
+                </div>
+
             </div>
 
-            <div type="address" facs="#z_recto_sinistra">
-                <head>Indirizzo e segni postali</head>
-
-                <p facs="#z_addr_1">
-                    <lb n="a1" facs="#z_addr_1"/>
-                    <gap reason="illegible" quantity="1" unit="line"/>
-                </p>
-
-                <p facs="#z_addr_2">
-                    <lb n="a2" facs="#z_addr_2"/>
-                    <gap reason="illegible" quantity="1" unit="line"/>
-                </p>
-
-                <stamp facs="#z_stamp_1" type="postmark">
-                    <p>
-                        <gap reason="illegible" quantity="1" unit="stamp"/>
-                    </p>
-                </stamp>
-
-                <p facs="#z_rotated_text" rend="rotated">
-                    <lb n="a3" facs="#z_rotated_text"/>
-                    <gap reason="illegible" quantity="1" unit="line"/>
-                </p>
-            </div>
-
-            <div type="editorialNote">
-                <head>Nota alla trascrizione</head>
-                <p>
-                    La trascrizione è conservativa: le parole non leggibili con sicurezza sono marcate con
-                    <gi>unclear</gi>, mentre le porzioni completamente illeggibili sono marcate con
-                    <gi>gap</gi>. Il collegamento testo-immagine è realizzato con l'attributo
-                    <att>facs</att> su <gi>div</gi>, <gi>p</gi>, <gi>dateline</gi>, <gi>salute</gi>
-                    e <gi>lb</gi>, che puntano alle rispettive <gi>zone</gi> del facsimile.
-                </p>
-            </div>
         </body>
     </text>
 </TEI>

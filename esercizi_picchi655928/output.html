@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Testo di prova per trasformazione XSLT</title>
+      <link rel="stylesheet" type="text/css" href="./mycss.css">
+      <style>
+                    h1 {
+                        color: darkred;
+                    }
+
+                    .scheda-documento {
+                        margin-bottom: 1em;
+                        font-style: italic;
+                    }
+                </style>
+   </head>
+   <body>
+      <div class="index">
+         <h1>SOMMARIO</h1>
+         <ul>
+            <li><a href="#capitolo_1">Primo capitolo</a></li>
+            <li><a href="#capitolo_2">Secondo capitolo</a></li>
+         </ul>
+      </div>
+      <div class="contenuto">
+         <div class="scheda-documento"><span>
+               Documento:
+               test_documento_alternativo</span></div>
+         
+         
+         <div class="teiHeader">
+            <div class="titleStmt">
+               
+               <h2>Testo di prova per trasformazione XSLT</h2>
+               
+               
+               Codifica TEI a cura di
+               <span class="persona"><a href="#Elisabetta_Picchi">Elisabetta Picchi</a></span>
+               
+               </div>
+         </div>
+         
+         
+         <main>
+            
+            
+            
+            <section class="capitolo" id="capitolo_1">
+               
+               <h3>Primo capitolo</h3>
+               
+               
+               <p>
+                  Questo è un paragrafo di prova in cui compare
+                  <span class="persona"><a href="#Mario_Rossi">Mario Rossi</a></span>.
+                  </p>
+               
+               
+               <p>
+                  Nel testo viene citata anche
+                  <span class="persona"><a href="#Anna_Verdi">Anna Verdi</a></span>,
+                  così da verificare la trasformazione dei nomi di persona.
+                  </p>
+               </section>
+            
+            
+            <section class="capitolo" id="capitolo_2">
+               
+               <h3>Secondo capitolo</h3>
+               
+               
+               <p>
+                  In questo secondo capitolo compare
+                  <span class="persona"><a href="#Luca_Neri">Luca Neri</a></span>.
+                  </p>
+               
+               
+               <p>
+                  Il documento serve a controllare titolo, sommario,
+                  identificativo e trasformazione dei paragrafi.
+                  </p>
+               </section>
+            
+            
+            </main>
+         
+         </div>
+   </body>
+</html>

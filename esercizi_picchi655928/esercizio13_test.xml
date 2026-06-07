@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="esercizio13.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="test_documento_alternativo" xml:lang="it">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Testo di prova per trasformazione XSLT</title>
+
+                <respStmt>
+                    <resp>Codifica TEI a cura di</resp>
+                    <persName xml:id="Elisabetta_Picchi">Elisabetta Picchi</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date when="2026">2026</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Documento creato per testare un foglio di trasformazione XSLT.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="chapter" xml:id="capitolo_1">
+                <head>Primo capitolo</head>
+
+                <p>
+                    Questo è un paragrafo di prova in cui compare
+                    <persName xml:id="Mario_Rossi">Mario Rossi</persName>.
+                </p>
+
+                <p>
+                    Nel testo viene citata anche
+                    <persName xml:id="Anna_Verdi">Anna Verdi</persName>,
+                    così da verificare la trasformazione dei nomi di persona.
+                </p>
+            </div>
+
+            <div type="chapter" xml:id="capitolo_2">
+                <head>Secondo capitolo</head>
+
+                <p>
+                    In questo secondo capitolo compare
+                    <persName xml:id="Luca_Neri">Luca Neri</persName>.
+                </p>
+
+                <p>
+                    Il documento serve a controllare titolo, sommario,
+                    identificativo e trasformazione dei paragrafi.
+                </p>
+            </div>
+
+        </body>
+    </text>
+
+</TEI>
