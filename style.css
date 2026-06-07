@@ -1,31 +1,75 @@
-/* RESET */
+/* RESET E BASE */
 
-/* Stile per la sezione delle immagini */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 38% 62%;
   grid-template-rows: auto 1fr;
   height: 100vh;
   overflow: hidden;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-family: Georgia, "Times New Roman", serif;
 }
+
+/* NAVIGAZIONE */
 
 #indice {
   grid-column: 1 / 3;
   grid-row: 1;
-  padding: 1rem;
-  border-bottom: 1px solid #ddd;
-  background-color: white;
-  z-index: 20;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #4b5563;
+  padding: 1rem 1.5rem;
 }
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #f3f4f6;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  padding: 0.45rem 0.7rem;
+  border-radius: 6px;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #9ca3af;
+  color: #1f2937;
+}
+
+/* LAYOUT GENERALE */
 
 #text-section {
   grid-column: 1;
   grid-row: 2;
   height: calc(100vh - 80px);
   overflow-y: auto;
-  padding: 2rem;
-  box-sizing: border-box;
+  padding: 2.4rem 1.5rem 2.4rem 3.2rem;
+  background-color: #f3f4f6;
+  color: #1f2937;
 }
 
 #image-section {
@@ -34,265 +78,105 @@ body {
   height: calc(100vh - 80px);
   overflow-y: auto;
   padding: 1rem;
-  box-sizing: border-box;
-  border-left: 1px solid #ddd;
-  background-color: #f7f7f7;
-}
-
-.facsimile-page {
-  min-height: calc(100vh - 120px);
-  margin-bottom: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.facsimile-page h3 {
-  margin: 0 0 0.8rem 0;
-  text-align: center;
-  font-size: 1rem;
-}
-
-.facsimile-svg {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  max-height: calc(100vh - 140px);
-  height: auto;
-  background-color: white;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
-}
-
-.facsimile-zone {
-  fill: transparent;
-  stroke: transparent;
-  stroke-width: 4;
-  pointer-events: all;
-}
-
-.facsimile-zone:hover {
-  fill: rgba(255, 255, 0, 0.25);
-  stroke: rgba(255, 0, 0, 0.9);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* NAVIGAZIONE */
-
-#indice {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: #2f2f2f;
-    padding: 1rem;
-}
-
-.nav-links {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    justify-content: center;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: .9rem;
-    letter-spacing: .03em;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
-/* LAYOUT GENERALE */
-
-main,
-.edizione {
-    display: flex;
-    min-height: calc(100vh - 60px);
+  border-left: none;
+  background-color: #f3f4f6;
 }
 
 /* ARTICOLI */
 
 .articolo {
-    max-width: 850px;
-    margin: 0 auto 5rem auto;
+  width: 100%;
+  max-width: none;
+  margin: 0 0 5rem 0;
 }
 
 .titolo_articolo {
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #222;
-    padding-bottom: .5rem;
+  font-size: 1.65rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 0.6rem;
+  color: #1f2937;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .paragrafo {
-    margin-bottom: 1.5rem;
-    text-align: justify;
+  margin-bottom: 1.6rem;
+  text-align: justify;
+  line-height: 1.45;
+  color: #1f2937;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .page-break {
-    margin: 3rem 0;
-    text-align: center;
-    color: #777;
-    font-size: .9rem;
-    border-top: 1px dashed #bbb;
-    border-bottom: 1px dashed #bbb;
-    padding: .5rem;
+  margin: 3rem 0;
+  text-align: center;
+  color: #4b5563;
+  font-size: 0.9rem;
+  padding: 0.5rem;
 }
 
 /* ELEMENTI TEI */
 
-.persName {
-    color: #004a99;
-}
-
-.placeName {
-    color: #006b3d;
-}
-
-.orgName {
-    color: #7b3f00;
-}
-
+.persName,
+.placeName,
+.orgName,
 .date {
-    color: #8a0066;
+  color: #1f2937;
+  font-weight: 600;
 }
 
 .choice .diplomatic {
-    display: none;
+  display: none;
+}
+
+.interpretative {
+  font-weight: bold;
+  display: none;
 }
 
 /* GLOSSARIO */
 
 .term,
 .distinct {
-    position: relative;
-    cursor: help;
-    border-bottom: 1px dotted #444;
+  position: relative;
+  cursor: help;
+  color: #1f2937;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.18em;
+}
+
+.term:hover,
+.distinct:hover {
+  background-color: rgba(156, 163, 175, 0.35);
 }
 
 .term_content {
-    display: none;
-
-    position: absolute;
-    bottom: 120%;
-    left: 50%;
-
-    transform: translateX(-50%);
-
-    width: 260px;
-
-    padding: .75rem;
-
-    background: #fff;
-    border: 1px solid #aaa;
-    border-radius: 6px;
-
-    font-size: .85rem;
-    line-height: 1.4;
-
-    box-shadow: 0 3px 10px rgba(0,0,0,.15);
-
-    z-index: 1000;
+  display: none;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  padding: 0.75rem;
+  background-color: #1f2937;
+  color: #f3f4f6;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  box-shadow: 0 8px 18px rgba(31, 41, 55, 0.25);
+  z-index: 1000;
 }
 
-.term:hover .term_content {
-    display: block;
+.term:hover .term_content,
+.distinct:hover .term_content {
+  display: block;
 }
 
-/* IMMAGINI PAGINA */
-
-.page-image {
-    position: relative;
-    margin-bottom: 2rem;
-}
-
-.page-image img {
-    width: 100%;
-    display: block;
-    border: 1px solid #aaa;
-}
-
-/* ZONE */
-
-.zone {
-    position: absolute;
-    border: 2px solid rgba(200,0,0,.4);
-    background: rgba(255,0,0,.08);
-    transition: .2s;
-}
-
-.zone:hover {
-    background: rgba(255,0,0,.25);
-}
-
-/* EVIDENZIAZIONE TESTO-IMMAGINE */
-
-.highlight {
-    background-color: #ffe08a;
-}
-
-/* NOTE */
-
-.footnote {
-    margin-top: 2rem;
-    padding-top: 0.5rem;
-
-    border-top: 1px solid #666;
-
-    font-size: 0.85em;
-    line-height: 1.4;
-
-    color: #444;
-}
-
-/* Stile per la sezione delle immagini */
-body {
-  margin: 0;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto 1fr;
-  height: 100vh;
-  overflow: hidden;
-}
-
-#indice {
-  grid-column: 1 / 3;
-  grid-row: 1;
-  padding: 1rem;
-  border-bottom: 1px solid #ddd;
-  background-color: white;
-  z-index: 20;
-}
-
-#text-section {
-  grid-column: 1;
-  grid-row: 2;
-  height: calc(100vh - 80px);
-  overflow-y: auto;
-  padding: 2rem;
-  box-sizing: border-box;
-}
-
-#image-section {
-  grid-column: 2;
-  grid-row: 2;
-  height: calc(100vh - 80px);
-  overflow-y: auto;
-  padding: 0.8rem;
-  box-sizing: border-box;
-  border-left: 1px solid #ddd;
-  background-color: #f5f2ed;
-}
+/* FACSIMILI */
 
 .facsimile-page {
   margin-bottom: 3rem;
@@ -305,59 +189,59 @@ body {
   margin: 0.5rem 0 0.8rem 0;
   text-align: center;
   font-size: 1rem;
+  color: #1f2937;
 }
 
 .facsimile-svg {
   display: block;
   width: 100%;
   height: auto;
-  background-color: white;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.28);
+  background-color: #f3f4f6;
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.22);
 }
 
 /* Rettangoli invisibili normalmente */
 .facsimile-zone {
   fill: transparent;
   stroke: transparent;
-  stroke-width: 6;
+  stroke-width: 0;
   pointer-events: all;
   cursor: pointer;
   transition:
     fill 0.2s ease,
-    stroke 0.2s ease,
     filter 0.2s ease;
 }
 
-/* Hover più carino */
+/* Hover senza bordo */
 .facsimile-zone:hover {
-  fill: rgba(255, 210, 80, 0.25);
-  stroke: rgba(180, 90, 0, 0.95);
-  filter: drop-shadow(0 0 6px rgba(180, 90, 0, 0.65));
+  fill: rgba(156, 163, 175, 0.229);
+  stroke: transparent;
+  filter: drop-shadow(0 0 8px rgba(31, 41, 55, 0.35));
 }
 
-/* Rettangolo evidenziato dopo il click */
+/* Rettangolo evidenziato dopo il click, senza bordo */
 .facsimile-zone.active-facs {
-  fill: rgba(255, 210, 80, 0.35);
-  stroke: rgba(180, 60, 0, 1);
-  filter: drop-shadow(0 0 8px rgba(180, 60, 0, 0.8));
+  fill: rgba(156, 163, 175, 0.351);
+  stroke: transparent;
+  filter: drop-shadow(0 0 10px rgba(31, 41, 55, 0.42));
 }
 
-/* Paragrafi cliccabili */
-.paragrafo,
-.titolo_articolo {
-  cursor: pointer;
-  transition:
-    background-color 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-/* Evidenziazione del testo dopo click sul facsimile */
+/* Evidenziazione testo dopo click sul facsimile, senza bordo */
 .paragrafo.active-text,
 .titolo_articolo.active-text {
-  background-color: rgba(255, 230, 130, 0.45);
-  box-shadow: inset 4px 0 0 rgba(180, 90, 0, 0.9);
+  background-color: rgba(156, 163, 175, 0.35);
+}
+
+/* NOTE */
+
+.footnote {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  font-size: 0.85em;
+  line-height: 1.4;
+  color: #1f2937;
 }
 
 .footnote p {
-    margin: 0.3rem 0;
+  margin: 0.3rem 0;
 }
