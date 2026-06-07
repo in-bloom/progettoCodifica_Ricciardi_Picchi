@@ -125,14 +125,6 @@ body {
 
 /* ELEMENTI TEI */
 
-.persName,
-.placeName,
-.orgName,
-.date {
-  color: #1f2937;
-  font-weight: 600;
-}
-
 .choice .diplomatic {
   display: none;
 }
@@ -249,4 +241,49 @@ body {
 
 .footnote p {
   margin: 0.3rem 0;
+}
+
+.highlight-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.8rem;
+}
+
+.highlight-buttons button {
+  margin: 0.2rem;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-family: inherit;
+}
+
+.highlight-buttons button:hover {
+  background-color: #d1d5db;
+}
+
+.highlighted-entity {
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.highlighted-persName {
+  color: #dc2626 !important;
+}
+
+.highlighted-placeName {
+  color: #2563eb !important;
+}
+
+.highlighted-orgName {
+  color: #16a34a !important;
+}
+
+.highlighted-date {
+  color: #ca8a04 !important;
 }
