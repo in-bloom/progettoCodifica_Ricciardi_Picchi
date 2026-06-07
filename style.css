@@ -406,3 +406,28 @@ h1{
 #reset-highlights {
   margin-top: 0.25rem;
 }
+
+.footnote p {
+    margin: 0.3rem 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
+
+    main,
+    .edizione {
+        flex-direction: column;
+    }
+
+    #image-section,
+    #text-section {
+        width: 100%;
+    }
+
+    #image-section {
+        border-right: none;
+        border-bottom: 1px solid #bbb;
+    }
+
+}
